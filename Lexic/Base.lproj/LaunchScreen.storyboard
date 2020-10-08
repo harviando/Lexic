@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +12,41 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="LaunchScreen Accent" translatesAutoresizingMaskIntoConstraints="NO" id="aoW-j9-D1r">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="475"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Lexic Logo" translatesAutoresizingMaskIntoConstraints="NO" id="KHz-dq-u2V">
+                                <rect key="frame" x="356" y="279.5" width="482" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="275" id="2nK-XM-del"/>
+                                    <constraint firstAttribute="width" constant="482" id="Uo4-PJ-bYl"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KHz-dq-u2V" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.403685" id="6EJ-EV-Gkw"/>
+                            <constraint firstItem="KHz-dq-u2V" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8zZ-Hv-4Yk"/>
+                            <constraint firstItem="aoW-j9-D1r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="D91-PT-di9"/>
+                            <constraint firstItem="KHz-dq-u2V" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.337838" id="S4S-uK-nn6"/>
+                            <constraint firstItem="aoW-j9-D1r" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bHr-I9-4Ip"/>
+                            <constraint firstItem="aoW-j9-D1r" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="hh8-7L-M8m"/>
+                            <constraint firstItem="aoW-j9-D1r" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.583538" id="nMc-j4-SOf"/>
+                            <constraint firstItem="KHz-dq-u2V" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ysR-MA-qu8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.763819095477388" y="374.8201438848921"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchScreen Accent" width="1194" height="475"/>
+        <image name="Lexic Logo" width="1446" height="1446"/>
+    </resources>
 </document>
