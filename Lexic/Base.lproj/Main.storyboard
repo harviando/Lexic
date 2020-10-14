@@ -56,15 +56,19 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="50P-ZY-xbz" userLabel="ButtonLevelHStack">
                                 <rect key="frame" x="116" y="536" width="962" height="73"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI2-6A-7mN">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI2-6A-7mN" userLabel="ButtonPemula">
                                         <rect key="frame" x="0.0" y="0.0" width="294" height="73"/>
                                         <state key="normal" backgroundImage="buttonPemula"/>
+                                        <connections>
+                                            <action selector="buttonPemula:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2X4-ZQ-Q56"/>
+                                            <segue destination="L3I-fZ-Pvh" kind="presentation" identifier="pemulaTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="KJQ-Y6-OCY"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhr-52-HYP">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhr-52-HYP" userLabel="ButtonMenengah">
                                         <rect key="frame" x="334" y="0.0" width="294" height="73"/>
                                         <state key="normal" backgroundImage="buttonMenengah"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs1-6F-lrE">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs1-6F-lrE" userLabel="ButtonLanjutan">
                                         <rect key="frame" x="668" y="0.0" width="294" height="73"/>
                                         <state key="normal" backgroundImage="buttonLanjutan"/>
                                     </button>
@@ -92,10 +96,41 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3Tk-Ap-LeG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138.69346733668343" y="137.41007194244605"/>
+        </scene>
+        <!--Pemula Controller-->
+        <scene sceneID="1fk-kJ-4l8">
+            <objects>
+                <viewController id="L3I-fZ-Pvh" customClass="PemulaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xCk-7f-VLu">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaR-lj-lQF">
+                                <rect key="frame" x="561" y="381" width="72" height="72"/>
+                                <state key="normal" backgroundImage="buttonBack"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="L3I-fZ-Pvh" eventType="touchUpInside" id="KTB-kX-xWh"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="cZh-Yt-LLY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="oaR-lj-lQF" firstAttribute="centerY" secondItem="xCk-7f-VLu" secondAttribute="centerY" id="G4t-eR-Ixx"/>
+                            <constraint firstItem="oaR-lj-lQF" firstAttribute="centerX" secondItem="xCk-7f-VLu" secondAttribute="centerX" id="iT7-wq-L83"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JoJ-Kt-fj2"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gHj-K7-2qB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ylr-py-FaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="790" y="137"/>
         </scene>
     </scenes>
     <resources>
@@ -103,6 +138,7 @@
         <image name="MainScreenAccent" width="1194" height="535"/>
         <image name="buttonAcc" width="94" height="132"/>
         <image name="buttonAktivitas" width="233" height="73"/>
+        <image name="buttonBack" width="72" height="72"/>
         <image name="buttonLanjutan" width="294" height="73"/>
         <image name="buttonMenengah" width="294" height="73"/>
         <image name="buttonPemula" width="294" height="73"/>
