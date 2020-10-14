@@ -143,9 +143,6 @@
                                     <constraint firstAttribute="width" constant="954" id="TCR-rr-Sm7"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="buttonSelesai" translatesAutoresizingMaskIntoConstraints="NO" id="qmT-Z5-Vmt">
-                                <rect key="frame" x="481.5" y="740" width="231" height="64"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ENP-Nv-pLH" userLabel="DrawingCanvas" customClass="FreedrawingImageViewCG" customModule="Lexic" customModuleProvider="target">
                                 <rect key="frame" x="235.5" y="421.5" width="825" height="278"/>
                                 <constraints>
@@ -153,18 +150,34 @@
                                     <constraint firstAttribute="width" constant="825" id="pSu-ey-CpP"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="toolPencil" translatesAutoresizingMaskIntoConstraints="NO" id="wLr-Tp-vVf">
-                                <rect key="frame" x="146" y="438" width="64" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="toolEraser" translatesAutoresizingMaskIntoConstraints="NO" id="ofJ-mb-Wov">
-                                <rect key="frame" x="146" y="532" width="64" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="toolReset" translatesAutoresizingMaskIntoConstraints="NO" id="lZj-wc-JOq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vou-CP-H31" userLabel="PencilButton">
+                                <rect key="frame" x="146" y="431" width="64" height="63"/>
+                                <state key="normal" backgroundImage="toolPencil"/>
+                                <connections>
+                                    <action selector="pencilTapped:" destination="L3I-fZ-Pvh" eventType="touchUpInside" id="Dnx-K4-z3G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDF-jT-lIb" userLabel="EraserButton">
+                                <rect key="frame" x="146" y="529" width="64" height="63"/>
+                                <state key="normal" backgroundImage="toolEraser"/>
+                                <connections>
+                                    <action selector="eraserTapped:" destination="L3I-fZ-Pvh" eventType="touchUpInside" id="P1N-BE-HRZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6n-cf-TIy" userLabel="ResetButton">
                                 <rect key="frame" x="146" y="627" width="64" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" backgroundImage="toolReset"/>
+                                <connections>
+                                    <action selector="resetTapped:" destination="L3I-fZ-Pvh" eventType="touchUpInside" id="7CF-G9-T96"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bU6-H3-5hv" userLabel="ButtonSelesai">
+                                <rect key="frame" x="481.5" y="740" width="231" height="64"/>
+                                <state key="normal" backgroundImage="buttonSelesai"/>
+                                <connections>
+                                    <action selector="selesaiTapped:" destination="L3I-fZ-Pvh" eventType="touchUpInside" id="2uG-m3-B2o"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -173,13 +186,19 @@
                             <constraint firstItem="ENP-Nv-pLH" firstAttribute="centerX" secondItem="y28-dM-QVh" secondAttribute="centerX" constant="51" id="2T3-cs-FoW"/>
                             <constraint firstItem="ENP-Nv-pLH" firstAttribute="width" secondItem="y28-dM-QVh" secondAttribute="width" multiplier="0.867925" constant="-3" id="3KW-jn-0AH"/>
                             <constraint firstItem="oaR-lj-lQF" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" constant="15" id="3WW-2S-et2"/>
-                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="bottom" secondItem="qmT-Z5-Vmt" secondAttribute="bottom" constant="10" id="Eel-bV-x5e"/>
+                            <constraint firstItem="h6n-cf-TIy" firstAttribute="top" secondItem="kDF-jT-lIb" secondAttribute="bottom" constant="35" id="Jc4-0D-KPf"/>
                             <constraint firstItem="hZl-JH-0Us" firstAttribute="trailing" secondItem="y28-dM-QVh" secondAttribute="trailing" id="L1x-cK-LN0"/>
-                            <constraint firstItem="qmT-Z5-Vmt" firstAttribute="top" secondItem="y28-dM-QVh" secondAttribute="bottom" constant="25" id="dvg-AM-UAY"/>
+                            <constraint firstItem="bU6-H3-5hv" firstAttribute="top" secondItem="y28-dM-QVh" secondAttribute="bottom" constant="25" id="aG1-O7-xEe"/>
+                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="bottom" secondItem="bU6-H3-5hv" secondAttribute="bottom" constant="10" id="bCV-qx-8WX"/>
+                            <constraint firstItem="vou-CP-H31" firstAttribute="leading" secondItem="y28-dM-QVh" secondAttribute="leading" constant="26" id="dqx-IN-zXv"/>
+                            <constraint firstItem="kDF-jT-lIb" firstAttribute="centerY" secondItem="ENP-Nv-pLH" secondAttribute="centerY" id="f0I-re-kWB"/>
+                            <constraint firstItem="h6n-cf-TIy" firstAttribute="leading" secondItem="vou-CP-H31" secondAttribute="leading" id="fh0-yW-afB"/>
                             <constraint firstItem="y28-dM-QVh" firstAttribute="centerX" secondItem="xCk-7f-VLu" secondAttribute="centerX" id="iql-sx-UMS"/>
                             <constraint firstItem="QHd-UA-YuP" firstAttribute="leading" secondItem="y28-dM-QVh" secondAttribute="leading" id="jjF-hp-J6H"/>
-                            <constraint firstItem="qmT-Z5-Vmt" firstAttribute="centerX" secondItem="xCk-7f-VLu" secondAttribute="centerX" id="kcq-eZ-Y5g"/>
+                            <constraint firstItem="kDF-jT-lIb" firstAttribute="top" secondItem="vou-CP-H31" secondAttribute="bottom" constant="35" id="lrb-0w-Asp"/>
                             <constraint firstItem="ENP-Nv-pLH" firstAttribute="height" secondItem="y28-dM-QVh" secondAttribute="height" multiplier="0.768392" constant="-4" id="rEM-gf-i5V"/>
+                            <constraint firstItem="bU6-H3-5hv" firstAttribute="centerX" secondItem="xCk-7f-VLu" secondAttribute="centerX" id="s4T-xa-MZc"/>
+                            <constraint firstItem="kDF-jT-lIb" firstAttribute="leading" secondItem="vou-CP-H31" secondAttribute="leading" id="uue-X5-mg8"/>
                             <constraint firstItem="ENP-Nv-pLH" firstAttribute="centerY" secondItem="y28-dM-QVh" secondAttribute="centerY" constant="29" id="wM7-zU-CeF"/>
                             <constraint firstItem="oaR-lj-lQF" firstAttribute="leading" secondItem="JoJ-Kt-fj2" secondAttribute="leading" constant="15" id="y2K-Mn-o5s"/>
                         </constraints>

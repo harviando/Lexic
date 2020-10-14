@@ -27,4 +27,14 @@ class PemulaController: UIViewController {
         self.performSegue(withIdentifier: "backTapped", sender: nil)
     }
 
+    @IBAction func pencilTapped(_ sender: Any) {
+        FreedrawingImageViewCG().pencilMode()
+    }
+    @IBAction func eraserTapped(_ sender: Any) {
+        FreedrawingImageViewCG().eraserMode()
+    }
+    @IBAction func resetTapped(_ sender: Any) {
+    }
+    @IBAction func selesaiTapped(_ sender: Any) {
+    }
 }
