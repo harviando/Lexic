@@ -111,26 +111,46 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaR-lj-lQF">
-                                <rect key="frame" x="561" y="381" width="72" height="72"/>
+                                <rect key="frame" x="55" y="55" width="72" height="72"/>
                                 <state key="normal" backgroundImage="buttonBack"/>
                                 <connections>
                                     <action selector="buttonBack:" destination="L3I-fZ-Pvh" eventType="touchUpInside" id="KTB-kX-xWh"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="cZh-Yt-LLY"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pu5-gH-fsc" userLabel="MainImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kai-hd-AiP" userLabel="TempImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="oaR-lj-lQF" firstAttribute="centerY" secondItem="xCk-7f-VLu" secondAttribute="centerY" id="G4t-eR-Ixx"/>
-                            <constraint firstItem="oaR-lj-lQF" firstAttribute="centerX" secondItem="xCk-7f-VLu" secondAttribute="centerX" id="iT7-wq-L83"/>
+                            <constraint firstItem="kai-hd-AiP" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" id="2FN-jw-dmt"/>
+                            <constraint firstItem="oaR-lj-lQF" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" constant="55" id="3WW-2S-et2"/>
+                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="bottom" secondItem="pu5-gH-fsc" secondAttribute="bottom" constant="-20" id="U4J-IZ-Iv4"/>
+                            <constraint firstItem="kai-hd-AiP" firstAttribute="leading" secondItem="JoJ-Kt-fj2" secondAttribute="leading" id="eLF-KG-HPg"/>
+                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="trailing" secondItem="kai-hd-AiP" secondAttribute="trailing" id="gaT-5d-yLh"/>
+                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="bottom" secondItem="kai-hd-AiP" secondAttribute="bottom" constant="-20" id="hGy-eV-qfd"/>
+                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="trailing" secondItem="pu5-gH-fsc" secondAttribute="trailing" id="soJ-vY-4AK"/>
+                            <constraint firstItem="oaR-lj-lQF" firstAttribute="leading" secondItem="JoJ-Kt-fj2" secondAttribute="leading" constant="55" id="y2K-Mn-o5s"/>
+                            <constraint firstItem="pu5-gH-fsc" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" id="ycN-2J-107"/>
+                            <constraint firstItem="pu5-gH-fsc" firstAttribute="leading" secondItem="JoJ-Kt-fj2" secondAttribute="leading" id="zSz-0b-2mn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JoJ-Kt-fj2"/>
                     </view>
                     <navigationItem key="navigationItem" id="gHj-K7-2qB"/>
+                    <connections>
+                        <outlet property="mainImageView" destination="pu5-gH-fsc" id="cCw-Pd-hgP"/>
+                        <outlet property="tempImageView" destination="kai-hd-AiP" id="JFE-eH-Nj4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylr-py-FaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790" y="137"/>
+            <point key="canvasLocation" x="789.9497487437186" y="136.69064748201438"/>
         </scene>
     </scenes>
     <resources>
