@@ -16,6 +16,7 @@
 		4E6B82D3252F044400EB22F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6B82D1252F044400EB22F8 /* LaunchScreen.storyboard */; };
 		4E788DD12536F7AD007AE5B9 /* pemulaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E788DD02536F7AD007AE5B9 /* pemulaController.swift */; };
 		4E788DD325370BC7007AE5B9 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E788DD225370BC7007AE5B9 /* Pencil.swift */; };
+		4ECEA8A8253731290098F7C5 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEA8A7253731290098F7C5 /* Canvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4E6B82D4252F044400EB22F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E788DD02536F7AD007AE5B9 /* pemulaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pemulaController.swift; sourceTree = "<group>"; };
 		4E788DD225370BC7007AE5B9 /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
+		4ECEA8A7253731290098F7C5 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4E6B82C5252F044200EB22F8 /* SceneDelegate.swift */,
 				4E6B82C7252F044200EB22F8 /* ViewController.swift */,
 				4E6B82C9252F044200EB22F8 /* Main.storyboard */,
+				4ECEA8A7253731290098F7C5 /* Canvas.swift */,
 				4E788DD225370BC7007AE5B9 /* Pencil.swift */,
 				4E788DD02536F7AD007AE5B9 /* pemulaController.swift */,
 				4E6B82CF252F044400EB22F8 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECEA8A8253731290098F7C5 /* Canvas.swift in Sources */,
 				4E788DD12536F7AD007AE5B9 /* pemulaController.swift in Sources */,
 				4E6B82C8252F044200EB22F8 /* ViewController.swift in Sources */,
 				4E788DD325370BC7007AE5B9 /* Pencil.swift in Sources */,

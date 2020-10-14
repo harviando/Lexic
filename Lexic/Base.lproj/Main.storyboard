@@ -110,43 +110,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaR-lj-lQF">
-                                <rect key="frame" x="55" y="55" width="72" height="72"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PemulaLearningbg" translatesAutoresizingMaskIntoConstraints="NO" id="yAp-JW-Njk">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaR-lj-lQF" userLabel="BackButton">
+                                <rect key="frame" x="15" y="15" width="72" height="72"/>
                                 <state key="normal" backgroundImage="buttonBack"/>
                                 <connections>
                                     <action selector="buttonBack:" destination="L3I-fZ-Pvh" eventType="touchUpInside" id="KTB-kX-xWh"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="cZh-Yt-LLY"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pu5-gH-fsc" userLabel="MainImageView">
-                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="spaceGambar" translatesAutoresizingMaskIntoConstraints="NO" id="QHd-UA-YuP">
+                                <rect key="frame" x="120" y="20" width="387" height="312"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="387" id="78d-0G-M8u"/>
+                                    <constraint firstAttribute="height" constant="312" id="ZFz-fP-osS"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kai-hd-AiP" userLabel="TempImageView">
-                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="spaceMembaca" translatesAutoresizingMaskIntoConstraints="NO" id="hZl-JH-0Us">
+                                <rect key="frame" x="560" y="20" width="514" height="312"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="514" id="Azd-PA-CEA"/>
+                                    <constraint firstAttribute="height" constant="312" id="Mgm-OB-G0s"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="spaceMenulis" translatesAutoresizingMaskIntoConstraints="NO" id="y28-dM-QVh">
+                                <rect key="frame" x="120" y="348" width="954" height="367"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="367" id="Kp5-BV-AQt"/>
+                                    <constraint firstAttribute="width" constant="954" id="TCR-rr-Sm7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="buttonSelesai" translatesAutoresizingMaskIntoConstraints="NO" id="qmT-Z5-Vmt">
+                                <rect key="frame" x="481.5" y="740" width="231" height="64"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ENP-Nv-pLH" userLabel="DrawingCanvas" customClass="FreedrawingImageViewCG" customModule="Lexic" customModuleProvider="target">
+                                <rect key="frame" x="235.5" y="421.5" width="825" height="278"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="278" id="1CD-Mr-NWI"/>
+                                    <constraint firstAttribute="width" constant="825" id="pSu-ey-CpP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="toolPencil" translatesAutoresizingMaskIntoConstraints="NO" id="wLr-Tp-vVf">
+                                <rect key="frame" x="146" y="438" width="64" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="toolEraser" translatesAutoresizingMaskIntoConstraints="NO" id="ofJ-mb-Wov">
+                                <rect key="frame" x="146" y="532" width="64" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="toolReset" translatesAutoresizingMaskIntoConstraints="NO" id="lZj-wc-JOq">
+                                <rect key="frame" x="146" y="627" width="64" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="kai-hd-AiP" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" id="2FN-jw-dmt"/>
-                            <constraint firstItem="oaR-lj-lQF" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" constant="55" id="3WW-2S-et2"/>
-                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="bottom" secondItem="pu5-gH-fsc" secondAttribute="bottom" constant="-20" id="U4J-IZ-Iv4"/>
-                            <constraint firstItem="kai-hd-AiP" firstAttribute="leading" secondItem="JoJ-Kt-fj2" secondAttribute="leading" id="eLF-KG-HPg"/>
-                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="trailing" secondItem="kai-hd-AiP" secondAttribute="trailing" id="gaT-5d-yLh"/>
-                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="bottom" secondItem="kai-hd-AiP" secondAttribute="bottom" constant="-20" id="hGy-eV-qfd"/>
-                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="trailing" secondItem="pu5-gH-fsc" secondAttribute="trailing" id="soJ-vY-4AK"/>
-                            <constraint firstItem="oaR-lj-lQF" firstAttribute="leading" secondItem="JoJ-Kt-fj2" secondAttribute="leading" constant="55" id="y2K-Mn-o5s"/>
-                            <constraint firstItem="pu5-gH-fsc" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" id="ycN-2J-107"/>
-                            <constraint firstItem="pu5-gH-fsc" firstAttribute="leading" secondItem="JoJ-Kt-fj2" secondAttribute="leading" id="zSz-0b-2mn"/>
+                            <constraint firstItem="QHd-UA-YuP" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" constant="20" id="0Tn-RC-AlG"/>
+                            <constraint firstItem="hZl-JH-0Us" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" constant="20" id="0dc-8S-BvM"/>
+                            <constraint firstItem="ENP-Nv-pLH" firstAttribute="centerX" secondItem="y28-dM-QVh" secondAttribute="centerX" constant="51" id="2T3-cs-FoW"/>
+                            <constraint firstItem="ENP-Nv-pLH" firstAttribute="width" secondItem="y28-dM-QVh" secondAttribute="width" multiplier="0.867925" constant="-3" id="3KW-jn-0AH"/>
+                            <constraint firstItem="oaR-lj-lQF" firstAttribute="top" secondItem="JoJ-Kt-fj2" secondAttribute="top" constant="15" id="3WW-2S-et2"/>
+                            <constraint firstItem="JoJ-Kt-fj2" firstAttribute="bottom" secondItem="qmT-Z5-Vmt" secondAttribute="bottom" constant="10" id="Eel-bV-x5e"/>
+                            <constraint firstItem="hZl-JH-0Us" firstAttribute="trailing" secondItem="y28-dM-QVh" secondAttribute="trailing" id="L1x-cK-LN0"/>
+                            <constraint firstItem="qmT-Z5-Vmt" firstAttribute="top" secondItem="y28-dM-QVh" secondAttribute="bottom" constant="25" id="dvg-AM-UAY"/>
+                            <constraint firstItem="y28-dM-QVh" firstAttribute="centerX" secondItem="xCk-7f-VLu" secondAttribute="centerX" id="iql-sx-UMS"/>
+                            <constraint firstItem="QHd-UA-YuP" firstAttribute="leading" secondItem="y28-dM-QVh" secondAttribute="leading" id="jjF-hp-J6H"/>
+                            <constraint firstItem="qmT-Z5-Vmt" firstAttribute="centerX" secondItem="xCk-7f-VLu" secondAttribute="centerX" id="kcq-eZ-Y5g"/>
+                            <constraint firstItem="ENP-Nv-pLH" firstAttribute="height" secondItem="y28-dM-QVh" secondAttribute="height" multiplier="0.768392" constant="-4" id="rEM-gf-i5V"/>
+                            <constraint firstItem="ENP-Nv-pLH" firstAttribute="centerY" secondItem="y28-dM-QVh" secondAttribute="centerY" constant="29" id="wM7-zU-CeF"/>
+                            <constraint firstItem="oaR-lj-lQF" firstAttribute="leading" secondItem="JoJ-Kt-fj2" secondAttribute="leading" constant="15" id="y2K-Mn-o5s"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JoJ-Kt-fj2"/>
                     </view>
                     <navigationItem key="navigationItem" id="gHj-K7-2qB"/>
-                    <connections>
-                        <outlet property="mainImageView" destination="pu5-gH-fsc" id="cCw-Pd-hgP"/>
-                        <outlet property="tempImageView" destination="kai-hd-AiP" id="JFE-eH-Nj4"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylr-py-FaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,6 +195,7 @@
     <resources>
         <image name="MainScreen bg" width="1194" height="834"/>
         <image name="MainScreenAccent" width="1194" height="535"/>
+        <image name="PemulaLearningbg" width="1194" height="834"/>
         <image name="buttonAcc" width="94" height="132"/>
         <image name="buttonAktivitas" width="233" height="73"/>
         <image name="buttonBack" width="72" height="72"/>
@@ -163,5 +203,12 @@
         <image name="buttonMenengah" width="294" height="73"/>
         <image name="buttonPemula" width="294" height="73"/>
         <image name="buttonPetunjuk" width="233" height="73"/>
+        <image name="buttonSelesai" width="231" height="64"/>
+        <image name="spaceGambar" width="387" height="312"/>
+        <image name="spaceMembaca" width="514" height="312"/>
+        <image name="spaceMenulis" width="954" height="367"/>
+        <image name="toolEraser" width="64" height="63"/>
+        <image name="toolPencil" width="64" height="63"/>
+        <image name="toolReset" width="64" height="63"/>
     </resources>
 </document>
