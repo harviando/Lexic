@@ -18,6 +18,7 @@ class PemulaController: UIViewController {
     var opacity: CGFloat = 1.0
     var swiped = false
     
+    @IBOutlet weak var CanvasImage: Canvas!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -28,12 +29,13 @@ class PemulaController: UIViewController {
     }
 
     @IBAction func pencilTapped(_ sender: Any) {
-        FreedrawingImageViewCG().pencilMode()
+        Canvas().pencilMode()
     }
     @IBAction func eraserTapped(_ sender: Any) {
-        FreedrawingImageViewCG().eraserMode()
+        Canvas().eraserMode()
     }
     @IBAction func resetTapped(_ sender: Any) {
+        CanvasImage.image = nil
     }
     @IBAction func selesaiTapped(_ sender: Any) {
     }

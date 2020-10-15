@@ -143,12 +143,8 @@
                                     <constraint firstAttribute="width" constant="954" id="TCR-rr-Sm7"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ENP-Nv-pLH" userLabel="DrawingCanvas" customClass="FreedrawingImageViewCG" customModule="Lexic" customModuleProvider="target">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ENP-Nv-pLH" userLabel="DrawingCanvas" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
                                 <rect key="frame" x="235.5" y="421.5" width="825" height="278"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="278" id="1CD-Mr-NWI"/>
-                                    <constraint firstAttribute="width" constant="825" id="pSu-ey-CpP"/>
-                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vou-CP-H31" userLabel="PencilButton">
                                 <rect key="frame" x="146" y="431" width="64" height="63"/>
@@ -205,6 +201,9 @@
                         <viewLayoutGuide key="safeArea" id="JoJ-Kt-fj2"/>
                     </view>
                     <navigationItem key="navigationItem" id="gHj-K7-2qB"/>
+                    <connections>
+                        <outlet property="CanvasImage" destination="ENP-Nv-pLH" id="BdI-2t-TvC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylr-py-FaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
