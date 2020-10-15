@@ -19,8 +19,10 @@ class PemulaController: UIViewController {
     var swiped = false
     
     @IBOutlet weak var canvasImage: Canvas!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        canvasImage.layer.cornerRadius = 30
         // Do any additional setup after loading the view.
     }
     

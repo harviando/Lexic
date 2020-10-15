@@ -12,19 +12,14 @@ import UIKit
 class Canvas: UIImageView {
     
     var currentTouchPosition: CGPoint?
-    var pencil:Bool?
-    var eraser:Bool?
+    var pencil:Bool = true
     
     func pencilMode(){
         pencil = true
-        eraser = false
-        print(pencil)
     }
     
     func eraserMode(){
         pencil = false
-        eraser = true
-        print(pencil)
     }
     
     override func layoutSubviews() {
@@ -43,22 +38,15 @@ class Canvas: UIImageView {
         let renderer = UIGraphicsImageRenderer(size: bounds.size)
         image = renderer.image { ctx in
             image?.draw(in: bounds)
-//            UIColor.black.setStroke()
-            var a = self.pencil
-            print(a)
-            if  a == nil{
-                pencil = true
-                a = true
-            }
-            
-            if a ?? false {
-                ctx.cgContext.setStrokeColor(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))
+            if pencil {
+                ctx.cgContext.setStrokeColor(#colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1))
+                ctx.cgContext.setLineWidth(5)
             }else{
-                ctx.cgContext.setStrokeColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))
+                ctx.cgContext.setStrokeColor(#colorLiteral(red: 0.9685532451, green: 0.9686692357, blue: 0.968513906, alpha: 1))
+                ctx.cgContext.setLineWidth(40)
             }
             
             ctx.cgContext.setLineCap(.round)
-            ctx.cgContext.setLineWidth(5)
             ctx.cgContext.move(to: previousTouchPoint)
             ctx.cgContext.addLine(to: newTouchPoint)
             ctx.cgContext.strokePath()
