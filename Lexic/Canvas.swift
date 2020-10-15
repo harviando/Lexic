@@ -11,6 +11,7 @@ import UIKit
 
 class Canvas: UIImageView {
     
+    var learning:PemulaController!
     var currentTouchPosition: CGPoint?
     var pencil:Bool = true
     

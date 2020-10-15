@@ -203,6 +203,9 @@
                     <navigationItem key="navigationItem" id="gHj-K7-2qB"/>
                     <connections>
                         <outlet property="CanvasImage" destination="ENP-Nv-pLH" id="BdI-2t-TvC"/>
+                        <outlet property="eraserButton" destination="kDF-jT-lIb" id="ZHY-RJ-6KQ"/>
+                        <outlet property="pencilButton" destination="vou-CP-H31" id="Sx1-Ur-SR0"/>
+                        <outlet property="resetButton" destination="h6n-cf-TIy" id="QCD-r1-Hqj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylr-py-FaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
