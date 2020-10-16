@@ -66,6 +66,8 @@ class RewardController: UIViewController {
         giftButton.isHidden = true
     }
     @IBAction func nextTapped(_ sender: Any) {
+        player?.pause()
+        player?.replaceCurrentItem(with: nil)
         self.performSegue(withIdentifier: "Lanjutkan", sender: nil)
     }
 }
