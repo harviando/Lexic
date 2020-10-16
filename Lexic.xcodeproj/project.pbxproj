@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E2C20CE25385A36006A3F31 /* SoundSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C20CD25385A36006A3F31 /* SoundSystem.swift */; };
+		4E20512825390771007A9827 /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E20512725390771007A9827 /* buttonClick.mp3 */; };
+		4E20512A25390F14007A9827 /* RewardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E20512925390F14007A9827 /* RewardController.swift */; };
+		4E20512C25390FE7007A9827 /* popupRewardVid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4E20512B25390FE7007A9827 /* popupRewardVid.mp4 */; };
 		4E2C20D625386078006A3F31 /* selamat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E2C20D525386078006A3F31 /* selamat.m4a */; };
 		4E6B82C4252F044200EB22F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6B82C3252F044200EB22F8 /* AppDelegate.swift */; };
 		4E6B82C6252F044200EB22F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6B82C5252F044200EB22F8 /* SceneDelegate.swift */; };
@@ -21,7 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E2C20CD25385A36006A3F31 /* SoundSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSystem.swift; sourceTree = "<group>"; };
+		4E20512725390771007A9827 /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonClick.mp3; sourceTree = "<group>"; };
+		4E20512925390F14007A9827 /* RewardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardController.swift; sourceTree = "<group>"; };
+		4E20512B25390FE7007A9827 /* popupRewardVid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = popupRewardVid.mp4; sourceTree = "<group>"; };
 		4E2C20D525386078006A3F31 /* selamat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = selamat.m4a; sourceTree = "<group>"; };
 		4E6B82C0252F044200EB22F8 /* Lexic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lexic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6B82C3252F044200EB22F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,12 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E2C20D425386051006A3F31 /* Sound */ = {
+		4E2C20D425386051006A3F31 /* AVAsset */ = {
 			isa = PBXGroup;
 			children = (
+				4E20512B25390FE7007A9827 /* popupRewardVid.mp4 */,
+				4E20512725390771007A9827 /* buttonClick.mp3 */,
 				4E2C20D525386078006A3F31 /* selamat.m4a */,
 			);
-			path = Sound;
+			path = AVAsset;
 			sourceTree = "<group>";
 		};
 		4E6B82B7252F044100EB22F8 = {
@@ -78,9 +84,9 @@
 				4E6B82C5252F044200EB22F8 /* SceneDelegate.swift */,
 				4E6B82C7252F044200EB22F8 /* ViewController.swift */,
 				4E6B82C9252F044200EB22F8 /* Main.storyboard */,
-				4E2C20CD25385A36006A3F31 /* SoundSystem.swift */,
+				4E20512925390F14007A9827 /* RewardController.swift */,
 				4ECEA8A7253731290098F7C5 /* Canvas.swift */,
-				4E2C20D425386051006A3F31 /* Sound */,
+				4E2C20D425386051006A3F31 /* AVAsset */,
 				4E788DD02536F7AD007AE5B9 /* pemulaController.swift */,
 				4E6B82CF252F044400EB22F8 /* Assets.xcassets */,
 				4E6B82D1252F044400EB22F8 /* LaunchScreen.storyboard */,
@@ -149,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E6B82D3252F044400EB22F8 /* LaunchScreen.storyboard in Resources */,
+				4E20512C25390FE7007A9827 /* popupRewardVid.mp4 in Resources */,
 				4E6B82D0252F044400EB22F8 /* Assets.xcassets in Resources */,
 				4E2C20D625386078006A3F31 /* selamat.m4a in Resources */,
+				4E20512825390771007A9827 /* buttonClick.mp3 in Resources */,
 				4E6B82CB252F044200EB22F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,9 +174,9 @@
 				4E788DD12536F7AD007AE5B9 /* pemulaController.swift in Sources */,
 				4E6B82C8252F044200EB22F8 /* ViewController.swift in Sources */,
 				4E6B82C4252F044200EB22F8 /* AppDelegate.swift in Sources */,
-				4E2C20CE25385A36006A3F31 /* SoundSystem.swift in Sources */,
 				4E6B82C6252F044200EB22F8 /* SceneDelegate.swift in Sources */,
 				4E6B82CE252F044200EB22F8 /* Lexic.xcdatamodeld in Sources */,
+				4E20512A25390F14007A9827 /* RewardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

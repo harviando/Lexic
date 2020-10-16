@@ -16,10 +16,10 @@ class ViewController: UIViewController {
     var refreshedAudio:Bool = false
     
     func playClickSound() {
-        guard let url = Bundle.main.url(forResource: "selamat", withExtension: "m4a") else { return }
+        guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
         
         do {
-            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.m4a.rawValue)
+            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
             
             clickSound?.play()
             
@@ -42,6 +42,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         kickstartAudio()
+        print("wowi")
         // Do any additional setup after loading the view.
     }
     

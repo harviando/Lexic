@@ -22,8 +22,6 @@ class PemulaController: UIViewController {
     var resetDisabled = UIImage(named: "toolResetDisabled") as UIImage?
     var resetNormal = UIImage(named: "toolReset") as UIImage?
     
-    
-    
     @IBOutlet weak var pencilButton: UIButton!
     @IBOutlet weak var eraserButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
@@ -47,16 +45,22 @@ class PemulaController: UIViewController {
         canvasImage.pencilMode()
         pencilButton.setBackgroundImage(pencilActivated, for: .normal)
         eraserButton.setBackgroundImage(eraserNormal, for: .normal)
-        
     }
+    
     @IBAction func eraserTapped(_ sender: Any) {
         canvasImage.eraserMode()
         pencilButton.setBackgroundImage(pencilNormal, for: .normal)
         eraserButton.setBackgroundImage(eraserActivated, for: .normal)
     }
+    
     @IBAction func resetTapped(_ sender: Any) {
         canvasImage.image = nil
     }
+    
+    @IBAction func speechTapped(_ sender: Any) {
+    }
+    
     @IBAction func selesaiTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "selesaiTapped", sender: nil)
     }
 }

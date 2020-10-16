@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="LaunchScreen Accent" translatesAutoresizingMaskIntoConstraints="NO" id="aoW-j9-D1r">
-                                <rect key="frame" x="0.0" y="0.0" width="1194" height="486.5"/>
+                                <rect key="frame" x="0.0" y="-20" width="1194" height="486.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Lexic Logo" translatesAutoresizingMaskIntoConstraints="NO" id="KHz-dq-u2V">
                                 <rect key="frame" x="356" y="279.5" width="482" height="275"/>
@@ -26,7 +26,7 @@
                         <constraints>
                             <constraint firstItem="KHz-dq-u2V" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.403685" id="6EJ-EV-Gkw"/>
                             <constraint firstItem="KHz-dq-u2V" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8zZ-Hv-4Yk"/>
-                            <constraint firstItem="aoW-j9-D1r" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="D91-PT-di9"/>
+                            <constraint firstItem="aoW-j9-D1r" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-20" id="D91-PT-di9"/>
                             <constraint firstItem="KHz-dq-u2V" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.337838" id="S4S-uK-nn6"/>
                             <constraint firstItem="aoW-j9-D1r" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bHr-I9-4Ip"/>
                             <constraint firstItem="aoW-j9-D1r" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="hh8-7L-M8m"/>
