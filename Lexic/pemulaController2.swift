@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class PemulaController: UIViewController {
+class PemulaController2: UIViewController {
 
     var swiped = false
     
@@ -44,7 +44,7 @@ class PemulaController: UIViewController {
     }
     
     func playSpeech() {
-        guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "selamat", withExtension: "m4a") else { return }
         
         do {
             clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)

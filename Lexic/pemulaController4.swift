@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class PemulaController: UIViewController {
+class PemulaController4: UIViewController {
 
     var swiped = false
     

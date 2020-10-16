@@ -18,6 +18,10 @@
 		4E6B82CE252F044200EB22F8 /* Lexic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E6B82CC252F044200EB22F8 /* Lexic.xcdatamodeld */; };
 		4E6B82D0252F044400EB22F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6B82CF252F044400EB22F8 /* Assets.xcassets */; };
 		4E6B82D3252F044400EB22F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6B82D1252F044400EB22F8 /* LaunchScreen.storyboard */; };
+		4E6D6CD1253981CF00AAC411 /* pemulaController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D6CD0253981CF00AAC411 /* pemulaController2.swift */; };
+		4E6D6CD32539832400AAC411 /* pemulaController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D6CD22539832400AAC411 /* pemulaController3.swift */; };
+		4E6D6CD52539832C00AAC411 /* pemulaController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D6CD42539832C00AAC411 /* pemulaController4.swift */; };
+		4E6D6CD72539833600AAC411 /* pemulaController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D6CD62539833600AAC411 /* pemulaController5.swift */; };
 		4E788DD12536F7AD007AE5B9 /* pemulaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E788DD02536F7AD007AE5B9 /* pemulaController.swift */; };
 		4ECEA8A8253731290098F7C5 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEA8A7253731290098F7C5 /* Canvas.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +40,10 @@
 		4E6B82CF252F044400EB22F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E6B82D2252F044400EB22F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E6B82D4252F044400EB22F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6D6CD0253981CF00AAC411 /* pemulaController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pemulaController2.swift; sourceTree = "<group>"; };
+		4E6D6CD22539832400AAC411 /* pemulaController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pemulaController3.swift; sourceTree = "<group>"; };
+		4E6D6CD42539832C00AAC411 /* pemulaController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pemulaController4.swift; sourceTree = "<group>"; };
+		4E6D6CD62539833600AAC411 /* pemulaController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pemulaController5.swift; sourceTree = "<group>"; };
 		4E788DD02536F7AD007AE5B9 /* pemulaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pemulaController.swift; sourceTree = "<group>"; };
 		4ECEA8A7253731290098F7C5 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +96,10 @@
 				4ECEA8A7253731290098F7C5 /* Canvas.swift */,
 				4E2C20D425386051006A3F31 /* AVAsset */,
 				4E788DD02536F7AD007AE5B9 /* pemulaController.swift */,
+				4E6D6CD0253981CF00AAC411 /* pemulaController2.swift */,
+				4E6D6CD22539832400AAC411 /* pemulaController3.swift */,
+				4E6D6CD42539832C00AAC411 /* pemulaController4.swift */,
+				4E6D6CD62539833600AAC411 /* pemulaController5.swift */,
 				4E6B82CF252F044400EB22F8 /* Assets.xcassets */,
 				4E6B82D1252F044400EB22F8 /* LaunchScreen.storyboard */,
 				4E6B82D4252F044400EB22F8 /* Info.plist */,
@@ -170,12 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E6D6CD72539833600AAC411 /* pemulaController5.swift in Sources */,
 				4ECEA8A8253731290098F7C5 /* Canvas.swift in Sources */,
 				4E788DD12536F7AD007AE5B9 /* pemulaController.swift in Sources */,
 				4E6B82C8252F044200EB22F8 /* ViewController.swift in Sources */,
+				4E6D6CD32539832400AAC411 /* pemulaController3.swift in Sources */,
 				4E6B82C4252F044200EB22F8 /* AppDelegate.swift in Sources */,
+				4E6D6CD1253981CF00AAC411 /* pemulaController2.swift in Sources */,
 				4E6B82C6252F044200EB22F8 /* SceneDelegate.swift in Sources */,
 				4E6B82CE252F044200EB22F8 /* Lexic.xcdatamodeld in Sources */,
+				4E6D6CD52539832C00AAC411 /* pemulaController4.swift in Sources */,
 				4E20512A25390F14007A9827 /* RewardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -364,10 +364,10 @@
             </objects>
             <point key="canvasLocation" x="1444" y="906"/>
         </scene>
-        <!--Pemula Controller-->
+        <!--Pemula Controller2-->
         <scene sceneID="G65-sO-A7T">
             <objects>
-                <viewController id="9l4-yR-vrd" customClass="PemulaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9l4-yR-vrd" customClass="PemulaController2" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ryo-PK-Lfn">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -490,10 +490,10 @@
             </objects>
             <point key="canvasLocation" x="1444" y="137"/>
         </scene>
-        <!--Pemula Controller-->
+        <!--Pemula Controller3-->
         <scene sceneID="4fV-pc-gjR">
             <objects>
-                <viewController id="Y7v-Ek-rdg" customClass="PemulaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y7v-Ek-rdg" customClass="PemulaController3" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uSr-5x-7Zh">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -616,10 +616,10 @@
             </objects>
             <point key="canvasLocation" x="2099" y="137"/>
         </scene>
-        <!--Pemula Controller-->
+        <!--Pemula Controller4-->
         <scene sceneID="1lJ-W4-zlM">
             <objects>
-                <viewController id="gTh-nI-wpC" customClass="PemulaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gTh-nI-wpC" customClass="PemulaController4" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xUN-vR-FTp">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -742,10 +742,10 @@
             </objects>
             <point key="canvasLocation" x="2765" y="137"/>
         </scene>
-        <!--Pemula Controller-->
+        <!--Pemula Controller5-->
         <scene sceneID="FRa-y6-vyR">
             <objects>
-                <viewController id="1eA-FY-Fsr" customClass="PemulaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1eA-FY-Fsr" customClass="PemulaController5" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rjl-s6-Yaa">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1071,11 +1071,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="4n5-AG-6bp"/>
         <segue reference="sCQ-Nq-qoW"/>
         <segue reference="Rcg-Ny-hkf"/>
         <segue reference="8zU-f8-Rna"/>
         <segue reference="JHy-WL-Uj7"/>
-        <segue reference="xUN-bW-hnj"/>
+        <segue reference="0gs-Aj-M4F"/>
         <segue reference="HYn-EM-WtD"/>
     </inferredMetricsTieBreakers>
     <resources>
