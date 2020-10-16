@@ -65,4 +65,7 @@ class RewardController: UIViewController {
         nextButtonOutlet.isHidden = false
         giftButton.isHidden = true
     }
+    @IBAction func nextTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "Lanjutkan", sender: nil)
+    }
 }
