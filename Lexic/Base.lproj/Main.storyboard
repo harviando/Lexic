@@ -18,32 +18,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainScreen bg" translatesAutoresizingMaskIntoConstraints="NO" id="iCY-f8-HJY">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="240" translatesAutoresizingMaskIntoConstraints="NO" id="Rgv-DB-Sdi" userLabel="ButtonAccHStack">
-                                <rect key="frame" x="383" y="712" width="428" height="132"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="buttonAcc" translatesAutoresizingMaskIntoConstraints="NO" id="bO6-Vi-ZPR">
-                                        <rect key="frame" x="0.0" y="0.0" width="94" height="132"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="buttonAcc" translatesAutoresizingMaskIntoConstraints="NO" id="OcE-iX-fyL">
-                                        <rect key="frame" x="334" y="0.0" width="94" height="132"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="428" id="43S-TI-8vc"/>
-                                    <constraint firstAttribute="height" constant="132" id="Lzc-pv-ce2"/>
-                                </constraints>
-                            </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="MainScreenAccent" translatesAutoresizingMaskIntoConstraints="NO" id="gvr-Fs-bDT">
-                                <rect key="frame" x="0.0" y="299" width="1194" height="535"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="XFo-Lo-44z" userLabel="ButtonBawahHStack">
                                 <rect key="frame" x="314" y="656.5" width="566" height="73"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL">
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL">
                                         <rect key="frame" x="0.0" y="0.0" width="233" height="73"/>
                                         <state key="normal" backgroundImage="buttonAktivitas"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG">
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG">
                                         <rect key="frame" x="333" y="0.0" width="233" height="73"/>
                                         <state key="normal" backgroundImage="buttonPetunjuk"/>
                                     </button>
@@ -53,46 +35,42 @@
                                     <constraint firstAttribute="height" constant="73" id="ACj-Vy-mBl"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="50P-ZY-xbz" userLabel="ButtonLevelHStack">
-                                <rect key="frame" x="116" y="536" width="962" height="73"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="50P-ZY-xbz" userLabel="ButtonLevelHStack">
+                                <rect key="frame" x="116" y="449" width="962" height="160"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI2-6A-7mN" userLabel="ButtonPemula">
-                                        <rect key="frame" x="0.0" y="0.0" width="294" height="73"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="160"/>
                                         <state key="normal" backgroundImage="buttonPemula"/>
                                         <connections>
                                             <action selector="buttonPemula:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2X4-ZQ-Q56"/>
                                             <segue destination="L3I-fZ-Pvh" kind="presentation" identifier="pemulaTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="KJQ-Y6-OCY"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhr-52-HYP" userLabel="ButtonMenengah">
-                                        <rect key="frame" x="334" y="0.0" width="294" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhr-52-HYP" userLabel="ButtonMenengah">
+                                        <rect key="frame" x="334" y="0.0" width="294" height="160"/>
                                         <state key="normal" backgroundImage="buttonMenengah"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs1-6F-lrE" userLabel="ButtonLanjutan">
-                                        <rect key="frame" x="668" y="0.0" width="294" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs1-6F-lrE" userLabel="ButtonLanjutan">
+                                        <rect key="frame" x="668" y="0.0" width="294" height="160"/>
                                         <state key="normal" backgroundImage="buttonLanjutan"/>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="962" id="8Kz-D6-AAe"/>
-                                    <constraint firstAttribute="height" constant="73" id="LTI-fX-SXS"/>
+                                    <constraint firstAttribute="height" constant="160" id="LTI-fX-SXS"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Rgv-DB-Sdi" firstAttribute="top" secondItem="XFo-Lo-44z" secondAttribute="bottom" constant="-17.5" id="3FF-n4-XmQ"/>
                             <constraint firstItem="iCY-f8-HJY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6Vy-6F-p7n"/>
                             <constraint firstItem="XFo-Lo-44z" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7bq-cg-su0"/>
                             <constraint firstItem="iCY-f8-HJY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="8Zo-mO-1nw"/>
-                            <constraint firstItem="Rgv-DB-Sdi" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="30" id="K6x-Bd-EfT"/>
                             <constraint firstItem="XFo-Lo-44z" firstAttribute="top" secondItem="50P-ZY-xbz" secondAttribute="bottom" constant="47.5" id="Kmr-sq-cwj"/>
                             <constraint firstItem="iCY-f8-HJY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MPp-Hn-Jsp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XFo-Lo-44z" secondAttribute="bottom" constant="84.5" id="SyD-nc-0CM"/>
                             <constraint firstItem="50P-ZY-xbz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VWB-x8-gjt"/>
                             <constraint firstItem="iCY-f8-HJY" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="XMi-iU-nGa"/>
-                            <constraint firstItem="gvr-Fs-bDT" firstAttribute="bottom" secondItem="iCY-f8-HJY" secondAttribute="bottom" id="d4U-43-sw5"/>
-                            <constraint firstItem="gvr-Fs-bDT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q51-wt-mlv"/>
-                            <constraint firstItem="Rgv-DB-Sdi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xEc-ar-cT9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -1071,12 +1049,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4n5-AG-6bp"/>
         <segue reference="sCQ-Nq-qoW"/>
         <segue reference="Rcg-Ny-hkf"/>
         <segue reference="8zU-f8-Rna"/>
         <segue reference="JHy-WL-Uj7"/>
-        <segue reference="0gs-Aj-M4F"/>
+        <segue reference="KJQ-Y6-OCY"/>
         <segue reference="HYn-EM-WtD"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1084,18 +1061,16 @@
         <image name="Cat" width="820" height="1558"/>
         <image name="Jas" width="1532" height="1080"/>
         <image name="MainScreen bg" width="1194" height="834"/>
-        <image name="MainScreenAccent" width="1194" height="535"/>
         <image name="PemulaLearningbg" width="1194" height="834"/>
         <image name="Rak" width="1080" height="1080"/>
         <image name="Tas-1" width="419" height="512"/>
         <image name="banText" width="215" height="119"/>
-        <image name="buttonAcc" width="94" height="132"/>
         <image name="buttonAktivitas" width="233" height="73"/>
         <image name="buttonBack" width="72" height="72"/>
-        <image name="buttonLanjutan" width="294" height="73"/>
+        <image name="buttonLanjutan" width="328" height="170"/>
         <image name="buttonLanjutkan" width="249" height="60"/>
-        <image name="buttonMenengah" width="294" height="73"/>
-        <image name="buttonPemula" width="294" height="73"/>
+        <image name="buttonMenengah" width="328" height="170"/>
+        <image name="buttonPemula" width="328" height="171"/>
         <image name="buttonPetunjuk" width="233" height="73"/>
         <image name="buttonSelesai" width="231" height="64"/>
         <image name="catText" width="189" height="110"/>
