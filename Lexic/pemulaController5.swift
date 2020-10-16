@@ -44,12 +44,14 @@ class PemulaController5: UIViewController {
     }
     
     func playSpeech() {
-        guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "cat", withExtension: "m4a") else { return }
         
         do {
-            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.m4a.rawValue)
             
             clickSound?.play()
+            clickSound?.volume = 2
+            
             
         } catch {
         }

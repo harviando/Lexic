@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h2V-nf-k8x">
     <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -83,6 +83,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138.69346733668343" y="137.41007194244605"/>
+        </scene>
+        <!--On Boarding Controller-->
+        <scene sceneID="aP2-bP-Huh">
+            <objects>
+                <viewController id="h2V-nf-k8x" customClass="OnBoardingController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xEd-kZ-7cm">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Onboarding1" translatesAutoresizingMaskIntoConstraints="NO" id="KnZ-cH-OH8">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="OnBoardingContent1" translatesAutoresizingMaskIntoConstraints="NO" id="4JV-9H-PQY">
+                                <rect key="frame" x="0.0" y="450" width="1194" height="190"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaQ-zt-EgK">
+                                <rect key="frame" x="553.5" y="675" width="87" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Lewati"/>
+                                <connections>
+                                    <action selector="lewatiTapped:" destination="h2V-nf-k8x" eventType="touchUpInside" id="A2a-Ds-g5c"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="lewatiTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="o4h-P0-5vq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1R-00-hYr" userLabel="ButtonNext">
+                                <rect key="frame" x="1077" y="717" width="72" height="72"/>
+                                <state key="normal" backgroundImage="OnbNext"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="h2V-nf-k8x" eventType="touchUpInside" id="rFk-wm-xrO"/>
+                                    <segue destination="gfK-B3-3GQ" kind="presentation" identifier="onbNextTapped" animates="NO" modalPresentationStyle="fullScreen" id="fmA-WE-CQd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4s-rC-BV5" userLabel="ButtonPrev">
+                                <rect key="frame" x="45" y="717" width="72" height="72"/>
+                                <state key="normal" backgroundImage="OnbPrev"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="h2V-nf-k8x" eventType="touchUpInside" id="PpI-eg-XYQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KnZ-cH-OH8" firstAttribute="centerY" secondItem="xEd-kZ-7cm" secondAttribute="centerY" id="6zO-1q-fFK"/>
+                            <constraint firstItem="eUr-9j-mKS" firstAttribute="bottom" secondItem="SaQ-zt-EgK" secondAttribute="bottom" constant="90" id="80v-1b-aAI"/>
+                            <constraint firstItem="SaQ-zt-EgK" firstAttribute="centerX" secondItem="eUr-9j-mKS" secondAttribute="centerX" id="CsT-Np-brm"/>
+                            <constraint firstItem="KnZ-cH-OH8" firstAttribute="width" secondItem="xEd-kZ-7cm" secondAttribute="width" id="Jcp-lM-A15"/>
+                            <constraint firstItem="KnZ-cH-OH8" firstAttribute="centerX" secondItem="xEd-kZ-7cm" secondAttribute="centerX" id="YNq-IS-DG7"/>
+                            <constraint firstItem="SaQ-zt-EgK" firstAttribute="top" secondItem="4JV-9H-PQY" secondAttribute="bottom" constant="35" id="a3U-Ge-j34"/>
+                            <constraint firstItem="eUr-9j-mKS" firstAttribute="trailing" secondItem="G1R-00-hYr" secondAttribute="trailing" constant="45" id="aOc-GF-Psl"/>
+                            <constraint firstItem="K4s-rC-BV5" firstAttribute="leading" secondItem="eUr-9j-mKS" secondAttribute="leading" constant="45" id="dZB-h5-330"/>
+                            <constraint firstItem="eUr-9j-mKS" firstAttribute="bottom" secondItem="K4s-rC-BV5" secondAttribute="bottom" constant="25" id="kBJ-4k-9Nu"/>
+                            <constraint firstItem="eUr-9j-mKS" firstAttribute="bottom" secondItem="G1R-00-hYr" secondAttribute="bottom" constant="25" id="oxt-ET-gBf"/>
+                            <constraint firstItem="KnZ-cH-OH8" firstAttribute="height" secondItem="xEd-kZ-7cm" secondAttribute="height" id="uZs-ek-JcX"/>
+                            <constraint firstItem="4JV-9H-PQY" firstAttribute="centerX" secondItem="eUr-9j-mKS" secondAttribute="centerX" id="zcJ-aA-Xcz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eUr-9j-mKS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d79-7o-HJg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="789.9497487437186" y="-633.09352517985621"/>
         </scene>
         <!--Pemula Controller-->
         <scene sceneID="1fk-kJ-4l8">
@@ -1301,23 +1362,172 @@
             </objects>
             <point key="canvasLocation" x="2765" y="1678"/>
         </scene>
+        <!--On Boarding Controller-->
+        <scene sceneID="kMw-rX-GHP">
+            <objects>
+                <viewController id="gfK-B3-3GQ" customClass="OnBoardingController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EDl-iF-opf">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Onboarding2" translatesAutoresizingMaskIntoConstraints="NO" id="bge-xQ-wKb">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="OnBoardingContent2" translatesAutoresizingMaskIntoConstraints="NO" id="S9v-eY-iJ9">
+                                <rect key="frame" x="0.0" y="452" width="1194" height="208"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkV-JD-bOM">
+                                <rect key="frame" x="553.5" y="675" width="87" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Lewati"/>
+                                <connections>
+                                    <action selector="lewatiTapped:" destination="gfK-B3-3GQ" eventType="touchUpInside" id="tED-VU-N8e"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="lewatiTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="ZtU-h1-P6m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psv-zv-EAx" userLabel="ButtonNext">
+                                <rect key="frame" x="1077" y="717" width="72" height="72"/>
+                                <state key="normal" backgroundImage="OnbNext"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="gfK-B3-3GQ" eventType="touchUpInside" id="Sf7-9J-q51"/>
+                                    <segue destination="hhW-7V-Kmt" kind="presentation" identifier="onbNextTapped" animates="NO" modalPresentationStyle="fullScreen" id="PgA-Pl-dTf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2J-Qp-Ud7" userLabel="ButtonPrev">
+                                <rect key="frame" x="45" y="717" width="72" height="72"/>
+                                <state key="normal" backgroundImage="OnbPrev"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="gfK-B3-3GQ" eventType="touchUpInside" id="n2J-Ux-Dyn"/>
+                                    <segue destination="h2V-nf-k8x" kind="presentation" identifier="onbPrevTapped" animates="NO" modalPresentationStyle="fullScreen" id="cbo-H7-jZl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bge-xQ-wKb" firstAttribute="centerX" secondItem="EDl-iF-opf" secondAttribute="centerX" id="0hk-bn-9Le"/>
+                            <constraint firstItem="dkV-JD-bOM" firstAttribute="top" secondItem="S9v-eY-iJ9" secondAttribute="bottom" constant="15" id="5sW-W2-QAu"/>
+                            <constraint firstItem="S9v-eY-iJ9" firstAttribute="centerX" secondItem="nKt-kl-StU" secondAttribute="centerX" id="Hif-eI-RSG"/>
+                            <constraint firstItem="nKt-kl-StU" firstAttribute="bottom" secondItem="Psv-zv-EAx" secondAttribute="bottom" constant="25" id="JEP-cr-ZGG"/>
+                            <constraint firstItem="nKt-kl-StU" firstAttribute="bottom" secondItem="T2J-Qp-Ud7" secondAttribute="bottom" constant="25" id="PHE-SA-EDV"/>
+                            <constraint firstItem="bge-xQ-wKb" firstAttribute="width" secondItem="EDl-iF-opf" secondAttribute="width" id="VNd-Sc-7Kb"/>
+                            <constraint firstItem="T2J-Qp-Ud7" firstAttribute="leading" secondItem="nKt-kl-StU" secondAttribute="leading" constant="45" id="WQK-dx-C6t"/>
+                            <constraint firstItem="nKt-kl-StU" firstAttribute="trailing" secondItem="Psv-zv-EAx" secondAttribute="trailing" constant="45" id="bqT-f2-eHv"/>
+                            <constraint firstItem="nKt-kl-StU" firstAttribute="bottom" secondItem="dkV-JD-bOM" secondAttribute="bottom" constant="90" id="hsh-I3-iM7"/>
+                            <constraint firstItem="bge-xQ-wKb" firstAttribute="centerY" secondItem="EDl-iF-opf" secondAttribute="centerY" id="lek-3g-MuX"/>
+                            <constraint firstItem="bge-xQ-wKb" firstAttribute="height" secondItem="EDl-iF-opf" secondAttribute="height" id="rvt-bL-8GV"/>
+                            <constraint firstItem="dkV-JD-bOM" firstAttribute="centerX" secondItem="nKt-kl-StU" secondAttribute="centerX" id="ubz-gF-RaQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nKt-kl-StU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lhn-2v-0a1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1444" y="-633"/>
+        </scene>
+        <!--On Boarding Controller-->
+        <scene sceneID="mcV-pk-cFO">
+            <objects>
+                <viewController id="hhW-7V-Kmt" customClass="OnBoardingController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oz8-2Y-97C">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Onboarding3" translatesAutoresizingMaskIntoConstraints="NO" id="jSf-eE-sAq">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="OnBoardingContent3" translatesAutoresizingMaskIntoConstraints="NO" id="oec-az-K9I">
+                                <rect key="frame" x="1.5" y="450" width="1191" height="190"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esY-en-C8J">
+                                <rect key="frame" x="553.5" y="675" width="87" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Lewati"/>
+                                <connections>
+                                    <action selector="lewatiTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="wBD-ta-4vI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiT-Vs-yH9" userLabel="ButtonNext">
+                                <rect key="frame" x="1077" y="717" width="72" height="72"/>
+                                <state key="normal" backgroundImage="OnbNext"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="cVd-tu-Oxx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kY4-IC-31s" userLabel="ButtonPrev">
+                                <rect key="frame" x="45" y="717" width="72" height="72"/>
+                                <state key="normal" backgroundImage="OnbPrev"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="yHd-WC-ra5"/>
+                                    <segue destination="gfK-B3-3GQ" kind="presentation" identifier="onbPrevTapped" animates="NO" modalPresentationStyle="fullScreen" id="mxz-By-wSv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFu-J9-4in" userLabel="ButtonMemulai">
+                                <rect key="frame" x="472.5" y="664" width="249" height="60"/>
+                                <state key="normal" backgroundImage="OnbMemulai"/>
+                                <connections>
+                                    <action selector="memulaiTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="F6t-QQ-ERU"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="onbMemulaiTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="G0o-Ve-7go"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="EFu-J9-4in" firstAttribute="centerX" secondItem="8z7-pa-THi" secondAttribute="centerX" id="1aJ-IM-UUz"/>
+                            <constraint firstItem="EFu-J9-4in" firstAttribute="top" secondItem="oec-az-K9I" secondAttribute="bottom" constant="24" id="8NB-vt-XUt"/>
+                            <constraint firstItem="esY-en-C8J" firstAttribute="top" secondItem="oec-az-K9I" secondAttribute="bottom" constant="35" id="AHZ-Ze-FJy"/>
+                            <constraint firstItem="kY4-IC-31s" firstAttribute="leading" secondItem="8z7-pa-THi" secondAttribute="leading" constant="45" id="H2M-hO-Mqo"/>
+                            <constraint firstItem="8z7-pa-THi" firstAttribute="bottom" secondItem="kY4-IC-31s" secondAttribute="bottom" constant="25" id="Jye-5r-QjE"/>
+                            <constraint firstItem="8z7-pa-THi" firstAttribute="bottom" secondItem="esY-en-C8J" secondAttribute="bottom" constant="90" id="NzB-xE-Krl"/>
+                            <constraint firstItem="jSf-eE-sAq" firstAttribute="height" secondItem="oz8-2Y-97C" secondAttribute="height" id="PeZ-o3-Mzu"/>
+                            <constraint firstItem="8z7-pa-THi" firstAttribute="bottom" secondItem="EFu-J9-4in" secondAttribute="bottom" constant="90" id="TOG-Ok-ffR"/>
+                            <constraint firstItem="8z7-pa-THi" firstAttribute="trailing" secondItem="xiT-Vs-yH9" secondAttribute="trailing" constant="45" id="W8K-wc-Wp1"/>
+                            <constraint firstItem="esY-en-C8J" firstAttribute="centerX" secondItem="8z7-pa-THi" secondAttribute="centerX" id="Xcl-ye-hf9"/>
+                            <constraint firstItem="jSf-eE-sAq" firstAttribute="centerX" secondItem="oz8-2Y-97C" secondAttribute="centerX" id="Zhd-K2-C9u"/>
+                            <constraint firstItem="jSf-eE-sAq" firstAttribute="width" secondItem="oz8-2Y-97C" secondAttribute="width" id="aLs-vB-PWm"/>
+                            <constraint firstItem="8z7-pa-THi" firstAttribute="bottom" secondItem="xiT-Vs-yH9" secondAttribute="bottom" constant="25" id="iWN-x3-fQu"/>
+                            <constraint firstItem="oec-az-K9I" firstAttribute="centerX" secondItem="8z7-pa-THi" secondAttribute="centerX" id="jsY-eU-Ybd"/>
+                            <constraint firstItem="jSf-eE-sAq" firstAttribute="centerY" secondItem="oz8-2Y-97C" secondAttribute="centerY" id="zEq-im-RUe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8z7-pa-THi"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="esY-en-C8J"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rWf-Vw-0hA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2099" y="-633"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="4n5-AG-6bp"/>
+        <segue reference="fmA-WE-CQd"/>
         <segue reference="TjB-RI-ajN"/>
-        <segue reference="rT3-SP-MI1"/>
+        <segue reference="rgt-sm-2ty"/>
         <segue reference="sCQ-Nq-qoW"/>
         <segue reference="Rcg-Ny-hkf"/>
         <segue reference="8zU-f8-Rna"/>
-        <segue reference="KQA-Uw-IV4"/>
-        <segue reference="DZZ-Ex-Kvx"/>
-        <segue reference="KJQ-Y6-OCY"/>
-        <segue reference="wlt-1r-zR9"/>
+        <segue reference="JHy-WL-Uj7"/>
+        <segue reference="lub-tj-T3T"/>
+        <segue reference="0gs-Aj-M4F"/>
+        <segue reference="cZh-Yt-LLY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Ban" width="2454" height="1924"/>
         <image name="Cat" width="820" height="1558"/>
         <image name="Jas" width="1532" height="1080"/>
         <image name="MainScreen bg" width="1194" height="834"/>
+        <image name="OnBoardingContent1" width="1194" height="190"/>
+        <image name="OnBoardingContent2" width="1194" height="208"/>
+        <image name="OnBoardingContent3" width="1191" height="190"/>
+        <image name="OnbMemulai" width="249" height="60"/>
+        <image name="OnbNext" width="72" height="72"/>
+        <image name="OnbPrev" width="72" height="72"/>
+        <image name="Onboarding1" width="1194" height="834"/>
+        <image name="Onboarding2" width="1194" height="834"/>
+        <image name="Onboarding3" width="1194" height="834"/>
         <image name="PemulaLearningbg" width="1194" height="834"/>
         <image name="Petunjuk bg" width="1194" height="834"/>
         <image name="Rak" width="1080" height="1080"/>
