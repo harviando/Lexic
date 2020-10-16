@@ -12,8 +12,9 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    var clickSound:AVAudioPlayer?
+    
     var refreshedAudio:Bool = false
+    var clickSound:AVAudioPlayer?
     
     func playClickSound() {
         guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }

@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import AVFoundation
 
 class PemulaController: UIViewController {
 
@@ -27,6 +28,20 @@ class PemulaController: UIViewController {
     @IBOutlet weak var resetButton: UIButton!
     
     @IBOutlet weak var canvasImage: Canvas!
+    
+    var clickSound:AVAudioPlayer?
+    
+    func playClickSound() {
+        guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
+        
+        do {
+            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            
+            clickSound?.play()
+            
+        } catch {
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,6 +76,7 @@ class PemulaController: UIViewController {
     }
     
     @IBAction func selesaiTapped(_ sender: Any) {
+        playClickSound()
         self.performSegue(withIdentifier: "selesaiTapped", sender: nil)
     }
 }

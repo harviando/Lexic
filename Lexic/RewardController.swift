@@ -20,6 +20,9 @@ class RewardController: UIViewController {
     @IBOutlet weak var quitButtonOutlet: UIButton!
     @IBOutlet weak var nextButtonOutlet: UIButton!
     @IBOutlet weak var giftButton: UIButton!
+    
+    var clickSound:AVAudioPlayer?
+    
     override func viewDidLoad() {
         initializeVideoPlayerWithVideo()
         quitButtonOutlet.isHidden = true
@@ -54,6 +57,18 @@ class RewardController: UIViewController {
         print ("adasda")
         
     }
+    
+    func playClickSound() {
+        guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
+        
+        do {
+            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            
+            clickSound?.play()
+        } catch {
+        }
+    }
+    
     @IBAction func quitTapped(_ sender: Any) {
         player?.pause()
         player?.replaceCurrentItem(with: nil)
@@ -64,10 +79,12 @@ class RewardController: UIViewController {
         quitButtonOutlet.isHidden = false
         nextButtonOutlet.isHidden = false
         giftButton.isHidden = true
+        playClickSound()
     }
     @IBAction func nextTapped(_ sender: Any) {
         player?.pause()
         player?.replaceCurrentItem(with: nil)
         self.performSegue(withIdentifier: "Lanjutkan", sender: nil)
+        playClickSound()
     }
 }
