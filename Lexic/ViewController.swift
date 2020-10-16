@@ -52,5 +52,9 @@ class ViewController: UIViewController {
         playClickSound()
     }
     
+    @IBAction func petunjukTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toPetunjuk", sender: nil)
+        playClickSound()
+    }
 }
 

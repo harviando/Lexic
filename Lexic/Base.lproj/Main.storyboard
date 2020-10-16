@@ -21,13 +21,17 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="XFo-Lo-44z" userLabel="ButtonBawahHStack">
                                 <rect key="frame" x="314" y="656.5" width="566" height="73"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG">
                                         <rect key="frame" x="0.0" y="0.0" width="233" height="73"/>
-                                        <state key="normal" backgroundImage="buttonAktivitas"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG">
-                                        <rect key="frame" x="333" y="0.0" width="233" height="73"/>
                                         <state key="normal" backgroundImage="buttonPetunjuk"/>
+                                        <connections>
+                                            <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
+                                            <segue destination="fe2-pQ-kV7" kind="presentation" identifier="toPetunjuk" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="lub-tj-T3T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL">
+                                        <rect key="frame" x="333" y="0.0" width="233" height="73"/>
+                                        <state key="normal" backgroundImage="buttonAktivitas"/>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -274,6 +278,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D8p-pE-8sM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="790" y="906"/>
+        </scene>
+        <!--Petunjuk Controller-->
+        <scene sceneID="LUR-X0-Rrt">
+            <objects>
+                <viewController id="fe2-pQ-kV7" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xuf-KF-jN0">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petunjuk bg" translatesAutoresizingMaskIntoConstraints="NO" id="nUN-pC-jA5">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYm-lZ-5wM" userLabel="ButtonHalamanUtama">
+                                <rect key="frame" x="35" y="35" width="252" height="102"/>
+                                <state key="normal" backgroundImage="buttonHalaman Utama"/>
+                                <connections>
+                                    <action selector="halamanUtamaTapped:" destination="fe2-pQ-kV7" eventType="touchUpInside" id="z9Q-TX-xIe"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="dSG-xM-tHb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6g-hI-Siy" userLabel="ButtonNext">
+                                <rect key="frame" x="1118" y="278.5" width="76" height="257"/>
+                                <state key="normal" backgroundImage="buttonPrev"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="fe2-pQ-kV7" eventType="touchUpInside" id="cVE-f7-mVM"/>
+                                    <segue destination="VEB-87-hgR" kind="presentation" identifier="petunjukNext" animates="NO" modalPresentationStyle="fullScreen" id="rgt-sm-2ty"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="petunjuk1" translatesAutoresizingMaskIntoConstraints="NO" id="Jbx-mN-Dkk">
+                                <rect key="frame" x="126" y="277" width="942" height="492"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wR-ff-uzw" userLabel="ButtonPrev">
+                                <rect key="frame" x="0.0" y="278.5" width="73" height="257"/>
+                                <state key="normal" backgroundImage="buttonNext"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="fe2-pQ-kV7" eventType="touchUpInside" id="S2e-EP-nG7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2wR-ff-uzw" firstAttribute="centerY" secondItem="YDb-Ia-gPf" secondAttribute="centerY" id="4gC-JV-Nbx"/>
+                            <constraint firstItem="YDb-Ia-gPf" firstAttribute="bottom" secondItem="Jbx-mN-Dkk" secondAttribute="bottom" constant="45" id="5xA-1T-ajc"/>
+                            <constraint firstItem="YDb-Ia-gPf" firstAttribute="trailing" secondItem="i6g-hI-Siy" secondAttribute="trailing" id="6eA-fl-Jym"/>
+                            <constraint firstItem="Jbx-mN-Dkk" firstAttribute="width" secondItem="xuf-KF-jN0" secondAttribute="width" multiplier="0.788945" id="G2a-1z-B0t"/>
+                            <constraint firstItem="nUN-pC-jA5" firstAttribute="width" secondItem="xuf-KF-jN0" secondAttribute="width" id="L7e-LI-t0f"/>
+                            <constraint firstItem="Jbx-mN-Dkk" firstAttribute="centerX" secondItem="YDb-Ia-gPf" secondAttribute="centerX" id="NKq-rE-cXt"/>
+                            <constraint firstItem="nUN-pC-jA5" firstAttribute="centerX" secondItem="xuf-KF-jN0" secondAttribute="centerX" id="TUD-BH-Sfe"/>
+                            <constraint firstItem="2wR-ff-uzw" firstAttribute="leading" secondItem="YDb-Ia-gPf" secondAttribute="leading" id="U2f-qS-CI7"/>
+                            <constraint firstItem="nUN-pC-jA5" firstAttribute="height" secondItem="xuf-KF-jN0" secondAttribute="height" id="Zcn-ID-kvQ"/>
+                            <constraint firstItem="Jbx-mN-Dkk" firstAttribute="height" secondItem="xuf-KF-jN0" secondAttribute="height" multiplier="0.589928" id="fEN-3q-upZ"/>
+                            <constraint firstItem="DYm-lZ-5wM" firstAttribute="top" secondItem="YDb-Ia-gPf" secondAttribute="top" constant="35" id="h7t-Ov-PHX"/>
+                            <constraint firstItem="i6g-hI-Siy" firstAttribute="centerY" secondItem="YDb-Ia-gPf" secondAttribute="centerY" id="kmx-d8-61P"/>
+                            <constraint firstItem="DYm-lZ-5wM" firstAttribute="leading" secondItem="YDb-Ia-gPf" secondAttribute="leading" constant="35" id="roj-R9-d6h"/>
+                            <constraint firstItem="nUN-pC-jA5" firstAttribute="centerY" secondItem="xuf-KF-jN0" secondAttribute="centerY" id="vCf-Hh-Eka"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YDb-Ia-gPf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5uc-fs-nMF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="789.9497487437186" y="1678.4172661870505"/>
         </scene>
         <!--Reward Controller-->
         <scene sceneID="gT4-uC-fWu">
@@ -1047,14 +1113,205 @@
             </objects>
             <point key="canvasLocation" x="3433" y="906"/>
         </scene>
+        <!--Petunjuk Controller-->
+        <scene sceneID="YjB-fF-nca">
+            <objects>
+                <viewController id="VEB-87-hgR" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ISS-3e-ZAA">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petunjuk bg" translatesAutoresizingMaskIntoConstraints="NO" id="TKC-mn-ZgA">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HoU-XC-TuR" userLabel="ButtonHalamanUtama">
+                                <rect key="frame" x="35" y="35" width="252" height="102"/>
+                                <state key="normal" backgroundImage="buttonHalaman Utama"/>
+                                <connections>
+                                    <action selector="halamanUtamaTapped:" destination="VEB-87-hgR" eventType="touchUpInside" id="uvL-6p-Nen"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="wlt-1r-zR9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heQ-i0-FQf" userLabel="ButtonNext">
+                                <rect key="frame" x="1118" y="278.5" width="76" height="257"/>
+                                <state key="normal" backgroundImage="buttonPrev"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="VEB-87-hgR" eventType="touchUpInside" id="3Rx-0N-Bfi"/>
+                                    <segue destination="Fnk-YY-SJD" kind="presentation" identifier="petunjukNext" animates="NO" modalPresentationStyle="fullScreen" id="I47-FB-Ori"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="petunjuk2" translatesAutoresizingMaskIntoConstraints="NO" id="5jT-EM-WCT">
+                                <rect key="frame" x="126" y="277" width="942" height="492"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJZ-8e-Ro5" userLabel="ButtonPrev">
+                                <rect key="frame" x="0.0" y="278.5" width="73" height="257"/>
+                                <state key="normal" backgroundImage="buttonNext"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="VEB-87-hgR" eventType="touchUpInside" id="ed1-ig-veZ"/>
+                                    <segue destination="fe2-pQ-kV7" kind="presentation" identifier="petunjukPrev" animates="NO" modalPresentationStyle="fullScreen" id="DZZ-Ex-Kvx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="heQ-i0-FQf" firstAttribute="centerY" secondItem="9ZO-Z7-kLO" secondAttribute="centerY" id="3vp-IQ-prV"/>
+                            <constraint firstItem="5jT-EM-WCT" firstAttribute="height" secondItem="ISS-3e-ZAA" secondAttribute="height" multiplier="0.589928" id="7Xb-RC-Izc"/>
+                            <constraint firstItem="TKC-mn-ZgA" firstAttribute="centerY" secondItem="ISS-3e-ZAA" secondAttribute="centerY" id="LhK-tB-RcU"/>
+                            <constraint firstItem="5jT-EM-WCT" firstAttribute="centerX" secondItem="9ZO-Z7-kLO" secondAttribute="centerX" id="M3s-j5-Vcv"/>
+                            <constraint firstItem="5jT-EM-WCT" firstAttribute="width" secondItem="ISS-3e-ZAA" secondAttribute="width" multiplier="0.788945" id="NJ8-EM-p8M"/>
+                            <constraint firstItem="HoU-XC-TuR" firstAttribute="top" secondItem="9ZO-Z7-kLO" secondAttribute="top" constant="35" id="PnE-0X-4OL"/>
+                            <constraint firstItem="TKC-mn-ZgA" firstAttribute="centerX" secondItem="ISS-3e-ZAA" secondAttribute="centerX" id="S5i-xM-AnC"/>
+                            <constraint firstItem="TKC-mn-ZgA" firstAttribute="height" secondItem="ISS-3e-ZAA" secondAttribute="height" id="VrT-Yr-tfj"/>
+                            <constraint firstItem="9ZO-Z7-kLO" firstAttribute="bottom" secondItem="5jT-EM-WCT" secondAttribute="bottom" constant="45" id="VxO-bY-JQB"/>
+                            <constraint firstItem="MJZ-8e-Ro5" firstAttribute="leading" secondItem="9ZO-Z7-kLO" secondAttribute="leading" id="dMH-Er-Uco"/>
+                            <constraint firstItem="MJZ-8e-Ro5" firstAttribute="centerY" secondItem="9ZO-Z7-kLO" secondAttribute="centerY" id="eKW-VA-C0m"/>
+                            <constraint firstItem="TKC-mn-ZgA" firstAttribute="width" secondItem="ISS-3e-ZAA" secondAttribute="width" id="gRu-IE-gdq"/>
+                            <constraint firstItem="HoU-XC-TuR" firstAttribute="leading" secondItem="9ZO-Z7-kLO" secondAttribute="leading" constant="35" id="mAz-sa-TLl"/>
+                            <constraint firstItem="9ZO-Z7-kLO" firstAttribute="trailing" secondItem="heQ-i0-FQf" secondAttribute="trailing" id="tAb-Ob-0h2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9ZO-Z7-kLO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MGe-y4-G0D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1444" y="1678"/>
+        </scene>
+        <!--Petunjuk Controller-->
+        <scene sceneID="rMJ-Pd-RpZ">
+            <objects>
+                <viewController id="Fnk-YY-SJD" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8LA-wN-cHx">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petunjuk bg" translatesAutoresizingMaskIntoConstraints="NO" id="hde-Jx-Z7p">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="639-ux-AUF" userLabel="ButtonHalamanUtama">
+                                <rect key="frame" x="35" y="35" width="252" height="102"/>
+                                <state key="normal" backgroundImage="buttonHalaman Utama"/>
+                                <connections>
+                                    <action selector="halamanUtamaTapped:" destination="Fnk-YY-SJD" eventType="touchUpInside" id="Sz7-mE-eeS"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="CKd-GK-wvc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZc-Sj-UHv" userLabel="ButtonNext">
+                                <rect key="frame" x="1118" y="278.5" width="76" height="257"/>
+                                <state key="normal" backgroundImage="buttonPrev"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="Fnk-YY-SJD" eventType="touchUpInside" id="I3w-5w-Y0o"/>
+                                    <segue destination="cWk-5j-FRW" kind="presentation" identifier="petunjukNext" animates="NO" modalPresentationStyle="fullScreen" id="fLP-B9-XeH"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="petunjuk3" translatesAutoresizingMaskIntoConstraints="NO" id="ciH-6s-fHa">
+                                <rect key="frame" x="126" y="277" width="942" height="492"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-ZE-hdy" userLabel="ButtonPrev">
+                                <rect key="frame" x="0.0" y="278.5" width="73" height="257"/>
+                                <state key="normal" backgroundImage="buttonNext"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="Fnk-YY-SJD" eventType="touchUpInside" id="QTi-Gj-mR5"/>
+                                    <segue destination="VEB-87-hgR" kind="presentation" identifier="petunjukPrev" animates="NO" modalPresentationStyle="fullScreen" id="rT3-SP-MI1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="639-ux-AUF" firstAttribute="top" secondItem="YsF-3U-uWa" secondAttribute="top" constant="35" id="CCp-p8-T5d"/>
+                            <constraint firstItem="2fe-ZE-hdy" firstAttribute="centerY" secondItem="YsF-3U-uWa" secondAttribute="centerY" id="Cd2-Yb-0qf"/>
+                            <constraint firstItem="YsF-3U-uWa" firstAttribute="bottom" secondItem="ciH-6s-fHa" secondAttribute="bottom" constant="45" id="GU3-qe-TDM"/>
+                            <constraint firstItem="ciH-6s-fHa" firstAttribute="height" secondItem="8LA-wN-cHx" secondAttribute="height" multiplier="0.589928" id="IMt-Gw-yPC"/>
+                            <constraint firstItem="hde-Jx-Z7p" firstAttribute="height" secondItem="8LA-wN-cHx" secondAttribute="height" id="KgH-At-94C"/>
+                            <constraint firstItem="hde-Jx-Z7p" firstAttribute="width" secondItem="8LA-wN-cHx" secondAttribute="width" id="Opr-Ut-UBb"/>
+                            <constraint firstItem="ciH-6s-fHa" firstAttribute="centerX" secondItem="YsF-3U-uWa" secondAttribute="centerX" id="QEU-9x-IPo"/>
+                            <constraint firstItem="2fe-ZE-hdy" firstAttribute="leading" secondItem="YsF-3U-uWa" secondAttribute="leading" id="Xo4-Qg-pUe"/>
+                            <constraint firstItem="YsF-3U-uWa" firstAttribute="trailing" secondItem="qZc-Sj-UHv" secondAttribute="trailing" id="aCg-5b-ltk"/>
+                            <constraint firstItem="639-ux-AUF" firstAttribute="leading" secondItem="YsF-3U-uWa" secondAttribute="leading" constant="35" id="bPO-ts-ltT"/>
+                            <constraint firstItem="hde-Jx-Z7p" firstAttribute="centerX" secondItem="8LA-wN-cHx" secondAttribute="centerX" id="fIx-j8-1NQ"/>
+                            <constraint firstItem="hde-Jx-Z7p" firstAttribute="centerY" secondItem="8LA-wN-cHx" secondAttribute="centerY" id="nNN-5u-qqV"/>
+                            <constraint firstItem="ciH-6s-fHa" firstAttribute="width" secondItem="8LA-wN-cHx" secondAttribute="width" multiplier="0.788945" id="qqU-n9-GEa"/>
+                            <constraint firstItem="qZc-Sj-UHv" firstAttribute="centerY" secondItem="YsF-3U-uWa" secondAttribute="centerY" id="wof-JE-tI7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YsF-3U-uWa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qFO-F5-tnD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2099" y="1678"/>
+        </scene>
+        <!--Petunjuk Controller-->
+        <scene sceneID="WMS-6H-p64">
+            <objects>
+                <viewController id="cWk-5j-FRW" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v1u-BQ-iL0">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petunjuk bg" translatesAutoresizingMaskIntoConstraints="NO" id="vDg-qk-kzw">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80i-dc-zHd" userLabel="ButtonHalamanUtama">
+                                <rect key="frame" x="35" y="35" width="252" height="102"/>
+                                <state key="normal" backgroundImage="buttonHalaman Utama"/>
+                                <connections>
+                                    <action selector="halamanUtamaTapped:" destination="cWk-5j-FRW" eventType="touchUpInside" id="02K-om-D0D"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="dGO-Rp-BKB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7u-J8-ktd" userLabel="ButtonNext">
+                                <rect key="frame" x="1118" y="278.5" width="76" height="257"/>
+                                <state key="normal" backgroundImage="buttonPrev"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="cWk-5j-FRW" eventType="touchUpInside" id="86d-nA-5MZ"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="petunjuk4" translatesAutoresizingMaskIntoConstraints="NO" id="Pa6-1f-zE9">
+                                <rect key="frame" x="126" y="277" width="942" height="492"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dC1-vw-q1t" userLabel="ButtonPrev">
+                                <rect key="frame" x="0.0" y="278.5" width="73" height="257"/>
+                                <state key="normal" backgroundImage="buttonNext"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="cWk-5j-FRW" eventType="touchUpInside" id="zml-QO-fra"/>
+                                    <segue destination="Fnk-YY-SJD" kind="presentation" identifier="petunjukPrev" animates="NO" modalPresentationStyle="fullScreen" id="TjB-RI-ajN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Pa6-1f-zE9" firstAttribute="height" secondItem="v1u-BQ-iL0" secondAttribute="height" multiplier="0.589928" id="1OA-ri-YJz"/>
+                            <constraint firstItem="vDg-qk-kzw" firstAttribute="centerY" secondItem="v1u-BQ-iL0" secondAttribute="centerY" id="BrU-Kl-uHg"/>
+                            <constraint firstItem="Pa6-1f-zE9" firstAttribute="width" secondItem="v1u-BQ-iL0" secondAttribute="width" multiplier="0.788945" id="CGd-vd-ugT"/>
+                            <constraint firstItem="80i-dc-zHd" firstAttribute="top" secondItem="Nc2-QV-NDG" secondAttribute="top" constant="35" id="Lkv-zX-zuh"/>
+                            <constraint firstItem="vDg-qk-kzw" firstAttribute="centerX" secondItem="v1u-BQ-iL0" secondAttribute="centerX" id="NxN-1A-dwG"/>
+                            <constraint firstItem="Pa6-1f-zE9" firstAttribute="centerX" secondItem="Nc2-QV-NDG" secondAttribute="centerX" id="aDX-nC-rZy"/>
+                            <constraint firstItem="dC1-vw-q1t" firstAttribute="centerY" secondItem="Nc2-QV-NDG" secondAttribute="centerY" id="aQn-Ax-UFx"/>
+                            <constraint firstItem="v7u-J8-ktd" firstAttribute="centerY" secondItem="Nc2-QV-NDG" secondAttribute="centerY" id="bxE-0H-kxS"/>
+                            <constraint firstItem="vDg-qk-kzw" firstAttribute="height" secondItem="v1u-BQ-iL0" secondAttribute="height" id="cBl-EJ-2qA"/>
+                            <constraint firstItem="dC1-vw-q1t" firstAttribute="leading" secondItem="Nc2-QV-NDG" secondAttribute="leading" id="cXm-VL-b71"/>
+                            <constraint firstItem="vDg-qk-kzw" firstAttribute="width" secondItem="v1u-BQ-iL0" secondAttribute="width" id="dXh-qs-HJr"/>
+                            <constraint firstItem="Nc2-QV-NDG" firstAttribute="bottom" secondItem="Pa6-1f-zE9" secondAttribute="bottom" constant="45" id="fAn-fn-hiL"/>
+                            <constraint firstItem="Nc2-QV-NDG" firstAttribute="trailing" secondItem="v7u-J8-ktd" secondAttribute="trailing" id="h7i-sX-9bE"/>
+                            <constraint firstItem="80i-dc-zHd" firstAttribute="leading" secondItem="Nc2-QV-NDG" secondAttribute="leading" constant="35" id="t2H-Dy-78l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nc2-QV-NDG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ao-GF-LnF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2765" y="1678"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="TjB-RI-ajN"/>
+        <segue reference="rT3-SP-MI1"/>
         <segue reference="sCQ-Nq-qoW"/>
         <segue reference="Rcg-Ny-hkf"/>
         <segue reference="8zU-f8-Rna"/>
-        <segue reference="JHy-WL-Uj7"/>
+        <segue reference="KQA-Uw-IV4"/>
+        <segue reference="DZZ-Ex-Kvx"/>
         <segue reference="KJQ-Y6-OCY"/>
-        <segue reference="HYn-EM-WtD"/>
+        <segue reference="wlt-1r-zR9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Ban" width="2454" height="1924"/>
@@ -1062,20 +1319,28 @@
         <image name="Jas" width="1532" height="1080"/>
         <image name="MainScreen bg" width="1194" height="834"/>
         <image name="PemulaLearningbg" width="1194" height="834"/>
+        <image name="Petunjuk bg" width="1194" height="834"/>
         <image name="Rak" width="1080" height="1080"/>
         <image name="Tas-1" width="419" height="512"/>
         <image name="banText" width="215" height="119"/>
         <image name="buttonAktivitas" width="233" height="73"/>
         <image name="buttonBack" width="72" height="72"/>
+        <image name="buttonHalaman Utama" width="252" height="102"/>
         <image name="buttonLanjutan" width="328" height="170"/>
         <image name="buttonLanjutkan" width="249" height="60"/>
         <image name="buttonMenengah" width="328" height="170"/>
+        <image name="buttonNext" width="73" height="257"/>
         <image name="buttonPemula" width="328" height="171"/>
         <image name="buttonPetunjuk" width="233" height="73"/>
+        <image name="buttonPrev" width="76" height="257"/>
         <image name="buttonSelesai" width="231" height="64"/>
         <image name="catText" width="189" height="110"/>
         <image name="gift.fill" catalog="system" width="128" height="128"/>
         <image name="jasText" width="177" height="119"/>
+        <image name="petunjuk1" width="948" height="337"/>
+        <image name="petunjuk2" width="1047" height="482"/>
+        <image name="petunjuk3" width="1002" height="401"/>
+        <image name="petunjuk4" width="1001" height="375"/>
         <image name="rakText" width="193" height="119"/>
         <image name="spaceGambar" width="387" height="312"/>
         <image name="spaceMembaca" width="514" height="312"/>
