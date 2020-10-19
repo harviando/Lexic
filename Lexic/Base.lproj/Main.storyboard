@@ -21,16 +21,16 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="XFo-Lo-44z" userLabel="ButtonBawahHStack">
                                 <rect key="frame" x="314" y="656.5" width="566" height="73"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG">
-                                        <rect key="frame" x="0.0" y="0.0" width="233" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG">
+                                        <rect key="frame" x="0.0" y="0.0" width="466" height="73"/>
                                         <state key="normal" backgroundImage="buttonPetunjuk"/>
                                         <connections>
                                             <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
                                             <segue destination="fe2-pQ-kV7" kind="presentation" identifier="toPetunjuk" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="lub-tj-T3T"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL">
-                                        <rect key="frame" x="333" y="0.0" width="233" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL">
+                                        <rect key="frame" x="566" y="0.0" width="0.0" height="73"/>
                                         <state key="normal" backgroundImage="buttonAktivitas"/>
                                     </button>
                                 </subviews>
@@ -108,7 +108,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1R-00-hYr" userLabel="ButtonNext">
-                                <rect key="frame" x="1077" y="717" width="72" height="72"/>
+                                <rect key="frame" x="1005" y="645" width="144" height="144"/>
                                 <state key="normal" backgroundImage="OnbNext"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="h2V-nf-k8x" eventType="touchUpInside" id="rFk-wm-xrO"/>
@@ -116,7 +116,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4s-rC-BV5" userLabel="ButtonPrev">
-                                <rect key="frame" x="45" y="717" width="72" height="72"/>
+                                <rect key="frame" x="45" y="645" width="144" height="144"/>
                                 <state key="normal" backgroundImage="OnbPrev"/>
                                 <connections>
                                     <action selector="prevTapped:" destination="h2V-nf-k8x" eventType="touchUpInside" id="PpI-eg-XYQ"/>
@@ -371,7 +371,7 @@
                                 <rect key="frame" x="126" y="277" width="942" height="492"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wR-ff-uzw" userLabel="ButtonPrev">
-                                <rect key="frame" x="0.0" y="278.5" width="73" height="257"/>
+                                <rect key="frame" x="0.0" y="150" width="146" height="514"/>
                                 <state key="normal" backgroundImage="buttonNext"/>
                                 <connections>
                                     <action selector="prevTapped:" destination="fe2-pQ-kV7" eventType="touchUpInside" id="S2e-EP-nG7"/>
@@ -415,7 +415,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXK-8G-Q0b" userLabel="xButton">
-                                <rect key="frame" x="1107" y="15" width="72" height="72"/>
+                                <rect key="frame" x="1035" y="15" width="144" height="144"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="W7d-r9-par" eventType="touchUpInside" id="082-2x-9Xl"/>
@@ -1320,7 +1320,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7u-J8-ktd" userLabel="ButtonNext">
-                                <rect key="frame" x="1118" y="278.5" width="76" height="257"/>
+                                <rect key="frame" x="1042" y="150" width="152" height="514"/>
                                 <state key="normal" backgroundImage="buttonPrev"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="cWk-5j-FRW" eventType="touchUpInside" id="86d-nA-5MZ"/>
