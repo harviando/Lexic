@@ -28,6 +28,10 @@ class RewardController: UIViewController {
         quitButtonOutlet.isHidden = true
         nextButtonOutlet.isHidden = true
         giftButton.isHidden = false
+        
+//        UIView.animate(withDuration: 1, animations: {
+//            self.giftButton.frame.origin.x -= 10
+//        }, completion:nil)
     }
     
     func initializeVideoPlayerWithVideo() {

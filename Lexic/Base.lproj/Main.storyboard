@@ -415,7 +415,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXK-8G-Q0b" userLabel="xButton">
-                                <rect key="frame" x="1035" y="15" width="144" height="144"/>
+                                <rect key="frame" x="1107" y="15" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="W7d-r9-par" eventType="touchUpInside" id="082-2x-9Xl"/>
@@ -1447,14 +1447,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiT-Vs-yH9" userLabel="ButtonNext">
-                                <rect key="frame" x="1077" y="717" width="72" height="72"/>
+                                <rect key="frame" x="1005" y="645" width="144" height="144"/>
                                 <state key="normal" backgroundImage="OnbNext"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="cVd-tu-Oxx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kY4-IC-31s" userLabel="ButtonPrev">
-                                <rect key="frame" x="45" y="717" width="72" height="72"/>
+                                <rect key="frame" x="45" y="645" width="144" height="144"/>
                                 <state key="normal" backgroundImage="OnbPrev"/>
                                 <connections>
                                     <action selector="prevTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="yHd-WC-ra5"/>
@@ -1502,16 +1502,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4n5-AG-6bp"/>
         <segue reference="fmA-WE-CQd"/>
         <segue reference="TjB-RI-ajN"/>
         <segue reference="rgt-sm-2ty"/>
         <segue reference="sCQ-Nq-qoW"/>
         <segue reference="Rcg-Ny-hkf"/>
         <segue reference="8zU-f8-Rna"/>
-        <segue reference="JHy-WL-Uj7"/>
+        <segue reference="KQA-Uw-IV4"/>
         <segue reference="lub-tj-T3T"/>
-        <segue reference="0gs-Aj-M4F"/>
+        <segue reference="xUN-bW-hnj"/>
         <segue reference="cZh-Yt-LLY"/>
     </inferredMetricsTieBreakers>
     <resources>
