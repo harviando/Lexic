@@ -66,7 +66,7 @@ class PemulaController: UIViewController {
     }
     
     @IBAction func buttonBack(_ sender: Any) {
-        self.performSegue(withIdentifier: "backTapped", sender: nil)
+        self.performSegue(withIdentifier: "backToTahapan", sender: nil)
     }
 
     @IBAction func pencilTapped(_ sender: Any) {

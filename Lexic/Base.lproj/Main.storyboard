@@ -31,7 +31,7 @@
                                 <state key="normal" backgroundImage="buttonPemula"/>
                                 <connections>
                                     <action selector="buttonPemula:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2X4-ZQ-Q56"/>
-                                    <segue destination="L3I-fZ-Pvh" kind="presentation" identifier="pemulaTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="KJQ-Y6-OCY"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="pemulaTapped" modalPresentationStyle="fullScreen" id="qXR-2X-drj"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PapanTanda" translatesAutoresizingMaskIntoConstraints="NO" id="GxP-7Y-JDe">
@@ -89,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.69346733668343" y="137.41007194244605"/>
+            <point key="canvasLocation" x="-590" y="137"/>
         </scene>
         <!--On Boarding Controller-->
         <scene sceneID="aP2-bP-Huh">
@@ -152,6 +152,65 @@
             </objects>
             <point key="canvasLocation" x="789.9497487437186" y="-633.09352517985621"/>
         </scene>
+        <!--Tahapan Controller-->
+        <scene sceneID="jI2-UB-gDe">
+            <objects>
+                <viewController id="399-ml-a9V" customClass="TahapanController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BWM-3z-6cl">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TahapanScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="i1D-b0-cPH">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
+                                <rect key="frame" x="364" y="227" width="1021" height="380"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdB-iJ-d2a" userLabel="1">
+                                        <rect key="frame" x="0.0" y="0.0" width="317" height="380"/>
+                                        <state key="normal" backgroundImage="level1 button"/>
+                                        <connections>
+                                            <action selector="level1Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="01p-Tr-m8Y"/>
+                                            <segue destination="L3I-fZ-Pvh" kind="presentation" identifier="1tapped" modalPresentationStyle="fullScreen" id="457-P2-SpV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-Yu-aAJ" userLabel="2">
+                                        <rect key="frame" x="352" y="0.0" width="317" height="380"/>
+                                        <state key="normal" backgroundImage="level2 button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-0A-cuA" userLabel="3">
+                                        <rect key="frame" x="704" y="0.0" width="317" height="380"/>
+                                        <state key="normal" backgroundImage="level3 button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHU-h1-wZL" userLabel="ButtonBack">
+                                <rect key="frame" x="42" y="41" width="72" height="72"/>
+                                <state key="normal" backgroundImage="TahapanBackButton"/>
+                                <connections>
+                                    <action selector="backTapped:" destination="399-ml-a9V" eventType="touchUpInside" id="hlq-yd-vbK"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="tahapanBackTapped" modalPresentationStyle="fullScreen" id="86k-I2-V9Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="i1D-b0-cPH" secondAttribute="leading" constant="364" id="6Pn-23-UHS"/>
+                            <constraint firstItem="xHU-h1-wZL" firstAttribute="top" secondItem="i1D-b0-cPH" secondAttribute="top" constant="41" id="DCm-4D-rtt"/>
+                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="centerY" secondItem="i1D-b0-cPH" secondAttribute="centerY" id="HQs-qg-OpU"/>
+                            <constraint firstItem="i1D-b0-cPH" firstAttribute="height" secondItem="BWM-3z-6cl" secondAttribute="height" id="MLS-fT-4eq"/>
+                            <constraint firstItem="xHU-h1-wZL" firstAttribute="leading" secondItem="i1D-b0-cPH" secondAttribute="leading" constant="42" id="NeA-Xl-XXD"/>
+                            <constraint firstItem="i1D-b0-cPH" firstAttribute="centerX" secondItem="BWM-3z-6cl" secondAttribute="centerX" id="azx-41-k89"/>
+                            <constraint firstItem="i1D-b0-cPH" firstAttribute="centerY" secondItem="BWM-3z-6cl" secondAttribute="centerY" id="b8i-ZS-C1W"/>
+                            <constraint firstItem="i1D-b0-cPH" firstAttribute="width" secondItem="BWM-3z-6cl" secondAttribute="width" id="d0e-HR-9fL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gg4-gy-KJS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xnl-WT-gXJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.979899497487438" y="136.69064748201438"/>
+        </scene>
         <!--Pemula Controller-->
         <scene sceneID="1fk-kJ-4l8">
             <objects>
@@ -166,10 +225,10 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaR-lj-lQF" userLabel="BackButton">
                                 <rect key="frame" x="15" y="15" width="72" height="72"/>
-                                <state key="normal" backgroundImage="buttonBack"/>
+                                <state key="normal" backgroundImage="TahapanBackButton"/>
                                 <connections>
                                     <action selector="buttonBack:" destination="L3I-fZ-Pvh" eventType="touchUpInside" id="KTB-kX-xWh"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="cZh-Yt-LLY"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backToTahapan" modalPresentationStyle="fullScreen" id="vwI-13-V1a"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="spaceGambar" translatesAutoresizingMaskIntoConstraints="NO" id="QHd-UA-YuP">
@@ -1517,8 +1576,9 @@
         <segue reference="8zU-f8-Rna"/>
         <segue reference="KQA-Uw-IV4"/>
         <segue reference="lub-tj-T3T"/>
-        <segue reference="KJQ-Y6-OCY"/>
-        <segue reference="wlt-1r-zR9"/>
+        <segue reference="457-P2-SpV"/>
+        <segue reference="vwI-13-V1a"/>
+        <segue reference="86k-I2-V9Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Ban" width="2454" height="1924"/>
@@ -1538,6 +1598,8 @@
         <image name="PemulaLearningbg" width="1194" height="834"/>
         <image name="Petunjuk bg" width="1194" height="834"/>
         <image name="Rak" width="1080" height="1080"/>
+        <image name="TahapanBackButton" width="72" height="72"/>
+        <image name="TahapanScreenBG" width="1194" height="834"/>
         <image name="Tas-1" width="419" height="512"/>
         <image name="banText" width="215" height="119"/>
         <image name="buttonAktivitas" width="269" height="109"/>
@@ -1554,6 +1616,9 @@
         <image name="catText" width="189" height="110"/>
         <image name="gift.fill" catalog="system" width="128" height="128"/>
         <image name="jasText" width="177" height="119"/>
+        <image name="level1 button" width="317" height="380"/>
+        <image name="level2 button" width="317" height="380"/>
+        <image name="level3 button" width="317" height="380"/>
         <image name="petunjuk1" width="948" height="337"/>
         <image name="petunjuk2" width="1047" height="482"/>
         <image name="petunjuk3" width="1002" height="401"/>
