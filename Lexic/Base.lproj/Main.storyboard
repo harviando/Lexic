@@ -175,10 +175,10 @@
                                 <rect key="frame" x="354" y="183" width="840" height="507"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0A-7s-BvJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="1000" height="507"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1666" height="507"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
-                                                <rect key="frame" x="0.0" y="63.5" width="1021" height="380"/>
+                                                <rect key="frame" x="0.0" y="63.5" width="1725" height="380"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdB-iJ-d2a" userLabel="1">
                                                         <rect key="frame" x="0.0" y="0.0" width="317" height="380"/>
@@ -196,13 +196,21 @@
                                                         <rect key="frame" x="704" y="0.0" width="317" height="380"/>
                                                         <state key="normal" backgroundImage="level3 button"/>
                                                     </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyz-7T-YCq" userLabel="4">
+                                                        <rect key="frame" x="1056" y="0.0" width="317" height="380"/>
+                                                        <state key="normal" backgroundImage="level4 button"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vz9-wG-gTv" userLabel="5">
+                                                        <rect key="frame" x="1408" y="0.0" width="317" height="380"/>
+                                                        <state key="normal" backgroundImage="level5 button"/>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1000" id="Aow-zs-sFB"/>
                                             <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="B0A-7s-BvJ" secondAttribute="leading" id="CRY-8M-rID"/>
+                                            <constraint firstAttribute="width" constant="1666" id="D9J-KF-Pu4"/>
                                             <constraint firstItem="UcZ-H5-Vb0" firstAttribute="centerY" secondItem="B0A-7s-BvJ" secondAttribute="centerY" id="alw-Ee-u8n"/>
                                         </constraints>
                                     </view>
@@ -1652,6 +1660,8 @@
         <image name="level1 button" width="317" height="380"/>
         <image name="level2 button" width="317" height="380"/>
         <image name="level3 button" width="317" height="380"/>
+        <image name="level4 button" width="317" height="380"/>
+        <image name="level5 button" width="317" height="380"/>
         <image name="petunjuk1" width="948" height="337"/>
         <image name="petunjuk2" width="1047" height="482"/>
         <image name="petunjuk3" width="1002" height="401"/>
