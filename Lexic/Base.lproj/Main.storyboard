@@ -163,27 +163,6 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TahapanScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="i1D-b0-cPH">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
-                                <rect key="frame" x="364" y="227" width="1021" height="380"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdB-iJ-d2a" userLabel="1">
-                                        <rect key="frame" x="0.0" y="0.0" width="317" height="380"/>
-                                        <state key="normal" backgroundImage="level1 button"/>
-                                        <connections>
-                                            <action selector="level1Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="01p-Tr-m8Y"/>
-                                            <segue destination="L3I-fZ-Pvh" kind="presentation" identifier="1tapped" modalPresentationStyle="fullScreen" id="457-P2-SpV"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-Yu-aAJ" userLabel="2">
-                                        <rect key="frame" x="352" y="0.0" width="317" height="380"/>
-                                        <state key="normal" backgroundImage="level2 button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-0A-cuA" userLabel="3">
-                                        <rect key="frame" x="704" y="0.0" width="317" height="380"/>
-                                        <state key="normal" backgroundImage="level3 button"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHU-h1-wZL" userLabel="ButtonBack">
                                 <rect key="frame" x="42" y="41" width="72" height="72"/>
                                 <state key="normal" backgroundImage="TahapanBackButton"/>
@@ -192,14 +171,62 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" identifier="tahapanBackTapped" modalPresentationStyle="fullScreen" id="86k-I2-V9Q"/>
                                 </connections>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-Is-0YC">
+                                <rect key="frame" x="354" y="183" width="840" height="507"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0A-7s-BvJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="1000" height="507"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
+                                                <rect key="frame" x="0.0" y="63.5" width="1021" height="380"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdB-iJ-d2a" userLabel="1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="317" height="380"/>
+                                                        <state key="normal" backgroundImage="level1 button"/>
+                                                        <connections>
+                                                            <action selector="level1Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="01p-Tr-m8Y"/>
+                                                            <segue destination="L3I-fZ-Pvh" kind="presentation" identifier="1tapped" modalPresentationStyle="fullScreen" id="457-P2-SpV"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-Yu-aAJ" userLabel="2">
+                                                        <rect key="frame" x="352" y="0.0" width="317" height="380"/>
+                                                        <state key="normal" backgroundImage="level2 button"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-0A-cuA" userLabel="3">
+                                                        <rect key="frame" x="704" y="0.0" width="317" height="380"/>
+                                                        <state key="normal" backgroundImage="level3 button"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1000" id="Aow-zs-sFB"/>
+                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="B0A-7s-BvJ" secondAttribute="leading" id="CRY-8M-rID"/>
+                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="centerY" secondItem="B0A-7s-BvJ" secondAttribute="centerY" id="alw-Ee-u8n"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="bottom" secondItem="QIM-FL-4qu" secondAttribute="bottom" id="HLu-kj-Okb"/>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="leading" secondItem="QIM-FL-4qu" secondAttribute="leading" id="bWN-fM-0e8"/>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="trailing" secondItem="QIM-FL-4qu" secondAttribute="trailing" id="gzz-Fw-i2M"/>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="top" secondItem="QIM-FL-4qu" secondAttribute="top" id="svD-aP-dhx"/>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="height" secondItem="IzD-Wz-NHb" secondAttribute="height" id="xH3-v3-VWD"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="QIM-FL-4qu"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="IzD-Wz-NHb"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="i1D-b0-cPH" secondAttribute="leading" constant="364" id="6Pn-23-UHS"/>
+                            <constraint firstItem="pgc-Is-0YC" firstAttribute="top" secondItem="gg4-gy-KJS" secondAttribute="top" constant="183" id="296-6P-rR5"/>
                             <constraint firstItem="xHU-h1-wZL" firstAttribute="top" secondItem="i1D-b0-cPH" secondAttribute="top" constant="41" id="DCm-4D-rtt"/>
-                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="centerY" secondItem="i1D-b0-cPH" secondAttribute="centerY" id="HQs-qg-OpU"/>
+                            <constraint firstItem="gg4-gy-KJS" firstAttribute="bottom" secondItem="pgc-Is-0YC" secondAttribute="bottom" constant="124" id="JiG-Fn-xR5"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="height" secondItem="BWM-3z-6cl" secondAttribute="height" id="MLS-fT-4eq"/>
                             <constraint firstItem="xHU-h1-wZL" firstAttribute="leading" secondItem="i1D-b0-cPH" secondAttribute="leading" constant="42" id="NeA-Xl-XXD"/>
+                            <constraint firstItem="gg4-gy-KJS" firstAttribute="trailing" secondItem="pgc-Is-0YC" secondAttribute="trailing" id="Qg1-px-SLr"/>
+                            <constraint firstItem="pgc-Is-0YC" firstAttribute="leading" secondItem="gg4-gy-KJS" secondAttribute="leading" constant="354" id="R3K-Qi-xxl"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="centerX" secondItem="BWM-3z-6cl" secondAttribute="centerX" id="azx-41-k89"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="centerY" secondItem="BWM-3z-6cl" secondAttribute="centerY" id="b8i-ZS-C1W"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="width" secondItem="BWM-3z-6cl" secondAttribute="width" id="d0e-HR-9fL"/>
@@ -1513,14 +1540,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiT-Vs-yH9" userLabel="ButtonNext">
-                                <rect key="frame" x="1077" y="717" width="72" height="72"/>
+                                <rect key="frame" x="1005" y="645" width="144" height="144"/>
                                 <state key="normal" backgroundImage="OnbNext"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="cVd-tu-Oxx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kY4-IC-31s" userLabel="ButtonPrev">
-                                <rect key="frame" x="45" y="717" width="72" height="72"/>
+                                <rect key="frame" x="45" y="645" width="144" height="144"/>
                                 <state key="normal" backgroundImage="OnbPrev"/>
                                 <connections>
                                     <action selector="prevTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="yHd-WC-ra5"/>
