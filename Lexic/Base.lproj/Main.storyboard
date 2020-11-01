@@ -91,6 +91,77 @@
             </objects>
             <point key="canvasLocation" x="-590" y="137"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="tGY-db-KNc">
+            <objects>
+                <viewController id="CBH-DM-8qT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="czo-TD-VEb">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="sXh-NG-SKI">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQQ-Yd-tAa" userLabel="ButtonBack">
+                                <rect key="frame" x="50" y="50" width="72" height="72"/>
+                                <state key="normal" backgroundImage="TahapanBackButton"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opo-LM-Sik" userLabel="ButtonNext">
+                                <rect key="frame" x="1072" y="50" width="72" height="72"/>
+                                <state key="normal" backgroundImage="buttonToCanvas"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="holderGambar" translatesAutoresizingMaskIntoConstraints="NO" id="S0W-O5-Hue">
+                                <rect key="frame" x="50" y="228.5" width="501" height="377"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="holderMembaca" translatesAutoresizingMaskIntoConstraints="NO" id="S7i-aY-byc">
+                                <rect key="frame" x="643" y="228.5" width="501" height="377"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="buttonSpeech" translatesAutoresizingMaskIntoConstraints="NO" id="xvp-Nr-yuf">
+                                <rect key="frame" x="707" y="492" width="69" height="67"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Tas-1" translatesAutoresizingMaskIntoConstraints="NO" id="yjG-BF-Ldc" userLabel="gambarTas">
+                                <rect key="frame" x="203" y="321" width="195" height="238"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="tasText" translatesAutoresizingMaskIntoConstraints="NO" id="WpY-Yr-gk7" userLabel="teksTas">
+                                <rect key="frame" x="796" y="362" width="195" height="110"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xvp-Nr-yuf" firstAttribute="leading" secondItem="S7i-aY-byc" secondAttribute="leading" constant="64" id="0hq-Lw-RW6"/>
+                            <constraint firstItem="S7i-aY-byc" firstAttribute="centerY" secondItem="sXh-NG-SKI" secondAttribute="centerY" id="0tU-de-zLo"/>
+                            <constraint firstItem="S0W-O5-Hue" firstAttribute="height" secondItem="czo-TD-VEb" secondAttribute="height" multiplier="0.452038" id="1CS-zH-XJZ"/>
+                            <constraint firstItem="sXh-NG-SKI" firstAttribute="height" secondItem="czo-TD-VEb" secondAttribute="height" id="1wL-xd-cyL"/>
+                            <constraint firstItem="bQQ-Yd-tAa" firstAttribute="top" secondItem="vKu-rW-QdR" secondAttribute="top" constant="50" id="3EX-Gm-OlE"/>
+                            <constraint firstItem="yjG-BF-Ldc" firstAttribute="height" secondItem="S0W-O5-Hue" secondAttribute="height" multiplier="0.6313" id="4mr-DV-5v4"/>
+                            <constraint firstItem="sXh-NG-SKI" firstAttribute="centerX" secondItem="czo-TD-VEb" secondAttribute="centerX" id="DF8-Lr-FY5"/>
+                            <constraint firstItem="Opo-LM-Sik" firstAttribute="top" secondItem="vKu-rW-QdR" secondAttribute="top" constant="50" id="HZE-ff-kiX"/>
+                            <constraint firstItem="vKu-rW-QdR" firstAttribute="trailing" secondItem="Opo-LM-Sik" secondAttribute="trailing" constant="50" id="I7O-aG-y95"/>
+                            <constraint firstItem="S0W-O5-Hue" firstAttribute="width" secondItem="czo-TD-VEb" secondAttribute="width" multiplier="0.419598" id="ITL-g2-ody"/>
+                            <constraint firstItem="WpY-Yr-gk7" firstAttribute="height" secondItem="S7i-aY-byc" secondAttribute="height" multiplier="0.291777" id="MUT-0w-LoU"/>
+                            <constraint firstItem="xvp-Nr-yuf" firstAttribute="bottom" secondItem="S7i-aY-byc" secondAttribute="bottom" constant="-46.5" id="OLQ-eb-TOj"/>
+                            <constraint firstItem="WpY-Yr-gk7" firstAttribute="centerX" secondItem="S7i-aY-byc" secondAttribute="centerX" id="Vc6-fV-70D"/>
+                            <constraint firstItem="yjG-BF-Ldc" firstAttribute="centerX" secondItem="S0W-O5-Hue" secondAttribute="centerX" id="Y4o-Z7-yJq"/>
+                            <constraint firstItem="sXh-NG-SKI" firstAttribute="centerY" secondItem="czo-TD-VEb" secondAttribute="centerY" id="bIk-m5-2RU"/>
+                            <constraint firstItem="S7i-aY-byc" firstAttribute="trailing" secondItem="Opo-LM-Sik" secondAttribute="trailing" id="bkF-1C-Q35"/>
+                            <constraint firstItem="yjG-BF-Ldc" firstAttribute="top" secondItem="S0W-O5-Hue" secondAttribute="top" constant="92.5" id="ja0-5C-ZJG"/>
+                            <constraint firstItem="S0W-O5-Hue" firstAttribute="centerY" secondItem="sXh-NG-SKI" secondAttribute="centerY" id="miz-gz-85b"/>
+                            <constraint firstItem="WpY-Yr-gk7" firstAttribute="centerY" secondItem="S7i-aY-byc" secondAttribute="centerY" id="nOm-2g-PsW"/>
+                            <constraint firstItem="yjG-BF-Ldc" firstAttribute="width" secondItem="S0W-O5-Hue" secondAttribute="width" multiplier="0.389222" id="r1k-su-HMg"/>
+                            <constraint firstItem="S0W-O5-Hue" firstAttribute="leading" secondItem="bQQ-Yd-tAa" secondAttribute="leading" id="r44-Nq-9Ix"/>
+                            <constraint firstItem="S7i-aY-byc" firstAttribute="height" secondItem="czo-TD-VEb" secondAttribute="height" multiplier="0.452038" id="tj4-dU-sp1"/>
+                            <constraint firstItem="bQQ-Yd-tAa" firstAttribute="leading" secondItem="vKu-rW-QdR" secondAttribute="leading" constant="50" id="txc-1e-lbl"/>
+                            <constraint firstItem="S7i-aY-byc" firstAttribute="width" secondItem="czo-TD-VEb" secondAttribute="width" multiplier="0.419598" id="yjQ-61-e9h"/>
+                            <constraint firstItem="sXh-NG-SKI" firstAttribute="width" secondItem="czo-TD-VEb" secondAttribute="width" id="z0a-xB-asU"/>
+                            <constraint firstItem="WpY-Yr-gk7" firstAttribute="width" secondItem="S7i-aY-byc" secondAttribute="width" multiplier="0.389222" id="zKW-WK-CGa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vKu-rW-QdR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="50h-Yq-IUT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-613.0653266331658" y="1133.8129496402878"/>
+        </scene>
         <!--On Boarding Controller-->
         <scene sceneID="aP2-bP-Huh">
             <objects>
@@ -1617,10 +1688,11 @@
         <segue reference="KQA-Uw-IV4"/>
         <segue reference="lub-tj-T3T"/>
         <segue reference="457-P2-SpV"/>
-        <segue reference="vwI-13-V1a"/>
+        <segue reference="qXR-2X-drj"/>
         <segue reference="86k-I2-V9Q"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="BGLearning screen 1.1" width="1194" height="834"/>
         <image name="Ban" width="2454" height="1924"/>
         <image name="Cat" width="820" height="1558"/>
         <image name="Jas" width="1532" height="1080"/>
@@ -1654,8 +1726,12 @@
         <image name="buttonPetunjuk" width="269" height="79"/>
         <image name="buttonPrev" width="76" height="257"/>
         <image name="buttonSelesai" width="231" height="64"/>
+        <image name="buttonSpeech" width="69" height="67"/>
+        <image name="buttonToCanvas" width="72" height="72"/>
         <image name="catText" width="189" height="110"/>
         <image name="gift.fill" catalog="system" width="128" height="128"/>
+        <image name="holderGambar" width="501" height="377"/>
+        <image name="holderMembaca" width="501" height="377"/>
         <image name="jasText" width="177" height="119"/>
         <image name="level1 button" width="317" height="380"/>
         <image name="level2 button" width="317" height="380"/>
