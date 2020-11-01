@@ -171,7 +171,7 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" identifier="tahapanBackTapped" modalPresentationStyle="fullScreen" id="86k-I2-V9Q"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-Is-0YC">
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-Is-0YC">
                                 <rect key="frame" x="354" y="183" width="840" height="507"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0A-7s-BvJ">
@@ -217,6 +217,9 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="QIM-FL-4qu"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="IzD-Wz-NHb"/>
                             </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PenjelasanLevel1" translatesAutoresizingMaskIntoConstraints="NO" id="44j-dy-hXm">
+                                <rect key="frame" x="0.0" y="173.5" width="389" height="526"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -227,9 +230,11 @@
                             <constraint firstItem="xHU-h1-wZL" firstAttribute="leading" secondItem="i1D-b0-cPH" secondAttribute="leading" constant="42" id="NeA-Xl-XXD"/>
                             <constraint firstItem="gg4-gy-KJS" firstAttribute="trailing" secondItem="pgc-Is-0YC" secondAttribute="trailing" id="Qg1-px-SLr"/>
                             <constraint firstItem="pgc-Is-0YC" firstAttribute="leading" secondItem="gg4-gy-KJS" secondAttribute="leading" constant="354" id="R3K-Qi-xxl"/>
+                            <constraint firstItem="44j-dy-hXm" firstAttribute="centerY" secondItem="pgc-Is-0YC" secondAttribute="centerY" id="aMy-Zl-hOA"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="centerX" secondItem="BWM-3z-6cl" secondAttribute="centerX" id="azx-41-k89"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="centerY" secondItem="BWM-3z-6cl" secondAttribute="centerY" id="b8i-ZS-C1W"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="width" secondItem="BWM-3z-6cl" secondAttribute="width" id="d0e-HR-9fL"/>
+                            <constraint firstItem="pgc-Is-0YC" firstAttribute="leading" secondItem="44j-dy-hXm" secondAttribute="trailing" constant="-35" id="pSG-zJ-qmo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gg4-gy-KJS"/>
                     </view>
@@ -1540,14 +1545,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiT-Vs-yH9" userLabel="ButtonNext">
-                                <rect key="frame" x="1005" y="645" width="144" height="144"/>
+                                <rect key="frame" x="1077" y="717" width="72" height="72"/>
                                 <state key="normal" backgroundImage="OnbNext"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="cVd-tu-Oxx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kY4-IC-31s" userLabel="ButtonPrev">
-                                <rect key="frame" x="45" y="645" width="144" height="144"/>
+                                <rect key="frame" x="45" y="717" width="72" height="72"/>
                                 <state key="normal" backgroundImage="OnbPrev"/>
                                 <connections>
                                     <action selector="prevTapped:" destination="hhW-7V-Kmt" eventType="touchUpInside" id="yHd-WC-ra5"/>
@@ -1623,6 +1628,7 @@
         <image name="Onboarding3" width="1194" height="834"/>
         <image name="PapanTanda" width="280" height="341"/>
         <image name="PemulaLearningbg" width="1194" height="834"/>
+        <image name="PenjelasanLevel1" width="389" height="526"/>
         <image name="Petunjuk bg" width="1194" height="834"/>
         <image name="Rak" width="1080" height="1080"/>
         <image name="TahapanBackButton" width="72" height="72"/>
