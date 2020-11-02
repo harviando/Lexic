@@ -242,14 +242,14 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" identifier="tahapanBackTapped" modalPresentationStyle="fullScreen" id="86k-I2-V9Q"/>
                                 </connections>
                             </button>
-                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-Is-0YC">
-                                <rect key="frame" x="354" y="183" width="840" height="507"/>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-Is-0YC">
+                                <rect key="frame" x="0.0" y="183" width="1194" height="507"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0A-7s-BvJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="1666" height="507"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1400" height="507"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
-                                                <rect key="frame" x="0.0" y="100.5" width="1395" height="306"/>
+                                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
+                                                <rect key="frame" x="30" y="100.5" width="1335" height="306"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdB-iJ-d2a" userLabel="1">
                                                         <rect key="frame" x="0.0" y="0.0" width="251" height="306"/>
@@ -260,19 +260,19 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-Yu-aAJ" userLabel="2">
-                                                        <rect key="frame" x="286" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="271" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level2 button"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-0A-cuA" userLabel="3">
-                                                        <rect key="frame" x="572" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="542" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level3 button"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyz-7T-YCq" userLabel="4">
-                                                        <rect key="frame" x="858" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="813" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level4 button"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vz9-wG-gTv" userLabel="5">
-                                                        <rect key="frame" x="1144" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="1084" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level5 button"/>
                                                     </button>
                                                 </subviews>
@@ -280,9 +280,9 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="B0A-7s-BvJ" secondAttribute="leading" id="CRY-8M-rID"/>
-                                            <constraint firstAttribute="width" constant="1666" id="D9J-KF-Pu4"/>
+                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="B0A-7s-BvJ" secondAttribute="leading" constant="30" id="CRY-8M-rID"/>
                                             <constraint firstItem="UcZ-H5-Vb0" firstAttribute="centerY" secondItem="B0A-7s-BvJ" secondAttribute="centerY" id="alw-Ee-u8n"/>
+                                            <constraint firstAttribute="width" secondItem="UcZ-H5-Vb0" secondAttribute="width" multiplier="1.04869" id="lF7-M8-3yr"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -296,24 +296,22 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="QIM-FL-4qu"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="IzD-Wz-NHb"/>
                             </scrollView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PenjelasanLevel1" translatesAutoresizingMaskIntoConstraints="NO" id="44j-dy-hXm">
-                                <rect key="frame" x="0.0" y="173.5" width="389" height="526"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="pgc-Is-0YC" firstAttribute="top" secondItem="gg4-gy-KJS" secondAttribute="top" constant="183" id="296-6P-rR5"/>
+                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="width" secondItem="gg4-gy-KJS" secondAttribute="width" multiplier="1.11809" id="3GN-aQ-y94"/>
+                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="height" secondItem="gg4-gy-KJS" secondAttribute="height" multiplier="0.375921" id="A37-QT-z9f"/>
                             <constraint firstItem="xHU-h1-wZL" firstAttribute="top" secondItem="i1D-b0-cPH" secondAttribute="top" constant="41" id="DCm-4D-rtt"/>
                             <constraint firstItem="gg4-gy-KJS" firstAttribute="bottom" secondItem="pgc-Is-0YC" secondAttribute="bottom" constant="124" id="JiG-Fn-xR5"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="height" secondItem="BWM-3z-6cl" secondAttribute="height" id="MLS-fT-4eq"/>
                             <constraint firstItem="xHU-h1-wZL" firstAttribute="leading" secondItem="i1D-b0-cPH" secondAttribute="leading" constant="42" id="NeA-Xl-XXD"/>
                             <constraint firstItem="gg4-gy-KJS" firstAttribute="trailing" secondItem="pgc-Is-0YC" secondAttribute="trailing" id="Qg1-px-SLr"/>
-                            <constraint firstItem="pgc-Is-0YC" firstAttribute="leading" secondItem="gg4-gy-KJS" secondAttribute="leading" constant="354" id="R3K-Qi-xxl"/>
-                            <constraint firstItem="44j-dy-hXm" firstAttribute="centerY" secondItem="pgc-Is-0YC" secondAttribute="centerY" id="aMy-Zl-hOA"/>
+                            <constraint firstItem="pgc-Is-0YC" firstAttribute="leading" secondItem="gg4-gy-KJS" secondAttribute="leading" id="R3K-Qi-xxl"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="centerX" secondItem="BWM-3z-6cl" secondAttribute="centerX" id="azx-41-k89"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="centerY" secondItem="BWM-3z-6cl" secondAttribute="centerY" id="b8i-ZS-C1W"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="width" secondItem="BWM-3z-6cl" secondAttribute="width" id="d0e-HR-9fL"/>
-                            <constraint firstItem="pgc-Is-0YC" firstAttribute="leading" secondItem="44j-dy-hXm" secondAttribute="trailing" constant="-35" id="pSG-zJ-qmo"/>
+                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="width" secondItem="gg4-gy-KJS" secondAttribute="height" multiplier="1335:814" id="nSQ-Sl-Lue"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gg4-gy-KJS"/>
                     </view>
@@ -1708,7 +1706,6 @@
         <image name="Onboarding3" width="1194" height="834"/>
         <image name="PapanTanda" width="280" height="341"/>
         <image name="PemulaLearningbg" width="1194" height="834"/>
-        <image name="PenjelasanLevel1" width="389" height="526"/>
         <image name="Petunjuk bg" width="1194" height="834"/>
         <image name="Rak" width="1080" height="1080"/>
         <image name="TahapanBackButton" width="72" height="72"/>
