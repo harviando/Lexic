@@ -63,6 +63,12 @@ class Level1Controller: UIViewController {
         playClickSound()
     }
     @IBAction func toCanvasTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toCanvas", sender: nil)
+        playClickSound()
+    }
+    
+    @IBAction func toReadingTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toReading", sender: nil)
         playClickSound()
     }
 }
