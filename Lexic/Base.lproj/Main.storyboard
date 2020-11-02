@@ -20,15 +20,15 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1G-j5-fIE" userLabel="ButtonLevel3">
                                 <rect key="frame" x="344" y="460" width="232" height="76"/>
-                                <state key="normal" backgroundImage="buttonLanjutan"/>
+                                <state key="normal" backgroundImage="buttonLvl3"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S27-1w-JqH" userLabel="ButtonLevel2">
                                 <rect key="frame" x="317" y="572" width="232" height="76"/>
-                                <state key="normal" backgroundImage="buttonMenengah"/>
+                                <state key="normal" backgroundImage="buttonLvl2"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI2-6A-7mN" userLabel="ButtonLevel1">
                                 <rect key="frame" x="481" y="676" width="232" height="76"/>
-                                <state key="normal" backgroundImage="buttonPemula"/>
+                                <state key="normal" backgroundImage="buttonLvl1"/>
                                 <connections>
                                     <action selector="buttonPemula:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2X4-ZQ-Q56"/>
                                     <segue destination="399-ml-a9V" kind="presentation" identifier="pemulaTapped" modalPresentationStyle="fullScreen" id="qXR-2X-drj"/>
@@ -249,10 +249,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="1666" height="507"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
-                                                <rect key="frame" x="0.0" y="63.5" width="1725" height="380"/>
+                                                <rect key="frame" x="0.0" y="100.5" width="1395" height="306"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdB-iJ-d2a" userLabel="1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="317" height="380"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level1 button"/>
                                                         <connections>
                                                             <action selector="level1Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="01p-Tr-m8Y"/>
@@ -260,19 +260,19 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-Yu-aAJ" userLabel="2">
-                                                        <rect key="frame" x="352" y="0.0" width="317" height="380"/>
+                                                        <rect key="frame" x="286" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level2 button"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-0A-cuA" userLabel="3">
-                                                        <rect key="frame" x="704" y="0.0" width="317" height="380"/>
+                                                        <rect key="frame" x="572" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level3 button"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyz-7T-YCq" userLabel="4">
-                                                        <rect key="frame" x="1056" y="0.0" width="317" height="380"/>
+                                                        <rect key="frame" x="858" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level4 button"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vz9-wG-gTv" userLabel="5">
-                                                        <rect key="frame" x="1408" y="0.0" width="317" height="380"/>
+                                                        <rect key="frame" x="1144" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level5 button"/>
                                                     </button>
                                                 </subviews>
@@ -1718,11 +1718,11 @@
         <image name="buttonAktivitas" width="269" height="109"/>
         <image name="buttonBack" width="72" height="72"/>
         <image name="buttonHalaman Utama" width="252" height="102"/>
-        <image name="buttonLanjutan" width="232" height="76"/>
         <image name="buttonLanjutkan" width="249" height="60"/>
-        <image name="buttonMenengah" width="232" height="76"/>
+        <image name="buttonLvl1" width="232" height="76"/>
+        <image name="buttonLvl2" width="232" height="76"/>
+        <image name="buttonLvl3" width="232" height="76"/>
         <image name="buttonNext" width="73" height="257"/>
-        <image name="buttonPemula" width="232" height="76"/>
         <image name="buttonPetunjuk" width="269" height="79"/>
         <image name="buttonPrev" width="76" height="257"/>
         <image name="buttonSelesai" width="231" height="64"/>
@@ -1733,11 +1733,11 @@
         <image name="holderGambar" width="501" height="377"/>
         <image name="holderMembaca" width="501" height="377"/>
         <image name="jasText" width="177" height="119"/>
-        <image name="level1 button" width="317" height="380"/>
-        <image name="level2 button" width="317" height="380"/>
-        <image name="level3 button" width="317" height="380"/>
-        <image name="level4 button" width="317" height="380"/>
-        <image name="level5 button" width="317" height="380"/>
+        <image name="level1 button" width="251" height="306"/>
+        <image name="level2 button" width="251" height="306"/>
+        <image name="level3 button" width="251" height="306"/>
+        <image name="level4 button" width="251" height="306"/>
+        <image name="level5 button" width="251" height="306"/>
         <image name="petunjuk1" width="948" height="337"/>
         <image name="petunjuk2" width="1047" height="482"/>
         <image name="petunjuk3" width="1002" height="401"/>
