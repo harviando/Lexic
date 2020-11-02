@@ -293,12 +293,12 @@
                                         <constraints>
                                             <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="B0A-7s-BvJ" secondAttribute="leading" constant="30" id="CRY-8M-rID"/>
                                             <constraint firstItem="UcZ-H5-Vb0" firstAttribute="centerY" secondItem="B0A-7s-BvJ" secondAttribute="centerY" id="alw-Ee-u8n"/>
-                                            <constraint firstAttribute="width" secondItem="UcZ-H5-Vb0" secondAttribute="width" multiplier="1.04869" id="lF7-M8-3yr"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="bottom" secondItem="QIM-FL-4qu" secondAttribute="bottom" id="HLu-kj-Okb"/>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="width" secondItem="IzD-Wz-NHb" secondAttribute="width" multiplier="1.17253" id="Yzb-f6-cho"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="leading" secondItem="QIM-FL-4qu" secondAttribute="leading" id="bWN-fM-0e8"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="trailing" secondItem="QIM-FL-4qu" secondAttribute="trailing" id="gzz-Fw-i2M"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="top" secondItem="QIM-FL-4qu" secondAttribute="top" id="svD-aP-dhx"/>
@@ -1688,7 +1688,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OTN-2L-W8H"/>
         <segue reference="fmA-WE-CQd"/>
         <segue reference="TjB-RI-ajN"/>
         <segue reference="rgt-sm-2ty"/>
