@@ -14,8 +14,34 @@ class TahapanController:UIViewController {
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
     
+    @IBOutlet weak var infoButton: UIButton!
+    @IBOutlet weak var info: UIImageView!
+    
+    var infoClicked:Bool = false
+    
+    var infoActivated = UIImage(named: "buttonInfoActive") as UIImage?
+    var infoNormal = UIImage(named: "button info") as UIImage?
+    
     func playClickSound() {
         guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
+        
+        do {
+            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            
+            clickSound?.play()
+            
+            if refreshedAudio == false {
+                clickSound?.volume = 0.0
+            } else if (refreshedAudio==true){
+                clickSound?.volume = 0.8
+            }
+            
+        } catch {
+        }
+    }
+    
+    func playMouseClickkSound() {
+        guard let url = Bundle.main.url(forResource: "mouseClick", withExtension: "mp3") else { return }
         
         do {
             clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
@@ -41,10 +67,24 @@ class TahapanController:UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         kickstartAudio()
-        print("wowi")
+        info.isHidden = true
+        infoButton.setBackgroundImage(infoNormal, for: .normal)
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func infoTapped(_ sender: Any) {
+        playMouseClickkSound()
+        if (infoClicked == false){
+            infoButton.setBackgroundImage(infoActivated, for: .normal)
+            info.isHidden = false
+            infoClicked = true
+        }else{
+            infoButton.setBackgroundImage(infoNormal, for: .normal)
+            info.isHidden = true
+            infoClicked = false
+        }
+        
+    }
     
     @IBAction func backTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "tahapanBackTapped", sender: nil)

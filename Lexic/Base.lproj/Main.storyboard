@@ -442,10 +442,17 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgb-ma-DN4" userLabel="ButtonInfo">
                                 <rect key="frame" x="1082" y="40" width="72" height="72"/>
                                 <state key="normal" backgroundImage="button info"/>
+                                <connections>
+                                    <action selector="infoTapped:" destination="399-ml-a9V" eventType="touchUpInside" id="7QG-Pa-QAQ"/>
+                                </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="level1Info" translatesAutoresizingMaskIntoConstraints="NO" id="PLd-SL-Fs5">
+                                <rect key="frame" x="812" y="130" width="362" height="362"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="PLd-SL-Fs5" firstAttribute="trailing" secondItem="i1D-b0-cPH" secondAttribute="trailing" constant="-20" id="0qr-3C-rnj"/>
                             <constraint firstItem="pgc-Is-0YC" firstAttribute="top" secondItem="gg4-gy-KJS" secondAttribute="top" constant="183" id="296-6P-rR5"/>
                             <constraint firstItem="UcZ-H5-Vb0" firstAttribute="width" secondItem="gg4-gy-KJS" secondAttribute="width" multiplier="1.11809" id="3GN-aQ-y94"/>
                             <constraint firstItem="UcZ-H5-Vb0" firstAttribute="height" secondItem="gg4-gy-KJS" secondAttribute="height" multiplier="0.375921" id="A37-QT-z9f"/>
@@ -453,6 +460,7 @@
                             <constraint firstItem="gg4-gy-KJS" firstAttribute="bottom" secondItem="pgc-Is-0YC" secondAttribute="bottom" constant="124" id="JiG-Fn-xR5"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="height" secondItem="BWM-3z-6cl" secondAttribute="height" id="MLS-fT-4eq"/>
                             <constraint firstItem="xHU-h1-wZL" firstAttribute="leading" secondItem="i1D-b0-cPH" secondAttribute="leading" constant="40" id="NeA-Xl-XXD"/>
+                            <constraint firstItem="PLd-SL-Fs5" firstAttribute="top" secondItem="Zgb-ma-DN4" secondAttribute="bottom" constant="18" id="PFe-pr-EVr"/>
                             <constraint firstItem="gg4-gy-KJS" firstAttribute="trailing" secondItem="pgc-Is-0YC" secondAttribute="trailing" id="Qg1-px-SLr"/>
                             <constraint firstItem="pgc-Is-0YC" firstAttribute="leading" secondItem="gg4-gy-KJS" secondAttribute="leading" id="R3K-Qi-xxl"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="centerX" secondItem="BWM-3z-6cl" secondAttribute="centerX" id="azx-41-k89"/>
@@ -464,6 +472,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gg4-gy-KJS"/>
                     </view>
+                    <connections>
+                        <outlet property="info" destination="PLd-SL-Fs5" id="0Vy-MD-GlS"/>
+                        <outlet property="infoButton" destination="Zgb-ma-DN4" id="Jux-Yg-a4t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xnl-WT-gXJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2355,7 +2367,7 @@
         <segue reference="qXR-2X-drj"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="lmp-JQ-03A"/>
-        <segue reference="Idd-c2-MC4"/>
+        <segue reference="86k-I2-V9Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
@@ -2408,6 +2420,7 @@
         <image name="jasText" width="177" height="119"/>
         <image name="k" width="122" height="276"/>
         <image name="level1 button" width="250" height="306"/>
+        <image name="level1Info" width="362" height="362"/>
         <image name="level2 button" width="251" height="306"/>
         <image name="level3 button" width="251" height="306"/>
         <image name="level4 button" width="251" height="306"/>
