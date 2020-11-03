@@ -53,4 +53,20 @@ class TahapanController:UIViewController {
         self.performSegue(withIdentifier: "1tapped", sender: nil)
         playClickSound()
     }
+    @IBAction func level2Tapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "2tapped", sender: nil)
+        playClickSound()
+    }
+    @IBAction func level3Tapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "3tapped", sender: nil)
+        playClickSound()
+    }
+    @IBAction func level4Tapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "4tapped", sender: nil)
+        playClickSound()
+    }
+    @IBAction func level5Tapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "5tapped", sender: nil)
+        playClickSound()
+    }
 }

@@ -94,6 +94,7 @@ class Level1MenulisController: UIViewController {
     }
     
     @IBAction func finishTapped(_ sender: Any) {
+        playClickSound()
         self.performSegue(withIdentifier: "toReward", sender: nil)
     }
     

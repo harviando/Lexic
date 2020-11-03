@@ -108,7 +108,7 @@
                                 <state key="normal" backgroundImage="TahapanBackButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="CBH-DM-8qT" eventType="touchUpInside" id="xDW-1k-xwT"/>
-                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="GZF-gd-Kx2"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="GZF-gd-Kx2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opo-LM-Sik" userLabel="ButtonNext">
@@ -450,18 +450,34 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-Yu-aAJ" userLabel="2">
                                                         <rect key="frame" x="271" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level2 button"/>
+                                                        <connections>
+                                                            <action selector="level2Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="1X7-k4-FkD"/>
+                                                            <segue destination="MfG-Cz-ikS" kind="presentation" identifier="2tapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="qlu-Ym-tex"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-0A-cuA" userLabel="3">
                                                         <rect key="frame" x="542" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level3 button"/>
+                                                        <connections>
+                                                            <action selector="level3Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="srL-dx-YaS"/>
+                                                            <segue destination="Pzj-me-pSG" kind="presentation" identifier="3tapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="wyh-3V-Zkq"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyz-7T-YCq" userLabel="4">
                                                         <rect key="frame" x="813" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level4 button"/>
+                                                        <connections>
+                                                            <action selector="level4Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="Nzg-XH-SHp"/>
+                                                            <segue destination="J1k-Tj-TPk" kind="presentation" identifier="4tapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="ntm-zg-yr6"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vz9-wG-gTv" userLabel="5">
                                                         <rect key="frame" x="1084" y="0.0" width="251" height="306"/>
                                                         <state key="normal" backgroundImage="level5 button"/>
+                                                        <connections>
+                                                            <action selector="level5Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="Qfo-tr-SJV"/>
+                                                            <segue destination="8tN-Vi-q9i" kind="presentation" identifier="5tapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="wRS-go-PsE"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -512,7 +528,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xnl-WT-gXJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="63" y="2142"/>
+            <point key="canvasLocation" x="448" y="2142"/>
         </scene>
         <!--Pemula Controller-->
         <scene sceneID="1fk-kJ-4l8">
@@ -1877,15 +1893,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="UGn-0p-oIQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.2" translatesAutoresizingMaskIntoConstraints="NO" id="UGn-0p-oIQ">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taN-CS-B8V" userLabel="ButtonBack">
                                 <rect key="frame" x="40" y="40" width="72" height="72"/>
-                                <state key="normal" backgroundImage="chevronBack"/>
+                                <state key="normal" backgroundImage="TahapanBackButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="MfG-Cz-ikS" eventType="touchUpInside" id="EIm-4s-T4M"/>
-                                    <segue destination="CBH-DM-8qT" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="C2q-L6-uCX"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="bCB-Gs-GO1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIG-XL-hcw" userLabel="ButtonNext">
@@ -1960,15 +1976,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="4TI-3V-xek">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.3" translatesAutoresizingMaskIntoConstraints="NO" id="4TI-3V-xek">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="un0-Rw-1k1" userLabel="ButtonBack">
                                 <rect key="frame" x="40" y="40" width="72" height="72"/>
-                                <state key="normal" backgroundImage="chevronBack"/>
+                                <state key="normal" backgroundImage="TahapanBackButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="Pzj-me-pSG" eventType="touchUpInside" id="sS5-yM-2MJ"/>
-                                    <segue destination="MfG-Cz-ikS" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="02v-gE-Bot"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="m38-R6-Pc5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45I-iY-YB8" userLabel="ButtonNext">
@@ -2043,15 +2059,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="Q4o-oW-Rro">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.4" translatesAutoresizingMaskIntoConstraints="NO" id="Q4o-oW-Rro">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dA4-JW-9PQ" userLabel="ButtonBack">
                                 <rect key="frame" x="40" y="40" width="72" height="72"/>
-                                <state key="normal" backgroundImage="chevronBack"/>
+                                <state key="normal" backgroundImage="TahapanBackButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="J1k-Tj-TPk" eventType="touchUpInside" id="ISX-xw-rEj"/>
-                                    <segue destination="Pzj-me-pSG" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="RNE-V4-43h"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="jvm-bc-s1y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVw-Yl-xvA" userLabel="ButtonNext">
@@ -2059,6 +2075,7 @@
                                 <state key="normal" backgroundImage="buttonToCanvas"/>
                                 <connections>
                                     <action selector="toCanvasTapped:" destination="J1k-Tj-TPk" eventType="touchUpInside" id="qtJ-16-ig7"/>
+                                    <segue destination="BUO-r3-7fP" kind="presentation" identifier="toCanvas" animates="NO" modalPresentationStyle="fullScreen" id="geT-sr-eww"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="holderGambar" translatesAutoresizingMaskIntoConstraints="NO" id="Vva-R2-13D">
@@ -2125,14 +2142,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="PtB-iC-g3Y">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.5" translatesAutoresizingMaskIntoConstraints="NO" id="PtB-iC-g3Y">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRh-pv-jRk" userLabel="ButtonBack">
                                 <rect key="frame" x="40" y="40" width="72" height="72"/>
-                                <state key="normal" backgroundImage="chevronBack"/>
+                                <state key="normal" backgroundImage="TahapanBackButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="8tN-Vi-q9i" eventType="touchUpInside" id="AGq-h2-bq6"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="HQ2-WR-A53"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DA-WX-7PV" userLabel="ButtonNext">
@@ -2140,6 +2158,7 @@
                                 <state key="normal" backgroundImage="buttonToCanvas"/>
                                 <connections>
                                     <action selector="toCanvasTapped:" destination="8tN-Vi-q9i" eventType="touchUpInside" id="lhr-3X-HWs"/>
+                                    <segue destination="hvz-vf-H73" kind="presentation" identifier="toCanvas" animates="NO" modalPresentationStyle="fullScreen" id="8AW-yb-2Yj"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="holderGambar" translatesAutoresizingMaskIntoConstraints="NO" id="nGF-VP-w4i">
@@ -2206,7 +2225,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="ef4-GT-EWZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.2" translatesAutoresizingMaskIntoConstraints="NO" id="ef4-GT-EWZ">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5H-Uz-soF" userLabel="ButtonBack">
@@ -2381,7 +2400,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="LTI-ez-rlu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.3" translatesAutoresizingMaskIntoConstraints="NO" id="LTI-ez-rlu">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9a-Kb-q2M" userLabel="ButtonBack">
@@ -2556,7 +2575,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="84q-NL-uVP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.4" translatesAutoresizingMaskIntoConstraints="NO" id="84q-NL-uVP">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wa-LC-zad" userLabel="ButtonBack">
@@ -2564,6 +2583,7 @@
                                 <state key="normal" backgroundImage="chevronBack"/>
                                 <connections>
                                     <action selector="toReadingTapped:" destination="BUO-r3-7fP" eventType="touchUpInside" id="mJN-Ij-aQ2"/>
+                                    <segue destination="J1k-Tj-TPk" kind="presentation" identifier="toReading" animates="NO" modalPresentationStyle="fullScreen" id="m0R-V2-BP9"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="holderLatihanMenulis" translatesAutoresizingMaskIntoConstraints="NO" id="1Jh-ip-YWO">
@@ -2677,6 +2697,7 @@
                                 <state key="normal" backgroundImage="buttonFinish"/>
                                 <connections>
                                     <action selector="finishTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="3S6-bv-yG5"/>
+                                    <segue destination="gBx-II-dlo" kind="presentation" identifier="toReward" animates="NO" modalPresentationStyle="fullScreen" id="ptP-Ni-igz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2729,7 +2750,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="wiA-jk-WMa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.5" translatesAutoresizingMaskIntoConstraints="NO" id="wiA-jk-WMa">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dn5-Vi-kQt" userLabel="ButtonBack">
@@ -2737,6 +2758,7 @@
                                 <state key="normal" backgroundImage="chevronBack"/>
                                 <connections>
                                     <action selector="toReadingTapped:" destination="hvz-vf-H73" eventType="touchUpInside" id="LWc-yI-eBU"/>
+                                    <segue destination="8tN-Vi-q9i" kind="presentation" identifier="toReading" animates="NO" modalPresentationStyle="fullScreen" id="zZD-Oc-gh5"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="holderLatihanMenulis" translatesAutoresizingMaskIntoConstraints="NO" id="26t-81-DYL">
@@ -2850,6 +2872,7 @@
                                 <state key="normal" backgroundImage="buttonFinish"/>
                                 <connections>
                                     <action selector="finishTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="9qY-NU-4ny"/>
+                                    <segue destination="0iZ-SV-Nr8" kind="presentation" identifier="toReward" animates="NO" modalPresentationStyle="fullScreen" id="1Zd-fT-dmg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2934,7 +2957,7 @@
                                 <state key="normal" backgroundImage="buttonLanjutkan"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="cAJ-r3-PFT" eventType="touchUpInside" id="QEu-94-KLC"/>
-                                    <segue destination="MfG-Cz-ikS" kind="presentation" identifier="lanjutkan" animates="NO" modalPresentationStyle="fullScreen" id="Jjh-yr-HeA"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="lanjutkan" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="kMm-dU-RYu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3013,7 +3036,7 @@
                                 <state key="normal" backgroundImage="buttonLanjutkan"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="412-h5-vIt" eventType="touchUpInside" id="30H-ub-yqT"/>
-                                    <segue destination="Pzj-me-pSG" kind="presentation" identifier="lanjutkan" animates="NO" modalPresentationStyle="fullScreen" id="WBl-zX-4yv"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="lanjutkan" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="Hyy-g5-ddo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3092,7 +3115,7 @@
                                 <state key="normal" backgroundImage="buttonLanjutkan"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="isi-mM-YeU" eventType="touchUpInside" id="pWQ-G8-6Yv"/>
-                                    <segue destination="J1k-Tj-TPk" kind="presentation" identifier="lanjutkan" animates="NO" modalPresentationStyle="fullScreen" id="lxn-Op-Wqe"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="lanjutkan" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="KCQ-y2-qv9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3151,6 +3174,7 @@
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="gBx-II-dlo" eventType="touchUpInside" id="57z-eF-MZj"/>
+                                    <segue destination="BUO-r3-7fP" kind="presentation" identifier="quitPopup" animates="NO" modalPresentationStyle="fullScreen" id="any-Qb-hVW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxd-q4-N57" userLabel="giftButton">
@@ -3170,6 +3194,7 @@
                                 <state key="normal" backgroundImage="buttonLanjutkan"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="gBx-II-dlo" eventType="touchUpInside" id="Jvz-hf-pcS"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="lanjutkan" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="hlx-PU-ScP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3228,6 +3253,7 @@
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="0iZ-SV-Nr8" eventType="touchUpInside" id="3nM-Vw-XKo"/>
+                                    <segue destination="hvz-vf-H73" kind="presentation" identifier="quitPopup" animates="NO" modalPresentationStyle="fullScreen" id="6gm-y7-krY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NC9-SJ-oAr" userLabel="giftButton">
@@ -3247,6 +3273,7 @@
                                 <state key="normal" backgroundImage="buttonLanjutkan"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="0iZ-SV-Nr8" eventType="touchUpInside" id="53C-PC-cja"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="lanjutkan" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="UXI-ND-S44"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3287,9 +3314,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="H9h-op-v4A"/>
+        <segue reference="Yb6-Jr-jzb"/>
+        <segue reference="8AW-yb-2Yj"/>
+        <segue reference="geT-sr-eww"/>
+        <segue reference="e9r-WH-L6V"/>
         <segue reference="Qip-3p-gos"/>
-        <segue reference="RNE-V4-43h"/>
+        <segue reference="zZD-Oc-gh5"/>
+        <segue reference="m0R-V2-BP9"/>
+        <segue reference="VIX-hp-REU"/>
         <segue reference="401-9l-50q"/>
         <segue reference="fmA-WE-CQd"/>
         <segue reference="TjB-RI-ajN"/>
@@ -3303,10 +3335,14 @@
         <segue reference="qXR-2X-drj"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="4Gy-Yl-QW6"/>
-        <segue reference="o4h-P0-5vq"/>
+        <segue reference="86k-I2-V9Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
+        <image name="BGLearning screen 1.2" width="1194" height="834"/>
+        <image name="BGLearning screen 1.3" width="1194" height="834"/>
+        <image name="BGLearning screen 1.4" width="1194" height="834"/>
+        <image name="BGLearning screen 1.5" width="1194" height="834"/>
         <image name="Ban" width="2454" height="1924"/>
         <image name="Cat" width="362" height="689"/>
         <image name="Jas" width="1532" height="1080"/>
