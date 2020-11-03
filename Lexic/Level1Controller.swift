@@ -14,6 +14,23 @@ class Level1Controller: UIViewController {
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
     
+    @IBOutlet weak var canvasImage1: Canvas!
+    @IBOutlet weak var canvasImage2: Canvas!
+    @IBOutlet weak var canvasImage3: Canvas!
+    
+    var pencilActivated = UIImage(named: "toolPencilActive") as UIImage?
+    var pencilNormal = UIImage(named: "toolPencil") as UIImage?
+    
+    var eraserActivated = UIImage(named: "toolEraserActive") as UIImage?
+    var eraserNormal = UIImage(named: "toolEraser") as UIImage?
+    
+    var resetDisabled = UIImage(named: "toolResetDisabled") as UIImage?
+    var resetNormal = UIImage(named: "toolReset") as UIImage?
+    
+    @IBOutlet weak var pencilButton: UIButton!
+    @IBOutlet weak var eraserButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
+    
     func playClickSound() {
         guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
         
@@ -70,5 +87,26 @@ class Level1Controller: UIViewController {
     @IBAction func toReadingTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "toReading", sender: nil)
         playClickSound()
+    }
+    
+    
+    @IBAction func pencilTapped(_ sender: Any) {
+        canvasImage1.pencilMode()
+        canvasImage2.pencilMode()
+        canvasImage3.pencilMode()
+        pencilButton.setBackgroundImage(pencilActivated, for: .normal)
+        eraserButton.setBackgroundImage(eraserNormal, for: .normal)
+    }
+    @IBAction func eraserTapped(_ sender: Any) {
+        canvasImage1.eraserMode()
+        canvasImage2.eraserMode()
+        canvasImage3.eraserMode()
+        pencilButton.setBackgroundImage(pencilNormal, for: .normal)
+        eraserButton.setBackgroundImage(eraserActivated, for: .normal)
+    }
+    @IBAction func resetTapped(_ sender: Any) {
+        canvasImage1.image = nil
+        canvasImage2.image = nil
+        canvasImage3.image = nil
     }
 }
