@@ -41,7 +41,7 @@ class Canvas: UIImageView {
             image?.draw(in: bounds)
             if pencil {
                 ctx.cgContext.setStrokeColor(#colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1))
-                ctx.cgContext.setLineWidth(5)
+                ctx.cgContext.setLineWidth(20)
             }else{
                 ctx.cgContext.setStrokeColor(#colorLiteral(red: 0.9685532451, green: 0.9686692357, blue: 0.968513906, alpha: 1))
                 ctx.cgContext.setLineWidth(40)
