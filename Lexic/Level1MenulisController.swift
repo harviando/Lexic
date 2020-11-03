@@ -61,7 +61,6 @@ class Level1MenulisController: UIViewController {
         kickstartAudio()
         
         pencilButton.setBackgroundImage(pencilActivated, for: .normal)
-        finishButton.isEnabled = false
         
         canvasImage1.layer.cornerRadius = 20
         canvasImage2.layer.cornerRadius = 20
