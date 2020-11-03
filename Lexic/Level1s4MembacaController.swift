@@ -54,10 +54,10 @@ class Level1s4MembacaController: UIViewController {
     }
     
     func playSpeech() {
-        guard let url = Bundle.main.url(forResource: "ban", withExtension: "m4a") else { return }
+        guard let url = Bundle.main.url(forResource: "ban", withExtension: "mp3") else { return }
         
         do {
-            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.m4a.rawValue)
+            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
             
             clickSound?.play()
             clickSound?.volume = 2

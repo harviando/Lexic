@@ -38,6 +38,7 @@
 		4EDB45F62551916900393180 /* Level1s3MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB45F52551916900393180 /* Level1s3MembacaController.swift */; };
 		4EDB45F82551917400393180 /* Level1s4MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB45F72551917400393180 /* Level1s4MembacaController.swift */; };
 		4EDB45FA2551918100393180 /* Level1s5MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB45F92551918100393180 /* Level1s5MembacaController.swift */; };
+		4EDB45FC25519EA000393180 /* ban.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB45FB25519EA000393180 /* ban.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		4EDB45F52551916900393180 /* Level1s3MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s3MembacaController.swift; sourceTree = "<group>"; };
 		4EDB45F72551917400393180 /* Level1s4MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s4MembacaController.swift; sourceTree = "<group>"; };
 		4EDB45F92551918100393180 /* Level1s5MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s5MembacaController.swift; sourceTree = "<group>"; };
+		4EDB45FB25519EA000393180 /* ban.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ban.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		4E2C20D425386051006A3F31 /* AVAsset */ = {
 			isa = PBXGroup;
 			children = (
+				4EDB45FB25519EA000393180 /* ban.mp3 */,
 				4E535B6A2539AA2300AA7B54 /* ban.m4a */,
 				4E535B6B2539AA2300AA7B54 /* cat.m4a */,
 				4E535B6D2539AA2300AA7B54 /* jas.m4a */,
@@ -214,6 +217,7 @@
 				4E535B722539AA2300AA7B54 /* jas.m4a in Resources */,
 				4E535B712539AA2300AA7B54 /* rak.m4a in Resources */,
 				4E535B702539AA2300AA7B54 /* cat.m4a in Resources */,
+				4EDB45FC25519EA000393180 /* ban.mp3 in Resources */,
 				4E20512C25390FE7007A9827 /* popupRewardVid.mp4 in Resources */,
 				4E6B82D0252F044400EB22F8 /* Assets.xcassets in Resources */,
 				4E2C20D625386078006A3F31 /* selamat.m4a in Resources */,

@@ -58,7 +58,6 @@ class RewardController: UIViewController {
 
         // add the layer to the container view
         videoViewContainer.layer.addSublayer(layer)
-        print ("adasda")
         
     }
     
