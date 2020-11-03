@@ -69,7 +69,7 @@ class Level1MembacaController: UIViewController {
         playSpeech()
     }
     @IBAction func backToMainTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: "backToTahapan", sender: nil)
+        self.performSegue(withIdentifier: "backTapped", sender: nil)
         playClickSound()
     }
     @IBAction func toCanvasTapped(_ sender: Any) {

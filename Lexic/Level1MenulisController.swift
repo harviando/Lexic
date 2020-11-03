@@ -18,7 +18,7 @@ class Level1MenulisController: UIViewController {
     @IBOutlet weak var canvasImage2: Canvas!
     @IBOutlet weak var canvasImage3: Canvas!
     
-    @IBOutlet weak var finishButton: UIButton!
+    
     @IBOutlet weak var pencilButton: UIButton!
     @IBOutlet weak var eraserButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
@@ -92,4 +92,9 @@ class Level1MenulisController: UIViewController {
         canvasImage2.image = nil
         canvasImage3.image = nil
     }
+    
+    @IBAction func finishTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toReward", sender: nil)
+    }
+    
 }

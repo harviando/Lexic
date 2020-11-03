@@ -88,7 +88,7 @@ class RewardController: UIViewController {
     @IBAction func nextTapped(_ sender: Any) {
         player?.pause()
         player?.replaceCurrentItem(with: nil)
-        self.performSegue(withIdentifier: "Lanjutkan", sender: nil)
+        self.performSegue(withIdentifier: "lanjutkan", sender: nil)
         playClickSound()
     }
 }
