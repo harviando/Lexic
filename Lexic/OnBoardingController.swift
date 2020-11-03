@@ -14,52 +14,45 @@ class OnBoardingController:UIViewController {
     
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
-    
-    func playClickSound() {
-        guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
-        
-        do {
-            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
-            
-            clickSound?.play()
-            
-            if refreshedAudio == false {
-                clickSound?.volume = 0.0
-            } else if (refreshedAudio==true){
-                clickSound?.volume = 0.8
-            }
-            
-        } catch {
-        }
-    }
-    
-    func kickstartAudio(){
-        playClickSound()
-        refreshedAudio = true
-        
-    }
+//
+//    func playClickSound() {
+//        guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
+//
+//        do {
+//            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+//
+//            clickSound?.play()
+//
+//            if refreshedAudio == false {
+//                clickSound?.volume = 0.0
+//            } else if (refreshedAudio==true){
+//                clickSound?.volume = 0.8
+//            }
+//
+//        } catch {
+//        }
+//    }
+//
+//    func kickstartAudio(){
+//        playClickSound()
+//        refreshedAudio = true
+//
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        kickstartAudio()
-        print("wowi")
-        // Do any additional setup after loading the view.
     }
-    
-    @IBAction func lewatiTapped(_ sender: Any) {
-        playClickSound()
-        self.performSegue(withIdentifier: "lewatiTapped", sender: nil)
-    }
-    @IBAction func nextTapped(_ sender: Any) {
-        playClickSound()
-        self.performSegue(withIdentifier: "onbNextTapped", sender: nil)
+
+    @IBAction func skipTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "skipTapped", sender: nil)
     }
     @IBAction func prevTapped(_ sender: Any) {
-        playClickSound()
-        self.performSegue(withIdentifier: "onbPrevTapped", sender: nil)
+        self.performSegue(withIdentifier: "prevTapped", sender: nil)
     }
-    @IBAction func memulaiTapped(_ sender: Any) {
-        playClickSound()
-        self.performSegue(withIdentifier: "onbMemulaiTapped", sender: nil)
+    @IBAction func nextTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "nextTapped", sender: nil)
+    }
+    @IBAction func startTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "startTapped", sender: nil)
     }
 }
