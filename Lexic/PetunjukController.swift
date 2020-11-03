@@ -27,16 +27,16 @@ class PetunjukController: UIViewController {
     
     @IBAction func halamanUtamaTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "backToMain", sender: nil)
-        playClickSound()
+        //playClickSound()
     }
     
     @IBAction func prevTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "petunjukPrev", sender: nil)
-        playClickSound()
+        //playClickSound()
     }
     
     @IBAction func nextTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "petunjukNext", sender: nil)
-        playClickSound()
+        //playClickSound()
     }
 }

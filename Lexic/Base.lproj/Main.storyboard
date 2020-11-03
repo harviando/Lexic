@@ -50,7 +50,7 @@
                                 <state key="normal" backgroundImage="buttonPetunjuk"/>
                                 <connections>
                                     <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
-                                    <segue destination="fe2-pQ-kV7" kind="presentation" identifier="toPetunjuk" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="lub-tj-T3T"/>
+                                    <segue destination="sIa-mb-hOi" kind="presentation" identifier="toPetunjuk" modalPresentationStyle="currentContext" id="rPb-hC-0ZB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="-623.1155778894472" y="2141.7266187050363"/>
         </scene>
-        <!--Level1 Membaca Controller-->
+        <!--Level 1s1 Membaca Controller-->
         <scene sceneID="tGY-db-KNc">
             <objects>
-                <viewController id="CBH-DM-8qT" customClass="Level1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CBH-DM-8qT" customClass="Level1s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czo-TD-VEb">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1885,10 +1885,10 @@
             </objects>
             <point key="canvasLocation" x="4044" y="-917"/>
         </scene>
-        <!--Level1 Membaca Controller-->
+        <!--Level 1s2 Membaca Controller-->
         <scene sceneID="h87-Ov-4aT">
             <objects>
-                <viewController id="MfG-Cz-ikS" customClass="Level1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MfG-Cz-ikS" customClass="Level1s2MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jX7-oJ-on7">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3312,9 +3312,233 @@
             </objects>
             <point key="canvasLocation" x="786" y="6150"/>
         </scene>
+        <!--Petunjuk Controller-->
+        <scene sceneID="USR-pf-g2O">
+            <objects>
+                <viewController id="sIa-mb-hOi" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jwy-fo-fxw">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petunjuk1" translatesAutoresizingMaskIntoConstraints="NO" id="gME-yp-ZFL">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAw-Hn-Bgc" userLabel="ButtonHalamanUtama">
+                                <rect key="frame" x="35" y="35" width="72" height="72"/>
+                                <state key="normal" backgroundImage="xButton"/>
+                                <connections>
+                                    <action selector="halamanUtamaTapped:" destination="sIa-mb-hOi" eventType="touchUpInside" id="YBp-qm-kQb"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="vlC-6N-A4W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNK-xu-Fdb" userLabel="ButtonNext">
+                                <rect key="frame" x="1057" y="697" width="72" height="72"/>
+                                <state key="normal" backgroundImage="chevronNext"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="sIa-mb-hOi" eventType="touchUpInside" id="7YB-NN-LuS"/>
+                                    <segue destination="KFe-GX-K5a" kind="presentation" identifier="petunjukNext" animates="NO" modalPresentationStyle="fullScreen" id="kwD-zm-eyP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5s-8K-0pX" userLabel="ButtonPrev">
+                                <rect key="frame" x="65" y="697" width="72" height="72"/>
+                                <state key="normal" backgroundImage="chevronBack"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="sIa-mb-hOi" eventType="touchUpInside" id="HPO-6d-VCl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="TAw-Hn-Bgc" firstAttribute="top" secondItem="ZNB-Yy-m9Y" secondAttribute="top" constant="35" id="81E-c8-Eeg"/>
+                            <constraint firstItem="gME-yp-ZFL" firstAttribute="centerY" secondItem="Jwy-fo-fxw" secondAttribute="centerY" id="K39-Vs-JuE"/>
+                            <constraint firstItem="gME-yp-ZFL" firstAttribute="height" secondItem="Jwy-fo-fxw" secondAttribute="height" id="NTg-VD-eAU"/>
+                            <constraint firstItem="B5s-8K-0pX" firstAttribute="leading" secondItem="ZNB-Yy-m9Y" secondAttribute="leading" constant="65" id="RvX-qk-mrp"/>
+                            <constraint firstItem="TAw-Hn-Bgc" firstAttribute="leading" secondItem="ZNB-Yy-m9Y" secondAttribute="leading" constant="35" id="akT-UP-dof"/>
+                            <constraint firstItem="gME-yp-ZFL" firstAttribute="centerX" secondItem="Jwy-fo-fxw" secondAttribute="centerX" id="lWG-Cq-Hnh"/>
+                            <constraint firstItem="mNK-xu-Fdb" firstAttribute="bottom" secondItem="gME-yp-ZFL" secondAttribute="bottom" constant="-65" id="miI-5R-JgN"/>
+                            <constraint firstItem="B5s-8K-0pX" firstAttribute="bottom" secondItem="gME-yp-ZFL" secondAttribute="bottom" constant="-65" id="n1V-Bc-XxB"/>
+                            <constraint firstItem="gME-yp-ZFL" firstAttribute="width" secondItem="Jwy-fo-fxw" secondAttribute="width" id="sTP-1e-tQ6"/>
+                            <constraint firstItem="ZNB-Yy-m9Y" firstAttribute="trailing" secondItem="mNK-xu-Fdb" secondAttribute="trailing" constant="65" id="tTW-Dw-0o9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZNB-Yy-m9Y"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Od5-Nf-iN7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1489" y="3140"/>
+        </scene>
+        <!--Petunjuk Controller-->
+        <scene sceneID="8vy-TR-7KK">
+            <objects>
+                <viewController id="KFe-GX-K5a" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T3J-oE-LMU">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petunjuk2" translatesAutoresizingMaskIntoConstraints="NO" id="1lJ-mF-tEa">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nk-dt-fee" userLabel="ButtonHalamanUtama">
+                                <rect key="frame" x="35" y="35" width="72" height="72"/>
+                                <state key="normal" backgroundImage="xButton"/>
+                                <connections>
+                                    <action selector="halamanUtamaTapped:" destination="KFe-GX-K5a" eventType="touchUpInside" id="muq-ZG-bFc"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="UQp-0l-qqO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7E-Zj-CzQ" userLabel="ButtonNext">
+                                <rect key="frame" x="1057" y="697" width="72" height="72"/>
+                                <state key="normal" backgroundImage="chevronNext"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="KFe-GX-K5a" eventType="touchUpInside" id="5Su-Rn-8S3"/>
+                                    <segue destination="O7Q-d0-okw" kind="presentation" identifier="petunjukNext" animates="NO" modalPresentationStyle="fullScreen" id="yF6-mR-7HC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2I-zv-Fpt" userLabel="ButtonPrev">
+                                <rect key="frame" x="65" y="697" width="72" height="72"/>
+                                <state key="normal" backgroundImage="chevronBack"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="KFe-GX-K5a" eventType="touchUpInside" id="iR7-gI-Le8"/>
+                                    <segue destination="sIa-mb-hOi" kind="presentation" identifier="petunjukPrev" animates="NO" modalPresentationStyle="fullScreen" id="otm-V3-dLV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1lJ-mF-tEa" firstAttribute="width" secondItem="T3J-oE-LMU" secondAttribute="width" id="8gs-zc-n6F"/>
+                            <constraint firstItem="5nk-dt-fee" firstAttribute="leading" secondItem="qNw-wr-QoM" secondAttribute="leading" constant="35" id="BSH-Dy-0SK"/>
+                            <constraint firstItem="U2I-zv-Fpt" firstAttribute="bottom" secondItem="1lJ-mF-tEa" secondAttribute="bottom" constant="-65" id="HWo-le-dS9"/>
+                            <constraint firstItem="1lJ-mF-tEa" firstAttribute="centerX" secondItem="T3J-oE-LMU" secondAttribute="centerX" id="NYp-Ya-rcI"/>
+                            <constraint firstItem="1lJ-mF-tEa" firstAttribute="height" secondItem="T3J-oE-LMU" secondAttribute="height" id="X3K-jn-mJf"/>
+                            <constraint firstItem="1lJ-mF-tEa" firstAttribute="centerY" secondItem="T3J-oE-LMU" secondAttribute="centerY" id="ZUW-KS-Mro"/>
+                            <constraint firstItem="d7E-Zj-CzQ" firstAttribute="bottom" secondItem="1lJ-mF-tEa" secondAttribute="bottom" constant="-65" id="ZVh-9Q-Ywx"/>
+                            <constraint firstItem="5nk-dt-fee" firstAttribute="top" secondItem="qNw-wr-QoM" secondAttribute="top" constant="35" id="i3q-19-mvK"/>
+                            <constraint firstItem="U2I-zv-Fpt" firstAttribute="leading" secondItem="qNw-wr-QoM" secondAttribute="leading" constant="65" id="qD5-9s-jJZ"/>
+                            <constraint firstItem="qNw-wr-QoM" firstAttribute="trailing" secondItem="d7E-Zj-CzQ" secondAttribute="trailing" constant="65" id="qpp-Rq-SKt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qNw-wr-QoM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tea-Em-ulx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1489" y="3899"/>
+        </scene>
+        <!--Petunjuk Controller-->
+        <scene sceneID="v8g-di-t8g">
+            <objects>
+                <viewController id="O7Q-d0-okw" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fMP-Wq-Xja">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petunjuk3" translatesAutoresizingMaskIntoConstraints="NO" id="dzD-Vk-nHy">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qtu-ai-Wtu" userLabel="ButtonHalamanUtama">
+                                <rect key="frame" x="35" y="35" width="72" height="72"/>
+                                <state key="normal" backgroundImage="xButton"/>
+                                <connections>
+                                    <action selector="halamanUtamaTapped:" destination="O7Q-d0-okw" eventType="touchUpInside" id="QZB-0S-Zpg"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="hDh-H1-NIg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScW-0F-M7e" userLabel="ButtonNext">
+                                <rect key="frame" x="1057" y="697" width="72" height="72"/>
+                                <state key="normal" backgroundImage="chevronNext"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="O7Q-d0-okw" eventType="touchUpInside" id="oOM-1A-ums"/>
+                                    <segue destination="441-0l-qjz" kind="presentation" identifier="petunjukNext" animates="NO" modalPresentationStyle="fullScreen" id="dBu-Vi-67E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gas-ye-bnQ" userLabel="ButtonPrev">
+                                <rect key="frame" x="65" y="697" width="72" height="72"/>
+                                <state key="normal" backgroundImage="chevronBack"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="O7Q-d0-okw" eventType="touchUpInside" id="HX1-qB-jjk"/>
+                                    <segue destination="KFe-GX-K5a" kind="presentation" identifier="petunjukPrev" animates="NO" modalPresentationStyle="fullScreen" id="uTI-jo-reg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dzD-Vk-nHy" firstAttribute="height" secondItem="fMP-Wq-Xja" secondAttribute="height" id="4kq-rg-ihI"/>
+                            <constraint firstItem="dzD-Vk-nHy" firstAttribute="centerX" secondItem="fMP-Wq-Xja" secondAttribute="centerX" id="7OW-7c-qoY"/>
+                            <constraint firstItem="Qtu-ai-Wtu" firstAttribute="top" secondItem="RKc-X2-7nk" secondAttribute="top" constant="35" id="EBz-eH-XUx"/>
+                            <constraint firstItem="ScW-0F-M7e" firstAttribute="bottom" secondItem="dzD-Vk-nHy" secondAttribute="bottom" constant="-65" id="QMh-Lj-y9g"/>
+                            <constraint firstItem="dzD-Vk-nHy" firstAttribute="width" secondItem="fMP-Wq-Xja" secondAttribute="width" id="UXP-II-rnX"/>
+                            <constraint firstItem="Gas-ye-bnQ" firstAttribute="bottom" secondItem="dzD-Vk-nHy" secondAttribute="bottom" constant="-65" id="aaE-Ug-0j0"/>
+                            <constraint firstItem="Gas-ye-bnQ" firstAttribute="leading" secondItem="RKc-X2-7nk" secondAttribute="leading" constant="65" id="eft-Kj-KVW"/>
+                            <constraint firstItem="Qtu-ai-Wtu" firstAttribute="leading" secondItem="RKc-X2-7nk" secondAttribute="leading" constant="35" id="fFy-k8-RTA"/>
+                            <constraint firstItem="RKc-X2-7nk" firstAttribute="trailing" secondItem="ScW-0F-M7e" secondAttribute="trailing" constant="65" id="xDx-gS-2zm"/>
+                            <constraint firstItem="dzD-Vk-nHy" firstAttribute="centerY" secondItem="fMP-Wq-Xja" secondAttribute="centerY" id="xVi-yo-Ih5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RKc-X2-7nk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CtQ-ig-ThT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1489" y="4673"/>
+        </scene>
+        <!--Petunjuk Controller-->
+        <scene sceneID="nOb-CI-eCg">
+            <objects>
+                <viewController id="441-0l-qjz" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lRq-rz-8nG">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petunjuk4" translatesAutoresizingMaskIntoConstraints="NO" id="jAr-tO-bKO">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaV-p1-mYt" userLabel="ButtonHalamanUtama">
+                                <rect key="frame" x="35" y="35" width="72" height="72"/>
+                                <state key="normal" backgroundImage="xButton"/>
+                                <connections>
+                                    <action selector="halamanUtamaTapped:" destination="441-0l-qjz" eventType="touchUpInside" id="VTG-bK-GMA"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Idd-c2-MC4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSw-fY-G5F" userLabel="ButtonNext">
+                                <rect key="frame" x="1057" y="697" width="72" height="72"/>
+                                <state key="normal" backgroundImage="chevronNext"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="441-0l-qjz" eventType="touchUpInside" id="JTF-XZ-jFY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DK-YI-FwA" userLabel="ButtonPrev">
+                                <rect key="frame" x="65" y="697" width="72" height="72"/>
+                                <state key="normal" backgroundImage="chevronBack"/>
+                                <connections>
+                                    <action selector="prevTapped:" destination="441-0l-qjz" eventType="touchUpInside" id="D1S-70-P4E"/>
+                                    <segue destination="O7Q-d0-okw" kind="presentation" identifier="petunjukPrev" animates="NO" modalPresentationStyle="fullScreen" id="vKF-jn-f6f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7qK-E8-vsc" firstAttribute="trailing" secondItem="sSw-fY-G5F" secondAttribute="trailing" constant="65" id="0Bk-mm-fCH"/>
+                            <constraint firstItem="jAr-tO-bKO" firstAttribute="centerX" secondItem="lRq-rz-8nG" secondAttribute="centerX" id="D3U-Vi-ZRf"/>
+                            <constraint firstItem="sSw-fY-G5F" firstAttribute="bottom" secondItem="jAr-tO-bKO" secondAttribute="bottom" constant="-65" id="HR5-dU-gPl"/>
+                            <constraint firstItem="xaV-p1-mYt" firstAttribute="leading" secondItem="7qK-E8-vsc" secondAttribute="leading" constant="35" id="Iqp-PV-QPX"/>
+                            <constraint firstItem="jAr-tO-bKO" firstAttribute="height" secondItem="lRq-rz-8nG" secondAttribute="height" id="JVc-Ud-g4M"/>
+                            <constraint firstItem="jAr-tO-bKO" firstAttribute="centerY" secondItem="lRq-rz-8nG" secondAttribute="centerY" id="JiV-MD-c6G"/>
+                            <constraint firstItem="jAr-tO-bKO" firstAttribute="width" secondItem="lRq-rz-8nG" secondAttribute="width" id="Mpu-0W-jwt"/>
+                            <constraint firstItem="1DK-YI-FwA" firstAttribute="leading" secondItem="7qK-E8-vsc" secondAttribute="leading" constant="65" id="OUN-nZ-fj6"/>
+                            <constraint firstItem="1DK-YI-FwA" firstAttribute="bottom" secondItem="jAr-tO-bKO" secondAttribute="bottom" constant="-65" id="cEv-Oc-8Z8"/>
+                            <constraint firstItem="xaV-p1-mYt" firstAttribute="top" secondItem="7qK-E8-vsc" secondAttribute="top" constant="35" id="fBN-4H-H9J"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7qK-E8-vsc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dpx-sE-fWc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1489" y="5414"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Yb6-Jr-jzb"/>
+        <segue reference="yF6-mR-7HC"/>
+        <segue reference="kwD-zm-eyP"/>
+        <segue reference="otm-V3-dLV"/>
         <segue reference="8AW-yb-2Yj"/>
         <segue reference="geT-sr-eww"/>
         <segue reference="e9r-WH-L6V"/>
@@ -3330,12 +3554,11 @@
         <segue reference="X7e-pO-jwN"/>
         <segue reference="db4-fa-nd4"/>
         <segue reference="JHy-WL-Uj7"/>
-        <segue reference="lub-tj-T3T"/>
         <segue reference="0gs-Aj-M4F"/>
-        <segue reference="qXR-2X-drj"/>
-        <segue reference="Z0O-na-Ubq"/>
+        <segue reference="bCB-Gs-GO1"/>
+        <segue reference="ilI-mI-E4S"/>
         <segue reference="4Gy-Yl-QW6"/>
-        <segue reference="86k-I2-V9Q"/>
+        <segue reference="vlC-6N-A4W"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
@@ -3359,6 +3582,10 @@
         <image name="PapanTanda" width="280" height="341"/>
         <image name="PemulaLearningbg" width="1194" height="834"/>
         <image name="Petunjuk bg" width="1194" height="834"/>
+        <image name="Petunjuk1" width="1194" height="834"/>
+        <image name="Petunjuk2" width="1194" height="834"/>
+        <image name="Petunjuk3" width="1194" height="834"/>
+        <image name="Petunjuk4" width="1194" height="834"/>
         <image name="Rak" width="1080" height="1080"/>
         <image name="RewardScreenBG" width="1194" height="834"/>
         <image name="TahapanBackButton" width="72" height="72"/>
@@ -3384,6 +3611,7 @@
         <image name="c" width="130" height="166"/>
         <image name="catText" width="189" height="110"/>
         <image name="chevronBack" width="72" height="72"/>
+        <image name="chevronNext" width="72" height="72"/>
         <image name="gift.fill" catalog="system" width="128" height="128"/>
         <image name="holderGambar" width="501" height="377"/>
         <image name="holderLatihanMenulis" width="1026" height="578"/>

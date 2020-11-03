@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class Level1MembacaController: UIViewController {
+class Level1s1MembacaController: UIViewController {
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
     
