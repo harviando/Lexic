@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="-590" y="137"/>
         </scene>
-        <!--Level1 Controller-->
+        <!--Level1 Membaca Controller-->
         <scene sceneID="tGY-db-KNc">
             <objects>
-                <viewController id="CBH-DM-8qT" customClass="Level1Controller" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CBH-DM-8qT" customClass="Level1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czo-TD-VEb">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,7 +132,7 @@
                                 <rect key="frame" x="806" y="362" width="195" height="110"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zz1-sJ-ud5" userLabel="ButtonSpeech">
-                                <rect key="frame" x="715" y="488.5" width="72" height="72"/>
+                                <rect key="frame" x="705" y="497" width="72" height="72"/>
                                 <state key="normal" backgroundImage="buttonSpeech"/>
                                 <connections>
                                     <action selector="speechTapped:" destination="CBH-DM-8qT" eventType="touchUpInside" id="D9k-Of-fq8"/>
@@ -147,23 +147,23 @@
                             <constraint firstItem="yjG-BF-Ldc" firstAttribute="height" secondItem="S0W-O5-Hue" secondAttribute="height" multiplier="0.6313" id="4mr-DV-5v4"/>
                             <constraint firstItem="sXh-NG-SKI" firstAttribute="centerX" secondItem="czo-TD-VEb" secondAttribute="centerX" id="DF8-Lr-FY5"/>
                             <constraint firstItem="Opo-LM-Sik" firstAttribute="top" secondItem="sXh-NG-SKI" secondAttribute="top" constant="40" id="DpQ-Zo-jvW"/>
+                            <constraint firstItem="zz1-sJ-ud5" firstAttribute="centerY" secondItem="S7i-aY-byc" secondAttribute="centerY" constant="116" id="Em9-ac-u1N"/>
                             <constraint firstItem="S0W-O5-Hue" firstAttribute="width" secondItem="czo-TD-VEb" secondAttribute="width" multiplier="0.419598" id="ITL-g2-ody"/>
                             <constraint firstItem="WpY-Yr-gk7" firstAttribute="height" secondItem="S7i-aY-byc" secondAttribute="height" multiplier="0.291777" id="MUT-0w-LoU"/>
                             <constraint firstItem="WpY-Yr-gk7" firstAttribute="centerX" secondItem="S7i-aY-byc" secondAttribute="centerX" id="Vc6-fV-70D"/>
                             <constraint firstItem="yjG-BF-Ldc" firstAttribute="centerX" secondItem="S0W-O5-Hue" secondAttribute="centerX" id="Y4o-Z7-yJq"/>
                             <constraint firstItem="sXh-NG-SKI" firstAttribute="centerY" secondItem="czo-TD-VEb" secondAttribute="centerY" id="bIk-m5-2RU"/>
                             <constraint firstItem="S7i-aY-byc" firstAttribute="trailing" secondItem="Opo-LM-Sik" secondAttribute="trailing" id="bkF-1C-Q35"/>
-                            <constraint firstItem="zz1-sJ-ud5" firstAttribute="bottom" secondItem="S7i-aY-byc" secondAttribute="bottom" constant="-45" id="eeW-Fy-tYq"/>
                             <constraint firstItem="Opo-LM-Sik" firstAttribute="trailing" secondItem="sXh-NG-SKI" secondAttribute="trailing" constant="-40" id="ihd-pk-9hW"/>
                             <constraint firstItem="yjG-BF-Ldc" firstAttribute="top" secondItem="S0W-O5-Hue" secondAttribute="top" constant="92.5" id="ja0-5C-ZJG"/>
                             <constraint firstItem="S0W-O5-Hue" firstAttribute="centerY" secondItem="sXh-NG-SKI" secondAttribute="centerY" id="miz-gz-85b"/>
                             <constraint firstItem="WpY-Yr-gk7" firstAttribute="centerY" secondItem="S7i-aY-byc" secondAttribute="centerY" id="nOm-2g-PsW"/>
                             <constraint firstItem="bQQ-Yd-tAa" firstAttribute="top" secondItem="sXh-NG-SKI" secondAttribute="top" constant="40" id="pHt-MV-sjN"/>
-                            <constraint firstItem="zz1-sJ-ud5" firstAttribute="leading" secondItem="S7i-aY-byc" secondAttribute="leading" constant="62" id="pPZ-gf-9oe"/>
                             <constraint firstItem="yjG-BF-Ldc" firstAttribute="width" secondItem="S0W-O5-Hue" secondAttribute="width" multiplier="0.389222" id="r1k-su-HMg"/>
                             <constraint firstItem="S0W-O5-Hue" firstAttribute="leading" secondItem="bQQ-Yd-tAa" secondAttribute="leading" id="r44-Nq-9Ix"/>
                             <constraint firstItem="S7i-aY-byc" firstAttribute="height" secondItem="czo-TD-VEb" secondAttribute="height" multiplier="0.452038" id="tj4-dU-sp1"/>
                             <constraint firstItem="bQQ-Yd-tAa" firstAttribute="leading" secondItem="sXh-NG-SKI" secondAttribute="leading" constant="40" id="u3o-ZB-lfV"/>
+                            <constraint firstItem="zz1-sJ-ud5" firstAttribute="centerX" secondItem="S7i-aY-byc" secondAttribute="centerX" constant="-162.5" id="w1r-mP-O7X"/>
                             <constraint firstItem="S7i-aY-byc" firstAttribute="width" secondItem="czo-TD-VEb" secondAttribute="width" multiplier="0.419598" id="yjQ-61-e9h"/>
                             <constraint firstItem="sXh-NG-SKI" firstAttribute="width" secondItem="czo-TD-VEb" secondAttribute="width" id="z0a-xB-asU"/>
                             <constraint firstItem="WpY-Yr-gk7" firstAttribute="width" secondItem="S7i-aY-byc" secondAttribute="width" multiplier="0.389222" id="zKW-WK-CGa"/>
@@ -175,10 +175,10 @@
             </objects>
             <point key="canvasLocation" x="-613.0653266331658" y="1133.8129496402878"/>
         </scene>
-        <!--Level1 Controller-->
+        <!--Level1 Menulis Controller-->
         <scene sceneID="QVh-BI-QNO">
             <objects>
-                <viewController id="CJm-XE-aTf" customClass="Level1Controller" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CJm-XE-aTf" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C9K-dz-HBZ">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -190,7 +190,7 @@
                                 <rect key="frame" x="40" y="40" width="72" height="72"/>
                                 <state key="normal" backgroundImage="chevronBack"/>
                                 <connections>
-                                    <action selector="toReadingTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="2ka-t4-qjf"/>
+                                    <action selector="toReadingTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="muN-yB-Npr"/>
                                     <segue destination="CBH-DM-8qT" kind="presentation" identifier="toReading" animates="NO" modalPresentationStyle="fullScreen" id="4Gy-Yl-QW6"/>
                                 </connections>
                             </button>
@@ -211,21 +211,21 @@
                                         <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
                                         <state key="normal" backgroundImage="toolPencil"/>
                                         <connections>
-                                            <action selector="pencilTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="EVJ-AH-ijs"/>
+                                            <action selector="pencilTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="sze-AC-HmX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cR9-dS-JCD">
                                         <rect key="frame" x="0.0" y="82" width="64" height="63"/>
                                         <state key="normal" backgroundImage="toolEraser"/>
                                         <connections>
-                                            <action selector="eraserTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="Qdc-Oz-dDn"/>
+                                            <action selector="eraserTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="S4c-ex-8Kk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOi-89-qFS">
                                         <rect key="frame" x="0.0" y="164" width="64" height="63"/>
                                         <state key="normal" backgroundImage="toolReset"/>
                                         <connections>
-                                            <action selector="resetTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="0cg-IC-lVO"/>
+                                            <action selector="resetTapped:" destination="CJm-XE-aTf" eventType="touchUpInside" id="Cto-X2-5gT"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -334,13 +334,13 @@
                         <viewLayoutGuide key="safeArea" id="heh-bq-fPN"/>
                     </view>
                     <connections>
-                        <outlet property="canvasImage1" destination="NJL-Xr-X4m" id="b7E-Lg-NTO"/>
-                        <outlet property="canvasImage2" destination="Hz2-fM-Kqz" id="zoj-n3-cZx"/>
-                        <outlet property="canvasImage3" destination="J17-k4-ThW" id="wm7-8S-B5c"/>
-                        <outlet property="eraserButton" destination="cR9-dS-JCD" id="qyf-eJ-0uw"/>
-                        <outlet property="finishButton" destination="XfR-Br-D28" id="uCf-Wo-Ymn"/>
-                        <outlet property="pencilButton" destination="6FU-y2-Hd9" id="9C1-oV-KL2"/>
-                        <outlet property="resetButton" destination="BOi-89-qFS" id="qvS-hL-fgA"/>
+                        <outlet property="canvasImage1" destination="NJL-Xr-X4m" id="z0O-fR-9WE"/>
+                        <outlet property="canvasImage2" destination="Hz2-fM-Kqz" id="usO-NZ-Khw"/>
+                        <outlet property="canvasImage3" destination="J17-k4-ThW" id="tTa-ZW-0tl"/>
+                        <outlet property="eraserButton" destination="cR9-dS-JCD" id="G95-Ck-d4H"/>
+                        <outlet property="finishButton" destination="XfR-Br-D28" id="3VM-w2-piD"/>
+                        <outlet property="pencilButton" destination="6FU-y2-Hd9" id="iU4-7F-sXf"/>
+                        <outlet property="resetButton" destination="BOi-89-qFS" id="5Zt-dr-qdT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="axD-Tj-laT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

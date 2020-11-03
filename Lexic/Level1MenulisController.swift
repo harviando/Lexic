@@ -1,8 +1,8 @@
 //
-//  Level1Controller.swift
+//  Level1MenulisController.swift
 //  Lexic
 //
-//  Created by Muhammad Harviando on 02/11/20.
+//  Created by Muhammad Harviando on 03/11/20.
 //  Copyright © 2020 Muhammad Harviando. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class Level1Controller: UIViewController {
+class Level1MenulisController: UIViewController {
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
     
@@ -19,6 +19,9 @@ class Level1Controller: UIViewController {
     @IBOutlet weak var canvasImage3: Canvas!
     
     @IBOutlet weak var finishButton: UIButton!
+    @IBOutlet weak var pencilButton: UIButton!
+    @IBOutlet weak var eraserButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
     
     var pencilActivated = UIImage(named: "toolPencilActive") as UIImage?
     var pencilNormal = UIImage(named: "toolPencil") as UIImage?
@@ -28,10 +31,6 @@ class Level1Controller: UIViewController {
     
     var resetDisabled = UIImage(named: "toolResetDisabled") as UIImage?
     var resetNormal = UIImage(named: "toolReset") as UIImage?
-    
-    @IBOutlet weak var pencilButton: UIButton!
-    @IBOutlet weak var eraserButton: UIButton!
-    @IBOutlet weak var resetButton: UIButton!
     
     func playClickSound() {
         guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
@@ -60,41 +59,20 @@ class Level1Controller: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         kickstartAudio()
-    }
-    
-    func update(){
-        print("4")
-    }
-    
-    func playSpeech() {
-        guard let url = Bundle.main.url(forResource: "tas", withExtension: "m4a") else { return }
         
-        do {
-            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.m4a.rawValue)
-            
-            clickSound?.play()
-            clickSound?.volume = 2
-            
-        } catch {
-        }
-    }
-    @IBAction func speechTapped(_ sender: Any) {
-        playSpeech()
-    }
-    @IBAction func backToMainTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: "backToTahapan", sender: nil)
-        playClickSound()
-    }
-    @IBAction func toCanvasTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: "toCanvas", sender: nil)
-        playClickSound()
+        pencilButton.setBackgroundImage(pencilActivated, for: .normal)
+        finishButton.isEnabled = false
+        
+        canvasImage1.layer.cornerRadius = 20
+        canvasImage2.layer.cornerRadius = 20
+        canvasImage3.layer.cornerRadius = 20
+        
     }
     
     @IBAction func toReadingTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "toReading", sender: nil)
         playClickSound()
     }
-    
     
     @IBAction func pencilTapped(_ sender: Any) {
         canvasImage1.pencilMode()
