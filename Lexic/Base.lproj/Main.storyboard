@@ -1968,10 +1968,10 @@
             </objects>
             <point key="canvasLocation" x="-646" y="3899"/>
         </scene>
-        <!--Level1 Membaca Controller-->
+        <!--Level 1s3 Membaca Controller-->
         <scene sceneID="TqX-k8-Zv5">
             <objects>
-                <viewController id="Pzj-me-pSG" customClass="Level1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pzj-me-pSG" customClass="Level1s3MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3eu-wS-FkK">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2051,10 +2051,10 @@
             </objects>
             <point key="canvasLocation" x="-646" y="4673"/>
         </scene>
-        <!--Level1 Membaca Controller-->
+        <!--Level 1s4 Membaca Controller-->
         <scene sceneID="aW1-oT-8wk">
             <objects>
-                <viewController id="J1k-Tj-TPk" customClass="Level1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J1k-Tj-TPk" customClass="Level1s4MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0dO-U5-yZC">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2134,10 +2134,10 @@
             </objects>
             <point key="canvasLocation" x="-646" y="5414"/>
         </scene>
-        <!--Level1 Membaca Controller-->
+        <!--Level 1s5 Membaca Controller-->
         <scene sceneID="98Z-bL-UgT">
             <objects>
-                <viewController id="8tN-Vi-q9i" customClass="Level1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8tN-Vi-q9i" customClass="Level1s5MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l44-68-qwn">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3555,7 +3555,7 @@
         <segue reference="db4-fa-nd4"/>
         <segue reference="JHy-WL-Uj7"/>
         <segue reference="0gs-Aj-M4F"/>
-        <segue reference="bCB-Gs-GO1"/>
+        <segue reference="HQ2-WR-A53"/>
         <segue reference="ilI-mI-E4S"/>
         <segue reference="4Gy-Yl-QW6"/>
         <segue reference="vlC-6N-A4W"/>
