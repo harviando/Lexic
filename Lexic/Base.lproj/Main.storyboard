@@ -230,84 +230,105 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="7VK-cr-Ygg">
-                                <rect key="frame" x="152" y="296" width="890" height="393"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="7VK-cr-Ygg">
+                                <rect key="frame" x="152" y="293.5" width="890" height="403"/>
                                 <subviews>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqw-oc-Jt7" userLabel="CanvasView1">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="t" translatesAutoresizingMaskIntoConstraints="NO" id="gBT-cJ-1pd">
-                                                <rect key="frame" x="80" y="38.5" width="119" height="316"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="t" translatesAutoresizingMaskIntoConstraints="NO" id="aMO-r7-tSh">
+                                                <rect key="frame" x="80" y="38" width="119" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NJL-Xr-X4m" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJL-Xr-X4m" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="aMO-r7-tSh" firstAttribute="top" secondItem="cqw-oc-Jt7" secondAttribute="top" constant="38" id="4zZ-LI-IXm"/>
+                                            <constraint firstItem="NJL-Xr-X4m" firstAttribute="leading" secondItem="cqw-oc-Jt7" secondAttribute="leading" id="BJR-Zd-S21"/>
+                                            <constraint firstAttribute="trailing" secondItem="NJL-Xr-X4m" secondAttribute="trailing" id="DwK-vK-5kF"/>
+                                            <constraint firstAttribute="trailing" secondItem="aMO-r7-tSh" secondAttribute="trailing" constant="81" id="HN8-fX-KGx"/>
+                                            <constraint firstAttribute="bottom" secondItem="NJL-Xr-X4m" secondAttribute="bottom" id="NC4-uQ-Hbr"/>
+                                            <constraint firstAttribute="bottom" secondItem="aMO-r7-tSh" secondAttribute="bottom" constant="39" id="XDR-GS-Nq8"/>
+                                            <constraint firstItem="NJL-Xr-X4m" firstAttribute="top" secondItem="cqw-oc-Jt7" secondAttribute="top" id="hqx-rO-3uG"/>
+                                            <constraint firstItem="aMO-r7-tSh" firstAttribute="leading" secondItem="cqw-oc-Jt7" secondAttribute="leading" constant="80" id="lF2-mo-EkK"/>
+                                        </constraints>
                                     </view>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7fF-cO-GpX" userLabel="CanvasView2">
                                         <rect key="frame" x="305" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="iud-Hm-FKI">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="iud-Hm-FKI">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hz2-fM-Kqz" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz2-fM-Kqz" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="iud-Hm-FKI" secondAttribute="trailing" constant="58" id="8TQ-2s-CmI"/>
+                                            <constraint firstAttribute="bottom" secondItem="iud-Hm-FKI" secondAttribute="bottom" constant="93" id="MjS-xl-Ls2"/>
+                                            <constraint firstItem="Hz2-fM-Kqz" firstAttribute="top" secondItem="7fF-cO-GpX" secondAttribute="top" id="YsC-T5-txi"/>
+                                            <constraint firstItem="iud-Hm-FKI" firstAttribute="top" secondItem="7fF-cO-GpX" secondAttribute="top" constant="93" id="hbJ-4E-6uP"/>
+                                            <constraint firstAttribute="trailing" secondItem="Hz2-fM-Kqz" secondAttribute="trailing" id="kyZ-Bi-gbf"/>
+                                            <constraint firstAttribute="bottom" secondItem="Hz2-fM-Kqz" secondAttribute="bottom" id="tfk-8i-Cl5"/>
+                                            <constraint firstItem="Hz2-fM-Kqz" firstAttribute="leading" secondItem="7fF-cO-GpX" secondAttribute="leading" id="xTg-JF-9FT"/>
+                                            <constraint firstItem="iud-Hm-FKI" firstAttribute="leading" secondItem="7fF-cO-GpX" secondAttribute="leading" constant="58" id="xy9-DX-eFs"/>
+                                        </constraints>
                                     </view>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LB2-sT-gTc" userLabel="CanvasView3">
                                         <rect key="frame" x="610" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="y9D-N5-P4l">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="y9D-N5-P4l">
                                                 <rect key="frame" x="69" y="88.5" width="142" height="216"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J17-k4-ThW" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J17-k4-ThW" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="J17-k4-ThW" secondAttribute="bottom" id="1nD-0f-TFj"/>
+                                            <constraint firstItem="J17-k4-ThW" firstAttribute="leading" secondItem="LB2-sT-gTc" secondAttribute="leading" id="2ri-xB-e2H"/>
+                                            <constraint firstItem="y9D-N5-P4l" firstAttribute="top" secondItem="LB2-sT-gTc" secondAttribute="top" constant="88.5" id="7nt-Y4-cRZ"/>
+                                            <constraint firstItem="y9D-N5-P4l" firstAttribute="leading" secondItem="LB2-sT-gTc" secondAttribute="leading" constant="69" id="K8U-pB-z5H"/>
+                                            <constraint firstAttribute="trailing" secondItem="J17-k4-ThW" secondAttribute="trailing" id="My2-aM-Bpl"/>
+                                            <constraint firstAttribute="bottom" secondItem="y9D-N5-P4l" secondAttribute="bottom" constant="88.5" id="q1l-nF-pam"/>
+                                            <constraint firstAttribute="trailing" secondItem="y9D-N5-P4l" secondAttribute="trailing" constant="69" id="wsJ-Xe-axO"/>
+                                            <constraint firstItem="J17-k4-ThW" firstAttribute="top" secondItem="LB2-sT-gTc" secondAttribute="top" id="wvo-xf-xHl"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="LB2-sT-gTc" firstAttribute="height" secondItem="C9K-dz-HBZ" secondAttribute="height" multiplier="0.471223" id="0zb-Cy-Yol"/>
-                            <constraint firstItem="cqw-oc-Jt7" firstAttribute="width" secondItem="C9K-dz-HBZ" secondAttribute="width" multiplier="0.234506" id="3e3-U9-7xy"/>
+                            <constraint firstItem="7VK-cr-Ygg" firstAttribute="height" secondItem="C9K-dz-HBZ" secondAttribute="height" multiplier="0.482801" id="3qQ-I8-kZP"/>
+                            <constraint firstItem="7VK-cr-Ygg" firstAttribute="centerY" secondItem="nUt-hb-O0U" secondAttribute="centerY" constant="20" id="81c-FR-kD6"/>
+                            <constraint firstItem="7fF-cO-GpX" firstAttribute="height" secondItem="heh-bq-fPN" secondAttribute="height" multiplier="0.482801" id="DSr-eq-Db2"/>
                             <constraint firstItem="Igr-ts-9ID" firstAttribute="leading" secondItem="nUt-hb-O0U" secondAttribute="leading" constant="-70" id="EJJ-0P-pDe"/>
                             <constraint firstItem="ZAe-WH-9Un" firstAttribute="width" secondItem="C9K-dz-HBZ" secondAttribute="width" id="Fsx-Tg-0bp"/>
                             <constraint firstItem="ZAe-WH-9Un" firstAttribute="centerX" secondItem="heh-bq-fPN" secondAttribute="centerX" id="GTK-iW-yCn"/>
                             <constraint firstItem="7VK-cr-Ygg" firstAttribute="centerX" secondItem="nUt-hb-O0U" secondAttribute="centerX" id="K1d-mR-Tg4"/>
                             <constraint firstItem="e9s-bW-c7L" firstAttribute="trailing" secondItem="Igr-ts-9ID" secondAttribute="trailing" constant="-28" id="N2A-Bq-apw"/>
-                            <constraint firstItem="7fF-cO-GpX" firstAttribute="height" secondItem="C9K-dz-HBZ" secondAttribute="height" multiplier="0.471223" id="Q1O-R5-qvD"/>
-                            <constraint firstItem="7VK-cr-Ygg" firstAttribute="height" secondItem="C9K-dz-HBZ" secondAttribute="height" multiplier="0.471223" id="SjX-4L-Xzm"/>
                             <constraint firstItem="XfR-Br-D28" firstAttribute="top" secondItem="ZAe-WH-9Un" secondAttribute="top" constant="40" id="TSm-cs-Nlr"/>
-                            <constraint firstItem="7fF-cO-GpX" firstAttribute="width" secondItem="C9K-dz-HBZ" secondAttribute="width" multiplier="0.234506" id="WJR-M7-B2T"/>
                             <constraint firstItem="ZAe-WH-9Un" firstAttribute="centerY" secondItem="C9K-dz-HBZ" secondAttribute="centerY" id="Xkg-bY-HGy"/>
                             <constraint firstItem="ZAe-WH-9Un" firstAttribute="height" secondItem="C9K-dz-HBZ" secondAttribute="height" id="bhg-I6-gwq"/>
                             <constraint firstItem="Igr-ts-9ID" firstAttribute="top" secondItem="nUt-hb-O0U" secondAttribute="top" constant="75" id="esV-Gw-w1b"/>
-                            <constraint firstItem="cqw-oc-Jt7" firstAttribute="height" secondItem="C9K-dz-HBZ" secondAttribute="height" multiplier="0.471223" id="faf-i3-G0H"/>
                             <constraint firstItem="YmR-yb-Z2s" firstAttribute="leading" secondItem="ZAe-WH-9Un" secondAttribute="leading" constant="40" id="gDz-dC-pGU"/>
                             <constraint firstItem="XfR-Br-D28" firstAttribute="trailing" secondItem="ZAe-WH-9Un" secondAttribute="trailing" constant="-40" id="igH-kT-eE1"/>
                             <constraint firstItem="e9s-bW-c7L" firstAttribute="top" secondItem="Igr-ts-9ID" secondAttribute="top" constant="35" id="k22-0V-PJ4"/>
                             <constraint firstItem="nUt-hb-O0U" firstAttribute="bottom" secondItem="ZAe-WH-9Un" secondAttribute="bottom" constant="-70" id="khR-mX-cOy"/>
                             <constraint firstItem="nUt-hb-O0U" firstAttribute="height" secondItem="heh-bq-fPN" secondAttribute="height" multiplier="0.710074" id="lwb-4X-bJI"/>
                             <constraint firstItem="7VK-cr-Ygg" firstAttribute="width" secondItem="C9K-dz-HBZ" secondAttribute="width" multiplier="0.745394" id="nJ9-tf-UgP"/>
-                            <constraint firstItem="7VK-cr-Ygg" firstAttribute="bottom" secondItem="nUt-hb-O0U" secondAttribute="bottom" constant="-75" id="oMW-rv-MBj"/>
+                            <constraint firstItem="cqw-oc-Jt7" firstAttribute="height" secondItem="heh-bq-fPN" secondAttribute="height" multiplier="0.482801" id="nVJ-Zs-kB4"/>
+                            <constraint firstItem="LB2-sT-gTc" firstAttribute="height" secondItem="heh-bq-fPN" secondAttribute="height" multiplier="0.482801" id="occ-7f-Y5q"/>
                             <constraint firstItem="YmR-yb-Z2s" firstAttribute="top" secondItem="ZAe-WH-9Un" secondAttribute="top" constant="40" id="w3z-Gs-oI9"/>
                             <constraint firstItem="nUt-hb-O0U" firstAttribute="centerX" secondItem="ZAe-WH-9Un" secondAttribute="centerX" id="wSb-wN-QsH"/>
-                            <constraint firstItem="LB2-sT-gTc" firstAttribute="width" secondItem="C9K-dz-HBZ" secondAttribute="width" multiplier="0.234506" id="yxb-NN-9Y6"/>
                             <constraint firstItem="nUt-hb-O0U" firstAttribute="width" secondItem="heh-bq-fPN" secondAttribute="width" multiplier="0.859296" id="zOw-yp-kI9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="heh-bq-fPN"/>
@@ -1929,7 +1950,7 @@
         <image name="toolSpeech" width="64" height="63"/>
         <image name="xButton" width="72" height="72"/>
         <namedColor name="canvasColor">
-            <color red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
