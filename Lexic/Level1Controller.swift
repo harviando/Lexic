@@ -18,6 +18,8 @@ class Level1Controller: UIViewController {
     @IBOutlet weak var canvasImage2: Canvas!
     @IBOutlet weak var canvasImage3: Canvas!
     
+    @IBOutlet weak var finishButton: UIButton!
+    
     var pencilActivated = UIImage(named: "toolPencilActive") as UIImage?
     var pencilNormal = UIImage(named: "toolPencil") as UIImage?
     
@@ -58,6 +60,10 @@ class Level1Controller: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         kickstartAudio()
+    }
+    
+    func update(){
+        print("4")
     }
     
     func playSpeech() {
