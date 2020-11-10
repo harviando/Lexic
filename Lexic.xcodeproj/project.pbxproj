@@ -15,7 +15,6 @@
 		4E535B662539968200AA7B54 /* PetunjukController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E535B652539968200AA7B54 /* PetunjukController.swift */; };
 		4E535B682539A65500AA7B54 /* OnBoardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E535B672539A65500AA7B54 /* OnBoardingController.swift */; };
 		4E535B6E2539AA2300AA7B54 /* tas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E535B692539AA2300AA7B54 /* tas.m4a */; };
-		4E535B6F2539AA2300AA7B54 /* ban.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E535B6A2539AA2300AA7B54 /* ban.m4a */; };
 		4E535B702539AA2300AA7B54 /* cat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E535B6B2539AA2300AA7B54 /* cat.m4a */; };
 		4E535B712539AA2300AA7B54 /* rak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E535B6C2539AA2300AA7B54 /* rak.m4a */; };
 		4E535B722539AA2300AA7B54 /* jas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E535B6D2539AA2300AA7B54 /* jas.m4a */; };
@@ -46,7 +45,6 @@
 		4E535B652539968200AA7B54 /* PetunjukController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetunjukController.swift; sourceTree = "<group>"; };
 		4E535B672539A65500AA7B54 /* OnBoardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingController.swift; sourceTree = "<group>"; };
 		4E535B692539AA2300AA7B54 /* tas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tas.m4a; sourceTree = "<group>"; };
-		4E535B6A2539AA2300AA7B54 /* ban.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ban.m4a; sourceTree = "<group>"; };
 		4E535B6B2539AA2300AA7B54 /* cat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.m4a; sourceTree = "<group>"; };
 		4E535B6C2539AA2300AA7B54 /* rak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = rak.m4a; sourceTree = "<group>"; };
 		4E535B6D2539AA2300AA7B54 /* jas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jas.m4a; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 			children = (
 				4EDB45FD2551A70600393180 /* mouseClick.mp3 */,
 				4EDB45FB25519EA000393180 /* ban.mp3 */,
-				4E535B6A2539AA2300AA7B54 /* ban.m4a */,
 				4E535B6B2539AA2300AA7B54 /* cat.m4a */,
 				4E535B6D2539AA2300AA7B54 /* jas.m4a */,
 				4E535B6C2539AA2300AA7B54 /* rak.m4a */,
@@ -215,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E535B6F2539AA2300AA7B54 /* ban.m4a in Resources */,
 				4E6B82D3252F044400EB22F8 /* LaunchScreen.storyboard in Resources */,
 				4E535B6E2539AA2300AA7B54 /* tas.m4a in Resources */,
 				4E535B722539AA2300AA7B54 /* jas.m4a in Resources */,
