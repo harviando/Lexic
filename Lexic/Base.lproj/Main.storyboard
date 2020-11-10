@@ -373,10 +373,10 @@
                                 <rect key="frame" x="0.0" y="183" width="1194" height="507"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0A-7s-BvJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="1400" height="507"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1680" height="507"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
-                                                <rect key="frame" x="30" y="100.5" width="1335" height="306"/>
+                                                <rect key="frame" x="30" y="100.5" width="1606" height="306"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdB-iJ-d2a" userLabel="1">
                                                         <rect key="frame" x="0.0" y="0.0" width="251" height="306"/>
@@ -418,19 +418,25 @@
                                                             <segue destination="8tN-Vi-q9i" kind="presentation" identifier="5tapped" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="wRS-go-PsE"/>
                                                         </connections>
                                                     </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdG-JY-wXK" userLabel="6">
+                                                        <rect key="frame" x="1355" y="0.0" width="251" height="306"/>
+                                                        <state key="normal" backgroundImage="level6 button"/>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="B0A-7s-BvJ" secondAttribute="leading" constant="30" id="CRY-8M-rID"/>
-                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="centerY" secondItem="B0A-7s-BvJ" secondAttribute="centerY" id="alw-Ee-u8n"/>
+                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="leading" secondItem="B0A-7s-BvJ" secondAttribute="leading" constant="30" id="EXo-SA-WEp"/>
+                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="height" secondItem="B0A-7s-BvJ" secondAttribute="height" multiplier="0.60355" id="PXQ-nO-iHc"/>
+                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="width" secondItem="B0A-7s-BvJ" secondAttribute="width" multiplier="0.955952" id="mFD-oA-Fm5"/>
+                                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="centerY" secondItem="B0A-7s-BvJ" secondAttribute="centerY" id="mmX-aQ-Uo2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="bottom" secondItem="QIM-FL-4qu" secondAttribute="bottom" id="HLu-kj-Okb"/>
-                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="width" secondItem="IzD-Wz-NHb" secondAttribute="width" multiplier="1.17253" id="Yzb-f6-cho"/>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="width" secondItem="IzD-Wz-NHb" secondAttribute="width" multiplier="1.17253" constant="279.99918000000002" id="Yzb-f6-cho"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="leading" secondItem="QIM-FL-4qu" secondAttribute="leading" id="bWN-fM-0e8"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="trailing" secondItem="QIM-FL-4qu" secondAttribute="trailing" id="gzz-Fw-i2M"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="top" secondItem="QIM-FL-4qu" secondAttribute="top" id="svD-aP-dhx"/>
@@ -454,8 +460,6 @@
                         <constraints>
                             <constraint firstItem="PLd-SL-Fs5" firstAttribute="trailing" secondItem="i1D-b0-cPH" secondAttribute="trailing" constant="-20" id="0qr-3C-rnj"/>
                             <constraint firstItem="pgc-Is-0YC" firstAttribute="top" secondItem="gg4-gy-KJS" secondAttribute="top" constant="183" id="296-6P-rR5"/>
-                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="width" secondItem="gg4-gy-KJS" secondAttribute="width" multiplier="1.11809" id="3GN-aQ-y94"/>
-                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="height" secondItem="gg4-gy-KJS" secondAttribute="height" multiplier="0.375921" id="A37-QT-z9f"/>
                             <constraint firstItem="xHU-h1-wZL" firstAttribute="top" secondItem="i1D-b0-cPH" secondAttribute="top" constant="40" id="DCm-4D-rtt"/>
                             <constraint firstItem="gg4-gy-KJS" firstAttribute="bottom" secondItem="pgc-Is-0YC" secondAttribute="bottom" constant="124" id="JiG-Fn-xR5"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="height" secondItem="BWM-3z-6cl" secondAttribute="height" id="MLS-fT-4eq"/>
@@ -467,7 +471,8 @@
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="centerY" secondItem="BWM-3z-6cl" secondAttribute="centerY" id="b8i-ZS-C1W"/>
                             <constraint firstItem="i1D-b0-cPH" firstAttribute="width" secondItem="BWM-3z-6cl" secondAttribute="width" id="d0e-HR-9fL"/>
                             <constraint firstItem="Zgb-ma-DN4" firstAttribute="top" secondItem="i1D-b0-cPH" secondAttribute="top" constant="40" id="hVS-IL-daO"/>
-                            <constraint firstItem="UcZ-H5-Vb0" firstAttribute="width" secondItem="gg4-gy-KJS" secondAttribute="height" multiplier="1335:814" id="nSQ-Sl-Lue"/>
+                            <constraint firstItem="pgc-Is-0YC" firstAttribute="width" secondItem="BWM-3z-6cl" secondAttribute="width" id="lct-xs-6r7"/>
+                            <constraint firstItem="pgc-Is-0YC" firstAttribute="height" secondItem="BWM-3z-6cl" secondAttribute="height" multiplier="0.607914" id="lv0-Ci-aFc"/>
                             <constraint firstItem="Zgb-ma-DN4" firstAttribute="trailing" secondItem="i1D-b0-cPH" secondAttribute="trailing" constant="-40" id="vBM-4C-F2T"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gg4-gy-KJS"/>
@@ -2679,6 +2684,7 @@
         <image name="level3 button" width="251" height="306"/>
         <image name="level4 button" width="251" height="306"/>
         <image name="level5 button" width="251" height="306"/>
+        <image name="level6 button" width="251" height="306"/>
         <image name="n" width="111" height="165"/>
         <image name="r" width="97" height="172"/>
         <image name="rakText" width="193" height="119"/>
