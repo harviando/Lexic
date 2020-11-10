@@ -90,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1489" y="2142"/>
+            <point key="canvasLocation" x="-646" y="1204"/>
         </scene>
         <!--Level 1s1 Membaca Controller-->
         <scene sceneID="tGY-db-KNc">
@@ -1976,7 +1976,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wQh-Ki-DfZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2259" y="3129"/>
+            <point key="canvasLocation" x="-1942" y="247"/>
         </scene>
         <!--Petunjuk Controller-->
         <scene sceneID="USR-pf-g2O">
@@ -2278,7 +2278,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cX2-01-St6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2259" y="3899"/>
+            <point key="canvasLocation" x="-1234" y="247"/>
         </scene>
         <!--On Boarding Controller-->
         <scene sceneID="sb8-Db-Pyn">
@@ -2348,7 +2348,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yoF-QE-Nhl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2259" y="4673"/>
+            <point key="canvasLocation" x="-539" y="247"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -2367,7 +2367,7 @@
         <segue reference="qXR-2X-drj"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="lmp-JQ-03A"/>
-        <segue reference="86k-I2-V9Q"/>
+        <segue reference="jnP-3Q-zO6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>

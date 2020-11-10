@@ -39,10 +39,27 @@ class OnBoardingController:UIViewController {
 //
 //    }
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+//        UIDevice.current.setValue(value, forKey: "orientation")
+//        if UIDevice.current.userInterfaceIdiom == .pad {
+//            func supportedInterfaceOrientations() -> Int{
+//                return UIInterfaceOrientation.landscapeLeft.rawValue
+//            }
+//            
+//            func shouldAutorotate() -> Bool{
+//                return false
+//            }
+//        }
     }
 
+//    override var shouldAutorotate: Bool {
+//        return true
+//    }
+    
     @IBAction func skipTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "skipTapped", sender: nil)
     }

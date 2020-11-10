@@ -121,12 +121,7 @@
 				4E6B82C5252F044200EB22F8 /* SceneDelegate.swift */,
 				4E6B82C7252F044200EB22F8 /* ViewController.swift */,
 				4E6B82C9252F044200EB22F8 /* Main.storyboard */,
-				4E34F5BF25513578008C0333 /* Level1MenulisController.swift */,
-				4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */,
-				4EDB45F325518FC400393180 /* Level1s2MembacaController.swift */,
-				4EDB45F52551916900393180 /* Level1s3MembacaController.swift */,
-				4EDB45F72551917400393180 /* Level1s4MembacaController.swift */,
-				4EDB45F92551918100393180 /* Level1s5MembacaController.swift */,
+				4EF6F5F2255AC1BA002BA36A /* Level Controller */,
 				4E818DDF254CD25F0017520C /* TahapanController.swift */,
 				4E535B672539A65500AA7B54 /* OnBoardingController.swift */,
 				4E535B652539968200AA7B54 /* PetunjukController.swift */,
@@ -139,6 +134,27 @@
 				4E6B82CC252F044200EB22F8 /* Lexic.xcdatamodeld */,
 			);
 			path = Lexic;
+			sourceTree = "<group>";
+		};
+		4EF6F5F2255AC1BA002BA36A /* Level Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6F5F3255AC1F0002BA36A /* Level 1 */,
+			);
+			path = "Level Controller";
+			sourceTree = "<group>";
+		};
+		4EF6F5F3255AC1F0002BA36A /* Level 1 */ = {
+			isa = PBXGroup;
+			children = (
+				4E34F5BF25513578008C0333 /* Level1MenulisController.swift */,
+				4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */,
+				4EDB45F325518FC400393180 /* Level1s2MembacaController.swift */,
+				4EDB45F52551916900393180 /* Level1s3MembacaController.swift */,
+				4EDB45F72551917400393180 /* Level1s4MembacaController.swift */,
+				4EDB45F92551918100393180 /* Level1s5MembacaController.swift */,
+			);
+			path = "Level 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
