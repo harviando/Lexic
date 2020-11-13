@@ -20,13 +20,14 @@ class RewardController: UIViewController {
     @IBOutlet weak var quitButtonOutlet: UIButton!
     @IBOutlet weak var nextButtonOutlet: UIButton!
     @IBOutlet weak var giftButton: UIButton!
+    @IBOutlet weak var instructionImage: UIImageView!
     
     var clickSound:AVAudioPlayer?
     
     override func viewDidLoad() {
         initializeVideoPlayerWithVideo()
         giftButton.isHidden = false
-        
+        instructionImage.isHidden = false
 //        UIView.animate(withDuration: 1, animations: {
 //            self.giftButton.frame.origin.x -= 10
 //        }, completion:nil)
@@ -80,6 +81,7 @@ class RewardController: UIViewController {
         quitButtonOutlet.isHidden = false
         nextButtonOutlet.isHidden = false
         giftButton.isHidden = true
+        instructionImage.isHidden = true
         playClickSound()
     }
     @IBAction func nextTapped(_ sender: Any) {
