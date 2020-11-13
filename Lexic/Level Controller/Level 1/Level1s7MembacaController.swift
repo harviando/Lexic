@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class Level1s1MembacaController: UIViewController {
+class Level1s7MembacaController: UIViewController {
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
     
@@ -54,7 +54,7 @@ class Level1s1MembacaController: UIViewController {
     }
     
     func playSpeech() {
-        guard let url = Bundle.main.url(forResource: "tas", withExtension: "m4a") else { return }
+        guard let url = Bundle.main.url(forResource: "rak", withExtension: "m4a") else { return }
         
         do {
             clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.m4a.rawValue)
@@ -74,10 +74,6 @@ class Level1s1MembacaController: UIViewController {
     }
     @IBAction func toCanvasTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "toCanvas", sender: nil)
-        playClickSound()
-    }
-    @IBAction func homeTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: "toHome", sender: nil)
         playClickSound()
     }
 }

@@ -76,4 +76,8 @@ class Level1s3MembacaController: UIViewController {
         self.performSegue(withIdentifier: "toCanvas", sender: nil)
         playClickSound()
     }
+    @IBAction func homeTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toHome", sender: nil)
+        playClickSound()
+    }
 }

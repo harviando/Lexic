@@ -34,6 +34,11 @@
 		4EDB45FA2551918100393180 /* Level1s5MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB45F92551918100393180 /* Level1s5MembacaController.swift */; };
 		4EDB45FC25519EA000393180 /* ban.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB45FB25519EA000393180 /* ban.mp3 */; };
 		4EDB45FE2551A70600393180 /* mouseClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB45FD2551A70600393180 /* mouseClick.mp3 */; };
+		4EDB83A4255E2C50006EB8F2 /* Level1s6MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB83A3255E2C50006EB8F2 /* Level1s6MembacaController.swift */; };
+		4EDB83A6255E2D41006EB8F2 /* Level1s7MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB83A5255E2D41006EB8F2 /* Level1s7MembacaController.swift */; };
+		4EDB83A8255E2D50006EB8F2 /* Level1s8MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB83A7255E2D50006EB8F2 /* Level1s8MembacaController.swift */; };
+		4EDB83AA255E2D5A006EB8F2 /* Level1s9MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB83A9255E2D5A006EB8F2 /* Level1s9MembacaController.swift */; };
+		4EDB83AC255E2D66006EB8F2 /* Level1s10MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB83AB255E2D66006EB8F2 /* Level1s10MembacaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +71,11 @@
 		4EDB45F92551918100393180 /* Level1s5MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s5MembacaController.swift; sourceTree = "<group>"; };
 		4EDB45FB25519EA000393180 /* ban.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ban.mp3; sourceTree = "<group>"; };
 		4EDB45FD2551A70600393180 /* mouseClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mouseClick.mp3; sourceTree = "<group>"; };
+		4EDB83A3255E2C50006EB8F2 /* Level1s6MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s6MembacaController.swift; sourceTree = "<group>"; };
+		4EDB83A5255E2D41006EB8F2 /* Level1s7MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s7MembacaController.swift; sourceTree = "<group>"; };
+		4EDB83A7255E2D50006EB8F2 /* Level1s8MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s8MembacaController.swift; sourceTree = "<group>"; };
+		4EDB83A9255E2D5A006EB8F2 /* Level1s9MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s9MembacaController.swift; sourceTree = "<group>"; };
+		4EDB83AB255E2D66006EB8F2 /* Level1s10MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s10MembacaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +143,26 @@
 			path = Lexic;
 			sourceTree = "<group>";
 		};
+		4EDB83AD255E2DA3006EB8F2 /* Level 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Level 2";
+			sourceTree = "<group>";
+		};
+		4EDB83AE255E2DAC006EB8F2 /* Level 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Level 3";
+			sourceTree = "<group>";
+		};
 		4EF6F5F2255AC1BA002BA36A /* Level Controller */ = {
 			isa = PBXGroup;
 			children = (
 				4EF6F5F3255AC1F0002BA36A /* Level 1 */,
+				4EDB83AD255E2DA3006EB8F2 /* Level 2 */,
+				4EDB83AE255E2DAC006EB8F2 /* Level 3 */,
 			);
 			path = "Level Controller";
 			sourceTree = "<group>";
@@ -150,6 +176,11 @@
 				4EDB45F52551916900393180 /* Level1s3MembacaController.swift */,
 				4EDB45F72551917400393180 /* Level1s4MembacaController.swift */,
 				4EDB45F92551918100393180 /* Level1s5MembacaController.swift */,
+				4EDB83A3255E2C50006EB8F2 /* Level1s6MembacaController.swift */,
+				4EDB83A5255E2D41006EB8F2 /* Level1s7MembacaController.swift */,
+				4EDB83A7255E2D50006EB8F2 /* Level1s8MembacaController.swift */,
+				4EDB83A9255E2D5A006EB8F2 /* Level1s9MembacaController.swift */,
+				4EDB83AB255E2D66006EB8F2 /* Level1s10MembacaController.swift */,
 			);
 			path = "Level 1";
 			sourceTree = "<group>";
@@ -240,14 +271,19 @@
 				4E6B82C8252F044200EB22F8 /* ViewController.swift in Sources */,
 				4EDB45F82551917400393180 /* Level1s4MembacaController.swift in Sources */,
 				4E6B82C4252F044200EB22F8 /* AppDelegate.swift in Sources */,
+				4EDB83A6255E2D41006EB8F2 /* Level1s7MembacaController.swift in Sources */,
+				4EDB83A4255E2C50006EB8F2 /* Level1s6MembacaController.swift in Sources */,
 				4EDB45FA2551918100393180 /* Level1s5MembacaController.swift in Sources */,
 				4ECDD43C25503F3C00F29282 /* Level1s1MembacaController.swift in Sources */,
 				4EDB45F62551916900393180 /* Level1s3MembacaController.swift in Sources */,
 				4E6B82C6252F044200EB22F8 /* SceneDelegate.swift in Sources */,
+				4EDB83AC255E2D66006EB8F2 /* Level1s10MembacaController.swift in Sources */,
 				4E818DE0254CD25F0017520C /* TahapanController.swift in Sources */,
 				4E6B82CE252F044200EB22F8 /* Lexic.xcdatamodeld in Sources */,
 				4EDB45F425518FC400393180 /* Level1s2MembacaController.swift in Sources */,
+				4EDB83AA255E2D5A006EB8F2 /* Level1s9MembacaController.swift in Sources */,
 				4E535B682539A65500AA7B54 /* OnBoardingController.swift in Sources */,
+				4EDB83A8255E2D50006EB8F2 /* Level1s8MembacaController.swift in Sources */,
 				4E20512A25390F14007A9827 /* RewardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
