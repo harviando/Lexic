@@ -395,13 +395,13 @@
                                 <rect key="frame" x="0.0" y="183" width="1194" height="507"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0A-7s-BvJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="1680" height="507"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="2800" height="507"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-H5-Vb0" userLabel="level stack">
-                                                <rect key="frame" x="30" y="100.5" width="1606" height="306"/>
+                                                <rect key="frame" x="30" y="100.5" width="2676.5" height="306"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdB-iJ-d2a" userLabel="1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="249.5" height="306"/>
                                                         <state key="normal" backgroundImage="level1 button"/>
                                                         <connections>
                                                             <action selector="level1Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="01p-Tr-m8Y"/>
@@ -409,7 +409,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-Yu-aAJ" userLabel="2">
-                                                        <rect key="frame" x="271" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="269.5" y="0.0" width="250" height="306"/>
                                                         <state key="normal" backgroundImage="level2 button"/>
                                                         <connections>
                                                             <action selector="level2Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="1X7-k4-FkD"/>
@@ -417,7 +417,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-0A-cuA" userLabel="3">
-                                                        <rect key="frame" x="542" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="539.5" y="0.0" width="249.5" height="306"/>
                                                         <state key="normal" backgroundImage="level3 button"/>
                                                         <connections>
                                                             <action selector="level3Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="srL-dx-YaS"/>
@@ -425,7 +425,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyz-7T-YCq" userLabel="4">
-                                                        <rect key="frame" x="813" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="809" y="0.0" width="249.5" height="306"/>
                                                         <state key="normal" backgroundImage="level4 button"/>
                                                         <connections>
                                                             <action selector="level4Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="Nzg-XH-SHp"/>
@@ -433,7 +433,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vz9-wG-gTv" userLabel="5">
-                                                        <rect key="frame" x="1084" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="1078.5" y="0.0" width="250" height="306"/>
                                                         <state key="normal" backgroundImage="level5 button"/>
                                                         <connections>
                                                             <action selector="level5Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="Qfo-tr-SJV"/>
@@ -441,12 +441,28 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdG-JY-wXK" userLabel="6">
-                                                        <rect key="frame" x="1355" y="0.0" width="251" height="306"/>
+                                                        <rect key="frame" x="1348.5" y="0.0" width="249.5" height="306"/>
                                                         <state key="normal" backgroundImage="level6 button"/>
                                                         <connections>
                                                             <action selector="level6Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="ZfD-wg-ae8"/>
                                                             <segue destination="dHM-CH-kIh" kind="presentation" identifier="6tapped" animates="NO" modalPresentationStyle="fullScreen" id="XlE-Xr-Jun"/>
                                                         </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpH-hD-sBF" userLabel="7">
+                                                        <rect key="frame" x="1618" y="0.0" width="249.5" height="306"/>
+                                                        <state key="normal" backgroundImage="level6 button"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7M9-2e-4Tr" userLabel="8">
+                                                        <rect key="frame" x="1887.5" y="0.0" width="250" height="306"/>
+                                                        <state key="normal" backgroundImage="level6 button"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDg-H3-4yo" userLabel="9">
+                                                        <rect key="frame" x="2157.5" y="0.0" width="249.5" height="306"/>
+                                                        <state key="normal" backgroundImage="level6 button"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSy-iD-hfa" userLabel="10">
+                                                        <rect key="frame" x="2427" y="0.0" width="249.5" height="306"/>
+                                                        <state key="normal" backgroundImage="level6 button"/>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -462,7 +478,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="bottom" secondItem="QIM-FL-4qu" secondAttribute="bottom" id="HLu-kj-Okb"/>
-                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="width" secondItem="IzD-Wz-NHb" secondAttribute="width" multiplier="1.17253" constant="280" id="Yzb-f6-cho"/>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="width" secondItem="IzD-Wz-NHb" secondAttribute="width" multiplier="1.17253" constant="1400" id="Yzb-f6-cho"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="leading" secondItem="QIM-FL-4qu" secondAttribute="leading" id="bWN-fM-0e8"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="trailing" secondItem="QIM-FL-4qu" secondAttribute="trailing" id="gzz-Fw-i2M"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="top" secondItem="QIM-FL-4qu" secondAttribute="top" id="svD-aP-dhx"/>
