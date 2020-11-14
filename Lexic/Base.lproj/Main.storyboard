@@ -42,11 +42,11 @@
                                 <rect key="frame" x="0.0" y="765" width="1194" height="74"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL" userLabel="ButtonAktivitas">
-                                <rect key="frame" x="836.5" y="573" width="269" height="109"/>
+                                <rect key="frame" x="702" y="573" width="538" height="218"/>
                                 <state key="normal" backgroundImage="buttonAktivitas"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG" userLabel="ButtonPetunjuk">
-                                <rect key="frame" x="836.5" y="693" width="269" height="79"/>
+                                <rect key="frame" x="836.5" y="802" width="269" height="79"/>
                                 <state key="normal" backgroundImage="buttonPetunjuk"/>
                                 <connections>
                                     <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
@@ -4215,6 +4215,10 @@
                                     <action selector="giftTapped:" destination="MNR-B9-6Dd" eventType="touchUpInside" id="nWm-eb-h3F"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDi-Li-qrb">
+                                <rect key="frame" x="40" y="40" width="72" height="72"/>
+                                <state key="normal" backgroundImage="tahapanButton"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsn-ge-6ew" userLabel="nextButton">
                                 <rect key="frame" x="1082" y="702" width="72" height="72"/>
                                 <state key="normal" backgroundImage="chevronNext"/>
@@ -4227,8 +4231,11 @@
                         <constraints>
                             <constraint firstItem="zkZ-RX-eOO" firstAttribute="height" secondItem="AVK-Kg-fQ3" secondAttribute="height" id="0p1-QA-hMH"/>
                             <constraint firstItem="71p-Yu-faK" firstAttribute="bottom" secondItem="fsn-ge-6ew" secondAttribute="bottom" constant="40" id="2G7-Kc-cPH"/>
+                            <constraint firstItem="BDi-Li-qrb" firstAttribute="leading" secondItem="I0h-qB-DNI" secondAttribute="leading" constant="40" id="363-Yo-bzl"/>
+                            <constraint firstItem="zEV-Dc-Ckr" firstAttribute="top" secondItem="I0h-qB-DNI" secondAttribute="top" constant="40" id="4nP-uX-UG4"/>
                             <constraint firstItem="I0h-qB-DNI" firstAttribute="height" secondItem="AVK-Kg-fQ3" secondAttribute="height" id="95V-IW-bRo"/>
-                            <constraint firstItem="zEV-Dc-Ckr" firstAttribute="top" secondItem="71p-Yu-faK" secondAttribute="top" constant="40" id="JuE-Qf-sXu"/>
+                            <constraint firstItem="BDi-Li-qrb" firstAttribute="top" secondItem="I0h-qB-DNI" secondAttribute="top" constant="40" id="AZU-Jg-9ab"/>
+                            <constraint firstItem="I0h-qB-DNI" firstAttribute="top" secondItem="71p-Yu-faK" secondAttribute="top" id="JuE-Qf-sXu"/>
                             <constraint firstItem="lqx-7g-3M3" firstAttribute="height" secondItem="71p-Yu-faK" secondAttribute="height" multiplier="0.0773956" id="NSv-fz-w1E"/>
                             <constraint firstItem="lqx-7g-3M3" firstAttribute="top" secondItem="71p-Yu-faK" secondAttribute="top" constant="225" id="SMk-sd-rov"/>
                             <constraint firstItem="I0h-qB-DNI" firstAttribute="width" secondItem="AVK-Kg-fQ3" secondAttribute="width" id="Zmx-33-bY9"/>
@@ -4238,7 +4245,7 @@
                             <constraint firstItem="tjE-L1-C6Q" firstAttribute="centerY" secondItem="AVK-Kg-fQ3" secondAttribute="centerY" id="fVx-Ss-kKd"/>
                             <constraint firstItem="lqx-7g-3M3" firstAttribute="centerX" secondItem="71p-Yu-faK" secondAttribute="centerX" id="grU-ma-VSw"/>
                             <constraint firstItem="zkZ-RX-eOO" firstAttribute="centerY" secondItem="AVK-Kg-fQ3" secondAttribute="centerY" id="h3s-c5-nVd"/>
-                            <constraint firstItem="71p-Yu-faK" firstAttribute="trailing" secondItem="zEV-Dc-Ckr" secondAttribute="trailing" constant="40" id="hqo-cF-bJY"/>
+                            <constraint firstItem="I0h-qB-DNI" firstAttribute="trailing" secondItem="zEV-Dc-Ckr" secondAttribute="trailing" constant="40" id="hqo-cF-bJY"/>
                             <constraint firstItem="71p-Yu-faK" firstAttribute="trailing" secondItem="fsn-ge-6ew" secondAttribute="trailing" constant="40" id="ksb-sl-YVq"/>
                             <constraint firstItem="I0h-qB-DNI" firstAttribute="centerY" secondItem="AVK-Kg-fQ3" secondAttribute="centerY" id="nE1-zp-9WF"/>
                             <constraint firstItem="zkZ-RX-eOO" firstAttribute="centerX" secondItem="71p-Yu-faK" secondAttribute="centerX" id="q8S-Lk-VHb"/>
@@ -4248,6 +4255,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="zkZ-RX-eOO"/>
+                                <exclude reference="fsn-ge-6ew"/>
                             </mask>
                         </variation>
                     </view>
@@ -4265,7 +4273,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3zz-OX-dTs"/>
+        <segue reference="TYe-N4-COK"/>
         <segue reference="NOW-VK-gmW"/>
         <segue reference="fyd-3U-hBa"/>
         <segue reference="30a-lc-jnz"/>
