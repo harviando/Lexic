@@ -462,7 +462,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="bottom" secondItem="QIM-FL-4qu" secondAttribute="bottom" id="HLu-kj-Okb"/>
-                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="width" secondItem="IzD-Wz-NHb" secondAttribute="width" multiplier="1.17253" constant="279.99918000000002" id="Yzb-f6-cho"/>
+                                    <constraint firstItem="B0A-7s-BvJ" firstAttribute="width" secondItem="IzD-Wz-NHb" secondAttribute="width" multiplier="1.17253" constant="280" id="Yzb-f6-cho"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="leading" secondItem="QIM-FL-4qu" secondAttribute="leading" id="bWN-fM-0e8"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="trailing" secondItem="QIM-FL-4qu" secondAttribute="trailing" id="gzz-Fw-i2M"/>
                                     <constraint firstItem="B0A-7s-BvJ" firstAttribute="top" secondItem="QIM-FL-4qu" secondAttribute="top" id="svD-aP-dhx"/>
@@ -2824,7 +2824,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.6" translatesAutoresizingMaskIntoConstraints="NO" id="Gad-1n-wVm">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.7" translatesAutoresizingMaskIntoConstraints="NO" id="Gad-1n-wVm">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsD-UO-Neb" userLabel="ButtonBack">
@@ -2917,7 +2917,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.6" translatesAutoresizingMaskIntoConstraints="NO" id="MAC-af-8dq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.8" translatesAutoresizingMaskIntoConstraints="NO" id="MAC-af-8dq">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2e-p3-865" userLabel="ButtonBack">
@@ -3010,7 +3010,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.6" translatesAutoresizingMaskIntoConstraints="NO" id="vTp-7b-wod">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.9" translatesAutoresizingMaskIntoConstraints="NO" id="vTp-7b-wod">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGh-Hk-KOe" userLabel="ButtonBack">
@@ -3103,7 +3103,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.6" translatesAutoresizingMaskIntoConstraints="NO" id="zQv-1R-0io">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.10" translatesAutoresizingMaskIntoConstraints="NO" id="zQv-1R-0io">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djh-j8-zbV" userLabel="ButtonBack">
@@ -3196,7 +3196,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.6" translatesAutoresizingMaskIntoConstraints="NO" id="PMt-MI-G0t">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.7" translatesAutoresizingMaskIntoConstraints="NO" id="PMt-MI-G0t">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRB-b7-Zsj" userLabel="ButtonBack">
@@ -3371,7 +3371,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.6" translatesAutoresizingMaskIntoConstraints="NO" id="szH-k0-Or7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.8" translatesAutoresizingMaskIntoConstraints="NO" id="szH-k0-Or7">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQN-oB-KmV" userLabel="ButtonBack">
@@ -3546,7 +3546,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.6" translatesAutoresizingMaskIntoConstraints="NO" id="LFw-EW-1Fz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.9" translatesAutoresizingMaskIntoConstraints="NO" id="LFw-EW-1Fz">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23S-cZ-XYv" userLabel="ButtonBack">
@@ -3721,7 +3721,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.6" translatesAutoresizingMaskIntoConstraints="NO" id="wD2-83-z2h">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLearning screen 1.10" translatesAutoresizingMaskIntoConstraints="NO" id="wD2-83-z2h">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFz-cE-Kzu" userLabel="ButtonBack">
@@ -4233,7 +4233,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zNE-u1-VuC"/>
         <segue reference="xbq-fr-2ck"/>
         <segue reference="pbL-xx-cV7"/>
         <segue reference="qN1-lI-388"/>
@@ -4255,15 +4254,19 @@
         <segue reference="Zj7-GQ-I1n"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="lmp-JQ-03A"/>
-        <segue reference="4eT-Nh-qWu"/>
+        <segue reference="86k-I2-V9Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
+        <image name="BGLearning screen 1.10" width="1194" height="834"/>
         <image name="BGLearning screen 1.2" width="1194" height="834"/>
         <image name="BGLearning screen 1.3" width="1194" height="834"/>
         <image name="BGLearning screen 1.4" width="1194" height="834"/>
         <image name="BGLearning screen 1.5" width="1194" height="834"/>
         <image name="BGLearning screen 1.6" width="1194" height="834"/>
+        <image name="BGLearning screen 1.7" width="1194" height="834"/>
+        <image name="BGLearning screen 1.8" width="1194" height="834"/>
+        <image name="BGLearning screen 1.9" width="1194" height="834"/>
         <image name="Ban" width="2454" height="1924"/>
         <image name="Cat" width="362" height="689"/>
         <image name="Jas" width="1532" height="1080"/>
