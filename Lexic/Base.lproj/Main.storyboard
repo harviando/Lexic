@@ -3119,7 +3119,7 @@
                                 <state key="normal" backgroundImage="buttonToCanvas"/>
                                 <connections>
                                     <action selector="toCanvasTapped:" destination="33z-jK-LwV" eventType="touchUpInside" id="RKK-IO-t38"/>
-                                    <segue destination="to0-C7-0db" kind="presentation" identifier="toCanvas" modalPresentationStyle="fullScreen" id="zNE-u1-VuC"/>
+                                    <segue destination="to0-C7-0db" kind="presentation" identifier="toCanvas" animates="NO" modalPresentationStyle="fullScreen" id="zNE-u1-VuC"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="holderGambar" translatesAutoresizingMaskIntoConstraints="NO" id="Zgb-RT-Mqs">
@@ -4233,9 +4233,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="u0f-8C-DeH"/>
-        <segue reference="apS-dv-C3v"/>
-        <segue reference="3RQ-kv-4wI"/>
         <segue reference="zNE-u1-VuC"/>
         <segue reference="xbq-fr-2ck"/>
         <segue reference="pbL-xx-cV7"/>
