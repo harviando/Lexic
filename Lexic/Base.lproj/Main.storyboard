@@ -451,18 +451,34 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpH-hD-sBF" userLabel="7">
                                                         <rect key="frame" x="1618" y="0.0" width="249.5" height="306"/>
                                                         <state key="normal" backgroundImage="level6 button"/>
+                                                        <connections>
+                                                            <action selector="level7Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="zia-ag-hUX"/>
+                                                            <segue destination="bAo-4p-xDi" kind="presentation" identifier="7tapped" animates="NO" modalPresentationStyle="fullScreen" id="30a-lc-jnz"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7M9-2e-4Tr" userLabel="8">
                                                         <rect key="frame" x="1887.5" y="0.0" width="250" height="306"/>
                                                         <state key="normal" backgroundImage="level6 button"/>
+                                                        <connections>
+                                                            <action selector="level8Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="drT-bn-t2U"/>
+                                                            <segue destination="0Pc-A3-QhW" kind="presentation" identifier="8tapped" animates="NO" modalPresentationStyle="fullScreen" id="fyd-3U-hBa"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDg-H3-4yo" userLabel="9">
                                                         <rect key="frame" x="2157.5" y="0.0" width="249.5" height="306"/>
                                                         <state key="normal" backgroundImage="level6 button"/>
+                                                        <connections>
+                                                            <action selector="level9Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="8Vl-WW-Ip9"/>
+                                                            <segue destination="idg-BM-fgm" kind="presentation" identifier="9tapped" animates="NO" modalPresentationStyle="fullScreen" id="NOW-VK-gmW"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSy-iD-hfa" userLabel="10">
                                                         <rect key="frame" x="2427" y="0.0" width="249.5" height="306"/>
                                                         <state key="normal" backgroundImage="level6 button"/>
+                                                        <connections>
+                                                            <action selector="level10Tapped:" destination="399-ml-a9V" eventType="touchUpInside" id="bt4-yC-wxA"/>
+                                                            <segue destination="33z-jK-LwV" kind="presentation" identifier="10tapped" animates="NO" modalPresentationStyle="fullScreen" id="3zz-OX-dTs"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -4249,10 +4265,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xbq-fr-2ck"/>
-        <segue reference="pbL-xx-cV7"/>
-        <segue reference="qN1-lI-388"/>
-        <segue reference="tTv-Sh-BBh"/>
+        <segue reference="3zz-OX-dTs"/>
+        <segue reference="NOW-VK-gmW"/>
+        <segue reference="fyd-3U-hBa"/>
+        <segue reference="30a-lc-jnz"/>
         <segue reference="dek-tq-vb4"/>
         <segue reference="XlE-Xr-Jun"/>
         <segue reference="3Rz-mX-Hfq"/>
@@ -4267,10 +4283,10 @@
         <segue reference="ntm-zg-yr6"/>
         <segue reference="wyh-3V-Zkq"/>
         <segue reference="qlu-Ym-tex"/>
-        <segue reference="Zj7-GQ-I1n"/>
+        <segue reference="tXU-Oa-HDD"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="lmp-JQ-03A"/>
-        <segue reference="86k-I2-V9Q"/>
+        <segue reference="Zas-Bb-ns3"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
