@@ -10,14 +10,13 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class Level1MenulisController: UIViewController {
+class Level2MenulisController: UIViewController {
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
     
     @IBOutlet weak var canvasImage1: Canvas!
     @IBOutlet weak var canvasImage2: Canvas!
     @IBOutlet weak var canvasImage3: Canvas!
-    @IBOutlet weak var canvasImage4: Canvas!
     
     
     @IBOutlet weak var pencilButton: UIButton!
@@ -66,7 +65,6 @@ class Level1MenulisController: UIViewController {
         canvasImage1.layer.cornerRadius = 20
         canvasImage2.layer.cornerRadius = 20
         canvasImage3.layer.cornerRadius = 20
-        canvasImage4.layer.cornerRadius = 20
         
     }
     
