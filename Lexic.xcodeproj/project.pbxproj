@@ -28,6 +28,7 @@
 		4E818DE0254CD25F0017520C /* TahapanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E818DDF254CD25F0017520C /* TahapanController.swift */; };
 		4ECDD43C25503F3C00F29282 /* Level1s1MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */; };
 		4ECEA8A8253731290098F7C5 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEA8A7253731290098F7C5 /* Canvas.swift */; };
+		4ED3E53E2560AED40092C2A7 /* TahapanController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3E53D2560AED40092C2A7 /* TahapanController2.swift */; };
 		4EDB45F425518FC400393180 /* Level1s2MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB45F325518FC400393180 /* Level1s2MembacaController.swift */; };
 		4EDB45F62551916900393180 /* Level1s3MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB45F52551916900393180 /* Level1s3MembacaController.swift */; };
 		4EDB45F82551917400393180 /* Level1s4MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB45F72551917400393180 /* Level1s4MembacaController.swift */; };
@@ -65,6 +66,7 @@
 		4E818DDF254CD25F0017520C /* TahapanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahapanController.swift; sourceTree = "<group>"; };
 		4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s1MembacaController.swift; sourceTree = "<group>"; };
 		4ECEA8A7253731290098F7C5 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		4ED3E53D2560AED40092C2A7 /* TahapanController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahapanController2.swift; sourceTree = "<group>"; };
 		4EDB45F325518FC400393180 /* Level1s2MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s2MembacaController.swift; sourceTree = "<group>"; };
 		4EDB45F52551916900393180 /* Level1s3MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s3MembacaController.swift; sourceTree = "<group>"; };
 		4EDB45F72551917400393180 /* Level1s4MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s4MembacaController.swift; sourceTree = "<group>"; };
@@ -129,7 +131,6 @@
 				4E6B82C7252F044200EB22F8 /* ViewController.swift */,
 				4E6B82C9252F044200EB22F8 /* Main.storyboard */,
 				4EF6F5F2255AC1BA002BA36A /* Level Controller */,
-				4E818DDF254CD25F0017520C /* TahapanController.swift */,
 				4E535B672539A65500AA7B54 /* OnBoardingController.swift */,
 				4E535B652539968200AA7B54 /* PetunjukController.swift */,
 				4E20512925390F14007A9827 /* RewardController.swift */,
@@ -146,6 +147,7 @@
 		4EDB83AD255E2DA3006EB8F2 /* Level 2 */ = {
 			isa = PBXGroup;
 			children = (
+				4ED3E53D2560AED40092C2A7 /* TahapanController2.swift */,
 			);
 			path = "Level 2";
 			sourceTree = "<group>";
@@ -170,6 +172,7 @@
 		4EF6F5F3255AC1F0002BA36A /* Level 1 */ = {
 			isa = PBXGroup;
 			children = (
+				4E818DDF254CD25F0017520C /* TahapanController.swift */,
 				4E34F5BF25513578008C0333 /* Level1MenulisController.swift */,
 				4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */,
 				4EDB45F325518FC400393180 /* Level1s2MembacaController.swift */,
@@ -275,6 +278,7 @@
 				4EDB83A4255E2C50006EB8F2 /* Level1s6MembacaController.swift in Sources */,
 				4EDB45FA2551918100393180 /* Level1s5MembacaController.swift in Sources */,
 				4ECDD43C25503F3C00F29282 /* Level1s1MembacaController.swift in Sources */,
+				4ED3E53E2560AED40092C2A7 /* TahapanController2.swift in Sources */,
 				4EDB45F62551916900393180 /* Level1s3MembacaController.swift in Sources */,
 				4E6B82C6252F044200EB22F8 /* SceneDelegate.swift in Sources */,
 				4EDB83AC255E2D66006EB8F2 /* Level1s10MembacaController.swift in Sources */,

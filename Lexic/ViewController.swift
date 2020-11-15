@@ -52,6 +52,10 @@ class ViewController: UIViewController {
         playClickSound()
     }
     
+    @IBAction func buttonMenengah(_ sender: Any) {
+        self.performSegue(withIdentifier: "menengahTapped", sender: nil)
+        playClickSound()
+    }
     @IBAction func petunjukTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "toPetunjuk", sender: nil)
         playClickSound()

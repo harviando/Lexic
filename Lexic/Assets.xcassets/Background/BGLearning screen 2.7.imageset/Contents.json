@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "55163-1-school-bag-download-hq-image-free-png 1.png",
+      "filename" : "Learning screen 2-2-9.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -17,8 +17,5 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
-  },
-  "properties" : {
-    "preserves-vector-representation" : true
   }
 }
