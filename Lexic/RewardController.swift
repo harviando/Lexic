@@ -90,4 +90,8 @@ class RewardController: UIViewController {
         self.performSegue(withIdentifier: "lanjutkan", sender: nil)
         playClickSound()
     }
+    @IBAction func tahapanTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toTahapan", sender: nil)
+        playClickSound()
+    }
 }

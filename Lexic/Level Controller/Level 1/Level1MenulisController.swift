@@ -17,8 +17,6 @@ class Level1MenulisController: UIViewController {
     @IBOutlet weak var canvasImage1: Canvas!
     @IBOutlet weak var canvasImage2: Canvas!
     @IBOutlet weak var canvasImage3: Canvas!
-    @IBOutlet weak var canvasImage4: Canvas!
-    
     
     @IBOutlet weak var pencilButton: UIButton!
     @IBOutlet weak var eraserButton: UIButton!
@@ -66,7 +64,6 @@ class Level1MenulisController: UIViewController {
         canvasImage1.layer.cornerRadius = 20
         canvasImage2.layer.cornerRadius = 20
         canvasImage3.layer.cornerRadius = 20
-        canvasImage4.layer.cornerRadius = 20
         
     }
     
