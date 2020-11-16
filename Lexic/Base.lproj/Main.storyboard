@@ -54,7 +54,7 @@
                                 <state key="normal" backgroundImage="buttonPetunjuk"/>
                                 <connections>
                                     <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
-                                    <segue destination="sIa-mb-hOi" kind="presentation" identifier="toPetunjuk" modalPresentationStyle="currentContext" id="rPb-hC-0ZB"/>
+                                    <segue destination="sIa-mb-hOi" kind="presentation" identifier="toPetunjuk" animates="NO" modalPresentationStyle="currentContext" id="rPb-hC-0ZB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI2-6A-7mN" userLabel="ButtonLevel1">
@@ -66,7 +66,7 @@
                                 <state key="normal" backgroundImage="buttonLvl1"/>
                                 <connections>
                                     <action selector="buttonPemula:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2X4-ZQ-Q56"/>
-                                    <segue destination="399-ml-a9V" kind="presentation" identifier="pemulaTapped" modalPresentationStyle="fullScreen" id="qXR-2X-drj"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="pemulaTapped" animates="NO" modalPresentationStyle="fullScreen" id="qXR-2X-drj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -124,7 +124,7 @@
                                 <state key="normal" backgroundImage="tahapanButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="CBH-DM-8qT" eventType="touchUpInside" id="xDW-1k-xwT"/>
-                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="GZF-gd-Kx2"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="GZF-gd-Kx2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opo-LM-Sik" userLabel="ButtonNext">
@@ -392,7 +392,7 @@
                                 <state key="normal" backgroundImage="chevronBack"/>
                                 <connections>
                                     <action selector="backTapped:" destination="399-ml-a9V" eventType="touchUpInside" id="hlq-yd-vbK"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="tahapanBackTapped" modalPresentationStyle="fullScreen" id="86k-I2-V9Q"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="tahapanBackTapped" animates="NO" modalPresentationStyle="fullScreen" id="86k-I2-V9Q"/>
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-Is-0YC">
@@ -564,7 +564,7 @@
                                 <state key="normal" backgroundImage="tahapanButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="MfG-Cz-ikS" eventType="touchUpInside" id="EIm-4s-T4M"/>
-                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="bCB-Gs-GO1"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="bCB-Gs-GO1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIG-XL-hcw" userLabel="ButtonNext">
@@ -657,7 +657,7 @@
                                 <state key="normal" backgroundImage="tahapanButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="Pzj-me-pSG" eventType="touchUpInside" id="sS5-yM-2MJ"/>
-                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="m38-R6-Pc5"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="m38-R6-Pc5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45I-iY-YB8" userLabel="ButtonNext">
@@ -750,7 +750,7 @@
                                 <state key="normal" backgroundImage="tahapanButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="J1k-Tj-TPk" eventType="touchUpInside" id="ISX-xw-rEj"/>
-                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="jvm-bc-s1y"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="jvm-bc-s1y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVw-Yl-xvA" userLabel="ButtonNext">
@@ -843,7 +843,7 @@
                                 <state key="normal" backgroundImage="tahapanButton"/>
                                 <connections>
                                     <action selector="backToMainTapped:" destination="8tN-Vi-q9i" eventType="touchUpInside" id="AGq-h2-bq6"/>
-                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="HQ2-WR-A53"/>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="backTapped" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="HQ2-WR-A53"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DA-WX-7PV" userLabel="ButtonNext">
@@ -2143,7 +2143,7 @@
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="halamanUtamaTapped:" destination="sIa-mb-hOi" eventType="touchUpInside" id="YBp-qm-kQb"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="vlC-6N-A4W"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="vlC-6N-A4W"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNK-xu-Fdb" userLabel="ButtonNext">
@@ -2203,7 +2203,7 @@
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="halamanUtamaTapped:" destination="KFe-GX-K5a" eventType="touchUpInside" id="muq-ZG-bFc"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="UQp-0l-qqO"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="UQp-0l-qqO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7E-Zj-CzQ" userLabel="ButtonNext">
@@ -2259,7 +2259,7 @@
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="halamanUtamaTapped:" destination="O7Q-d0-okw" eventType="touchUpInside" id="QZB-0S-Zpg"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="hDh-H1-NIg"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="hDh-H1-NIg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScW-0F-M7e" userLabel="ButtonNext">
@@ -2315,7 +2315,7 @@
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="halamanUtamaTapped:" destination="441-0l-qjz" eventType="touchUpInside" id="VTG-bK-GMA"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Idd-c2-MC4"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToMain" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Idd-c2-MC4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSw-fY-G5F" userLabel="ButtonNext">
@@ -3064,7 +3064,7 @@
                                 <state key="normal" backgroundImage="buttonToCanvas"/>
                                 <connections>
                                     <action selector="toCanvasTapped:" destination="idg-BM-fgm" eventType="touchUpInside" id="YgW-40-xdX"/>
-                                    <segue destination="7OD-15-gx8" kind="presentation" identifier="toCanvas" modalPresentationStyle="fullScreen" id="apS-dv-C3v"/>
+                                    <segue destination="7OD-15-gx8" kind="presentation" identifier="toCanvas" animates="NO" modalPresentationStyle="fullScreen" id="apS-dv-C3v"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="holderGambar" translatesAutoresizingMaskIntoConstraints="NO" id="yZ1-aQ-EtM">
@@ -4140,7 +4140,7 @@
                                 <state key="normal" backgroundImage="chevronNext"/>
                                 <connections>
                                     <action selector="nextTapped:" destination="RbW-Fl-zOd" eventType="touchUpInside" id="2q6-eu-fh9"/>
-                                    <segue destination="33z-jK-LwV" kind="presentation" identifier="lanjukan" animates="NO" modalPresentationStyle="fullScreen" id="TYe-N4-COK"/>
+                                    <segue destination="33z-jK-LwV" kind="presentation" identifier="lanjutkan" animates="NO" modalPresentationStyle="fullScreen" id="TYe-N4-COK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4222,7 +4222,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDi-Li-qrb">
-                                <rect key="frame" x="40" y="40" width="72" height="72"/>
+                                <rect key="frame" x="40" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="tahapanButton"/>
                                 <connections>
                                     <segue destination="399-ml-a9V" kind="presentation" identifier="toTahapan" animates="NO" modalPresentationStyle="fullScreen" id="ur4-EL-eFf"/>
@@ -4243,8 +4243,7 @@
                             <constraint firstItem="BDi-Li-qrb" firstAttribute="leading" secondItem="I0h-qB-DNI" secondAttribute="leading" constant="40" id="363-Yo-bzl"/>
                             <constraint firstItem="zEV-Dc-Ckr" firstAttribute="top" secondItem="I0h-qB-DNI" secondAttribute="top" constant="20" id="4nP-uX-UG4"/>
                             <constraint firstItem="I0h-qB-DNI" firstAttribute="height" secondItem="AVK-Kg-fQ3" secondAttribute="height" id="95V-IW-bRo"/>
-                            <constraint firstItem="BDi-Li-qrb" firstAttribute="top" secondItem="I0h-qB-DNI" secondAttribute="top" constant="40" id="AZU-Jg-9ab"/>
-                            <constraint firstItem="I0h-qB-DNI" firstAttribute="top" secondItem="71p-Yu-faK" secondAttribute="top" id="JuE-Qf-sXu"/>
+                            <constraint firstItem="BDi-Li-qrb" firstAttribute="top" secondItem="I0h-qB-DNI" secondAttribute="top" constant="20" id="AZU-Jg-9ab"/>
                             <constraint firstItem="lqx-7g-3M3" firstAttribute="height" secondItem="71p-Yu-faK" secondAttribute="height" multiplier="0.0773956" id="NSv-fz-w1E"/>
                             <constraint firstItem="lqx-7g-3M3" firstAttribute="top" secondItem="71p-Yu-faK" secondAttribute="top" constant="225" id="SMk-sd-rov"/>
                             <constraint firstItem="I0h-qB-DNI" firstAttribute="width" secondItem="AVK-Kg-fQ3" secondAttribute="width" id="Zmx-33-bY9"/>
@@ -4745,10 +4744,10 @@
             </objects>
             <point key="canvasLocation" x="-2693" y="2226"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="nJk-15-PFz">
             <objects>
-                <viewController id="ik4-Tx-o4x" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ik4-Tx-o4x" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jHw-X7-wJs">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7469,10 +7468,10 @@
             </objects>
             <point key="canvasLocation" x="-3056.281407035176" y="9831.6546762589933"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="teI-8s-GWV">
             <objects>
-                <viewController id="G7v-hh-XYo" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="G7v-hh-XYo" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nqc-de-3HI">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7556,10 +7555,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="3899"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="3pR-dV-lnk">
             <objects>
-                <viewController id="Y3e-ij-S4v" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y3e-ij-S4v" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DdP-RM-scd">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7643,10 +7642,10 @@
             </objects>
             <point key="canvasLocation" x="-1569.3467336683418" y="4672.6618705035971"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="JXH-ms-hNW">
             <objects>
-                <viewController id="xOL-fi-1vy" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xOL-fi-1vy" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wO9-JO-K6F">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7730,10 +7729,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="5414"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="Gfd-gj-pEh">
             <objects>
-                <viewController id="AkG-pc-dh5" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AkG-pc-dh5" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hJt-Ew-ghs">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7817,10 +7816,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="6150"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="eGu-sy-JDT">
             <objects>
-                <viewController id="3hc-4Z-PJO" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3hc-4Z-PJO" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kdn-Vo-MSH">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7904,10 +7903,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="6876"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="ce3-Ge-pUF">
             <objects>
-                <viewController id="iNr-zZ-Enc" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iNr-zZ-Enc" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iKm-WW-5Kh">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7991,10 +7990,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="7622"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="asj-gS-Byn">
             <objects>
-                <viewController id="z5a-d7-6A9" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="z5a-d7-6A9" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eiy-Rx-uau">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8078,10 +8077,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="8371"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="Lgs-IJ-pbe">
             <objects>
-                <viewController id="tzt-WV-m8F" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tzt-WV-m8F" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JYX-4S-wcC">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8165,10 +8164,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="9099"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward2 Controller-->
         <scene sceneID="FJg-s1-4JJ">
             <objects>
-                <viewController id="VRb-3l-I9n" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VRb-3l-I9n" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ncV-II-bVh">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8204,7 +8203,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHe-nM-eZv">
-                                <rect key="frame" x="40" y="40" width="72" height="72"/>
+                                <rect key="frame" x="40" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="tahapanbutton2"/>
                                 <connections>
                                     <action selector="tahapanTapped:" destination="VRb-3l-I9n" eventType="touchUpInside" id="al0-WT-0tq"/>
@@ -8225,7 +8224,7 @@
                             <constraint firstItem="Jzv-9M-27p" firstAttribute="trailing" secondItem="DsG-se-ApG" secondAttribute="trailing" constant="40" id="3wa-4Z-eme"/>
                             <constraint firstItem="Z7r-Jt-uKW" firstAttribute="trailing" secondItem="hG9-aM-HA6" secondAttribute="trailing" constant="40" id="4ra-Nw-X90"/>
                             <constraint firstItem="lmT-mZ-iyB" firstAttribute="height" secondItem="Z7r-Jt-uKW" secondAttribute="height" multiplier="0.0773956" id="7NW-sC-rxt"/>
-                            <constraint firstItem="WHe-nM-eZv" firstAttribute="top" secondItem="Jzv-9M-27p" secondAttribute="top" constant="40" id="FXc-Jw-l24"/>
+                            <constraint firstItem="WHe-nM-eZv" firstAttribute="top" secondItem="Jzv-9M-27p" secondAttribute="top" constant="20" id="FXc-Jw-l24"/>
                             <constraint firstItem="Jzv-9M-27p" firstAttribute="width" secondItem="ncV-II-bVh" secondAttribute="width" id="Lkf-MI-IAH"/>
                             <constraint firstItem="Jzv-9M-27p" firstAttribute="centerY" secondItem="ncV-II-bVh" secondAttribute="centerY" id="VcQ-Dd-ijZ"/>
                             <constraint firstItem="Jzv-9M-27p" firstAttribute="centerX" secondItem="ncV-II-bVh" secondAttribute="centerX" id="WPa-1e-Azz"/>
@@ -8238,7 +8237,6 @@
                             <constraint firstItem="lmT-mZ-iyB" firstAttribute="top" secondItem="Z7r-Jt-uKW" secondAttribute="top" constant="225" id="kQ5-4J-wTn"/>
                             <constraint firstItem="lmT-mZ-iyB" firstAttribute="width" secondItem="Z7r-Jt-uKW" secondAttribute="width" multiplier="0.688442" id="kit-yr-g1g"/>
                             <constraint firstItem="oAO-VB-fKS" firstAttribute="centerX" secondItem="Z7r-Jt-uKW" secondAttribute="centerX" id="l0c-fh-D4d"/>
-                            <constraint firstItem="Jzv-9M-27p" firstAttribute="top" secondItem="Z7r-Jt-uKW" secondAttribute="top" id="o1o-bj-U9i"/>
                             <constraint firstItem="DsG-se-ApG" firstAttribute="top" secondItem="Jzv-9M-27p" secondAttribute="top" constant="20" id="q8l-PR-lSF"/>
                             <constraint firstItem="Kgm-w0-eiV" firstAttribute="centerX" secondItem="ncV-II-bVh" secondAttribute="centerX" id="vYn-LV-DN8"/>
                             <constraint firstItem="lmT-mZ-iyB" firstAttribute="centerX" secondItem="Z7r-Jt-uKW" secondAttribute="centerX" id="ycf-3U-G4e"/>
@@ -8265,15 +8263,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mTJ-yR-Nds"/>
-        <segue reference="rzW-7E-bEB"/>
-        <segue reference="g7y-Fc-fC4"/>
-        <segue reference="KqB-Y1-Hsk"/>
-        <segue reference="WMV-mN-zta"/>
-        <segue reference="Lpo-fz-EhZ"/>
-        <segue reference="DwG-bS-nHF"/>
-        <segue reference="5go-pr-5N6"/>
-        <segue reference="0e8-MJ-olq"/>
+        <segue reference="EVX-HN-c3h"/>
+        <segue reference="hy5-DN-RFu"/>
+        <segue reference="Eyh-jh-fx7"/>
+        <segue reference="gGo-z3-cqQ"/>
+        <segue reference="TJz-zL-YjR"/>
+        <segue reference="Fad-y4-L8I"/>
+        <segue reference="2HJ-7L-5Ct"/>
+        <segue reference="f3k-uq-hOb"/>
+        <segue reference="BSg-jr-PT2"/>
         <segue reference="dD0-Lb-FON"/>
         <segue reference="mg3-ko-bWw"/>
         <segue reference="bNb-RF-UCs"/>
@@ -8292,9 +8290,9 @@
         <segue reference="rMz-rB-p4V"/>
         <segue reference="L0d-Sz-PT9"/>
         <segue reference="a9S-Pf-Vpd"/>
-        <segue reference="3Rz-mX-Hfq"/>
+        <segue reference="cpD-bd-OhE"/>
         <segue reference="yF6-mR-7HC"/>
-        <segue reference="kwD-zm-eyP"/>
+        <segue reference="uTI-jo-reg"/>
         <segue reference="rPb-hC-0ZB"/>
         <segue reference="6gm-y7-krY"/>
         <segue reference="any-Qb-hVW"/>
@@ -8305,9 +8303,9 @@
         <segue reference="hOy-wN-jlI"/>
         <segue reference="QxP-Z9-hMs"/>
         <segue reference="ur4-EL-eFf"/>
-        <segue reference="Z0O-na-Ubq"/>
+        <segue reference="ilI-mI-E4S"/>
         <segue reference="lmp-JQ-03A"/>
-        <segue reference="qel-E4-sCp"/>
+        <segue reference="UQp-0l-qqO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
