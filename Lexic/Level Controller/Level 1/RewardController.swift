@@ -24,8 +24,20 @@ class RewardController: UIViewController {
     
     var clickSound:AVAudioPlayer?
     
+    let value = UIInterfaceOrientation.landscapeLeft.rawValue
+    
+     override var shouldAutorotate: Bool{
+         switch UIDevice.current.orientation {
+         case .portrait, .portraitUpsideDown, .unknown:
+             return false
+         default:
+             return true
+         }
+     }
+    
     override func viewDidLoad() {
         initializeVideoPlayerWithVideo()
+        UIDevice.current.setValue(value, forKey: "orientation")
         giftButton.isHidden = false
         instructionImage.isHidden = false
 //        UIView.animate(withDuration: 1, animations: {

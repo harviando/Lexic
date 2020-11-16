@@ -14,35 +14,20 @@ class OnBoardingController:UIViewController {
     
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
-//
-//    func playClickSound() {
-//        guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
-//
-//        do {
-//            clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
-//
-//            clickSound?.play()
-//
-//            if refreshedAudio == false {
-//                clickSound?.volume = 0.0
-//            } else if (refreshedAudio==true){
-//                clickSound?.volume = 0.8
-//            }
-//
-//        } catch {
-//        }
-//    }
-//
-//    func kickstartAudio(){
-//        playClickSound()
-//        refreshedAudio = true
-//
-//    }
-    
-    
+    let value = UIInterfaceOrientation.landscapeLeft.rawValue
+   
+    override var shouldAutorotate: Bool{
+        switch UIDevice.current.orientation {
+        case .portrait, .portraitUpsideDown, .unknown:
+            return false
+        default:
+            return true
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIDevice.current.setValue(value, forKey: "orientation")
 //        let value = UIInterfaceOrientation.landscapeLeft.rawValue
 //        UIDevice.current.setValue(value, forKey: "orientation")
 //        if UIDevice.current.userInterfaceIdiom == .pad {

@@ -46,11 +46,11 @@
                                 <rect key="frame" x="0.0" y="765" width="1194" height="74"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL" userLabel="ButtonAktivitas">
-                                <rect key="frame" x="836.5" y="573" width="269" height="109"/>
+                                <rect key="frame" x="702" y="573" width="538" height="218"/>
                                 <state key="normal" backgroundImage="buttonAktivitas"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG" userLabel="ButtonPetunjuk">
-                                <rect key="frame" x="836.5" y="693" width="269" height="79"/>
+                                <rect key="frame" x="836.5" y="802" width="269" height="79"/>
                                 <state key="normal" backgroundImage="buttonPetunjuk"/>
                                 <connections>
                                     <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
@@ -8281,7 +8281,7 @@
         <segue reference="dAj-9Y-NeY"/>
         <segue reference="V05-Og-3bD"/>
         <segue reference="qSP-k7-qGX"/>
-        <segue reference="vul-qw-5Uy"/>
+        <segue reference="kpe-G1-q4E"/>
         <segue reference="CSu-2b-wXc"/>
         <segue reference="RvL-KN-OWb"/>
         <segue reference="TYe-N4-COK"/>
@@ -8302,7 +8302,7 @@
         <segue reference="MiZ-RU-r09"/>
         <segue reference="hOy-wN-jlI"/>
         <segue reference="QxP-Z9-hMs"/>
-        <segue reference="ur4-EL-eFf"/>
+        <segue reference="qXR-2X-drj"/>
         <segue reference="ilI-mI-E4S"/>
         <segue reference="lmp-JQ-03A"/>
         <segue reference="UQp-0l-qqO"/>

@@ -15,6 +15,16 @@ class ViewController: UIViewController {
     
     var refreshedAudio:Bool = false
     var clickSound:AVAudioPlayer?
+    let value = UIInterfaceOrientation.landscapeLeft.rawValue
+    
+     override var shouldAutorotate: Bool{
+         switch UIDevice.current.orientation {
+         case .portrait, .portraitUpsideDown, .unknown:
+             return false
+         default:
+             return true
+         }
+     }
     
     func playClickSound() {
         guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
@@ -42,6 +52,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIDevice.current.setValue(value, forKey: "orientation")
         kickstartAudio()
         print("wowi")
         // Do any additional setup after loading the view.
