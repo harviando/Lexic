@@ -2852,10 +2852,10 @@
             </objects>
             <point key="canvasLocation" x="786" y="6876"/>
         </scene>
-        <!--Level 1s6 Membaca Controller-->
+        <!--Level 1s7 Membaca Controller-->
         <scene sceneID="zGC-4X-5rD">
             <objects>
-                <viewController id="bAo-4p-xDi" customClass="Level1s6MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bAo-4p-xDi" customClass="Level1s7MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CH6-lS-gcS">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2945,10 +2945,10 @@
             </objects>
             <point key="canvasLocation" x="-646" y="7622"/>
         </scene>
-        <!--Level 1s6 Membaca Controller-->
+        <!--Level 1s8 Membaca Controller-->
         <scene sceneID="wdf-IF-Ztb">
             <objects>
-                <viewController id="0Pc-A3-QhW" customClass="Level1s6MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0Pc-A3-QhW" customClass="Level1s8MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xd8-p2-O1z">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3038,10 +3038,10 @@
             </objects>
             <point key="canvasLocation" x="-646" y="8371"/>
         </scene>
-        <!--Level 1s6 Membaca Controller-->
+        <!--Level 1s9 Membaca Controller-->
         <scene sceneID="Q8E-X0-6dp">
             <objects>
-                <viewController id="idg-BM-fgm" customClass="Level1s6MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="idg-BM-fgm" customClass="Level1s9MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o3s-S6-ot5">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3131,10 +3131,10 @@
             </objects>
             <point key="canvasLocation" x="-646" y="9099"/>
         </scene>
-        <!--Level 1s6 Membaca Controller-->
+        <!--Level 1s10 Membaca Controller-->
         <scene sceneID="Cln-zG-upJ">
             <objects>
-                <viewController id="33z-jK-LwV" customClass="Level1s6MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="33z-jK-LwV" customClass="Level1s10MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NuG-qE-bBM">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4536,6 +4536,7 @@
                             <constraint firstItem="1eh-SN-ms2" firstAttribute="height" secondItem="m8M-Xx-Fvz" secondAttribute="height" multiplier="0.482801" id="BWy-eS-ZuE"/>
                             <constraint firstItem="68S-Fg-42O" firstAttribute="height" secondItem="owh-uF-CHH" secondAttribute="height" id="ENb-FP-yxf"/>
                             <constraint firstItem="295-ab-Kn1" firstAttribute="height" secondItem="m8M-Xx-Fvz" secondAttribute="height" multiplier="0.482801" id="EUQ-Qu-Mhn"/>
+                            <constraint firstItem="Gse-Re-yNE" firstAttribute="height" secondItem="m8M-Xx-Fvz" secondAttribute="height" multiplier="0.482801" id="Ebq-pb-aem"/>
                             <constraint firstItem="TOy-Mc-Rlg" firstAttribute="centerX" secondItem="68S-Fg-42O" secondAttribute="centerX" id="FWz-WR-eSC"/>
                             <constraint firstItem="68S-Fg-42O" firstAttribute="centerX" secondItem="m8M-Xx-Fvz" secondAttribute="centerX" id="Gao-GM-QW2"/>
                             <constraint firstItem="qkq-yY-KwX" firstAttribute="trailing" secondItem="68S-Fg-42O" secondAttribute="trailing" constant="-40" id="OSc-NP-dtx"/>
@@ -4611,6 +4612,7 @@
                                                         <state key="normal" backgroundImage="level2s2 button"/>
                                                         <connections>
                                                             <action selector="level2Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="aB0-GO-xQZ"/>
+                                                            <segue destination="wxj-hI-vhX" kind="presentation" identifier="2tapped" animates="NO" modalPresentationStyle="fullScreen" id="0e8-MJ-olq"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6m-gc-w0a" userLabel="3">
@@ -4618,6 +4620,7 @@
                                                         <state key="normal" backgroundImage="level2s3 button"/>
                                                         <connections>
                                                             <action selector="level3Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="tnM-28-GQb"/>
+                                                            <segue destination="vC4-C4-XPa" kind="presentation" identifier="3tapped" animates="NO" modalPresentationStyle="fullScreen" id="5go-pr-5N6"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nc3-v0-xbj" userLabel="4">
@@ -4625,6 +4628,7 @@
                                                         <state key="normal" backgroundImage="level2s4 button"/>
                                                         <connections>
                                                             <action selector="level4Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="jTC-9c-8DE"/>
+                                                            <segue destination="7RA-Sw-CYj" kind="presentation" identifier="4tapped" animates="NO" modalPresentationStyle="fullScreen" id="DwG-bS-nHF"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMG-x4-dZo" userLabel="5">
@@ -4632,6 +4636,7 @@
                                                         <state key="normal" backgroundImage="level2s5 button"/>
                                                         <connections>
                                                             <action selector="level5Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="tVH-MT-Ftc"/>
+                                                            <segue destination="9DM-1e-ecW" kind="presentation" identifier="5tapped" animates="NO" modalPresentationStyle="fullScreen" id="Lpo-fz-EhZ"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVS-3O-IsO" userLabel="6">
@@ -4639,6 +4644,7 @@
                                                         <state key="normal" backgroundImage="level2s6 button"/>
                                                         <connections>
                                                             <action selector="level6Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="OmN-6q-ple"/>
+                                                            <segue destination="HjU-g4-bVH" kind="presentation" identifier="6tapped" animates="NO" modalPresentationStyle="fullScreen" id="WMV-mN-zta"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odZ-QP-Avj" userLabel="7">
@@ -4646,6 +4652,7 @@
                                                         <state key="normal" backgroundImage="level2s7 button"/>
                                                         <connections>
                                                             <action selector="level7Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="NXQ-BT-RYi"/>
+                                                            <segue destination="VAy-To-Abc" kind="presentation" identifier="7tapped" animates="NO" modalPresentationStyle="fullScreen" id="KqB-Y1-Hsk"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcP-S4-eEN" userLabel="8">
@@ -4653,6 +4660,7 @@
                                                         <state key="normal" backgroundImage="level2s8 button"/>
                                                         <connections>
                                                             <action selector="level8Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="DWo-r3-4Hh"/>
+                                                            <segue destination="IPu-TN-W38" kind="presentation" identifier="8tapped" animates="NO" modalPresentationStyle="fullScreen" id="g7y-Fc-fC4"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2e-CI-Udz" userLabel="9">
@@ -4660,6 +4668,7 @@
                                                         <state key="normal" backgroundImage="level2s9 button"/>
                                                         <connections>
                                                             <action selector="level9Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="g4H-5n-fh5"/>
+                                                            <segue destination="Dfr-5g-vdL" kind="presentation" identifier="9tapped" animates="NO" modalPresentationStyle="fullScreen" id="rzW-7E-bEB"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gv1-0a-Lf8" userLabel="10">
@@ -4667,6 +4676,7 @@
                                                         <state key="normal" backgroundImage="level2s10 button"/>
                                                         <connections>
                                                             <action selector="level10Tapped:" destination="Rxj-X5-eRj" eventType="touchUpInside" id="FRs-qj-Wli"/>
+                                                            <segue destination="EhO-eK-bN5" kind="presentation" identifier="10tapped" animates="NO" modalPresentationStyle="fullScreen" id="mTJ-yR-Nds"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -8253,15 +8263,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tRg-QU-pqq"/>
-        <segue reference="de9-bj-t8c"/>
-        <segue reference="zfo-aZ-e26"/>
-        <segue reference="9yA-Yz-sg2"/>
-        <segue reference="Dae-lX-7At"/>
-        <segue reference="Q3C-ep-kJg"/>
-        <segue reference="EkP-fW-5Bk"/>
-        <segue reference="Icm-1h-ted"/>
-        <segue reference="Rf5-ab-CQQ"/>
+        <segue reference="3RQ-kv-4wI"/>
+        <segue reference="zNE-u1-VuC"/>
+        <segue reference="u0f-8C-DeH"/>
+        <segue reference="mTJ-yR-Nds"/>
+        <segue reference="rzW-7E-bEB"/>
+        <segue reference="g7y-Fc-fC4"/>
+        <segue reference="KqB-Y1-Hsk"/>
+        <segue reference="WMV-mN-zta"/>
+        <segue reference="Lpo-fz-EhZ"/>
+        <segue reference="DwG-bS-nHF"/>
+        <segue reference="5go-pr-5N6"/>
+        <segue reference="0e8-MJ-olq"/>
         <segue reference="sKD-Qc-CnK"/>
         <segue reference="Awo-Z4-wmS"/>
         <segue reference="t6G-1o-PLg"/>
@@ -8271,11 +8284,11 @@
         <segue reference="LZE-ii-cdE"/>
         <segue reference="chN-Yk-rOL"/>
         <segue reference="cs9-LZ-Hc7"/>
-        <segue reference="VZL-1Q-OH8"/>
+        <segue reference="OaL-xB-cyb"/>
         <segue reference="VEb-6o-pYe"/>
-        <segue reference="H1h-L4-tki"/>
+        <segue reference="RvL-KN-OWb"/>
         <segue reference="xbq-fr-2ck"/>
-        <segue reference="pbL-xx-cV7"/>
+        <segue reference="NOW-VK-gmW"/>
         <segue reference="qN1-lI-388"/>
         <segue reference="tTv-Sh-BBh"/>
         <segue reference="dek-tq-vb4"/>
@@ -8292,10 +8305,10 @@
         <segue reference="ntm-zg-yr6"/>
         <segue reference="wyh-3V-Zkq"/>
         <segue reference="qlu-Ym-tex"/>
-        <segue reference="Zj7-GQ-I1n"/>
-        <segue reference="Z0O-na-Ubq"/>
+        <segue reference="tXU-Oa-HDD"/>
+        <segue reference="ilI-mI-E4S"/>
         <segue reference="lmp-JQ-03A"/>
-        <segue reference="GBb-Lv-H3J"/>
+        <segue reference="kwz-cc-0Ss"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>

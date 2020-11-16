@@ -79,6 +79,7 @@ class Level2MenulisController: UIViewController {
         canvasImage1.pencilMode()
         canvasImage2.pencilMode()
         canvasImage3.pencilMode()
+        canvasImage4.pencilMode()
         pencilButton.setBackgroundImage(pencilActivated, for: .normal)
         eraserButton.setBackgroundImage(eraserNormal, for: .normal)
     }
@@ -86,6 +87,7 @@ class Level2MenulisController: UIViewController {
         canvasImage1.eraserMode()
         canvasImage2.eraserMode()
         canvasImage3.eraserMode()
+        canvasImage4.eraserMode()
         pencilButton.setBackgroundImage(pencilNormal, for: .normal)
         eraserButton.setBackgroundImage(eraserActivated, for: .normal)
     }
@@ -93,6 +95,8 @@ class Level2MenulisController: UIViewController {
         canvasImage1.image = nil
         canvasImage2.image = nil
         canvasImage3.image = nil
+        canvasImage4.image = nil
+        
     }
     
     @IBAction func finishTapped(_ sender: Any) {

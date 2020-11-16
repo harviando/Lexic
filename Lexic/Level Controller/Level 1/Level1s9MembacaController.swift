@@ -54,7 +54,7 @@ class Level1s9MembacaController: UIViewController {
     }
     
     func playSpeech() {
-        guard let url = Bundle.main.url(forResource: "rak", withExtension: "m4a") else { return }
+        guard let url = Bundle.main.url(forResource: "Lem", withExtension: "m4a") else { return }
         
         do {
             clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.m4a.rawValue)
@@ -74,6 +74,10 @@ class Level1s9MembacaController: UIViewController {
     }
     @IBAction func toCanvasTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "toCanvas", sender: nil)
+        playClickSound()
+    }
+    @IBAction func homeTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toHome", sender: nil)
         playClickSound()
     }
 }
