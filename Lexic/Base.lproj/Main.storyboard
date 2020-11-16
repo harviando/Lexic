@@ -46,11 +46,11 @@
                                 <rect key="frame" x="0.0" y="765" width="1194" height="74"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL" userLabel="ButtonAktivitas">
-                                <rect key="frame" x="702" y="573" width="538" height="218"/>
+                                <rect key="frame" x="836.5" y="573" width="269" height="109"/>
                                 <state key="normal" backgroundImage="buttonAktivitas"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG" userLabel="ButtonPetunjuk">
-                                <rect key="frame" x="836.5" y="802" width="269" height="79"/>
+                                <rect key="frame" x="836.5" y="693" width="269" height="79"/>
                                 <state key="normal" backgroundImage="buttonPetunjuk"/>
                                 <connections>
                                     <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
@@ -4222,6 +4222,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDi-Li-qrb">
                                 <rect key="frame" x="40" y="40" width="72" height="72"/>
                                 <state key="normal" backgroundImage="tahapanButton"/>
+                                <connections>
+                                    <segue destination="399-ml-a9V" kind="presentation" identifier="toTahapan" animates="NO" modalPresentationStyle="fullScreen" id="ur4-EL-eFf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsn-ge-6ew" userLabel="nextButton">
                                 <rect key="frame" x="1082" y="702" width="72" height="72"/>
@@ -6617,10 +6620,10 @@
             </objects>
             <point key="canvasLocation" x="-2302" y="9832"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s2 Membaca Controller-->
         <scene sceneID="yoH-4W-Pe5">
             <objects>
-                <viewController id="wxj-hI-vhX" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wxj-hI-vhX" customClass="Level2s2MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ztr-VU-UkE">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6710,10 +6713,10 @@
             </objects>
             <point key="canvasLocation" x="-3056" y="3899"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s3 Membaca Controller-->
         <scene sceneID="3LH-gF-6Gu">
             <objects>
-                <viewController id="vC4-C4-XPa" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vC4-C4-XPa" customClass="Level2s3MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PTe-hd-cp8">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6803,10 +6806,10 @@
             </objects>
             <point key="canvasLocation" x="-3056" y="4673"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s4 Membaca Controller-->
         <scene sceneID="8hB-aC-2xe">
             <objects>
-                <viewController id="7RA-Sw-CYj" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7RA-Sw-CYj" customClass="Level2s4MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WTx-DU-6pb">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6896,10 +6899,10 @@
             </objects>
             <point key="canvasLocation" x="-3056" y="5414"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s5 Membaca Controller-->
         <scene sceneID="nQi-Bu-pgW">
             <objects>
-                <viewController id="9DM-1e-ecW" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9DM-1e-ecW" customClass="Level2s5MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zq8-Xk-I2p">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6989,10 +6992,10 @@
             </objects>
             <point key="canvasLocation" x="-3056" y="6150"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s6 Membaca Controller-->
         <scene sceneID="qkb-Cb-5Mf">
             <objects>
-                <viewController id="HjU-g4-bVH" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HjU-g4-bVH" customClass="Level2s6MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mXx-wf-P6b">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7082,10 +7085,10 @@
             </objects>
             <point key="canvasLocation" x="-3056" y="6876"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s7 Membaca Controller-->
         <scene sceneID="eDn-Ah-n6Z">
             <objects>
-                <viewController id="VAy-To-Abc" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VAy-To-Abc" customClass="Level2s7MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pP5-70-OoU">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7175,10 +7178,10 @@
             </objects>
             <point key="canvasLocation" x="-3056" y="7622"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s8 Membaca Controller-->
         <scene sceneID="X6x-Hi-c9W">
             <objects>
-                <viewController id="IPu-TN-W38" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IPu-TN-W38" customClass="Level2s8MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f0k-c2-2kT">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7268,10 +7271,10 @@
             </objects>
             <point key="canvasLocation" x="-3056" y="8371"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s9 Membaca Controller-->
         <scene sceneID="eg7-GA-aCD">
             <objects>
-                <viewController id="Dfr-5g-vdL" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Dfr-5g-vdL" customClass="Level2s9MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KbW-t6-SjP">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7361,10 +7364,10 @@
             </objects>
             <point key="canvasLocation" x="-3056" y="9099"/>
         </scene>
-        <!--Level 2s1 Membaca Controller-->
+        <!--Level 2s10 Membaca Controller-->
         <scene sceneID="RBd-SI-PxA">
             <objects>
-                <viewController id="EhO-eK-bN5" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EhO-eK-bN5" customClass="Level2s10MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="llv-Ta-s3G">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8250,7 +8253,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Yb6-Jr-jzb"/>
         <segue reference="tRg-QU-pqq"/>
         <segue reference="de9-bj-t8c"/>
         <segue reference="zfo-aZ-e26"/>
@@ -8259,8 +8261,8 @@
         <segue reference="Q3C-ep-kJg"/>
         <segue reference="EkP-fW-5Bk"/>
         <segue reference="Icm-1h-ted"/>
-        <segue reference="BSg-jr-PT2"/>
-        <segue reference="dD0-Lb-FON"/>
+        <segue reference="Rf5-ab-CQQ"/>
+        <segue reference="sKD-Qc-CnK"/>
         <segue reference="Awo-Z4-wmS"/>
         <segue reference="t6G-1o-PLg"/>
         <segue reference="q3w-LN-6mh"/>
@@ -8269,8 +8271,8 @@
         <segue reference="LZE-ii-cdE"/>
         <segue reference="chN-Yk-rOL"/>
         <segue reference="cs9-LZ-Hc7"/>
-        <segue reference="vul-qw-5Uy"/>
-        <segue reference="CSu-2b-wXc"/>
+        <segue reference="VZL-1Q-OH8"/>
+        <segue reference="VEb-6o-pYe"/>
         <segue reference="H1h-L4-tki"/>
         <segue reference="3zz-OX-dTs"/>
         <segue reference="NOW-VK-gmW"/>
@@ -8290,10 +8292,10 @@
         <segue reference="ntm-zg-yr6"/>
         <segue reference="wyh-3V-Zkq"/>
         <segue reference="QxP-Z9-hMs"/>
-        <segue reference="qXR-2X-drj"/>
+        <segue reference="ur4-EL-eFf"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="4Gy-Yl-QW6"/>
-        <segue reference="kwz-cc-0Ss"/>
+        <segue reference="GBb-Lv-H3J"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
