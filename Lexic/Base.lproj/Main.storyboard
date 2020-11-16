@@ -1636,21 +1636,23 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oV-di-EXD" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="cAJ-r3-PFT" eventType="touchUpInside" id="iau-ip-uXR"/>
                                     <segue destination="CJm-XE-aTf" kind="presentation" identifier="quitPopup" animates="NO" modalPresentationStyle="fullScreen" id="Z0O-na-Ubq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZT-pT-gno" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZT-pT-gno" userLabel="giftButton">
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="K7d-v4-1UT"/>
-                                    <constraint firstAttribute="width" constant="162" id="cXd-mI-Oe3"/>
+                                    <constraint firstAttribute="height" constant="400" id="K7d-v4-1UT"/>
+                                    <constraint firstAttribute="width" constant="400" id="cXd-mI-Oe3"/>
                                 </constraints>
                                 <color key="tintColor" red="0.25863510369999998" green="0.54522997139999996" blue="0.53333628180000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17"/>
+                                </state>
                                 <connections>
                                     <action selector="giftTapped:" destination="cAJ-r3-PFT" eventType="touchUpInside" id="MT4-4V-96V"/>
                                 </connections>
@@ -1679,7 +1681,7 @@
                             <constraint firstItem="sTI-wS-PMD" firstAttribute="bottom" secondItem="t1H-gF-kZk" secondAttribute="bottom" constant="40" id="CaX-bK-Ofk"/>
                             <constraint firstItem="aqg-yn-Qyn" firstAttribute="centerX" secondItem="sTI-wS-PMD" secondAttribute="centerX" id="R2g-fW-lcj"/>
                             <constraint firstItem="sTI-wS-PMD" firstAttribute="trailing" secondItem="0oV-di-EXD" secondAttribute="trailing" constant="40" id="TlX-PJ-rgp"/>
-                            <constraint firstItem="0oV-di-EXD" firstAttribute="top" secondItem="sTI-wS-PMD" secondAttribute="top" constant="40" id="ZSV-uE-45V"/>
+                            <constraint firstItem="0oV-di-EXD" firstAttribute="top" secondItem="sTI-wS-PMD" secondAttribute="top" constant="20" id="ZSV-uE-45V"/>
                             <constraint firstItem="aqg-yn-Qyn" firstAttribute="centerY" secondItem="JFv-1n-IbX" secondAttribute="centerY" id="fC1-bm-kJY"/>
                             <constraint firstItem="bl7-LF-7pD" firstAttribute="height" secondItem="sTI-wS-PMD" secondAttribute="height" multiplier="0.0773956" id="fHv-ao-MMa"/>
                             <constraint firstItem="bl7-LF-7pD" firstAttribute="centerX" secondItem="sTI-wS-PMD" secondAttribute="centerX" id="gPO-CS-TX4"/>
@@ -1723,7 +1725,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zU5-gl-Krz" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="412-h5-vIt" eventType="touchUpInside" id="kht-Je-owP"/>
@@ -1734,13 +1736,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZ8-bc-OBx" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="HLu-Xi-M35"/>
-                                    <constraint firstAttribute="width" constant="162" id="V9S-EY-kir"/>
+                                    <constraint firstAttribute="height" constant="400" id="HLu-Xi-M35"/>
+                                    <constraint firstAttribute="width" constant="400" id="V9S-EY-kir"/>
                                 </constraints>
                                 <color key="tintColor" red="0.10298418249999999" green="0.55313026909999996" blue="0.5372582078" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="412-h5-vIt" eventType="touchUpInside" id="aMA-yr-VFE"/>
                                 </connections>
@@ -1759,7 +1761,7 @@
                             <constraint firstItem="Dce-wu-yjU" firstAttribute="height" secondItem="zgB-v8-CU7" secondAttribute="height" multiplier="0.0773956" id="And-YP-ATs"/>
                             <constraint firstItem="aOZ-Od-0E6" firstAttribute="centerY" secondItem="uqg-oB-hN5" secondAttribute="centerY" id="Azy-bX-Mqv"/>
                             <constraint firstItem="Dce-wu-yjU" firstAttribute="width" secondItem="zgB-v8-CU7" secondAttribute="width" multiplier="0.688442" id="Ffe-be-Y2G"/>
-                            <constraint firstItem="zU5-gl-Krz" firstAttribute="top" secondItem="zgB-v8-CU7" secondAttribute="top" constant="40" id="GSr-Rn-meF"/>
+                            <constraint firstItem="zU5-gl-Krz" firstAttribute="top" secondItem="zgB-v8-CU7" secondAttribute="top" constant="20" id="GSr-Rn-meF"/>
                             <constraint firstItem="mfw-lk-3SS" firstAttribute="width" secondItem="uqg-oB-hN5" secondAttribute="width" id="PTb-v1-5YW"/>
                             <constraint firstItem="zgB-v8-CU7" firstAttribute="trailing" secondItem="zU5-gl-Krz" secondAttribute="trailing" constant="40" id="Qy4-zm-eFx"/>
                             <constraint firstItem="XZ8-bc-OBx" firstAttribute="centerX" secondItem="uqg-oB-hN5" secondAttribute="centerX" id="SDg-9U-8U8"/>
@@ -1810,7 +1812,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViG-8h-nul" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="isi-mM-YeU" eventType="touchUpInside" id="BCw-AI-ykQ"/>
@@ -1821,13 +1823,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFB-EF-OMD" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="6DP-WQ-i2y"/>
-                                    <constraint firstAttribute="width" constant="162" id="LD9-4g-oYD"/>
+                                    <constraint firstAttribute="height" constant="400" id="6DP-WQ-i2y"/>
+                                    <constraint firstAttribute="width" constant="400" id="LD9-4g-oYD"/>
                                 </constraints>
                                 <color key="tintColor" red="0.02615340985" green="0.56504839659999995" blue="0.54117900129999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="isi-mM-YeU" eventType="touchUpInside" id="lbl-Gq-hgi"/>
                                 </connections>
@@ -1856,7 +1858,7 @@
                             <constraint firstItem="JBs-je-aE6" firstAttribute="centerY" secondItem="dsi-Dg-jK0" secondAttribute="centerY" id="bbM-5A-VEv"/>
                             <constraint firstItem="oFB-EF-OMD" firstAttribute="centerY" secondItem="dsi-Dg-jK0" secondAttribute="centerY" id="fDi-TP-9S5"/>
                             <constraint firstItem="NvD-dn-ptU" firstAttribute="trailing" secondItem="R1Z-ab-dLa" secondAttribute="trailing" constant="40" id="g0s-jM-91p"/>
-                            <constraint firstItem="ViG-8h-nul" firstAttribute="top" secondItem="NvD-dn-ptU" secondAttribute="top" constant="40" id="guo-0I-VRb"/>
+                            <constraint firstItem="ViG-8h-nul" firstAttribute="top" secondItem="NvD-dn-ptU" secondAttribute="top" constant="20" id="guo-0I-VRb"/>
                             <constraint firstItem="2Zn-vP-jaN" firstAttribute="height" secondItem="NvD-dn-ptU" secondAttribute="height" multiplier="0.0773956" id="hy3-mJ-YJ9"/>
                             <constraint firstItem="NvD-dn-ptU" firstAttribute="bottom" secondItem="R1Z-ab-dLa" secondAttribute="bottom" constant="40" id="nxU-49-27I"/>
                             <constraint firstItem="ge5-Fp-AT6" firstAttribute="width" secondItem="dsi-Dg-jK0" secondAttribute="width" id="ot0-VE-af1"/>
@@ -1897,7 +1899,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twQ-Qt-zt5" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="gBx-II-dlo" eventType="touchUpInside" id="57z-eF-MZj"/>
@@ -1908,13 +1910,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxd-q4-N57" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="5mc-vZ-LKm"/>
-                                    <constraint firstAttribute="height" constant="162" id="hqN-tE-ufz"/>
+                                    <constraint firstAttribute="width" constant="400" id="5mc-vZ-LKm"/>
+                                    <constraint firstAttribute="height" constant="400" id="hqN-tE-ufz"/>
                                 </constraints>
                                 <color key="tintColor" red="0.026573961600000001" green="0.57696813339999997" blue="0.54509955639999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="gBx-II-dlo" eventType="touchUpInside" id="7Im-Fb-jLe"/>
                                 </connections>
@@ -1931,7 +1933,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="LiS-m9-EUb" firstAttribute="width" secondItem="cym-Zm-qdj" secondAttribute="width" id="01b-Cx-lZn"/>
-                            <constraint firstItem="twQ-Qt-zt5" firstAttribute="top" secondItem="o7c-3R-AhJ" secondAttribute="top" constant="40" id="7Uh-mv-esC"/>
+                            <constraint firstItem="twQ-Qt-zt5" firstAttribute="top" secondItem="o7c-3R-AhJ" secondAttribute="top" constant="20" id="7Uh-mv-esC"/>
                             <constraint firstItem="fxd-q4-N57" firstAttribute="centerX" secondItem="cym-Zm-qdj" secondAttribute="centerX" id="9ad-xo-4J4"/>
                             <constraint firstItem="LiS-m9-EUb" firstAttribute="centerY" secondItem="cym-Zm-qdj" secondAttribute="centerY" id="Axz-61-ZAw"/>
                             <constraint firstItem="FLH-cq-qUH" firstAttribute="centerX" secondItem="o7c-3R-AhJ" secondAttribute="centerX" id="ERB-ad-8cq"/>
@@ -1984,7 +1986,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f37-UE-5eJ" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="0iZ-SV-Nr8" eventType="touchUpInside" id="3nM-Vw-XKo"/>
@@ -1995,13 +1997,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NC9-SJ-oAr" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="4lp-8T-80b"/>
-                                    <constraint firstAttribute="width" constant="162" id="Pbh-Aa-dYU"/>
+                                    <constraint firstAttribute="height" constant="400" id="4lp-8T-80b"/>
+                                    <constraint firstAttribute="width" constant="400" id="Pbh-Aa-dYU"/>
                                 </constraints>
                                 <color key="tintColor" red="0.02699852921" green="0.58888536690000004" blue="0.54902017120000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="0iZ-SV-Nr8" eventType="touchUpInside" id="hXf-Jg-qvq"/>
                                 </connections>
@@ -2023,7 +2025,7 @@
                             <constraint firstItem="9Sl-mx-J35" firstAttribute="trailing" secondItem="FQL-d2-UG3" secondAttribute="trailing" constant="40" id="Isz-yI-pej"/>
                             <constraint firstItem="Qb0-KA-rs4" firstAttribute="centerX" secondItem="xkB-3v-qPO" secondAttribute="centerX" id="LaG-Ig-EPA"/>
                             <constraint firstItem="Qb0-KA-rs4" firstAttribute="width" secondItem="xkB-3v-qPO" secondAttribute="width" id="Qxy-GA-U5i"/>
-                            <constraint firstItem="f37-UE-5eJ" firstAttribute="top" secondItem="9Sl-mx-J35" secondAttribute="top" constant="40" id="Waf-Jq-dq0"/>
+                            <constraint firstItem="f37-UE-5eJ" firstAttribute="top" secondItem="9Sl-mx-J35" secondAttribute="top" constant="20" id="Waf-Jq-dq0"/>
                             <constraint firstItem="C4G-Vj-Ip9" firstAttribute="centerX" secondItem="9Sl-mx-J35" secondAttribute="centerX" id="cF5-U4-X7k"/>
                             <constraint firstItem="NC9-SJ-oAr" firstAttribute="centerX" secondItem="xkB-3v-qPO" secondAttribute="centerX" id="cls-Ss-faU"/>
                             <constraint firstItem="HC1-gg-Bml" firstAttribute="top" secondItem="9Sl-mx-J35" secondAttribute="top" constant="225" id="eLX-C3-EYr"/>
@@ -2781,7 +2783,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmt-lQ-Bsc" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="ACg-pP-Qqu" eventType="touchUpInside" id="3HZ-lF-cvy"/>
@@ -2792,13 +2794,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zs-at-bc6" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="F5H-iw-K9C"/>
-                                    <constraint firstAttribute="width" constant="162" id="VnP-mz-zjy"/>
+                                    <constraint firstAttribute="height" constant="400" id="F5H-iw-K9C"/>
+                                    <constraint firstAttribute="width" constant="400" id="VnP-mz-zjy"/>
                                 </constraints>
                                 <color key="tintColor" red="0.02699852921" green="0.58888536690000004" blue="0.54902017120000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="ACg-pP-Qqu" eventType="touchUpInside" id="XUO-jO-e3L"/>
                                 </connections>
@@ -2822,7 +2824,7 @@
                             <constraint firstItem="8Zs-at-bc6" firstAttribute="centerY" secondItem="Gmw-ai-qC6" secondAttribute="centerY" id="XCZ-Tj-2jh"/>
                             <constraint firstItem="SeV-hM-jKi" firstAttribute="centerX" secondItem="Gmw-ai-qC6" secondAttribute="centerX" id="Zf2-3S-Klo"/>
                             <constraint firstItem="DYF-dm-Ebn" firstAttribute="height" secondItem="zzB-gD-O8n" secondAttribute="height" multiplier="0.0773956" id="Zfq-2a-mj4"/>
-                            <constraint firstItem="cmt-lQ-Bsc" firstAttribute="top" secondItem="zzB-gD-O8n" secondAttribute="top" constant="40" id="bdu-ea-qNi"/>
+                            <constraint firstItem="cmt-lQ-Bsc" firstAttribute="top" secondItem="zzB-gD-O8n" secondAttribute="top" constant="20" id="bdu-ea-qNi"/>
                             <constraint firstItem="SeV-hM-jKi" firstAttribute="height" secondItem="Gmw-ai-qC6" secondAttribute="height" id="c4I-UI-wmo"/>
                             <constraint firstItem="9Mn-El-XlQ" firstAttribute="width" secondItem="Gmw-ai-qC6" secondAttribute="width" id="eJl-O2-5a1"/>
                             <constraint firstItem="SeV-hM-jKi" firstAttribute="centerY" secondItem="Gmw-ai-qC6" secondAttribute="centerY" id="eLR-nq-TDs"/>
@@ -3940,7 +3942,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i38-y9-3LE" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="l1z-SA-ydg" eventType="touchUpInside" id="1EB-78-Uw5"/>
@@ -3950,13 +3952,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INO-HX-FSM" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="1iC-6v-OuI"/>
-                                    <constraint firstAttribute="height" constant="162" id="pgj-6Z-ITK"/>
+                                    <constraint firstAttribute="width" constant="400" id="1iC-6v-OuI"/>
+                                    <constraint firstAttribute="height" constant="400" id="pgj-6Z-ITK"/>
                                 </constraints>
                                 <color key="tintColor" red="0.02699852921" green="0.58888536690000004" blue="0.54902017120000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="l1z-SA-ydg" eventType="touchUpInside" id="snf-pX-0fI"/>
                                 </connections>
@@ -3977,7 +3979,7 @@
                             <constraint firstItem="bZ2-qN-zAg" firstAttribute="width" secondItem="zXX-2W-IJ2" secondAttribute="width" id="2o3-pV-IAt"/>
                             <constraint firstItem="bZ2-qN-zAg" firstAttribute="centerY" secondItem="zXX-2W-IJ2" secondAttribute="centerY" id="43l-A5-KVd"/>
                             <constraint firstItem="INO-HX-FSM" firstAttribute="centerY" secondItem="zXX-2W-IJ2" secondAttribute="centerY" id="A1P-zb-Qkc"/>
-                            <constraint firstItem="i38-y9-3LE" firstAttribute="top" secondItem="XYT-29-3Iq" secondAttribute="top" constant="40" id="HZ9-ZQ-EQG"/>
+                            <constraint firstItem="i38-y9-3LE" firstAttribute="top" secondItem="XYT-29-3Iq" secondAttribute="top" constant="20" id="HZ9-ZQ-EQG"/>
                             <constraint firstItem="XYT-29-3Iq" firstAttribute="trailing" secondItem="i38-y9-3LE" secondAttribute="trailing" constant="40" id="QfF-h6-HTR"/>
                             <constraint firstItem="zR5-Pb-HEb" firstAttribute="height" secondItem="XYT-29-3Iq" secondAttribute="height" multiplier="0.0773956" id="Sab-hs-Xz2"/>
                             <constraint firstItem="bZ2-qN-zAg" firstAttribute="centerX" secondItem="XYT-29-3Iq" secondAttribute="centerX" id="Sak-9U-AVL"/>
@@ -4026,7 +4028,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bET-ta-W8U" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="rd6-eW-JaI" eventType="touchUpInside" id="mUY-PF-Ser"/>
@@ -4036,13 +4038,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CW-h8-Aiu" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="ito-ZY-ZCC"/>
-                                    <constraint firstAttribute="width" constant="162" id="vhI-EX-Aqd"/>
+                                    <constraint firstAttribute="height" constant="400" id="ito-ZY-ZCC"/>
+                                    <constraint firstAttribute="width" constant="400" id="vhI-EX-Aqd"/>
                                 </constraints>
                                 <color key="tintColor" red="0.02699852921" green="0.58888536690000004" blue="0.54902017120000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="rd6-eW-JaI" eventType="touchUpInside" id="LZL-GG-YI1"/>
                                 </connections>
@@ -4063,7 +4065,7 @@
                             <constraint firstItem="dqi-rR-rQ0" firstAttribute="centerY" secondItem="9Yv-qD-P5U" secondAttribute="centerY" id="8lQ-ZR-6yx"/>
                             <constraint firstItem="dju-W9-eOi" firstAttribute="width" secondItem="9Yv-qD-P5U" secondAttribute="width" id="9Io-Rt-ZTm"/>
                             <constraint firstItem="dju-W9-eOi" firstAttribute="height" secondItem="9Yv-qD-P5U" secondAttribute="height" id="9g5-6v-SkX"/>
-                            <constraint firstItem="bET-ta-W8U" firstAttribute="top" secondItem="iDZ-Pw-e0R" secondAttribute="top" constant="40" id="BdH-sj-BXE"/>
+                            <constraint firstItem="bET-ta-W8U" firstAttribute="top" secondItem="iDZ-Pw-e0R" secondAttribute="top" constant="20" id="BdH-sj-BXE"/>
                             <constraint firstItem="d5I-TC-8mT" firstAttribute="width" secondItem="iDZ-Pw-e0R" secondAttribute="width" multiplier="0.688442" id="Hut-Ap-EGg"/>
                             <constraint firstItem="iDZ-Pw-e0R" firstAttribute="bottom" secondItem="qsA-UA-LwB" secondAttribute="bottom" constant="40" id="L0p-7v-h3C"/>
                             <constraint firstItem="d5I-TC-8mT" firstAttribute="top" secondItem="iDZ-Pw-e0R" secondAttribute="top" constant="225" id="Lcf-pQ-ljb"/>
@@ -4112,7 +4114,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DB-Gk-r3P" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="RbW-Fl-zOd" eventType="touchUpInside" id="p6q-2o-Her"/>
@@ -4122,13 +4124,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oly-uo-UAl" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="2wF-87-NvI"/>
-                                    <constraint firstAttribute="width" constant="162" id="ZYZ-Rh-VQp"/>
+                                    <constraint firstAttribute="height" constant="400" id="2wF-87-NvI"/>
+                                    <constraint firstAttribute="width" constant="400" id="ZYZ-Rh-VQp"/>
                                 </constraints>
                                 <color key="tintColor" red="0.02699852921" green="0.58888536690000004" blue="0.54902017120000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="RbW-Fl-zOd" eventType="touchUpInside" id="ZOW-dd-Cmw"/>
                                 </connections>
@@ -4150,7 +4152,7 @@
                             <constraint firstItem="Eta-Cn-xdC" firstAttribute="top" secondItem="jjj-3M-nC8" secondAttribute="top" constant="225" id="6TG-Yx-cHf"/>
                             <constraint firstItem="fu5-6s-kTt" firstAttribute="width" secondItem="bSX-cq-mY0" secondAttribute="width" id="EAU-ih-FaM"/>
                             <constraint firstItem="jjj-3M-nC8" firstAttribute="trailing" secondItem="9DB-Gk-r3P" secondAttribute="trailing" constant="40" id="LcZ-hv-tsS"/>
-                            <constraint firstItem="9DB-Gk-r3P" firstAttribute="top" secondItem="jjj-3M-nC8" secondAttribute="top" constant="40" id="OWO-5E-dA0"/>
+                            <constraint firstItem="9DB-Gk-r3P" firstAttribute="top" secondItem="jjj-3M-nC8" secondAttribute="top" constant="20" id="OWO-5E-dA0"/>
                             <constraint firstItem="Oly-uo-UAl" firstAttribute="centerY" secondItem="bSX-cq-mY0" secondAttribute="centerY" id="V9n-dl-13I"/>
                             <constraint firstItem="Cit-8x-a9D" firstAttribute="height" secondItem="bSX-cq-mY0" secondAttribute="height" id="WCx-80-AWP"/>
                             <constraint firstItem="jjj-3M-nC8" firstAttribute="trailing" secondItem="o1P-O0-uYF" secondAttribute="trailing" constant="40" id="cs7-8k-qwX"/>
@@ -4198,7 +4200,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEV-Dc-Ckr" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="MNR-B9-6Dd" eventType="touchUpInside" id="zJ8-eI-G6x"/>
@@ -4208,13 +4210,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjE-L1-C6Q" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="C8f-4N-Ruv"/>
-                                    <constraint firstAttribute="height" constant="162" id="kw2-7z-L6O"/>
+                                    <constraint firstAttribute="width" constant="400" id="C8f-4N-Ruv"/>
+                                    <constraint firstAttribute="height" constant="400" id="kw2-7z-L6O"/>
                                 </constraints>
                                 <color key="tintColor" red="0.02699852921" green="0.58888536690000004" blue="0.54902017120000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="MNR-B9-6Dd" eventType="touchUpInside" id="nWm-eb-h3F"/>
                                 </connections>
@@ -4239,7 +4241,7 @@
                             <constraint firstItem="zkZ-RX-eOO" firstAttribute="height" secondItem="AVK-Kg-fQ3" secondAttribute="height" id="0p1-QA-hMH"/>
                             <constraint firstItem="71p-Yu-faK" firstAttribute="bottom" secondItem="fsn-ge-6ew" secondAttribute="bottom" constant="40" id="2G7-Kc-cPH"/>
                             <constraint firstItem="BDi-Li-qrb" firstAttribute="leading" secondItem="I0h-qB-DNI" secondAttribute="leading" constant="40" id="363-Yo-bzl"/>
-                            <constraint firstItem="zEV-Dc-Ckr" firstAttribute="top" secondItem="I0h-qB-DNI" secondAttribute="top" constant="40" id="4nP-uX-UG4"/>
+                            <constraint firstItem="zEV-Dc-Ckr" firstAttribute="top" secondItem="I0h-qB-DNI" secondAttribute="top" constant="20" id="4nP-uX-UG4"/>
                             <constraint firstItem="I0h-qB-DNI" firstAttribute="height" secondItem="AVK-Kg-fQ3" secondAttribute="height" id="95V-IW-bRo"/>
                             <constraint firstItem="BDi-Li-qrb" firstAttribute="top" secondItem="I0h-qB-DNI" secondAttribute="top" constant="40" id="AZU-Jg-9ab"/>
                             <constraint firstItem="I0h-qB-DNI" firstAttribute="top" secondItem="71p-Yu-faK" secondAttribute="top" id="JuE-Qf-sXu"/>
@@ -4759,7 +4761,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMd-tx-Bqz" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="ik4-Tx-o4x" eventType="touchUpInside" id="kHl-fz-Jbc"/>
@@ -4767,13 +4769,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLx-Lf-BHh" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="31l-R6-bfH"/>
-                                    <constraint firstAttribute="height" constant="162" id="jVT-Px-LNf"/>
+                                    <constraint firstAttribute="width" constant="400" id="31l-R6-bfH"/>
+                                    <constraint firstAttribute="height" constant="400" id="jVT-Px-LNf"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="ik4-Tx-o4x" eventType="touchUpInside" id="Naa-Ec-bNT"/>
                                 </connections>
@@ -4805,7 +4807,7 @@
                             <constraint firstItem="PH0-tq-2UX" firstAttribute="centerX" secondItem="Qcq-nf-Z9w" secondAttribute="centerX" id="UEu-u8-o4e"/>
                             <constraint firstItem="TLx-Lf-BHh" firstAttribute="centerY" secondItem="jHw-X7-wJs" secondAttribute="centerY" id="WHo-a8-yNU"/>
                             <constraint firstItem="PH0-tq-2UX" firstAttribute="width" secondItem="Qcq-nf-Z9w" secondAttribute="width" multiplier="0.688442" id="Z19-aL-jEG"/>
-                            <constraint firstItem="gMd-tx-Bqz" firstAttribute="top" secondItem="Qcq-nf-Z9w" secondAttribute="top" constant="40" id="abE-4j-NKb"/>
+                            <constraint firstItem="gMd-tx-Bqz" firstAttribute="top" secondItem="Qcq-nf-Z9w" secondAttribute="top" constant="20" id="abE-4j-NKb"/>
                             <constraint firstItem="tmR-St-iN0" firstAttribute="centerX" secondItem="Qcq-nf-Z9w" secondAttribute="centerX" id="b0h-Ta-2yf"/>
                             <constraint firstItem="KN8-RO-hAX" firstAttribute="centerX" secondItem="jHw-X7-wJs" secondAttribute="centerX" id="bgt-4c-NQ9"/>
                             <constraint firstItem="Qcq-nf-Z9w" firstAttribute="bottom" secondItem="0bC-yd-S7G" secondAttribute="bottom" constant="40" id="jZ4-gw-0UX"/>
@@ -7483,7 +7485,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLg-0h-uk0" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="G7v-hh-XYo" eventType="touchUpInside" id="2R6-vR-W7e"/>
@@ -7491,13 +7493,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCv-E5-Epx" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="X6H-Mt-3EP"/>
-                                    <constraint firstAttribute="width" constant="162" id="Ziw-EZ-pQ5"/>
+                                    <constraint firstAttribute="height" constant="400" id="X6H-Mt-3EP"/>
+                                    <constraint firstAttribute="width" constant="400" id="Ziw-EZ-pQ5"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="G7v-hh-XYo" eventType="touchUpInside" id="Tdy-sg-eeM"/>
                                 </connections>
@@ -7524,7 +7526,7 @@
                             <constraint firstItem="U0U-7b-S6f" firstAttribute="centerX" secondItem="nqc-de-3HI" secondAttribute="centerX" id="IL1-ba-ZhT"/>
                             <constraint firstItem="1bL-w8-mRL" firstAttribute="trailing" secondItem="vcR-CA-E7F" secondAttribute="trailing" constant="40" id="LZN-4t-PS7"/>
                             <constraint firstItem="T8h-Cj-vUQ" firstAttribute="width" secondItem="nqc-de-3HI" secondAttribute="width" id="MWv-JQ-APy"/>
-                            <constraint firstItem="TLg-0h-uk0" firstAttribute="top" secondItem="1bL-w8-mRL" secondAttribute="top" constant="40" id="Rbg-vN-yND"/>
+                            <constraint firstItem="TLg-0h-uk0" firstAttribute="top" secondItem="1bL-w8-mRL" secondAttribute="top" constant="20" id="Rbg-vN-yND"/>
                             <constraint firstItem="dSh-g4-DEx" firstAttribute="centerX" secondItem="1bL-w8-mRL" secondAttribute="centerX" id="S5Z-X8-KAy"/>
                             <constraint firstItem="T8h-Cj-vUQ" firstAttribute="centerY" secondItem="nqc-de-3HI" secondAttribute="centerY" id="U4c-oD-Zv2"/>
                             <constraint firstItem="U0U-7b-S6f" firstAttribute="centerY" secondItem="nqc-de-3HI" secondAttribute="centerY" id="beV-y3-tgb"/>
@@ -7570,7 +7572,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVz-wX-kZG" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="Y3e-ij-S4v" eventType="touchUpInside" id="NRv-IB-ucV"/>
@@ -7578,13 +7580,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krH-go-qxI" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="6m7-gp-D8E"/>
-                                    <constraint firstAttribute="width" constant="162" id="NdI-7H-tci"/>
+                                    <constraint firstAttribute="height" constant="400" id="6m7-gp-D8E"/>
+                                    <constraint firstAttribute="width" constant="400" id="NdI-7H-tci"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="Y3e-ij-S4v" eventType="touchUpInside" id="GSM-i2-9fc"/>
                                 </connections>
@@ -7619,7 +7621,7 @@
                             <constraint firstItem="DvX-Qy-mZe" firstAttribute="centerX" secondItem="mUD-nd-dJj" secondAttribute="centerX" id="oHA-fW-2to"/>
                             <constraint firstItem="krH-go-qxI" firstAttribute="centerX" secondItem="DdP-RM-scd" secondAttribute="centerX" id="oxa-wF-dJl"/>
                             <constraint firstItem="mUD-nd-dJj" firstAttribute="trailing" secondItem="ai1-Hn-UQm" secondAttribute="trailing" constant="40" id="vYk-VT-ua0"/>
-                            <constraint firstItem="hVz-wX-kZG" firstAttribute="top" secondItem="mUD-nd-dJj" secondAttribute="top" constant="40" id="wI8-5d-umz"/>
+                            <constraint firstItem="hVz-wX-kZG" firstAttribute="top" secondItem="mUD-nd-dJj" secondAttribute="top" constant="20" id="wI8-5d-umz"/>
                             <constraint firstItem="ghW-x6-QwE" firstAttribute="centerY" secondItem="DdP-RM-scd" secondAttribute="centerY" id="yBg-fw-Ped"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mUD-nd-dJj"/>
@@ -7657,7 +7659,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTE-mH-DAu" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="xOL-fi-1vy" eventType="touchUpInside" id="BfP-ML-o4Y"/>
@@ -7665,13 +7667,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBf-co-6a9" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="6sg-J5-Hpm"/>
-                                    <constraint firstAttribute="width" constant="162" id="rYs-7q-0NU"/>
+                                    <constraint firstAttribute="height" constant="400" id="6sg-J5-Hpm"/>
+                                    <constraint firstAttribute="width" constant="400" id="rYs-7q-0NU"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="xOL-fi-1vy" eventType="touchUpInside" id="DQe-wV-rBS"/>
                                 </connections>
@@ -7695,7 +7697,7 @@
                             <constraint firstItem="hzY-Ac-QOY" firstAttribute="centerX" secondItem="LWV-38-erG" secondAttribute="centerX" id="7fn-r2-Ecu"/>
                             <constraint firstItem="qVE-gQ-kqy" firstAttribute="centerX" secondItem="LWV-38-erG" secondAttribute="centerX" id="8vq-CV-qqA"/>
                             <constraint firstItem="hzY-Ac-QOY" firstAttribute="width" secondItem="LWV-38-erG" secondAttribute="width" multiplier="0.688442" id="9rA-pb-TZm"/>
-                            <constraint firstItem="HTE-mH-DAu" firstAttribute="top" secondItem="LWV-38-erG" secondAttribute="top" constant="40" id="AtJ-Tz-u2y"/>
+                            <constraint firstItem="HTE-mH-DAu" firstAttribute="top" secondItem="LWV-38-erG" secondAttribute="top" constant="20" id="AtJ-Tz-u2y"/>
                             <constraint firstItem="qVE-gQ-kqy" firstAttribute="centerY" secondItem="wO9-JO-K6F" secondAttribute="centerY" id="Aya-eK-IuX"/>
                             <constraint firstItem="LWV-38-erG" firstAttribute="trailing" secondItem="HTE-mH-DAu" secondAttribute="trailing" constant="40" id="BFd-so-boJ"/>
                             <constraint firstItem="BHt-fu-Fjf" firstAttribute="height" secondItem="wO9-JO-K6F" secondAttribute="height" id="E4F-S9-WIx"/>
@@ -7744,7 +7746,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrb-xs-AhR" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="AkG-pc-dh5" eventType="touchUpInside" id="bHu-FI-ekO"/>
@@ -7752,13 +7754,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbo-fQ-mca" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="LvD-BD-h2D"/>
-                                    <constraint firstAttribute="height" constant="162" id="u5b-Jg-Mmv"/>
+                                    <constraint firstAttribute="width" constant="400" id="LvD-BD-h2D"/>
+                                    <constraint firstAttribute="height" constant="400" id="u5b-Jg-Mmv"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="AkG-pc-dh5" eventType="touchUpInside" id="qFR-eJ-Fqf"/>
                                 </connections>
@@ -7792,7 +7794,7 @@
                             <constraint firstItem="iUI-sK-8cj" firstAttribute="centerX" secondItem="D2B-OX-XUE" secondAttribute="centerX" id="iQE-HI-47f"/>
                             <constraint firstItem="w2r-6b-J4b" firstAttribute="height" secondItem="hJt-Ew-ghs" secondAttribute="height" id="kLP-Ya-hua"/>
                             <constraint firstItem="w2r-6b-J4b" firstAttribute="centerX" secondItem="hJt-Ew-ghs" secondAttribute="centerX" id="mkg-TY-PyI"/>
-                            <constraint firstItem="Hrb-xs-AhR" firstAttribute="top" secondItem="D2B-OX-XUE" secondAttribute="top" constant="40" id="nC9-PQ-vx7"/>
+                            <constraint firstItem="Hrb-xs-AhR" firstAttribute="top" secondItem="D2B-OX-XUE" secondAttribute="top" constant="20" id="nC9-PQ-vx7"/>
                             <constraint firstItem="D2B-OX-XUE" firstAttribute="trailing" secondItem="eFV-W2-ZCl" secondAttribute="trailing" constant="40" id="xOn-56-B5m"/>
                             <constraint firstItem="iUI-sK-8cj" firstAttribute="height" secondItem="D2B-OX-XUE" secondAttribute="height" multiplier="0.0773956" id="xeL-3m-oA4"/>
                         </constraints>
@@ -7831,7 +7833,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePI-OP-qVK" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="3hc-4Z-PJO" eventType="touchUpInside" id="d3X-Lk-eTh"/>
@@ -7839,13 +7841,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeY-lh-3Kq" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="BG5-E5-e4x"/>
-                                    <constraint firstAttribute="height" constant="162" id="yCr-ON-BQC"/>
+                                    <constraint firstAttribute="width" constant="400" id="BG5-E5-e4x"/>
+                                    <constraint firstAttribute="height" constant="400" id="yCr-ON-BQC"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="3hc-4Z-PJO" eventType="touchUpInside" id="qVn-eF-2b8"/>
                                 </connections>
@@ -7867,7 +7869,7 @@
                             <constraint firstItem="QCT-6v-Xc3" firstAttribute="centerX" secondItem="iUu-mX-bzQ" secondAttribute="centerX" id="1AC-GS-0Lc"/>
                             <constraint firstItem="pmn-MW-f4q" firstAttribute="height" secondItem="Kdn-Vo-MSH" secondAttribute="height" id="7FM-JB-FwR"/>
                             <constraint firstItem="XOI-7c-ipE" firstAttribute="width" secondItem="Kdn-Vo-MSH" secondAttribute="width" id="93t-aA-0gX"/>
-                            <constraint firstItem="ePI-OP-qVK" firstAttribute="top" secondItem="iUu-mX-bzQ" secondAttribute="top" constant="40" id="Amf-EE-V1x"/>
+                            <constraint firstItem="ePI-OP-qVK" firstAttribute="top" secondItem="iUu-mX-bzQ" secondAttribute="top" constant="20" id="Amf-EE-V1x"/>
                             <constraint firstItem="QCT-6v-Xc3" firstAttribute="width" secondItem="iUu-mX-bzQ" secondAttribute="width" multiplier="0.688442" id="BHL-59-131"/>
                             <constraint firstItem="aeY-lh-3Kq" firstAttribute="centerX" secondItem="Kdn-Vo-MSH" secondAttribute="centerX" id="D31-CN-FLw"/>
                             <constraint firstItem="iUu-mX-bzQ" firstAttribute="bottom" secondItem="x0f-LF-JL3" secondAttribute="bottom" constant="40" id="PXh-us-jSQ"/>
@@ -7918,7 +7920,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elF-1Q-bVX" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="iNr-zZ-Enc" eventType="touchUpInside" id="Z11-MS-RRE"/>
@@ -7926,13 +7928,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJp-5p-QNz" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="MX8-W6-l66"/>
-                                    <constraint firstAttribute="height" constant="162" id="Myp-3K-oJ5"/>
+                                    <constraint firstAttribute="width" constant="400" id="MX8-W6-l66"/>
+                                    <constraint firstAttribute="height" constant="400" id="Myp-3K-oJ5"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="iNr-zZ-Enc" eventType="touchUpInside" id="OUO-1Q-rvx"/>
                                 </connections>
@@ -7957,7 +7959,7 @@
                             <constraint firstItem="Apw-aS-R0N" firstAttribute="centerX" secondItem="tsm-P5-iIc" secondAttribute="centerX" id="NTZ-RC-Csj"/>
                             <constraint firstItem="tsm-P5-iIc" firstAttribute="trailing" secondItem="elF-1Q-bVX" secondAttribute="trailing" constant="40" id="Nud-np-bta"/>
                             <constraint firstItem="tsm-P5-iIc" firstAttribute="bottom" secondItem="lbS-tl-aYt" secondAttribute="bottom" constant="40" id="Wds-cj-fia"/>
-                            <constraint firstItem="elF-1Q-bVX" firstAttribute="top" secondItem="tsm-P5-iIc" secondAttribute="top" constant="40" id="bBy-1G-Q03"/>
+                            <constraint firstItem="elF-1Q-bVX" firstAttribute="top" secondItem="tsm-P5-iIc" secondAttribute="top" constant="20" id="bBy-1G-Q03"/>
                             <constraint firstItem="Apw-aS-R0N" firstAttribute="top" secondItem="tsm-P5-iIc" secondAttribute="top" constant="225" id="cXb-G8-mPb"/>
                             <constraint firstItem="9Tc-Vv-Fzg" firstAttribute="height" secondItem="iKm-WW-5Kh" secondAttribute="height" id="cZo-Jk-SFl"/>
                             <constraint firstItem="LR9-g7-k1K" firstAttribute="centerX" secondItem="tsm-P5-iIc" secondAttribute="centerX" id="dVn-mw-wml"/>
@@ -8005,7 +8007,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YyK-Zg-Nkc" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="z5a-d7-6A9" eventType="touchUpInside" id="rio-7m-WGV"/>
@@ -8013,13 +8015,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ2-Pr-SQh" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="4FL-BA-pXA"/>
-                                    <constraint firstAttribute="height" constant="162" id="dzl-PC-lRD"/>
+                                    <constraint firstAttribute="width" constant="400" id="4FL-BA-pXA"/>
+                                    <constraint firstAttribute="height" constant="400" id="dzl-PC-lRD"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="z5a-d7-6A9" eventType="touchUpInside" id="tM9-p8-JBe"/>
                                 </connections>
@@ -8047,7 +8049,7 @@
                             <constraint firstItem="lAP-NX-LIN" firstAttribute="trailing" secondItem="DmT-mD-tTD" secondAttribute="trailing" constant="40" id="KeA-FZ-iME"/>
                             <constraint firstItem="U4G-wd-equ" firstAttribute="centerX" secondItem="lAP-NX-LIN" secondAttribute="centerX" id="Lsx-J2-NdX"/>
                             <constraint firstItem="U4G-wd-equ" firstAttribute="width" secondItem="Eiy-Rx-uau" secondAttribute="width" id="MaT-D2-qqc"/>
-                            <constraint firstItem="YyK-Zg-Nkc" firstAttribute="top" secondItem="lAP-NX-LIN" secondAttribute="top" constant="40" id="QMv-bb-7PG"/>
+                            <constraint firstItem="YyK-Zg-Nkc" firstAttribute="top" secondItem="lAP-NX-LIN" secondAttribute="top" constant="20" id="QMv-bb-7PG"/>
                             <constraint firstItem="YZ2-Pr-SQh" firstAttribute="centerY" secondItem="Eiy-Rx-uau" secondAttribute="centerY" id="RMR-Si-TFI"/>
                             <constraint firstItem="8kX-SI-UVj" firstAttribute="top" secondItem="lAP-NX-LIN" secondAttribute="top" constant="225" id="SDx-4G-zgf"/>
                             <constraint firstItem="e1E-zd-C4q" firstAttribute="centerY" secondItem="Eiy-Rx-uau" secondAttribute="centerY" id="e0v-sp-hzU"/>
@@ -8092,7 +8094,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaO-sj-zwM" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="tzt-WV-m8F" eventType="touchUpInside" id="ycS-v9-ktH"/>
@@ -8100,13 +8102,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8F-us-wYK" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="bpW-Re-fed"/>
-                                    <constraint firstAttribute="height" constant="162" id="klc-d4-WxU"/>
+                                    <constraint firstAttribute="width" constant="400" id="bpW-Re-fed"/>
+                                    <constraint firstAttribute="height" constant="400" id="klc-d4-WxU"/>
                                 </constraints>
                                 <color key="tintColor" red="0.84018784759999998" green="0.665194273" blue="0.03845037892" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="tzt-WV-m8F" eventType="touchUpInside" id="6Dy-kF-6V5"/>
                                 </connections>
@@ -8134,7 +8136,7 @@
                             <constraint firstItem="tYe-FD-CUE" firstAttribute="height" secondItem="JYX-4S-wcC" secondAttribute="height" id="Nl0-sn-btc"/>
                             <constraint firstItem="aO4-ct-X9K" firstAttribute="height" secondItem="Ys6-IA-ofW" secondAttribute="height" multiplier="0.0773956" id="Rca-AD-pRE"/>
                             <constraint firstItem="tYe-FD-CUE" firstAttribute="centerY" secondItem="JYX-4S-wcC" secondAttribute="centerY" id="V8n-4x-xfT"/>
-                            <constraint firstItem="NaO-sj-zwM" firstAttribute="top" secondItem="Ys6-IA-ofW" secondAttribute="top" constant="40" id="WDB-Lq-gLq"/>
+                            <constraint firstItem="NaO-sj-zwM" firstAttribute="top" secondItem="Ys6-IA-ofW" secondAttribute="top" constant="20" id="WDB-Lq-gLq"/>
                             <constraint firstItem="qlJ-w4-Ela" firstAttribute="centerX" secondItem="JYX-4S-wcC" secondAttribute="centerX" id="aeR-eW-4H6"/>
                             <constraint firstItem="aO4-ct-X9K" firstAttribute="top" secondItem="Ys6-IA-ofW" secondAttribute="top" constant="225" id="amg-ZY-kFq"/>
                             <constraint firstItem="a8F-us-wYK" firstAttribute="centerX" secondItem="JYX-4S-wcC" secondAttribute="centerX" id="eV9-dI-eaS"/>
@@ -8179,7 +8181,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsG-se-ApG" userLabel="xButton">
-                                <rect key="frame" x="1082" y="40" width="72" height="72"/>
+                                <rect key="frame" x="1082" y="20" width="72" height="72"/>
                                 <state key="normal" backgroundImage="xButton"/>
                                 <connections>
                                     <action selector="quitTapped:" destination="VRb-3l-I9n" eventType="touchUpInside" id="m6m-qT-n9C"/>
@@ -8190,13 +8192,13 @@
                                 <rect key="frame" x="186" y="225" width="822" height="63"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgm-w0-eiV" userLabel="giftButton">
-                                <rect key="frame" x="516" y="334.5" width="162" height="162"/>
+                                <rect key="frame" x="397" y="217" width="400" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="2TH-1D-qWy"/>
-                                    <constraint firstAttribute="height" constant="162" id="uxb-Yd-yjg"/>
+                                    <constraint firstAttribute="width" constant="400" id="2TH-1D-qWy"/>
+                                    <constraint firstAttribute="height" constant="400" id="uxb-Yd-yjg"/>
                                 </constraints>
                                 <color key="tintColor" red="0.87144249679999997" green="0.66131246089999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="gift.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="gift"/>
                                 <connections>
                                     <action selector="giftTapped:" destination="VRb-3l-I9n" eventType="touchUpInside" id="svy-HD-CN3"/>
                                 </connections>
@@ -8237,7 +8239,7 @@
                             <constraint firstItem="lmT-mZ-iyB" firstAttribute="width" secondItem="Z7r-Jt-uKW" secondAttribute="width" multiplier="0.688442" id="kit-yr-g1g"/>
                             <constraint firstItem="oAO-VB-fKS" firstAttribute="centerX" secondItem="Z7r-Jt-uKW" secondAttribute="centerX" id="l0c-fh-D4d"/>
                             <constraint firstItem="Jzv-9M-27p" firstAttribute="top" secondItem="Z7r-Jt-uKW" secondAttribute="top" id="o1o-bj-U9i"/>
-                            <constraint firstItem="DsG-se-ApG" firstAttribute="top" secondItem="Jzv-9M-27p" secondAttribute="top" constant="40" id="q8l-PR-lSF"/>
+                            <constraint firstItem="DsG-se-ApG" firstAttribute="top" secondItem="Jzv-9M-27p" secondAttribute="top" constant="20" id="q8l-PR-lSF"/>
                             <constraint firstItem="Kgm-w0-eiV" firstAttribute="centerX" secondItem="ncV-II-bVh" secondAttribute="centerX" id="vYn-LV-DN8"/>
                             <constraint firstItem="lmT-mZ-iyB" firstAttribute="centerX" secondItem="Z7r-Jt-uKW" secondAttribute="centerX" id="ycf-3U-G4e"/>
                         </constraints>
@@ -8263,9 +8265,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3RQ-kv-4wI"/>
-        <segue reference="zNE-u1-VuC"/>
-        <segue reference="u0f-8C-DeH"/>
         <segue reference="mTJ-yR-Nds"/>
         <segue reference="rzW-7E-bEB"/>
         <segue reference="g7y-Fc-fC4"/>
@@ -8275,40 +8274,40 @@
         <segue reference="DwG-bS-nHF"/>
         <segue reference="5go-pr-5N6"/>
         <segue reference="0e8-MJ-olq"/>
-        <segue reference="sKD-Qc-CnK"/>
-        <segue reference="Awo-Z4-wmS"/>
-        <segue reference="t6G-1o-PLg"/>
-        <segue reference="q3w-LN-6mh"/>
-        <segue reference="Zd9-d7-9gv"/>
-        <segue reference="e9A-2o-BmC"/>
-        <segue reference="LZE-ii-cdE"/>
-        <segue reference="chN-Yk-rOL"/>
-        <segue reference="cs9-LZ-Hc7"/>
-        <segue reference="OaL-xB-cyb"/>
-        <segue reference="VEb-6o-pYe"/>
+        <segue reference="dD0-Lb-FON"/>
+        <segue reference="mg3-ko-bWw"/>
+        <segue reference="bNb-RF-UCs"/>
+        <segue reference="5uu-04-CE6"/>
+        <segue reference="XEy-Ln-YFA"/>
+        <segue reference="REd-qU-Hbq"/>
+        <segue reference="dAj-9Y-NeY"/>
+        <segue reference="V05-Og-3bD"/>
+        <segue reference="qSP-k7-qGX"/>
+        <segue reference="vul-qw-5Uy"/>
+        <segue reference="CSu-2b-wXc"/>
         <segue reference="RvL-KN-OWb"/>
-        <segue reference="xbq-fr-2ck"/>
-        <segue reference="NOW-VK-gmW"/>
-        <segue reference="qN1-lI-388"/>
-        <segue reference="tTv-Sh-BBh"/>
-        <segue reference="dek-tq-vb4"/>
-        <segue reference="XlE-Xr-Jun"/>
+        <segue reference="TYe-N4-COK"/>
+        <segue reference="DG7-Dc-PNa"/>
+        <segue reference="cFb-cD-OQz"/>
+        <segue reference="rMz-rB-p4V"/>
+        <segue reference="L0d-Sz-PT9"/>
+        <segue reference="a9S-Pf-Vpd"/>
         <segue reference="3Rz-mX-Hfq"/>
         <segue reference="yF6-mR-7HC"/>
         <segue reference="kwD-zm-eyP"/>
         <segue reference="rPb-hC-0ZB"/>
-        <segue reference="8AW-yb-2Yj"/>
-        <segue reference="geT-sr-eww"/>
-        <segue reference="e9r-WH-L6V"/>
-        <segue reference="Qip-3p-gos"/>
-        <segue reference="wRS-go-PsE"/>
-        <segue reference="ntm-zg-yr6"/>
-        <segue reference="wyh-3V-Zkq"/>
-        <segue reference="qlu-Ym-tex"/>
-        <segue reference="tXU-Oa-HDD"/>
-        <segue reference="ilI-mI-E4S"/>
+        <segue reference="6gm-y7-krY"/>
+        <segue reference="any-Qb-hVW"/>
+        <segue reference="H9h-op-v4A"/>
+        <segue reference="XDU-sA-dal"/>
+        <segue reference="z8G-ok-axN"/>
+        <segue reference="MiZ-RU-r09"/>
+        <segue reference="hOy-wN-jlI"/>
+        <segue reference="QxP-Z9-hMs"/>
+        <segue reference="ur4-EL-eFf"/>
+        <segue reference="Z0O-na-Ubq"/>
         <segue reference="lmp-JQ-03A"/>
-        <segue reference="kwz-cc-0Ss"/>
+        <segue reference="qel-E4-sCp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
@@ -8386,7 +8385,7 @@
         <image name="g" width="136" height="276"/>
         <image name="gas" width="274" height="274"/>
         <image name="gasText" width="251" height="124"/>
-        <image name="gift.fill" catalog="system" width="128" height="128"/>
+        <image name="gift" width="567" height="567"/>
         <image name="holderGambar" width="501" height="377"/>
         <image name="holderGambar2" width="501" height="388"/>
         <image name="holderLatihanMenulis" width="1026" height="578"/>

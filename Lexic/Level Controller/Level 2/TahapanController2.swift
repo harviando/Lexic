@@ -19,8 +19,8 @@ class TahapanController2:UIViewController {
     
     var infoClicked:Bool = false
     
-    var infoActivated = UIImage(named: "buttonInfoActive") as UIImage?
-    var infoNormal = UIImage(named: "button info") as UIImage?
+    var infoActivated = UIImage(named: "button info 2 active") as UIImage?
+    var infoNormal = UIImage(named: "button info 2") as UIImage?
     
     func playClickSound() {
         guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }

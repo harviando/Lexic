@@ -33,6 +33,9 @@
 		4E44A1F1256232D10057ED78 /* Kayu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E44A1EB256232D00057ED78 /* Kayu.m4a */; };
 		4E44A1F2256232D10057ED78 /* Meja.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E44A1EC256232D10057ED78 /* Meja.m4a */; };
 		4E44A1F525623DE60057ED78 /* Baju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E44A1F725623DE60057ED78 /* Baju.m4a */; };
+		4E44A1FB25624C460057ED78 /* Topi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E44A1F825624C460057ED78 /* Topi.m4a */; };
+		4E44A1FC25624C460057ED78 /* Sapi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E44A1F925624C460057ED78 /* Sapi.m4a */; };
+		4E44A1FD25624C460057ED78 /* Teko.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4E44A1FA25624C460057ED78 /* Teko.m4a */; };
 		4E4C6BC32560B69700E1EB93 /* Level2MenulisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C6BC22560B69700E1EB93 /* Level2MenulisController.swift */; };
 		4E4C6BC52560B84E00E1EB93 /* Level2s1MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C6BC42560B84E00E1EB93 /* Level2s1MembacaController.swift */; };
 		4E535B662539968200AA7B54 /* PetunjukController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E535B652539968200AA7B54 /* PetunjukController.swift */; };
@@ -92,6 +95,9 @@
 		4E44A1EB256232D00057ED78 /* Kayu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kayu.m4a; sourceTree = "<group>"; };
 		4E44A1EC256232D10057ED78 /* Meja.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Meja.m4a; sourceTree = "<group>"; };
 		4E44A1F625623DE60057ED78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Baju.m4a; sourceTree = "<group>"; };
+		4E44A1F825624C460057ED78 /* Topi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Topi.m4a; sourceTree = "<group>"; };
+		4E44A1F925624C460057ED78 /* Sapi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sapi.m4a; sourceTree = "<group>"; };
+		4E44A1FA25624C460057ED78 /* Teko.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Teko.m4a; sourceTree = "<group>"; };
 		4E4C6BC22560B69700E1EB93 /* Level2MenulisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Level2MenulisController.swift; path = "Lexic/Level Controller/Level 1/Level2MenulisController.swift"; sourceTree = SOURCE_ROOT; };
 		4E4C6BC42560B84E00E1EB93 /* Level2s1MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2s1MembacaController.swift; sourceTree = "<group>"; };
 		4E535B652539968200AA7B54 /* PetunjukController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetunjukController.swift; sourceTree = "<group>"; };
@@ -100,7 +106,7 @@
 		4E535B6B2539AA2300AA7B54 /* cat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.m4a; sourceTree = "<group>"; };
 		4E535B6C2539AA2300AA7B54 /* rak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = rak.m4a; sourceTree = "<group>"; };
 		4E535B6D2539AA2300AA7B54 /* jas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jas.m4a; sourceTree = "<group>"; };
-		4E6B82C0252F044200EB22F8 /* Lexic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lexic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6B82C0252F044200EB22F8 /* Cobaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cobaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6B82C3252F044200EB22F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E6B82C5252F044200EB22F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4E6B82C7252F044200EB22F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +151,9 @@
 				4E44A1F725623DE60057ED78 /* Baju.m4a */,
 				4E44A1DD2562327A0057ED78 /* Buku.m4a */,
 				4E44A1DF2562327A0057ED78 /* Bus.m4a */,
+				4E44A1F925624C460057ED78 /* Sapi.m4a */,
+				4E44A1FA25624C460057ED78 /* Teko.m4a */,
+				4E44A1F825624C460057ED78 /* Topi.m4a */,
 				4E535B6B2539AA2300AA7B54 /* cat.m4a */,
 				4E44A1DE2562327A0057ED78 /* Cap.m4a */,
 				4E44A1E3256232A20057ED78 /* Dasi.m4a */,
@@ -176,7 +185,7 @@
 		4E6B82C1252F044200EB22F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E6B82C0252F044200EB22F8 /* Lexic.app */,
+				4E6B82C0252F044200EB22F8 /* Cobaca.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,7 +283,7 @@
 			);
 			name = Lexic;
 			productName = Lexic;
-			productReference = 4E6B82C0252F044200EB22F8 /* Lexic.app */;
+			productReference = 4E6B82C0252F044200EB22F8 /* Cobaca.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -330,15 +339,18 @@
 				4E44A1EE256232D10057ED78 /* Kuda.m4a in Resources */,
 				4E535B702539AA2300AA7B54 /* cat.m4a in Resources */,
 				4EDB45FC25519EA000393180 /* ban.mp3 in Resources */,
+				4E44A1FC25624C460057ED78 /* Sapi.m4a in Resources */,
 				4E20512C25390FE7007A9827 /* popupRewardVid.mp4 in Resources */,
 				4E6B82D0252F044400EB22F8 /* Assets.xcassets in Resources */,
 				4E2C20D625386078006A3F31 /* selamat.m4a in Resources */,
 				4E20512825390771007A9827 /* buttonClick.mp3 in Resources */,
+				4E44A1FB25624C460057ED78 /* Topi.m4a in Resources */,
 				4E44A1E5256232A30057ED78 /* Dasi.m4a in Resources */,
 				4E44A1F1256232D10057ED78 /* Kayu.m4a in Resources */,
 				4E44A1ED256232D10057ED78 /* Jam.m4a in Resources */,
 				4EDB45FE2551A70600393180 /* mouseClick.mp3 in Resources */,
 				4E6B82CB252F044200EB22F8 /* Main.storyboard in Resources */,
+				4E44A1FD25624C460057ED78 /* Teko.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
 				INFOPLIST_FILE = Lexic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
@@ -541,9 +553,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = macpro.Lexic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Cobaca;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -554,7 +566,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
 				INFOPLIST_FILE = Lexic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
@@ -562,9 +574,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = macpro.Lexic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Cobaca;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};

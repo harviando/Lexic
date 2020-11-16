@@ -54,7 +54,7 @@ class Level2s6MembacaController: UIViewController {
     }
     
     func playSpeech() {
-        guard let url = Bundle.main.url(forResource: "teko", withExtension: "m4a") else { return }
+        guard let url = Bundle.main.url(forResource: "Teko", withExtension: "m4a") else { return }
         
         do {
             clickSound = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.m4a.rawValue)
