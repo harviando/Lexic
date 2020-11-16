@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +111,7 @@
         <!--Level 1s1 Membaca Controller-->
         <scene sceneID="tGY-db-KNc">
             <objects>
-                <viewController id="CBH-DM-8qT" customClass="Level1s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CBH-DM-8qT" customClass="Level1s1MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czo-TD-VEb">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -204,7 +204,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="QVh-BI-QNO">
             <objects>
-                <viewController id="CJm-XE-aTf" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CJm-XE-aTf" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C9K-dz-HBZ">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,7 +269,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="t" translatesAutoresizingMaskIntoConstraints="NO" id="aMO-r7-tSh">
                                                 <rect key="frame" x="80" y="38" width="119" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJL-Xr-X4m" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJL-Xr-X4m" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -292,7 +292,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="iud-Hm-FKI">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz2-fM-Kqz" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz2-fM-Kqz" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -315,7 +315,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="y9D-N5-P4l">
                                                 <rect key="frame" x="69" y="88.5" width="142" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J17-k4-ThW" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J17-k4-ThW" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -379,7 +379,7 @@
         <!--Tahapan Controller-->
         <scene sceneID="jI2-UB-gDe">
             <objects>
-                <viewController id="399-ml-a9V" customClass="TahapanController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="399-ml-a9V" customClass="TahapanController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BWM-3z-6cl">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -551,7 +551,7 @@
         <!--Level 1s2 Membaca Controller-->
         <scene sceneID="h87-Ov-4aT">
             <objects>
-                <viewController id="MfG-Cz-ikS" customClass="Level1s2MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MfG-Cz-ikS" customClass="Level1s2MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jX7-oJ-on7">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -644,7 +644,7 @@
         <!--Level 1s3 Membaca Controller-->
         <scene sceneID="TqX-k8-Zv5">
             <objects>
-                <viewController id="Pzj-me-pSG" customClass="Level1s3MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pzj-me-pSG" customClass="Level1s3MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3eu-wS-FkK">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -737,7 +737,7 @@
         <!--Level 1s4 Membaca Controller-->
         <scene sceneID="aW1-oT-8wk">
             <objects>
-                <viewController id="J1k-Tj-TPk" customClass="Level1s4MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J1k-Tj-TPk" customClass="Level1s4MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0dO-U5-yZC">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -830,7 +830,7 @@
         <!--Level 1s5 Membaca Controller-->
         <scene sceneID="98Z-bL-UgT">
             <objects>
-                <viewController id="8tN-Vi-q9i" customClass="Level1s5MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8tN-Vi-q9i" customClass="Level1s5MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l44-68-qwn">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -923,7 +923,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="XtS-GL-oGd">
             <objects>
-                <viewController id="Pfx-VN-u8b" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pfx-VN-u8b" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kvL-RY-lXq">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -980,7 +980,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="j" translatesAutoresizingMaskIntoConstraints="NO" id="fLy-0P-Ft5">
                                                 <rect key="frame" x="80" y="38" width="119" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o6A-aG-uhD" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o6A-aG-uhD" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1003,7 +1003,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="Ozu-ff-EOb">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6qt-Z2-a5d" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6qt-Z2-a5d" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1026,7 +1026,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="p8N-eP-sUR">
                                                 <rect key="frame" x="69" y="88.5" width="142" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6n1-5F-GC6" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6n1-5F-GC6" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1098,7 +1098,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="Msy-FO-wL3">
             <objects>
-                <viewController id="JuH-Hy-fgb" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JuH-Hy-fgb" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gSV-Td-hPK">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1155,7 +1155,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="c" translatesAutoresizingMaskIntoConstraints="NO" id="9ed-gi-hMn">
                                                 <rect key="frame" x="55" y="38" width="170" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fuq-JC-hvd" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fuq-JC-hvd" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1178,7 +1178,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="erS-If-Ifw">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-Ru-ldv" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-Ru-ldv" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1201,7 +1201,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="t" translatesAutoresizingMaskIntoConstraints="NO" id="ZXU-zN-QvX">
                                                 <rect key="frame" x="69" y="39" width="142" height="315"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qSe-rc-eil" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qSe-rc-eil" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1273,7 +1273,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="xAj-fD-ueU">
             <objects>
-                <viewController id="BUO-r3-7fP" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BUO-r3-7fP" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f2O-Zk-Y5A">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1330,7 +1330,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="9EE-sP-Xcu">
                                                 <rect key="frame" x="66" y="18" width="149" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="beG-Xl-Sv6" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="beG-Xl-Sv6" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1353,7 +1353,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="Z7i-nG-ZXS">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j0d-qx-KJW" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j0d-qx-KJW" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1376,7 +1376,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="n" translatesAutoresizingMaskIntoConstraints="NO" id="Gkl-oV-xqN">
                                                 <rect key="frame" x="69" y="88.5" width="142" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s7F-gg-Y8k" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s7F-gg-Y8k" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1448,7 +1448,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="zuY-Ro-ZHS">
             <objects>
-                <viewController id="hvz-vf-H73" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hvz-vf-H73" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LkT-kV-kKr">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1505,7 +1505,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="r" translatesAutoresizingMaskIntoConstraints="NO" id="7Bd-dL-glu">
                                                 <rect key="frame" x="80" y="38" width="119" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L0c-MN-TVS" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L0c-MN-TVS" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1528,7 +1528,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="3Sy-to-zNb">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kwb-Ff-aBf" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kwb-Ff-aBf" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1551,7 +1551,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="k" translatesAutoresizingMaskIntoConstraints="NO" id="O5U-db-HfX">
                                                 <rect key="frame" x="69" y="33" width="142" height="271.5"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gvr-N6-pbo" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gvr-N6-pbo" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -1623,7 +1623,7 @@
         <!--Reward Controller-->
         <scene sceneID="sfr-4F-Y0o">
             <objects>
-                <viewController id="cAJ-r3-PFT" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cAJ-r3-PFT" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JFv-1n-IbX">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1712,7 +1712,7 @@
         <!--Reward Controller-->
         <scene sceneID="hYn-Fy-GEY">
             <objects>
-                <viewController id="412-h5-vIt" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="412-h5-vIt" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uqg-oB-hN5">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1799,7 +1799,7 @@
         <!--Reward Controller-->
         <scene sceneID="TcO-C8-P6C">
             <objects>
-                <viewController id="isi-mM-YeU" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="isi-mM-YeU" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dsi-Dg-jK0">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1886,7 +1886,7 @@
         <!--Reward Controller-->
         <scene sceneID="zh2-yK-vZW">
             <objects>
-                <viewController id="gBx-II-dlo" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gBx-II-dlo" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cym-Zm-qdj">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1973,7 +1973,7 @@
         <!--Reward Controller-->
         <scene sceneID="Msq-vM-1L9">
             <objects>
-                <viewController id="0iZ-SV-Nr8" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0iZ-SV-Nr8" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xkB-3v-qPO">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2060,7 +2060,7 @@
         <!--On Boarding Controller-->
         <scene sceneID="BgY-Ec-I5A">
             <objects>
-                <viewController id="RUb-pf-RW9" customClass="OnBoardingController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RUb-pf-RW9" customClass="OnBoardingController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1hx-IH-knt">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2130,7 +2130,7 @@
         <!--Petunjuk Controller-->
         <scene sceneID="USR-pf-g2O">
             <objects>
-                <viewController id="sIa-mb-hOi" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sIa-mb-hOi" customClass="PetunjukController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jwy-fo-fxw">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2190,7 +2190,7 @@
         <!--Petunjuk Controller-->
         <scene sceneID="8vy-TR-7KK">
             <objects>
-                <viewController id="KFe-GX-K5a" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KFe-GX-K5a" customClass="PetunjukController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T3J-oE-LMU">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2246,7 +2246,7 @@
         <!--Petunjuk Controller-->
         <scene sceneID="v8g-di-t8g">
             <objects>
-                <viewController id="O7Q-d0-okw" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="O7Q-d0-okw" customClass="PetunjukController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fMP-Wq-Xja">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2302,7 +2302,7 @@
         <!--Petunjuk Controller-->
         <scene sceneID="nOb-CI-eCg">
             <objects>
-                <viewController id="441-0l-qjz" customClass="PetunjukController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="441-0l-qjz" customClass="PetunjukController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lRq-rz-8nG">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2362,7 +2362,7 @@
         <!--On Boarding Controller-->
         <scene sceneID="ZTn-xa-mz4">
             <objects>
-                <viewController id="OWU-a7-nLW" customClass="OnBoardingController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OWU-a7-nLW" customClass="OnBoardingController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jEQ-0j-uNp">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2432,7 +2432,7 @@
         <!--On Boarding Controller-->
         <scene sceneID="sb8-Db-Pyn">
             <objects>
-                <viewController id="cne-6G-en0" customClass="OnBoardingController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cne-6G-en0" customClass="OnBoardingController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VLV-HW-4lc">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2502,7 +2502,7 @@
         <!--Level 1s6 Membaca Controller-->
         <scene sceneID="NLX-aP-Wiy">
             <objects>
-                <viewController id="dHM-CH-kIh" customClass="Level1s6MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dHM-CH-kIh" customClass="Level1s6MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="85h-rU-Eov">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2595,7 +2595,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="4Yu-di-X3N">
             <objects>
-                <viewController id="Enp-wd-ua2" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Enp-wd-ua2" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5HL-Ar-FAr">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2652,7 +2652,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="g" translatesAutoresizingMaskIntoConstraints="NO" id="qyT-aB-fUr">
                                                 <rect key="frame" x="68" y="39" width="144" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iVK-5Y-xDk" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iVK-5Y-xDk" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -2675,7 +2675,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="aOg-KK-xx3">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="12S-I7-QhX" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="12S-I7-QhX" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -2698,7 +2698,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="xYm-Yy-pvH">
                                                 <rect key="frame" x="69" y="61" width="142" height="271.5"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VUS-Yc-PZT" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VUS-Yc-PZT" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -2770,7 +2770,7 @@
         <!--Reward Controller-->
         <scene sceneID="gX4-AS-vif">
             <objects>
-                <viewController id="ACg-pP-Qqu" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ACg-pP-Qqu" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gmw-ai-qC6">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2857,7 +2857,7 @@
         <!--Level 1s7 Membaca Controller-->
         <scene sceneID="zGC-4X-5rD">
             <objects>
-                <viewController id="bAo-4p-xDi" customClass="Level1s7MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bAo-4p-xDi" customClass="Level1s7MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CH6-lS-gcS">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2950,7 +2950,7 @@
         <!--Level 1s8 Membaca Controller-->
         <scene sceneID="wdf-IF-Ztb">
             <objects>
-                <viewController id="0Pc-A3-QhW" customClass="Level1s8MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0Pc-A3-QhW" customClass="Level1s8MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xd8-p2-O1z">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3043,7 +3043,7 @@
         <!--Level 1s9 Membaca Controller-->
         <scene sceneID="Q8E-X0-6dp">
             <objects>
-                <viewController id="idg-BM-fgm" customClass="Level1s9MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="idg-BM-fgm" customClass="Level1s9MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o3s-S6-ot5">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3136,7 +3136,7 @@
         <!--Level 1s10 Membaca Controller-->
         <scene sceneID="Cln-zG-upJ">
             <objects>
-                <viewController id="33z-jK-LwV" customClass="Level1s10MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="33z-jK-LwV" customClass="Level1s10MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NuG-qE-bBM">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3229,7 +3229,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="x42-eF-c8O">
             <objects>
-                <viewController id="K4x-7C-zTB" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="K4x-7C-zTB" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nhj-js-1fM">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3286,7 +3286,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="j" translatesAutoresizingMaskIntoConstraints="NO" id="L1D-XR-2fL">
                                                 <rect key="frame" x="68" y="39" width="144" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2jA-9i-xAJ" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2jA-9i-xAJ" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3309,7 +3309,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="994-zA-EWU">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2h9-ws-pGZ" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2h9-ws-pGZ" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3332,7 +3332,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="m" translatesAutoresizingMaskIntoConstraints="NO" id="m0e-of-Fla">
                                                 <rect key="frame" x="30" y="61" width="220" height="271.5"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8jA-gU-jeu" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8jA-gU-jeu" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3404,7 +3404,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="gSh-gS-K8L">
             <objects>
-                <viewController id="i7e-wk-mUB" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="i7e-wk-mUB" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jhx-ky-dR4">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3461,7 +3461,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="c" translatesAutoresizingMaskIntoConstraints="NO" id="Iv3-eg-UcY">
                                                 <rect key="frame" x="56" y="39" width="169" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vnu-Rm-S9m" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vnu-Rm-S9m" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3484,7 +3484,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="2me-lD-7A9">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eOU-u4-MhK" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eOU-u4-MhK" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3507,7 +3507,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="p" translatesAutoresizingMaskIntoConstraints="NO" id="nXT-wo-fQN">
                                                 <rect key="frame" x="69" y="61" width="142" height="271.5"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XJP-dC-VlM" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XJP-dC-VlM" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3579,7 +3579,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="Etf-Sm-DsP">
             <objects>
-                <viewController id="7OD-15-gx8" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7OD-15-gx8" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k62-nd-7JI">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3636,7 +3636,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="l" translatesAutoresizingMaskIntoConstraints="NO" id="2r7-ln-FJX">
                                                 <rect key="frame" x="68" y="39" width="144" height="267"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rzd-vm-5bd" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rzd-vm-5bd" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3659,7 +3659,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="e" translatesAutoresizingMaskIntoConstraints="NO" id="6Jp-Md-UUp">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fut-6D-xHA" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fut-6D-xHA" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3682,7 +3682,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="m" translatesAutoresizingMaskIntoConstraints="NO" id="jFJ-x6-5U5">
                                                 <rect key="frame" x="27" y="61" width="226" height="271.5"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ruA-tQ-RFU" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ruA-tQ-RFU" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3754,7 +3754,7 @@
         <!--Level1 Menulis Controller-->
         <scene sceneID="Ify-DP-U4c">
             <objects>
-                <viewController id="to0-C7-0db" customClass="Level1MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="to0-C7-0db" customClass="Level1MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T2s-hg-Tp6">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3811,7 +3811,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="pd4-Cy-AyY">
                                                 <rect key="frame" x="68" y="39" width="144" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Smy-tQ-Sz3" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Smy-tQ-Sz3" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3834,7 +3834,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="u" translatesAutoresizingMaskIntoConstraints="NO" id="wHv-tm-DfA">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FUe-Ms-TTl" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FUe-Ms-TTl" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3857,7 +3857,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="Yei-Pv-ub8">
                                                 <rect key="frame" x="69" y="61" width="142" height="271.5"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gWM-RQ-3Gt" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gWM-RQ-3Gt" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -3929,7 +3929,7 @@
         <!--Reward Controller-->
         <scene sceneID="wdc-Nf-IG9">
             <objects>
-                <viewController id="l1z-SA-ydg" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="l1z-SA-ydg" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zXX-2W-IJ2">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4015,7 +4015,7 @@
         <!--Reward Controller-->
         <scene sceneID="zPB-mw-EsW">
             <objects>
-                <viewController id="rd6-eW-JaI" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rd6-eW-JaI" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Yv-qD-P5U">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4101,7 +4101,7 @@
         <!--Reward Controller-->
         <scene sceneID="dk6-LQ-ceP">
             <objects>
-                <viewController id="RbW-Fl-zOd" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RbW-Fl-zOd" customClass="RewardController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bSX-cq-mY0">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4184,10 +4184,10 @@
             </objects>
             <point key="canvasLocation" x="786" y="9099"/>
         </scene>
-        <!--Reward Controller-->
+        <!--Reward Ending Controller-->
         <scene sceneID="hoa-CY-sVE">
             <objects>
-                <viewController id="MNR-B9-6Dd" customClass="RewardController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MNR-B9-6Dd" customClass="RewardEndingController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AVK-Kg-fQ3">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4282,7 +4282,7 @@
         <!--Level 2s1 Membaca Controller-->
         <scene sceneID="X0K-4b-oOH">
             <objects>
-                <viewController id="mmi-Iv-8Rq" customClass="Level2s1MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mmi-Iv-8Rq" customClass="Level2s1MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="72X-BF-dLz">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4375,7 +4375,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="euV-NY-X9q">
             <objects>
-                <viewController id="DSR-P8-OMg" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DSR-P8-OMg" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="owh-uF-CHH">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4440,7 +4440,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="ovB-eK-tOw">
                                                 <rect key="frame" x="43" y="42" width="119" height="249"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6OS-g4-2v1" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6OS-g4-2v1" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -4463,7 +4463,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="u" translatesAutoresizingMaskIntoConstraints="NO" id="SBs-lt-FHh">
                                                 <rect key="frame" x="41" y="93" width="120" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ixI-t6-Nfl" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ixI-t6-Nfl" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -4486,7 +4486,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="k" translatesAutoresizingMaskIntoConstraints="NO" id="wMn-wK-6qi">
                                                 <rect key="frame" x="42" y="72" width="120" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gtD-1Y-Hm6" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gtD-1Y-Hm6" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -4509,7 +4509,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="u" translatesAutoresizingMaskIntoConstraints="NO" id="VM0-6i-FCs">
                                                 <rect key="frame" x="42" y="88.5" width="120" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tn0-Cn-Jyu" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tn0-Cn-Jyu" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -4575,7 +4575,7 @@
         <!--Tahapan Controller2-->
         <scene sceneID="ijY-Q1-Ym2">
             <objects>
-                <viewController id="Rxj-X5-eRj" customClass="TahapanController2" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rxj-X5-eRj" customClass="TahapanController2" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YFL-E9-6CH">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4834,7 +4834,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="Tn1-Lf-9dX">
             <objects>
-                <viewController id="Dqg-zA-eCg" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Dqg-zA-eCg" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Iw-MY-4UI">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4899,7 +4899,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="m" translatesAutoresizingMaskIntoConstraints="NO" id="1Al-eF-Gf8">
                                                 <rect key="frame" x="27" y="39" width="150" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="epB-eo-h3R" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="epB-eo-h3R" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -4922,7 +4922,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="e" translatesAutoresizingMaskIntoConstraints="NO" id="8qI-Q0-MYo">
                                                 <rect key="frame" x="47" y="93" width="108" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D5m-uR-bR6" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D5m-uR-bR6" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -4945,7 +4945,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="j" translatesAutoresizingMaskIntoConstraints="NO" id="6kx-Du-5Cd">
                                                 <rect key="frame" x="69" y="88.5" width="66" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tYt-DD-fIJ" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tYt-DD-fIJ" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -4968,7 +4968,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="e2N-zA-eV0">
                                                 <rect key="frame" x="46.5" y="88.5" width="109" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g3f-jj-g6d" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g3f-jj-g6d" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5034,7 +5034,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="8M5-z1-Tpl">
             <objects>
-                <viewController id="RIz-SC-OGB" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RIz-SC-OGB" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N2U-e0-ubM">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5099,7 +5099,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="d" translatesAutoresizingMaskIntoConstraints="NO" id="PNT-hV-7sh">
                                                 <rect key="frame" x="42" y="18" width="110" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kZl-IB-1f3" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kZl-IB-1f3" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5122,7 +5122,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="xgo-ZC-3tp">
                                                 <rect key="frame" x="50" y="108" width="114" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ibn-YI-l7J" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ibn-YI-l7J" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5145,7 +5145,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="4It-kv-We7">
                                                 <rect key="frame" x="46" y="94" width="111" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cbm-PI-01V" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cbm-PI-01V" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5168,7 +5168,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="i" translatesAutoresizingMaskIntoConstraints="NO" id="uiy-Yo-dWo">
                                                 <rect key="frame" x="69" y="107" width="65.5" height="197.5"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WVu-gq-YIn" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WVu-gq-YIn" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5234,7 +5234,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="FMW-gF-VZo">
             <objects>
-                <viewController id="InT-U5-1bd" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="InT-U5-1bd" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kWD-Vc-4ZE">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5299,7 +5299,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="k" translatesAutoresizingMaskIntoConstraints="NO" id="cou-mL-VCD">
                                                 <rect key="frame" x="55" y="19" width="95" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iLf-9E-MtK" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iLf-9E-MtK" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5322,7 +5322,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="adk-PQ-rza">
                                                 <rect key="frame" x="46" y="93" width="111" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BVC-Lc-OtU" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BVC-Lc-OtU" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5345,7 +5345,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="c" translatesAutoresizingMaskIntoConstraints="NO" id="ffB-ge-klU">
                                                 <rect key="frame" x="44" y="88.5" width="115" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05Y-aS-l38" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05Y-aS-l38" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5368,7 +5368,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="hYO-fp-oew">
                                                 <rect key="frame" x="46" y="88.5" width="111" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iae-hE-wUd" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iae-hE-wUd" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5434,7 +5434,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="ota-DT-DME">
             <objects>
-                <viewController id="qbO-5o-FOh" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qbO-5o-FOh" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V1b-xt-jZU">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5499,7 +5499,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="1qb-Op-XS9">
                                                 <rect key="frame" x="42" y="0.0" width="120" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ocY-ou-gZe" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ocY-ou-gZe" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5522,7 +5522,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="fht-CK-lnn">
                                                 <rect key="frame" x="41" y="93" width="120" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jvp-lo-oa5" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jvp-lo-oa5" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5545,7 +5545,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="j" translatesAutoresizingMaskIntoConstraints="NO" id="tw9-wC-n4X">
                                                 <rect key="frame" x="8" y="64" width="165" height="265"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kKO-uK-TgA" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kKO-uK-TgA" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5568,7 +5568,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="u" translatesAutoresizingMaskIntoConstraints="NO" id="O0o-Ha-Mck">
                                                 <rect key="frame" x="42" y="88.5" width="120" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05I-iW-QW2" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05I-iW-QW2" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5634,7 +5634,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="KEp-kN-qTa">
             <objects>
-                <viewController id="uUu-2P-Dss" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uUu-2P-Dss" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v5F-16-mnx">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5699,7 +5699,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="t" translatesAutoresizingMaskIntoConstraints="NO" id="dgM-JM-yGA">
                                                 <rect key="frame" x="56" y="39" width="93" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IHm-J7-WHp" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IHm-J7-WHp" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5722,7 +5722,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="e" translatesAutoresizingMaskIntoConstraints="NO" id="Tj1-de-lry">
                                                 <rect key="frame" x="41" y="93" width="120" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mzF-rE-sIR" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mzF-rE-sIR" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5745,7 +5745,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="k" translatesAutoresizingMaskIntoConstraints="NO" id="UAd-xj-3ZD">
                                                 <rect key="frame" x="57" y="51" width="104" height="234"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qql-8T-i2f" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qql-8T-i2f" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5768,7 +5768,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="o" translatesAutoresizingMaskIntoConstraints="NO" id="8dA-AM-w7h">
                                                 <rect key="frame" x="42" y="88.5" width="120" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SIr-dx-PZ3" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SIr-dx-PZ3" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5834,7 +5834,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="t4B-cp-Mzb">
             <objects>
-                <viewController id="nhf-KN-WBU" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nhf-KN-WBU" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MR1-VO-tyM">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5899,7 +5899,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="t" translatesAutoresizingMaskIntoConstraints="NO" id="uHc-Co-EiP">
                                                 <rect key="frame" x="56" y="39" width="93" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fpb-xc-8Ne" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fpb-xc-8Ne" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5922,7 +5922,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="o" translatesAutoresizingMaskIntoConstraints="NO" id="bI7-Fo-FWv">
                                                 <rect key="frame" x="41" y="93" width="120" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hyU-QR-yRc" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hyU-QR-yRc" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5945,7 +5945,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="p" translatesAutoresizingMaskIntoConstraints="NO" id="9jt-Vp-cLD">
                                                 <rect key="frame" x="51" y="105" width="102" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y6K-M8-kJv" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y6K-M8-kJv" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -5968,7 +5968,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="i" translatesAutoresizingMaskIntoConstraints="NO" id="NQK-jj-20p">
                                                 <rect key="frame" x="69" y="88.5" width="65.5" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5TD-4x-o4B" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5TD-4x-o4B" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6034,7 +6034,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="0rR-xv-tqc">
             <objects>
-                <viewController id="jPk-PX-NY1" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jPk-PX-NY1" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MOH-Jd-fTK">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6099,7 +6099,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="k" translatesAutoresizingMaskIntoConstraints="NO" id="EBq-Fk-Z3N">
                                                 <rect key="frame" x="48" y="19" width="108" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K8V-hm-P6K" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K8V-hm-P6K" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6122,7 +6122,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="u" translatesAutoresizingMaskIntoConstraints="NO" id="7J2-BD-dza">
                                                 <rect key="frame" x="41" y="93" width="120" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2l-TD-uFl" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2l-TD-uFl" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6145,7 +6145,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="d" translatesAutoresizingMaskIntoConstraints="NO" id="eCl-vd-Mbr">
                                                 <rect key="frame" x="45" y="56" width="114" height="248.5"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tAQ-XV-fri" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tAQ-XV-fri" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6168,7 +6168,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="GSG-XL-Mnn">
                                                 <rect key="frame" x="42" y="88.5" width="120" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4nZ-xf-pKv" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4nZ-xf-pKv" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6234,7 +6234,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="gyB-EI-Gv0">
             <objects>
-                <viewController id="65E-Mn-vcr" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="65E-Mn-vcr" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g7h-Z6-2D3">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6299,7 +6299,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="k" translatesAutoresizingMaskIntoConstraints="NO" id="pWb-FH-iYr">
                                                 <rect key="frame" x="44" y="21" width="116" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IGY-Nl-Mbc" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IGY-Nl-Mbc" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6322,7 +6322,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="xTM-ac-ly4">
                                                 <rect key="frame" x="32" y="93" width="139" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UCU-Q8-vHt" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UCU-Q8-vHt" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6345,7 +6345,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="y" translatesAutoresizingMaskIntoConstraints="NO" id="6QL-LP-VHp">
                                                 <rect key="frame" x="27" y="94" width="149" height="233"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MQJ-6b-GMF" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MQJ-6b-GMF" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6368,7 +6368,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="u" translatesAutoresizingMaskIntoConstraints="NO" id="eBq-7h-Jkx">
                                                 <rect key="frame" x="43" y="88.5" width="117" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VHL-dL-1Wx" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VHL-dL-1Wx" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6434,7 +6434,7 @@
         <!--Level2 Menulis Controller-->
         <scene sceneID="hm3-CS-pfj">
             <objects>
-                <viewController id="NmA-Rf-ID4" customClass="Level2MenulisController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NmA-Rf-ID4" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uqx-k5-Ya5">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6499,7 +6499,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="dke-U0-4KC">
                                                 <rect key="frame" x="48" y="39" width="109" height="316"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yh7-Gv-oGe" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yh7-Gv-oGe" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6522,7 +6522,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="C8Y-kb-pne">
                                                 <rect key="frame" x="41" y="93" width="121" height="207"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1qC-72-YrA" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1qC-72-YrA" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6545,7 +6545,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="p" translatesAutoresizingMaskIntoConstraints="NO" id="aQD-Y9-EY6">
                                                 <rect key="frame" x="47" y="110" width="109" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iOZ-kT-4Oi" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iOZ-kT-4Oi" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="204" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6568,7 +6568,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="i" translatesAutoresizingMaskIntoConstraints="NO" id="AXb-44-iNo">
                                                 <rect key="frame" x="52" y="88.5" width="100" height="216"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1bJ-Jv-KRK" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1bJ-Jv-KRK" customClass="Canvas" customModule="Cobaca" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="203.5" height="393"/>
                                                 <color key="backgroundColor" name="canvasColor"/>
                                             </imageView>
@@ -6634,7 +6634,7 @@
         <!--Level 2s2 Membaca Controller-->
         <scene sceneID="yoH-4W-Pe5">
             <objects>
-                <viewController id="wxj-hI-vhX" customClass="Level2s2MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wxj-hI-vhX" customClass="Level2s2MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ztr-VU-UkE">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6727,7 +6727,7 @@
         <!--Level 2s3 Membaca Controller-->
         <scene sceneID="3LH-gF-6Gu">
             <objects>
-                <viewController id="vC4-C4-XPa" customClass="Level2s3MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vC4-C4-XPa" customClass="Level2s3MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PTe-hd-cp8">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6820,7 +6820,7 @@
         <!--Level 2s4 Membaca Controller-->
         <scene sceneID="8hB-aC-2xe">
             <objects>
-                <viewController id="7RA-Sw-CYj" customClass="Level2s4MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7RA-Sw-CYj" customClass="Level2s4MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WTx-DU-6pb">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6913,7 +6913,7 @@
         <!--Level 2s5 Membaca Controller-->
         <scene sceneID="nQi-Bu-pgW">
             <objects>
-                <viewController id="9DM-1e-ecW" customClass="Level2s5MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9DM-1e-ecW" customClass="Level2s5MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zq8-Xk-I2p">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7006,7 +7006,7 @@
         <!--Level 2s6 Membaca Controller-->
         <scene sceneID="qkb-Cb-5Mf">
             <objects>
-                <viewController id="HjU-g4-bVH" customClass="Level2s6MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HjU-g4-bVH" customClass="Level2s6MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mXx-wf-P6b">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7099,7 +7099,7 @@
         <!--Level 2s7 Membaca Controller-->
         <scene sceneID="eDn-Ah-n6Z">
             <objects>
-                <viewController id="VAy-To-Abc" customClass="Level2s7MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VAy-To-Abc" customClass="Level2s7MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pP5-70-OoU">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7192,7 +7192,7 @@
         <!--Level 2s8 Membaca Controller-->
         <scene sceneID="X6x-Hi-c9W">
             <objects>
-                <viewController id="IPu-TN-W38" customClass="Level2s8MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IPu-TN-W38" customClass="Level2s8MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f0k-c2-2kT">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7285,7 +7285,7 @@
         <!--Level 2s9 Membaca Controller-->
         <scene sceneID="eg7-GA-aCD">
             <objects>
-                <viewController id="Dfr-5g-vdL" customClass="Level2s9MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Dfr-5g-vdL" customClass="Level2s9MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KbW-t6-SjP">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7378,7 +7378,7 @@
         <!--Level 2s10 Membaca Controller-->
         <scene sceneID="RBd-SI-PxA">
             <objects>
-                <viewController id="EhO-eK-bN5" customClass="Level2s10MembacaController" customModule="Lexic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EhO-eK-bN5" customClass="Level2s10MembacaController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="llv-Ta-s3G">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8164,10 +8164,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="9099"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward2 Ending Controller-->
         <scene sceneID="FJg-s1-4JJ">
             <objects>
-                <viewController id="VRb-3l-I9n" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="VRb-3l-I9n" customClass="Reward2EndingController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ncV-II-bVh">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8281,7 +8281,7 @@
         <segue reference="dAj-9Y-NeY"/>
         <segue reference="V05-Og-3bD"/>
         <segue reference="qSP-k7-qGX"/>
-        <segue reference="kpe-G1-q4E"/>
+        <segue reference="vul-qw-5Uy"/>
         <segue reference="CSu-2b-wXc"/>
         <segue reference="RvL-KN-OWb"/>
         <segue reference="TYe-N4-COK"/>
@@ -8302,7 +8302,7 @@
         <segue reference="MiZ-RU-r09"/>
         <segue reference="hOy-wN-jlI"/>
         <segue reference="QxP-Z9-hMs"/>
-        <segue reference="qXR-2X-drj"/>
+        <segue reference="ur4-EL-eFf"/>
         <segue reference="ilI-mI-E4S"/>
         <segue reference="lmp-JQ-03A"/>
         <segue reference="UQp-0l-qqO"/>
