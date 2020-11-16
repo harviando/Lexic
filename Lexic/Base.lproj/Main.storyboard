@@ -3281,7 +3281,7 @@
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fo7-QN-OH0" userLabel="CanvasView1">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="g" translatesAutoresizingMaskIntoConstraints="NO" id="L1D-XR-2fL">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="j" translatesAutoresizingMaskIntoConstraints="NO" id="L1D-XR-2fL">
                                                 <rect key="frame" x="68" y="39" width="144" height="316"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2jA-9i-xAJ" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
@@ -3327,8 +3327,8 @@
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oC4-0e-YBl" userLabel="CanvasView3">
                                         <rect key="frame" x="610" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="m0e-of-Fla">
-                                                <rect key="frame" x="69" y="61" width="142" height="271.5"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="m" translatesAutoresizingMaskIntoConstraints="NO" id="m0e-of-Fla">
+                                                <rect key="frame" x="30" y="61" width="220" height="271.5"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8jA-gU-jeu" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
@@ -3339,9 +3339,9 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="8jA-gU-jeu" secondAttribute="trailing" id="2xB-fC-oDG"/>
                                             <constraint firstAttribute="bottom" secondItem="m0e-of-Fla" secondAttribute="bottom" constant="60.5" id="ATH-ot-E86"/>
-                                            <constraint firstItem="m0e-of-Fla" firstAttribute="leading" secondItem="oC4-0e-YBl" secondAttribute="leading" constant="69" id="L9z-1x-8JF"/>
+                                            <constraint firstItem="m0e-of-Fla" firstAttribute="leading" secondItem="oC4-0e-YBl" secondAttribute="leading" constant="30" id="L9z-1x-8JF"/>
                                             <constraint firstItem="8jA-gU-jeu" firstAttribute="leading" secondItem="oC4-0e-YBl" secondAttribute="leading" id="LAv-fF-1wA"/>
-                                            <constraint firstAttribute="trailing" secondItem="m0e-of-Fla" secondAttribute="trailing" constant="69" id="LX3-IQ-HXg"/>
+                                            <constraint firstAttribute="trailing" secondItem="m0e-of-Fla" secondAttribute="trailing" constant="30" id="LX3-IQ-HXg"/>
                                             <constraint firstItem="m0e-of-Fla" firstAttribute="top" secondItem="oC4-0e-YBl" secondAttribute="top" constant="61" id="SMu-4I-STA"/>
                                             <constraint firstAttribute="bottom" secondItem="8jA-gU-jeu" secondAttribute="bottom" id="amw-eU-ei7"/>
                                             <constraint firstItem="8jA-gU-jeu" firstAttribute="top" secondItem="oC4-0e-YBl" secondAttribute="top" id="zV4-NQ-RZ2"/>
@@ -3397,7 +3397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="soE-6M-PIw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21" y="7622"/>
+            <point key="canvasLocation" x="20.603015075376884" y="7621.5827338129502"/>
         </scene>
         <!--Level1 Menulis Controller-->
         <scene sceneID="gSh-gS-K8L">
@@ -3456,8 +3456,8 @@
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xrc-dI-W8N" userLabel="CanvasView1">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="g" translatesAutoresizingMaskIntoConstraints="NO" id="Iv3-eg-UcY">
-                                                <rect key="frame" x="68" y="39" width="144" height="316"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="c" translatesAutoresizingMaskIntoConstraints="NO" id="Iv3-eg-UcY">
+                                                <rect key="frame" x="56" y="39" width="169" height="316"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vnu-Rm-S9m" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
@@ -3469,8 +3469,8 @@
                                             <constraint firstItem="vnu-Rm-S9m" firstAttribute="leading" secondItem="xrc-dI-W8N" secondAttribute="leading" id="1Vw-cc-KmA"/>
                                             <constraint firstAttribute="trailing" secondItem="vnu-Rm-S9m" secondAttribute="trailing" id="1mi-Vd-g9w"/>
                                             <constraint firstAttribute="bottom" secondItem="vnu-Rm-S9m" secondAttribute="bottom" id="7mw-TA-5fE"/>
-                                            <constraint firstAttribute="trailing" secondItem="Iv3-eg-UcY" secondAttribute="trailing" constant="68" id="ASc-tX-ZSa"/>
-                                            <constraint firstItem="Iv3-eg-UcY" firstAttribute="leading" secondItem="xrc-dI-W8N" secondAttribute="leading" constant="68" id="DRT-io-CjX"/>
+                                            <constraint firstAttribute="trailing" secondItem="Iv3-eg-UcY" secondAttribute="trailing" constant="55" id="ASc-tX-ZSa"/>
+                                            <constraint firstItem="Iv3-eg-UcY" firstAttribute="leading" secondItem="xrc-dI-W8N" secondAttribute="leading" constant="56" id="DRT-io-CjX"/>
                                             <constraint firstItem="vnu-Rm-S9m" firstAttribute="top" secondItem="xrc-dI-W8N" secondAttribute="top" id="Gve-3j-6RC"/>
                                             <constraint firstAttribute="bottom" secondItem="Iv3-eg-UcY" secondAttribute="bottom" constant="38" id="erZ-zf-MyJ"/>
                                             <constraint firstItem="Iv3-eg-UcY" firstAttribute="top" secondItem="xrc-dI-W8N" secondAttribute="top" constant="39" id="k0W-JG-cDj"/>
@@ -3502,7 +3502,7 @@
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5oH-lK-eeE" userLabel="CanvasView3">
                                         <rect key="frame" x="610" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="nXT-wo-fQN">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="p" translatesAutoresizingMaskIntoConstraints="NO" id="nXT-wo-fQN">
                                                 <rect key="frame" x="69" y="61" width="142" height="271.5"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XJP-dC-VlM" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
@@ -3572,7 +3572,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DDA-Af-JCi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21" y="8371"/>
+            <point key="canvasLocation" x="20.603015075376884" y="8370.5035971223024"/>
         </scene>
         <!--Level1 Menulis Controller-->
         <scene sceneID="Etf-Sm-DsP">
@@ -3631,8 +3631,8 @@
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ch-7F-Iki" userLabel="CanvasView1">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="g" translatesAutoresizingMaskIntoConstraints="NO" id="2r7-ln-FJX">
-                                                <rect key="frame" x="68" y="39" width="144" height="316"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="l" translatesAutoresizingMaskIntoConstraints="NO" id="2r7-ln-FJX">
+                                                <rect key="frame" x="68" y="39" width="144" height="267"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rzd-vm-5bd" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
@@ -3647,14 +3647,14 @@
                                             <constraint firstItem="2r7-ln-FJX" firstAttribute="leading" secondItem="9ch-7F-Iki" secondAttribute="leading" constant="68" id="lUn-yO-gGU"/>
                                             <constraint firstItem="rzd-vm-5bd" firstAttribute="top" secondItem="9ch-7F-Iki" secondAttribute="top" id="lbT-HW-f77"/>
                                             <constraint firstItem="rzd-vm-5bd" firstAttribute="leading" secondItem="9ch-7F-Iki" secondAttribute="leading" id="lfw-YY-50F"/>
-                                            <constraint firstAttribute="bottom" secondItem="2r7-ln-FJX" secondAttribute="bottom" constant="38" id="puT-ZO-YOh"/>
+                                            <constraint firstAttribute="bottom" secondItem="2r7-ln-FJX" secondAttribute="bottom" constant="87" id="puT-ZO-YOh"/>
                                             <constraint firstAttribute="bottom" secondItem="rzd-vm-5bd" secondAttribute="bottom" id="tTU-3C-mRm"/>
                                         </constraints>
                                     </view>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6hY-sb-a6i" userLabel="CanvasView2">
                                         <rect key="frame" x="305" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="6Jp-Md-UUp">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="e" translatesAutoresizingMaskIntoConstraints="NO" id="6Jp-Md-UUp">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fut-6D-xHA" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
@@ -3677,8 +3677,8 @@
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chV-Wo-RYz" userLabel="CanvasView3">
                                         <rect key="frame" x="610" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="jFJ-x6-5U5">
-                                                <rect key="frame" x="69" y="61" width="142" height="271.5"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="m" translatesAutoresizingMaskIntoConstraints="NO" id="jFJ-x6-5U5">
+                                                <rect key="frame" x="27" y="61" width="226" height="271.5"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ruA-tQ-RFU" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
@@ -3689,12 +3689,12 @@
                                         <constraints>
                                             <constraint firstItem="jFJ-x6-5U5" firstAttribute="top" secondItem="chV-Wo-RYz" secondAttribute="top" constant="61" id="5zs-Qp-Yd1"/>
                                             <constraint firstAttribute="bottom" secondItem="jFJ-x6-5U5" secondAttribute="bottom" constant="60.5" id="AdU-I3-569"/>
-                                            <constraint firstAttribute="trailing" secondItem="jFJ-x6-5U5" secondAttribute="trailing" constant="69" id="DHS-zP-kIq"/>
+                                            <constraint firstAttribute="trailing" secondItem="jFJ-x6-5U5" secondAttribute="trailing" constant="27" id="DHS-zP-kIq"/>
                                             <constraint firstAttribute="trailing" secondItem="ruA-tQ-RFU" secondAttribute="trailing" id="RKb-rN-iJu"/>
                                             <constraint firstAttribute="bottom" secondItem="ruA-tQ-RFU" secondAttribute="bottom" id="UGS-oV-hdt"/>
                                             <constraint firstItem="ruA-tQ-RFU" firstAttribute="top" secondItem="chV-Wo-RYz" secondAttribute="top" id="ZMK-yH-che"/>
                                             <constraint firstItem="ruA-tQ-RFU" firstAttribute="leading" secondItem="chV-Wo-RYz" secondAttribute="leading" id="dh7-hx-Uhm"/>
-                                            <constraint firstItem="jFJ-x6-5U5" firstAttribute="leading" secondItem="chV-Wo-RYz" secondAttribute="leading" constant="69" id="pRx-RV-5eo"/>
+                                            <constraint firstItem="jFJ-x6-5U5" firstAttribute="leading" secondItem="chV-Wo-RYz" secondAttribute="leading" constant="27" id="pRx-RV-5eo"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -3747,7 +3747,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2M9-Nk-oaT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21" y="9099"/>
+            <point key="canvasLocation" x="20.603015075376884" y="9098.5611510791368"/>
         </scene>
         <!--Level1 Menulis Controller-->
         <scene sceneID="Ify-DP-U4c">
@@ -3806,7 +3806,7 @@
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8f-xV-e9J" userLabel="CanvasView1">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="g" translatesAutoresizingMaskIntoConstraints="NO" id="pd4-Cy-AyY">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="pd4-Cy-AyY">
                                                 <rect key="frame" x="68" y="39" width="144" height="316"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Smy-tQ-Sz3" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
@@ -3829,7 +3829,7 @@
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lxA-Rc-UB2" userLabel="CanvasView2">
                                         <rect key="frame" x="305" y="0.0" width="280" height="393"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="wHv-tm-DfA">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="u" translatesAutoresizingMaskIntoConstraints="NO" id="wHv-tm-DfA">
                                                 <rect key="frame" x="58" y="93" width="164" height="207"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FUe-Ms-TTl" customClass="Canvas" customModule="Lexic" customModuleProvider="target">
@@ -7416,7 +7416,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sapiText" translatesAutoresizingMaskIntoConstraints="NO" id="K4Y-Ww-k1X" userLabel="teksTas">
-                                <rect key="frame" x="758" y="346" width="290" height="143"/>
+                                <rect key="frame" x="758.5" y="345.5" width="290" height="143"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -8274,10 +8274,10 @@
         <segue reference="VZL-1Q-OH8"/>
         <segue reference="VEb-6o-pYe"/>
         <segue reference="RvL-KN-OWb"/>
-        <segue reference="3zz-OX-dTs"/>
-        <segue reference="NOW-VK-gmW"/>
-        <segue reference="fyd-3U-hBa"/>
-        <segue reference="30a-lc-jnz"/>
+        <segue reference="xbq-fr-2ck"/>
+        <segue reference="pbL-xx-cV7"/>
+        <segue reference="qN1-lI-388"/>
+        <segue reference="tTv-Sh-BBh"/>
         <segue reference="dek-tq-vb4"/>
         <segue reference="XlE-Xr-Jun"/>
         <segue reference="3Rz-mX-Hfq"/>
@@ -8368,6 +8368,7 @@
         <image name="chevronNext2" width="72" height="72"/>
         <image name="dasi" width="323" height="189"/>
         <image name="dasiText" width="291" height="117"/>
+        <image name="e" width="144" height="165"/>
         <image name="g" width="136" height="276"/>
         <image name="gas" width="274" height="274"/>
         <image name="gasText" width="251" height="124"/>
@@ -8391,6 +8392,7 @@
         <image name="kayuText" width="355" height="147"/>
         <image name="kuda" width="341" height="215"/>
         <image name="kudaText" width="357" height="117"/>
+        <image name="l" width="9" height="275"/>
         <image name="lem" width="196" height="244"/>
         <image name="lemText" width="273" height="111"/>
         <image name="level1Info" width="362" height="362"/>
@@ -8415,11 +8417,13 @@
         <image name="level2s7 button" width="250" height="306"/>
         <image name="level2s8 button" width="250" height="306"/>
         <image name="level2s9 button" width="250" height="306"/>
+        <image name="m" width="192" height="165"/>
         <image name="mainButton" width="72" height="72"/>
         <image name="mainbutton2" width="72" height="72"/>
         <image name="meja" width="316" height="239"/>
         <image name="mejaText" width="369" height="148"/>
         <image name="n" width="111" height="165"/>
+        <image name="p" width="134" height="276"/>
         <image name="r" width="97" height="172"/>
         <image name="rakText" width="229" height="117"/>
         <image name="rewardText" width="822" height="63"/>
@@ -8440,6 +8444,7 @@
         <image name="toolReset" width="64" height="63"/>
         <image name="topi" width="246" height="225"/>
         <image name="topiText" width="289" height="146"/>
+        <image name="u" width="118" height="173"/>
         <image name="xButton" width="72" height="72"/>
         <namedColor name="canvasColor">
             <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
