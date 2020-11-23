@@ -24,25 +24,15 @@ class Reward2Controller: UIViewController {
     
     var clickSound:AVAudioPlayer?
     
-    let value = UIInterfaceOrientation.landscapeLeft.rawValue
-    
-     override var shouldAutorotate: Bool{
-         switch UIDevice.current.orientation {
-         case .portrait, .portraitUpsideDown, .unknown:
-             return false
-         default:
-             return true
-         }
-     }
+    override var shouldAutorotate: Bool{
+        overrideAutoRotate()
+    }
     
     override func viewDidLoad() {
-        UIDevice.current.setValue(value, forKey: "orientation")
+        forceLandscape()
         initializeVideoPlayerWithVideo()
         giftButton.isHidden = false
         instructionImage.isHidden = false
-//        UIView.animate(withDuration: 1, animations: {
-//            self.giftButton.frame.origin.x -= 10
-//        }, completion:nil)
     }
     
     func initializeVideoPlayerWithVideo() {

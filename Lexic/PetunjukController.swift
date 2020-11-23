@@ -12,18 +12,12 @@ import UIKit
 
 class PetunjukController: UIViewController {
     var clickSound:AVAudioPlayer?
-    let value = UIInterfaceOrientation.landscapeLeft.rawValue
     
-     override var shouldAutorotate: Bool{
-         switch UIDevice.current.orientation {
-         case .portrait, .portraitUpsideDown, .unknown:
-             return false
-         default:
-             return true
-         }
-     }
+    override var shouldAutorotate: Bool{
+        overrideAutoRotate()
+    }
     override func viewDidLoad() {
-        UIDevice.current.setValue(value, forKey: "orientation")
+        forceLandscape()
     }
     
     func playClickSound() {

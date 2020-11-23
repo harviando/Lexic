@@ -33,16 +33,9 @@ class Level2MenulisController: UIViewController {
     var resetDisabled = UIImage(named: "toolResetDisabled") as UIImage?
     var resetNormal = UIImage(named: "toolReset") as UIImage?
     
-    let value = UIInterfaceOrientation.landscapeLeft.rawValue
-    
-     override var shouldAutorotate: Bool{
-         switch UIDevice.current.orientation {
-         case .portrait, .portraitUpsideDown, .unknown:
-             return false
-         default:
-             return true
-         }
-     }
+    override var shouldAutorotate: Bool{
+        overrideAutoRotate()
+    }
     
     func playClickSound() {
         guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
@@ -70,7 +63,7 @@ class Level2MenulisController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIDevice.current.setValue(value, forKey: "orientation")
+        forceLandscape()
         kickstartAudio()
         
         pencilButton.setBackgroundImage(pencilActivated, for: .normal)

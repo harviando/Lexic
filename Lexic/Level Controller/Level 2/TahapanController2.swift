@@ -22,16 +22,9 @@ class TahapanController2:UIViewController {
     var infoActivated = UIImage(named: "button info 2 active") as UIImage?
     var infoNormal = UIImage(named: "button info 2") as UIImage?
     
-    let value = UIInterfaceOrientation.landscapeLeft.rawValue
-    
-     override var shouldAutorotate: Bool{
-         switch UIDevice.current.orientation {
-         case .portrait, .portraitUpsideDown, .unknown:
-             return false
-         default:
-             return true
-         }
-     }
+    override var shouldAutorotate: Bool{
+        overrideAutoRotate()
+    }
     
     func playClickSound() {
         guard let url = Bundle.main.url(forResource: "buttonClick", withExtension: "mp3") else { return }
@@ -77,11 +70,10 @@ class TahapanController2:UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIDevice.current.setValue(value, forKey: "orientation")
+        forceLandscape()
         kickstartAudio()
         info.isHidden = true
         infoButton.setBackgroundImage(infoNormal, for: .normal)
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func infoTapped(_ sender: Any) {

@@ -1,4 +1,4 @@
-//
+//t
 //  OnBoardingController.swift
 //  Lexic
 //
@@ -14,36 +14,15 @@ class OnBoardingController:UIViewController {
     
     var clickSound:AVAudioPlayer?
     var refreshedAudio:Bool = false
-    let value = UIInterfaceOrientation.landscapeLeft.rawValue
    
     override var shouldAutorotate: Bool{
-        switch UIDevice.current.orientation {
-        case .portrait, .portraitUpsideDown, .unknown:
-            return false
-        default:
-            return true
-        }
+        overrideAutoRotate()
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        UIDevice.current.setValue(value, forKey: "orientation")
-//        let value = UIInterfaceOrientation.landscapeLeft.rawValue
-//        UIDevice.current.setValue(value, forKey: "orientation")
-//        if UIDevice.current.userInterfaceIdiom == .pad {
-//            func supportedInterfaceOrientations() -> Int{
-//                return UIInterfaceOrientation.landscapeLeft.rawValue
-//            }
-//            
-//            func shouldAutorotate() -> Bool{
-//                return false
-//            }
-//        }
+        //super.viewDidLoad()
+        forceLandscape()
     }
-
-//    override var shouldAutorotate: Bool {
-//        return true
-//    }
     
     @IBAction func skipTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "skipTapped", sender: nil)
@@ -56,5 +35,29 @@ class OnBoardingController:UIViewController {
     }
     @IBAction func startTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "startTapped", sender: nil)
+    }
+}
+
+
+extension UIViewController{
+    func forceLandscape(){
+        let value = UIDevice.current.value(forKey: "orientation")
+        
+        if value as! Int == UIInterfaceOrientation.portrait.rawValue || value as! Int == UIInterfaceOrientation.portraitUpsideDown.rawValue || value as! Int == 0 {
+            //ini hanya ketriger saat ipad potrait
+            let v = UIInterfaceOrientation.landscapeLeft.rawValue
+            UIDevice.current.setValue(v, forKey: "orientation")
+        }else {
+            return
+        }
+    }
+    
+    func overrideAutoRotate()->Bool{
+        switch UIDevice.current.orientation {
+        case .portrait, .portraitUpsideDown, .unknown:
+            return false
+        default:
+            return true
+        }
     }
 }
