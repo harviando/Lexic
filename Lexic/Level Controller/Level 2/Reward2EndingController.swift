@@ -96,4 +96,8 @@ class Reward2EndingController: UIViewController {
         self.performSegue(withIdentifier: "toTahapan", sender: nil)
         playClickSound()
     }
+    @IBAction func homeTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toHome", sender: nil)
+        playClickSound()
+    }
 }

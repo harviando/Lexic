@@ -577,7 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
 				INFOPLIST_FILE = Lexic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
@@ -585,7 +585,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = macpro.Lexic;
 				PRODUCT_NAME = Cobaca;
 				SWIFT_VERSION = 5.0;
@@ -598,7 +598,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
 				INFOPLIST_FILE = Lexic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
@@ -606,7 +606,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = macpro.Lexic;
 				PRODUCT_NAME = Cobaca;
 				SWIFT_VERSION = 5.0;
