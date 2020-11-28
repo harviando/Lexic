@@ -55,6 +55,19 @@
 		4E6B82CE252F044200EB22F8 /* Lexic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E6B82CC252F044200EB22F8 /* Lexic.xcdatamodeld */; };
 		4E6B82D0252F044400EB22F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6B82CF252F044400EB22F8 /* Assets.xcassets */; };
 		4E6B82D3252F044400EB22F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6B82D1252F044400EB22F8 /* LaunchScreen.storyboard */; };
+		4E6EDDC72572367D00B9F9BD /* Level3s1MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDC62572367D00B9F9BD /* Level3s1MembacaController.swift */; };
+		4E6EDDC92572368C00B9F9BD /* Level3s2MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDC82572368C00B9F9BD /* Level3s2MembacaController.swift */; };
+		4E6EDDCB2572369900B9F9BD /* Level3s3MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDCA2572369900B9F9BD /* Level3s3MembacaController.swift */; };
+		4E6EDDCD257236A700B9F9BD /* Level3s4MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDCC257236A700B9F9BD /* Level3s4MembacaController.swift */; };
+		4E6EDDCF257236B400B9F9BD /* Level3s5MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDCE257236B400B9F9BD /* Level3s5MembacaController.swift */; };
+		4E6EDDD1257236BE00B9F9BD /* Level3s6MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDD0257236BE00B9F9BD /* Level3s6MembacaController.swift */; };
+		4E6EDDD3257236CD00B9F9BD /* Level3s7MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDD2257236CD00B9F9BD /* Level3s7MembacaController.swift */; };
+		4E6EDDD5257236D900B9F9BD /* Level3s8MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDD4257236D900B9F9BD /* Level3s8MembacaController.swift */; };
+		4E6EDDD7257236E400B9F9BD /* Level3s9MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDD6257236E400B9F9BD /* Level3s9MembacaController.swift */; };
+		4E6EDDD9257236EF00B9F9BD /* Level3s10MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDD8257236EF00B9F9BD /* Level3s10MembacaController.swift */; };
+		4E6EDDDB25723A0300B9F9BD /* Reward3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDDA25723A0300B9F9BD /* Reward3Controller.swift */; };
+		4E6EDDDD25723A5700B9F9BD /* Reward3EndingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDDC25723A5700B9F9BD /* Reward3EndingController.swift */; };
+		4E6EDDDF25723DF600B9F9BD /* Level3MenulisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EDDDE25723DF600B9F9BD /* Level3MenulisController.swift */; };
 		4E818DE0254CD25F0017520C /* TahapanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E818DDF254CD25F0017520C /* TahapanController.swift */; };
 		4ECDD43C25503F3C00F29282 /* Level1s1MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */; };
 		4ECEA8A8253731290098F7C5 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEA8A7253731290098F7C5 /* Canvas.swift */; };
@@ -128,6 +141,19 @@
 		4E6B82CF252F044400EB22F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E6B82D2252F044400EB22F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E6B82D4252F044400EB22F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6EDDC62572367D00B9F9BD /* Level3s1MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s1MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDC82572368C00B9F9BD /* Level3s2MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s2MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDCA2572369900B9F9BD /* Level3s3MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s3MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDCC257236A700B9F9BD /* Level3s4MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s4MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDCE257236B400B9F9BD /* Level3s5MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s5MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDD0257236BE00B9F9BD /* Level3s6MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s6MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDD2257236CD00B9F9BD /* Level3s7MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s7MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDD4257236D900B9F9BD /* Level3s8MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s8MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDD6257236E400B9F9BD /* Level3s9MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s9MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDD8257236EF00B9F9BD /* Level3s10MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3s10MembacaController.swift; sourceTree = "<group>"; };
+		4E6EDDDA25723A0300B9F9BD /* Reward3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward3Controller.swift; sourceTree = "<group>"; };
+		4E6EDDDC25723A5700B9F9BD /* Reward3EndingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward3EndingController.swift; sourceTree = "<group>"; };
+		4E6EDDDE25723DF600B9F9BD /* Level3MenulisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3MenulisController.swift; sourceTree = "<group>"; };
 		4E818DDF254CD25F0017520C /* TahapanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahapanController.swift; sourceTree = "<group>"; };
 		4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s1MembacaController.swift; sourceTree = "<group>"; };
 		4ECEA8A7253731290098F7C5 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
@@ -258,6 +284,19 @@
 			isa = PBXGroup;
 			children = (
 				4ED7E44A257226120004C78D /* TahapanController3.swift */,
+				4E6EDDDE25723DF600B9F9BD /* Level3MenulisController.swift */,
+				4E6EDDC62572367D00B9F9BD /* Level3s1MembacaController.swift */,
+				4E6EDDC82572368C00B9F9BD /* Level3s2MembacaController.swift */,
+				4E6EDDCA2572369900B9F9BD /* Level3s3MembacaController.swift */,
+				4E6EDDCC257236A700B9F9BD /* Level3s4MembacaController.swift */,
+				4E6EDDCE257236B400B9F9BD /* Level3s5MembacaController.swift */,
+				4E6EDDD0257236BE00B9F9BD /* Level3s6MembacaController.swift */,
+				4E6EDDD2257236CD00B9F9BD /* Level3s7MembacaController.swift */,
+				4E6EDDD4257236D900B9F9BD /* Level3s8MembacaController.swift */,
+				4E6EDDD6257236E400B9F9BD /* Level3s9MembacaController.swift */,
+				4E6EDDD8257236EF00B9F9BD /* Level3s10MembacaController.swift */,
+				4E6EDDDA25723A0300B9F9BD /* Reward3Controller.swift */,
+				4E6EDDDC25723A5700B9F9BD /* Reward3EndingController.swift */,
 			);
 			path = "Level 3";
 			sourceTree = "<group>";
@@ -399,14 +438,19 @@
 				4ED7E44B257226120004C78D /* TahapanController3.swift in Sources */,
 				4E535B662539968200AA7B54 /* PetunjukController.swift in Sources */,
 				4E34F5C025513578008C0333 /* Level1MenulisController.swift in Sources */,
+				4E6EDDD9257236EF00B9F9BD /* Level3s10MembacaController.swift in Sources */,
 				4EF7482E25627EBD0034EA64 /* Reward2EndingController.swift in Sources */,
 				4ECEA8A8253731290098F7C5 /* Canvas.swift in Sources */,
+				4E6EDDDD25723A5700B9F9BD /* Reward3EndingController.swift in Sources */,
 				4E44A1CE256210770057ED78 /* Level2s4MembacaController.swift in Sources */,
+				4E6EDDD7257236E400B9F9BD /* Level3s9MembacaController.swift in Sources */,
 				4EF7482C25627E810034EA64 /* RewardEndingController.swift in Sources */,
 				4E44A1DA256210C00057ED78 /* Level2s10MembacaController.swift in Sources */,
 				4E6B82C8252F044200EB22F8 /* ViewController.swift in Sources */,
 				4EDB45F82551917400393180 /* Level1s4MembacaController.swift in Sources */,
 				4E6B82C4252F044200EB22F8 /* AppDelegate.swift in Sources */,
+				4E6EDDD3257236CD00B9F9BD /* Level3s7MembacaController.swift in Sources */,
+				4E6EDDDF25723DF600B9F9BD /* Level3MenulisController.swift in Sources */,
 				4EDB83A6255E2D41006EB8F2 /* Level1s7MembacaController.swift in Sources */,
 				4EDB83A4255E2C50006EB8F2 /* Level1s6MembacaController.swift in Sources */,
 				4EDB45FA2551918100393180 /* Level1s5MembacaController.swift in Sources */,
@@ -417,18 +461,26 @@
 				4EDB45F62551916900393180 /* Level1s3MembacaController.swift in Sources */,
 				4E6B82C6252F044200EB22F8 /* SceneDelegate.swift in Sources */,
 				4EDB83AC255E2D66006EB8F2 /* Level1s10MembacaController.swift in Sources */,
+				4E6EDDC92572368C00B9F9BD /* Level3s2MembacaController.swift in Sources */,
 				4E818DE0254CD25F0017520C /* TahapanController.swift in Sources */,
 				4E6B82CE252F044200EB22F8 /* Lexic.xcdatamodeld in Sources */,
 				4EDB45F425518FC400393180 /* Level1s2MembacaController.swift in Sources */,
 				4E4C6BC32560B69700E1EB93 /* Level2MenulisController.swift in Sources */,
+				4E6EDDC72572367D00B9F9BD /* Level3s1MembacaController.swift in Sources */,
 				4E44A1D8256210B60057ED78 /* Level2s9MembacaController.swift in Sources */,
 				4E44A1CC2562106B0057ED78 /* Level2s3MembacaController.swift in Sources */,
 				4EDB83AA255E2D5A006EB8F2 /* Level1s9MembacaController.swift in Sources */,
+				4E6EDDDB25723A0300B9F9BD /* Reward3Controller.swift in Sources */,
 				4E535B682539A65500AA7B54 /* OnBoardingController.swift in Sources */,
 				4E4C6BC52560B84E00E1EB93 /* Level2s1MembacaController.swift in Sources */,
 				4E44A1D42562109E0057ED78 /* Level2s7MembacaController.swift in Sources */,
+				4E6EDDD1257236BE00B9F9BD /* Level3s6MembacaController.swift in Sources */,
+				4E6EDDD5257236D900B9F9BD /* Level3s8MembacaController.swift in Sources */,
 				4EDB83A8255E2D50006EB8F2 /* Level1s8MembacaController.swift in Sources */,
+				4E6EDDCF257236B400B9F9BD /* Level3s5MembacaController.swift in Sources */,
 				4E20512A25390F14007A9827 /* RewardController.swift in Sources */,
+				4E6EDDCD257236A700B9F9BD /* Level3s4MembacaController.swift in Sources */,
+				4E6EDDCB2572369900B9F9BD /* Level3s3MembacaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

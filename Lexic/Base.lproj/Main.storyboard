@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xxd-LR-4di">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -8305,10 +8305,10 @@
             </objects>
             <point key="canvasLocation" x="-1569" y="9832"/>
         </scene>
-        <!--Tahapan Controller2-->
+        <!--Tahapan Controller3-->
         <scene sceneID="F9v-bX-egP">
             <objects>
-                <viewController id="kaO-md-v65" customClass="TahapanController2" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kaO-md-v65" customClass="TahapanController3" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ofC-D8-WmI">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8321,6 +8321,7 @@
                                 <state key="normal" backgroundImage="chevronBack3"/>
                                 <connections>
                                     <action selector="backTapped:" destination="kaO-md-v65" eventType="touchUpInside" id="hYH-iR-A6a"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="tahapanBackTapped" animates="NO" modalPresentationStyle="fullScreen" id="fth-bm-epq"/>
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8m-T5-5cw">
@@ -8337,6 +8338,7 @@
                                                         <state key="normal" backgroundImage="level3s1 button"/>
                                                         <connections>
                                                             <action selector="level1Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="UWR-Ux-jqg"/>
+                                                            <segue destination="c0b-kc-amZ" kind="presentation" identifier="1tapped" animates="NO" modalPresentationStyle="fullScreen" id="96a-XE-b1l"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3G-n5-khY" userLabel="2">
@@ -8344,6 +8346,7 @@
                                                         <state key="normal" backgroundImage="level3s2 button"/>
                                                         <connections>
                                                             <action selector="level2Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="9pg-QO-ceg"/>
+                                                            <segue destination="cU4-Nh-zWy" kind="presentation" identifier="2tapped" animates="NO" modalPresentationStyle="fullScreen" id="3PI-xB-Mn4"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="190-me-OXV" userLabel="3">
@@ -8351,6 +8354,7 @@
                                                         <state key="normal" backgroundImage="level3s3 button"/>
                                                         <connections>
                                                             <action selector="level3Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="9cc-gl-WAL"/>
+                                                            <segue destination="zPe-KB-zwL" kind="presentation" identifier="3tapped" animates="NO" modalPresentationStyle="fullScreen" id="dO9-t4-fK2"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGH-1n-BFr" userLabel="4">
@@ -8358,6 +8362,7 @@
                                                         <state key="normal" backgroundImage="level3s4 button"/>
                                                         <connections>
                                                             <action selector="level4Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="qk7-nL-nEe"/>
+                                                            <segue destination="cSL-f1-RIg" kind="presentation" identifier="4tapped" animates="NO" modalPresentationStyle="fullScreen" id="rPd-dC-6y8"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2OZ-08-cgC" userLabel="5">
@@ -8365,6 +8370,7 @@
                                                         <state key="normal" backgroundImage="level3s5 button"/>
                                                         <connections>
                                                             <action selector="level5Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="5iW-8a-heQ"/>
+                                                            <segue destination="vFe-pI-8ek" kind="presentation" identifier="5tapped" animates="NO" modalPresentationStyle="fullScreen" id="MZZ-OO-EDw"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8U-Ee-aK1" userLabel="6">
@@ -8372,6 +8378,7 @@
                                                         <state key="normal" backgroundImage="level3s6 button"/>
                                                         <connections>
                                                             <action selector="level6Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="BYO-P1-Pvb"/>
+                                                            <segue destination="GjV-Ae-c8o" kind="presentation" identifier="6tapped" animates="NO" modalPresentationStyle="fullScreen" id="jnM-4C-cPQ"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2G0-Tg-fPW" userLabel="7">
@@ -8379,6 +8386,7 @@
                                                         <state key="normal" backgroundImage="level3s7 button"/>
                                                         <connections>
                                                             <action selector="level7Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="wo5-Lb-hf1"/>
+                                                            <segue destination="Hca-Iu-1cd" kind="presentation" identifier="7tapped" animates="NO" modalPresentationStyle="fullScreen" id="Gwe-tt-DPm"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeI-FQ-jRC" userLabel="8">
@@ -8386,6 +8394,7 @@
                                                         <state key="normal" backgroundImage="level3s8 button"/>
                                                         <connections>
                                                             <action selector="level8Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="eJg-KB-Vf6"/>
+                                                            <segue destination="Ep2-mh-MXj" kind="presentation" identifier="8tapped" animates="NO" modalPresentationStyle="fullScreen" id="Rbn-Ro-exK"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ru-Go-wrg" userLabel="9">
@@ -8393,6 +8402,7 @@
                                                         <state key="normal" backgroundImage="level3s9 button"/>
                                                         <connections>
                                                             <action selector="level9Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="210-0q-gmb"/>
+                                                            <segue destination="Jqd-Wu-VBw" kind="presentation" identifier="9tapped" animates="NO" modalPresentationStyle="fullScreen" id="Bp7-ZK-hoK"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tte-Ar-UPd" userLabel="10">
@@ -8400,6 +8410,7 @@
                                                         <state key="normal" backgroundImage="level3s10 button"/>
                                                         <connections>
                                                             <action selector="level10Tapped:" destination="kaO-md-v65" eventType="touchUpInside" id="ieT-fI-Zcz"/>
+                                                            <segue destination="Jca-l5-RpR" kind="presentation" identifier="10tapped" animates="NO" modalPresentationStyle="fullScreen" id="Zuv-Xn-IhT"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -8556,10 +8567,10 @@
             </objects>
             <point key="canvasLocation" x="-6079" y="3140"/>
         </scene>
-        <!--Level2 Menulis Controller-->
+        <!--Level3 Menulis Controller-->
         <scene sceneID="W8o-Qd-VgA">
             <objects>
-                <viewController id="Xxd-LR-4di" customClass="Level2MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Xxd-LR-4di" customClass="Level3MenulisController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NsO-3q-cgs">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8761,10 +8772,10 @@
             </objects>
             <point key="canvasLocation" x="-5235" y="3140"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="2x7-dG-DB7">
             <objects>
-                <viewController id="08g-qy-ihs" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="08g-qy-ihs" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mOw-dn-6br">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9657,10 +9668,10 @@
             </objects>
             <point key="canvasLocation" x="-6079" y="9832"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="evh-Lb-ck7">
             <objects>
-                <viewController id="3Zk-eD-GzV" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="3Zk-eD-GzV" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pZv-yJ-K34">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9743,10 +9754,10 @@
             </objects>
             <point key="canvasLocation" x="-4429" y="3899"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="UhP-zy-MXI">
             <objects>
-                <viewController id="1bj-Br-ixE" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="1bj-Br-ixE" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="caH-5W-mWe">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9829,10 +9840,10 @@
             </objects>
             <point key="canvasLocation" x="-4429" y="4673"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="VFp-Id-Ags">
             <objects>
-                <viewController id="Eij-Vu-D4h" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="Eij-Vu-D4h" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u4E-De-dYv">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9915,10 +9926,10 @@
             </objects>
             <point key="canvasLocation" x="-4429" y="5414"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="2Ix-pB-ibD">
             <objects>
-                <viewController id="rUY-vY-zmh" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="rUY-vY-zmh" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MxD-b5-Ee9">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10001,10 +10012,10 @@
             </objects>
             <point key="canvasLocation" x="-4429" y="6150"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="567-TM-Z8n">
             <objects>
-                <viewController id="8lN-ec-fsf" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="8lN-ec-fsf" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kBN-zA-Zkv">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10087,10 +10098,10 @@
             </objects>
             <point key="canvasLocation" x="-4429" y="6876"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="zVE-u1-PoA">
             <objects>
-                <viewController id="Urt-07-xjy" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="Urt-07-xjy" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xyG-NP-c8k">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10173,10 +10184,10 @@
             </objects>
             <point key="canvasLocation" x="-4429" y="7622"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="cMJ-wC-lHY">
             <objects>
-                <viewController id="KSO-nI-5d1" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="KSO-nI-5d1" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X4F-yV-wRd">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10259,10 +10270,10 @@
             </objects>
             <point key="canvasLocation" x="-4429" y="8371"/>
         </scene>
-        <!--Reward2 Controller-->
+        <!--Reward3 Controller-->
         <scene sceneID="Bdh-O8-UAp">
             <objects>
-                <viewController id="5QE-zk-CAE" customClass="Reward2Controller" customModule="Cobaca" sceneMemberID="viewController">
+                <viewController id="5QE-zk-CAE" customClass="Reward3Controller" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WlP-0W-TUf">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10345,10 +10356,10 @@
             </objects>
             <point key="canvasLocation" x="-4429" y="9099"/>
         </scene>
-        <!--Reward2 Ending Controller-->
+        <!--Reward3 Ending Controller-->
         <scene sceneID="gvw-p8-6HW">
             <objects>
-                <viewController id="dnJ-Mn-OoT" customClass="Reward2EndingController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dnJ-Mn-OoT" customClass="Reward3EndingController" customModule="Cobaca" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J1w-5x-TaQ">
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10494,7 +10505,7 @@
         <segue reference="qXR-2X-drj"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="lmp-JQ-03A"/>
-        <segue reference="cCy-CD-QiU"/>
+        <segue reference="fth-bm-epq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
