@@ -12375,6 +12375,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="7Mo-UF-zqi"/>
         <segue reference="Zuv-Xn-IhT"/>
         <segue reference="Bp7-ZK-hoK"/>
         <segue reference="Rbn-Ro-exK"/>
@@ -12384,8 +12385,8 @@
         <segue reference="rPd-dC-6y8"/>
         <segue reference="dO9-t4-fK2"/>
         <segue reference="3PI-xB-Mn4"/>
-        <segue reference="96a-XE-b1l"/>
-        <segue reference="AbJ-Hv-fcP"/>
+        <segue reference="PMm-fc-qSi"/>
+        <segue reference="MZo-Gb-giZ"/>
         <segue reference="tRg-QU-pqq"/>
         <segue reference="rzW-7E-bEB"/>
         <segue reference="g7y-Fc-fC4"/>
@@ -12428,7 +12429,7 @@
         <segue reference="qXR-2X-drj"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="4Gy-Yl-QW6"/>
-        <segue reference="SaF-Xh-eh1"/>
+        <segue reference="9Fu-a3-Izo"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
