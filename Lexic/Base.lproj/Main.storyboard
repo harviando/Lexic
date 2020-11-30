@@ -54,7 +54,7 @@
                                 <state key="normal" backgroundImage="buttonAktivitas"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG" userLabel="ButtonPetunjuk">
-                                <rect key="frame" x="836.5" y="693" width="269" height="79"/>
+                                <rect key="frame" x="836.5" y="568" width="269" height="79"/>
                                 <state key="normal" backgroundImage="buttonPetunjuk"/>
                                 <connections>
                                     <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
@@ -97,6 +97,7 @@
                             <constraint firstItem="S27-1w-JqH" firstAttribute="top" secondItem="lI2-6A-7mN" secondAttribute="bottom" constant="37" id="et6-Hd-yL7"/>
                             <constraint firstItem="Zcy-Bn-Uyh" firstAttribute="trailing" secondItem="iCY-f8-HJY" secondAttribute="trailing" id="fzM-wM-plc"/>
                             <constraint firstItem="Zcy-Bn-Uyh" firstAttribute="bottom" secondItem="iCY-f8-HJY" secondAttribute="bottom" constant="5" id="g94-a8-LyD"/>
+                            <constraint firstItem="c2k-eO-KoG" firstAttribute="top" secondItem="GxP-7Y-JDe" secondAttribute="top" constant="75" id="gMC-nd-szO"/>
                             <constraint firstItem="O1G-j5-fIE" firstAttribute="leading" secondItem="iCY-f8-HJY" secondAttribute="leading" constant="481" id="j5N-wf-3yD"/>
                             <constraint firstItem="c2k-eO-KoG" firstAttribute="centerX" secondItem="GxP-7Y-JDe" secondAttribute="centerX" id="lkC-CS-uqd"/>
                             <constraint firstItem="GxP-7Y-JDe" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.234506" id="t4s-yz-kxV"/>
@@ -105,6 +106,11 @@
                             <constraint firstItem="O1G-j5-fIE" firstAttribute="bottom" secondItem="iCY-f8-HJY" secondAttribute="bottom" constant="-72" id="wGb-ke-8z8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="JCy-JE-jlL"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="3Tk-Ap-LeG"/>
                 </viewController>
@@ -12379,7 +12385,7 @@
         <segue reference="dO9-t4-fK2"/>
         <segue reference="3PI-xB-Mn4"/>
         <segue reference="96a-XE-b1l"/>
-        <segue reference="Ycz-9i-RaF"/>
+        <segue reference="AbJ-Hv-fcP"/>
         <segue reference="tRg-QU-pqq"/>
         <segue reference="rzW-7E-bEB"/>
         <segue reference="g7y-Fc-fC4"/>

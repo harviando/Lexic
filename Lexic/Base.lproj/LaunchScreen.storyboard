@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="-20" width="1194" height="486.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="LogoTagline" translatesAutoresizingMaskIntoConstraints="NO" id="vHC-Sr-yGw">
-                                <rect key="frame" x="228" y="228" width="738" height="358"/>
+                                <rect key="frame" x="283" y="231.5" width="628" height="351"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" name="canvasColor"/>
@@ -47,7 +47,7 @@
     </scenes>
     <resources>
         <image name="LaunchScreen Accent" width="1194" height="475"/>
-        <image name="LogoTagline" width="738" height="358"/>
+        <image name="LogoTagline" width="628" height="351"/>
         <namedColor name="canvasColor">
             <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
