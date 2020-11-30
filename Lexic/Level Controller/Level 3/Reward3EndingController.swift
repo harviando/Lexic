@@ -38,7 +38,7 @@ class Reward3EndingController: UIViewController {
     func initializeVideoPlayerWithVideo() {
 
         // get the path string for the video from assets
-        let videoString:String? = Bundle.main.path(forResource: "Reward Popup ending 2", ofType: "mp4")
+        let videoString:String? = Bundle.main.path(forResource: "Reward Popup ending 3", ofType: "mp4")
         guard let unwrappedVideoPath = videoString else {return}
 
         // convert the path string to a url

@@ -79,6 +79,8 @@
 		4EBCB3312574AB960030946B /* pepaya.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCB3222574AB8C0030946B /* pepaya.m4a */; };
 		4EBCB3322574AB960030946B /* sepatu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCB3272574AB8C0030946B /* sepatu.m4a */; };
 		4EBCB3332574AB960030946B /* sepeda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCB3292574AB8D0030946B /* sepeda.m4a */; };
+		4EBCB3352574AE570030946B /* Reward Popup ending 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCB3342574AE570030946B /* Reward Popup ending 3.mp4 */; };
+		4EBCB3372574B10F0030946B /* Reward Popup 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCB3362574B10E0030946B /* Reward Popup 3.mp4 */; };
 		4ECDD43C25503F3C00F29282 /* Level1s1MembacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */; };
 		4ECEA8A8253731290098F7C5 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEA8A7253731290098F7C5 /* Canvas.swift */; };
 		4ED3E53E2560AED40092C2A7 /* TahapanController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3E53D2560AED40092C2A7 /* TahapanController2.swift */; };
@@ -175,6 +177,8 @@
 		4EBCB3272574AB8C0030946B /* sepatu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepatu.m4a; sourceTree = "<group>"; };
 		4EBCB3282574AB8C0030946B /* boneka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = boneka.m4a; sourceTree = "<group>"; };
 		4EBCB3292574AB8D0030946B /* sepeda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepeda.m4a; sourceTree = "<group>"; };
+		4EBCB3342574AE570030946B /* Reward Popup ending 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reward Popup ending 3.mp4"; sourceTree = "<group>"; };
+		4EBCB3362574B10E0030946B /* Reward Popup 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reward Popup 3.mp4"; sourceTree = "<group>"; };
 		4ECDD43B25503F3C00F29282 /* Level1s1MembacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1s1MembacaController.swift; sourceTree = "<group>"; };
 		4ECEA8A7253731290098F7C5 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 		4ED3E53D2560AED40092C2A7 /* TahapanController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahapanController2.swift; sourceTree = "<group>"; };
@@ -236,9 +240,11 @@
 				4E44A1E7256232D00057ED78 /* Jam.m4a */,
 				4E44A1EA256232D00057ED78 /* Kaca.m4a */,
 				4E44A1EB256232D00057ED78 /* Kayu.m4a */,
+				4EBCB3362574B10E0030946B /* Reward Popup 3.mp4 */,
 				4EF7482925627E5F0034EA64 /* Reward Popup ending 2.mp4 */,
 				4E44A1E8256232D00057ED78 /* Kuda.m4a */,
 				4E44A200256267890057ED78 /* Reward Popup 2.mp4 */,
+				4EBCB3342574AE570030946B /* Reward Popup ending 3.mp4 */,
 				4E44A1E9256232D00057ED78 /* Lem.m4a */,
 				4E44A1FE2562677F0057ED78 /* Reward Popup 1.mp4 */,
 				4EF7482725627E590034EA64 /* Reward Popup ending 1.mp4 */,
@@ -426,6 +432,7 @@
 				4EBCB32E2574AB960030946B /* kemeja.m4a in Resources */,
 				4E44A1E22562327A0057ED78 /* Bus.m4a in Resources */,
 				4E535B6E2539AA2300AA7B54 /* tas.m4a in Resources */,
+				4EBCB3352574AE570030946B /* Reward Popup ending 3.mp4 in Resources */,
 				4E44A1F2256232D10057ED78 /* Meja.m4a in Resources */,
 				4E535B722539AA2300AA7B54 /* jas.m4a in Resources */,
 				4EBCB32C2574AB960030946B /* garuda.m4a in Resources */,
@@ -440,6 +447,7 @@
 				4EBCB3322574AB960030946B /* sepatu.m4a in Resources */,
 				4E44A1EE256232D10057ED78 /* Kuda.m4a in Resources */,
 				4E535B702539AA2300AA7B54 /* cat.m4a in Resources */,
+				4EBCB3372574B10F0030946B /* Reward Popup 3.mp4 in Resources */,
 				4EDB45FC25519EA000393180 /* ban.mp3 in Resources */,
 				4E44A1FC25624C460057ED78 /* Sapi.m4a in Resources */,
 				4E20512C25390FE7007A9827 /* popupRewardVid.mp4 in Resources */,
