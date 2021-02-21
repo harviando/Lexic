@@ -43,23 +43,38 @@
                                     <segue destination="Rxj-X5-eRj" kind="presentation" identifier="menengahTapped" animates="NO" modalPresentationStyle="fullScreen" id="kpe-G1-q4E"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PapanTanda" translatesAutoresizingMaskIntoConstraints="NO" id="GxP-7Y-JDe">
-                                <rect key="frame" x="831" y="493" width="280" height="341"/>
-                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6f-6J-ASW">
+                                <rect key="frame" x="853" y="493" width="280" height="341"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PapanTanda" translatesAutoresizingMaskIntoConstraints="NO" id="GxP-7Y-JDe">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="341"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG" userLabel="ButtonPetunjuk">
+                                        <rect key="frame" x="5.5" y="77" width="269" height="79"/>
+                                        <state key="normal" backgroundImage="buttonPetunjuk"/>
+                                        <connections>
+                                            <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
+                                            <segue destination="sIa-mb-hOi" kind="presentation" identifier="toPetunjuk" animates="NO" modalPresentationStyle="currentContext" id="rPb-hC-0ZB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="c2k-eO-KoG" firstAttribute="centerX" secondItem="GxP-7Y-JDe" secondAttribute="centerX" id="Cft-0g-Zb9"/>
+                                    <constraint firstItem="GxP-7Y-JDe" firstAttribute="top" secondItem="d6f-6J-ASW" secondAttribute="top" id="D1a-UU-3aA"/>
+                                    <constraint firstAttribute="trailing" secondItem="GxP-7Y-JDe" secondAttribute="trailing" id="gYR-AU-4tV"/>
+                                    <constraint firstItem="c2k-eO-KoG" firstAttribute="top" secondItem="GxP-7Y-JDe" secondAttribute="top" constant="77" id="nGP-9Y-ZeP"/>
+                                    <constraint firstAttribute="bottom" secondItem="GxP-7Y-JDe" secondAttribute="bottom" id="qWU-fT-3Sw"/>
+                                    <constraint firstItem="GxP-7Y-JDe" firstAttribute="leading" secondItem="d6f-6J-ASW" secondAttribute="leading" id="tNT-I4-7Ee"/>
+                                </constraints>
+                            </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="rumputMainScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Zcy-Bn-Uyh">
                                 <rect key="frame" x="0.0" y="765" width="1194" height="74"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-JE-jlL" userLabel="ButtonAktivitas">
                                 <rect key="frame" x="836.5" y="573" width="269" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="buttonAktivitas"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2k-eO-KoG" userLabel="ButtonPetunjuk">
-                                <rect key="frame" x="836.5" y="568" width="269" height="79"/>
-                                <state key="normal" backgroundImage="buttonPetunjuk"/>
-                                <connections>
-                                    <action selector="petunjukTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc5-e3-s5w"/>
-                                    <segue destination="sIa-mb-hOi" kind="presentation" identifier="toPetunjuk" animates="NO" modalPresentationStyle="currentContext" id="rPb-hC-0ZB"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI2-6A-7mN" userLabel="ButtonLevel1">
                                 <rect key="frame" x="385" y="449" width="232" height="86"/>
@@ -76,31 +91,24 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="GxP-7Y-JDe" firstAttribute="bottom" secondItem="iCY-f8-HJY" secondAttribute="bottom" id="277-yZ-dga"/>
                             <constraint firstItem="iCY-f8-HJY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6Vy-6F-p7n"/>
                             <constraint firstItem="S27-1w-JqH" firstAttribute="height" secondItem="iCY-f8-HJY" secondAttribute="height" multiplier="0.103118" id="7uO-AN-3GH"/>
                             <constraint firstItem="lI2-6A-7mN" firstAttribute="width" secondItem="iCY-f8-HJY" secondAttribute="width" multiplier="0.194305" id="8BO-bN-lrR"/>
                             <constraint firstItem="iCY-f8-HJY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="8Zo-mO-1nw"/>
-                            <constraint firstItem="GxP-7Y-JDe" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.418919" id="9vx-uZ-oKe"/>
-                            <constraint firstItem="c2k-eO-KoG" firstAttribute="top" secondItem="JCy-JE-jlL" secondAttribute="bottom" constant="11" id="FOP-H3-RGF"/>
+                            <constraint firstItem="d6f-6J-ASW" firstAttribute="bottom" secondItem="iCY-f8-HJY" secondAttribute="bottom" id="B9H-bE-GSQ"/>
                             <constraint firstItem="S27-1w-JqH" firstAttribute="leading" secondItem="iCY-f8-HJY" secondAttribute="leading" constant="317" id="IIt-CK-8vR"/>
-                            <constraint firstItem="JCy-JE-jlL" firstAttribute="centerX" secondItem="GxP-7Y-JDe" secondAttribute="centerX" id="KPK-9r-FjT"/>
                             <constraint firstItem="iCY-f8-HJY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MPp-Hn-Jsp"/>
                             <constraint firstItem="lI2-6A-7mN" firstAttribute="leading" secondItem="iCY-f8-HJY" secondAttribute="leading" constant="385" id="NYb-vi-gEK"/>
-                            <constraint firstItem="JCy-JE-jlL" firstAttribute="top" secondItem="GxP-7Y-JDe" secondAttribute="top" constant="80" id="VMj-hd-Nsm"/>
+                            <constraint firstItem="d6f-6J-ASW" firstAttribute="trailing" secondItem="iCY-f8-HJY" secondAttribute="trailing" constant="-61" id="R95-o9-dX9"/>
                             <constraint firstItem="iCY-f8-HJY" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="XMi-iU-nGa"/>
                             <constraint firstItem="O1G-j5-fIE" firstAttribute="top" secondItem="S27-1w-JqH" secondAttribute="bottom" constant="18" id="aN7-DO-vHf"/>
-                            <constraint firstItem="GxP-7Y-JDe" firstAttribute="trailing" secondItem="iCY-f8-HJY" secondAttribute="trailing" constant="-83" id="d73-IY-h7x"/>
                             <constraint firstItem="O1G-j5-fIE" firstAttribute="height" secondItem="iCY-f8-HJY" secondAttribute="height" multiplier="0.103118" id="dN3-lL-FTk"/>
                             <constraint firstItem="O1G-j5-fIE" firstAttribute="width" secondItem="iCY-f8-HJY" secondAttribute="width" multiplier="0.194305" id="e05-DP-mBx"/>
                             <constraint firstItem="S27-1w-JqH" firstAttribute="width" secondItem="iCY-f8-HJY" secondAttribute="width" multiplier="0.194305" id="eIS-SZ-YnH"/>
                             <constraint firstItem="S27-1w-JqH" firstAttribute="top" secondItem="lI2-6A-7mN" secondAttribute="bottom" constant="37" id="et6-Hd-yL7"/>
                             <constraint firstItem="Zcy-Bn-Uyh" firstAttribute="trailing" secondItem="iCY-f8-HJY" secondAttribute="trailing" id="fzM-wM-plc"/>
                             <constraint firstItem="Zcy-Bn-Uyh" firstAttribute="bottom" secondItem="iCY-f8-HJY" secondAttribute="bottom" constant="5" id="g94-a8-LyD"/>
-                            <constraint firstItem="c2k-eO-KoG" firstAttribute="top" secondItem="GxP-7Y-JDe" secondAttribute="top" constant="75" id="gMC-nd-szO"/>
                             <constraint firstItem="O1G-j5-fIE" firstAttribute="leading" secondItem="iCY-f8-HJY" secondAttribute="leading" constant="481" id="j5N-wf-3yD"/>
-                            <constraint firstItem="c2k-eO-KoG" firstAttribute="centerX" secondItem="GxP-7Y-JDe" secondAttribute="centerX" id="lkC-CS-uqd"/>
-                            <constraint firstItem="GxP-7Y-JDe" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.234506" id="t4s-yz-kxV"/>
                             <constraint firstItem="lI2-6A-7mN" firstAttribute="height" secondItem="iCY-f8-HJY" secondAttribute="height" multiplier="0.103118" id="vDm-Pt-sEE"/>
                             <constraint firstItem="Zcy-Bn-Uyh" firstAttribute="leading" secondItem="iCY-f8-HJY" secondAttribute="leading" id="vba-y6-mX8"/>
                             <constraint firstItem="O1G-j5-fIE" firstAttribute="bottom" secondItem="iCY-f8-HJY" secondAttribute="bottom" constant="-72" id="wGb-ke-8z8"/>
@@ -12385,7 +12393,7 @@
         <segue reference="CIG-wn-x8r"/>
         <segue reference="BLe-17-BbH"/>
         <segue reference="PMm-fc-qSi"/>
-        <segue reference="Ycz-9i-RaF"/>
+        <segue reference="AbJ-Hv-fcP"/>
         <segue reference="tRg-QU-pqq"/>
         <segue reference="rzW-7E-bEB"/>
         <segue reference="g7y-Fc-fC4"/>
@@ -12413,7 +12421,7 @@
         <segue reference="tTv-Sh-BBh"/>
         <segue reference="L0d-Sz-PT9"/>
         <segue reference="SKI-Vd-k8n"/>
-        <segue reference="cpD-bd-OhE"/>
+        <segue reference="3Rz-mX-Hfq"/>
         <segue reference="yF6-mR-7HC"/>
         <segue reference="kwD-zm-eyP"/>
         <segue reference="rPb-hC-0ZB"/>
@@ -12428,7 +12436,7 @@
         <segue reference="qXR-2X-drj"/>
         <segue reference="Z0O-na-Ubq"/>
         <segue reference="4Gy-Yl-QW6"/>
-        <segue reference="SaF-Xh-eh1"/>
+        <segue reference="jnP-3Q-zO6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BGLearning screen 1.1" width="1194" height="834"/>
